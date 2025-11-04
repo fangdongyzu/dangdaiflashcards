@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Dangdai Chinese Vocabulary Flashcard</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>Dangdai Chinese Vocabulary Flashcard</h1>
+            <p class="app-description">Study Dangdai Chinese vocabulary with interactive flashcards and quizzes. Select
+                a lesson and study mode to begin.</p>
+        </header>
+
+        <div class="main-content">
+            <div class="control-panel">
+                <div class="form-group">
+                    <label for="book-select">Select Book:</label>
+                    <select id="book-select">
+                        <option value="B1">Book 1</option>
+                        <option value="B2">Book 2</option>
+                        <option value="B3">Book 3</option>
+                        <option value="B4">Book 4</option>
+                        <option value="B5">Book 5</option>
+                        <option value="B6">Book 6</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="lesson-select">Select Lesson:</label>
+                    <select id="lesson-select">
+                        <!-- Lessons will be populated by JavaScript -->
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="mode-select">Flashcard Mode:</label>
+                    <select id="mode-select">
+                        <option value="chinese-front">Front: Chinese, Back: Pinyin + English + Vietnamese</option>
+                        <option value="pinyin-front">Front: Pinyin, Back: Chinese + English + Vietnamese</option>
+                        <option value="english-front">Front: English, Back: Chinese + Pinyin + Vietnamese</option>
+                        <option value="vietnamese-front">Front: Vietnamese, Back: Chinese + Pinyin + English</option>
+                    </select>
+                </div>
+
+                <div class="button-group">
+                    <button id="load-vocab-btn" class="btn primary">Load Vocabulary</button>
+                    <button id="start-flashcards-btn" class="btn secondary">Start Flashcards</button>
+                    <button id="start-quiz-btn" class="btn secondary">Start Quiz</button>
+                </div>
+
+                <div class="stats">
+                    <div class="stat-item">
+                        <div class="stat-value" id="total-words">0</div>
+                        <div class="stat-label">Total Words</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-value" id="mastered-words">0</div>
+                        <div class="stat-label">Mastered</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-value" id="difficult-words">0</div>
+                        <div class="stat-label">Need Practice</div>
+                    </div>
+                </div>
+
+                <div class="loading-indicator hidden" id="loading-indicator">
+                    <div class="loading-spinner"></div>
+                    <p>Loading vocabulary data...</p>
+                </div>
+            </div>
+
+            <div class="study-area">
+                <div class="tab-container">
+                    <div class="tabs">
+                        <div class="tab active" data-tab="vocabulary">Vocabulary List</div>
+                        <div class="tab" data-tab="flashcards">Flashcards</div>
+                        <div class="tab" data-tab="quiz">Quiz</div>
+                        <div class="tab" data-tab="difficult">Difficult Words</div>
+                    </div>
+
+                    <div class="tab-content active" id="vocabulary-content">
+                        <div class="vocabulary-list">
+                            <table class="vocabulary-table">
+                                <thead>
+                                    <tr>
+                                        <th>Chinese</th>
+                                        <th>Pinyin</th>
+                                        <th>English</th>
+                                        <th>Vietnamese</th>
+                                        <th>Part of Speech</th>
+                                    </tr>
+                                </thead>
+                                <tbody id="vocabulary-table-body">
+                                    <tr>
+                                        <td colspan="5" class="text-center">Please load vocabulary to see the list</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+
+                    <div class="tab-content" id="flashcards-content">
+                        <div class="flashcard" id="flashcard">
+                            <div class="flashcard-inner">
+                                <div class="flashcard-front">
+                                    <div class="chinese-character" id="flashcard-front-content">請選擇課程</div>
+                                </div>
+                                <div class="flashcard-back">
+                                    <div class="flashcard-content" id="flashcard-back-content">Please select a lesson
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="flashcard-controls">
+                            <button id="prev-card-btn" class="btn secondary">Previous</button>
+                            <button id="flip-card-btn" class="btn primary">Flip Card</button>
+                            <button id="next-card-btn" class="btn secondary">Next</button>
+                            <button id="mark-difficult-btn" class="btn warning">Mark Difficult</button>
+                            <button id="mark-mastered-btn" class="btn success">Mark Mastered</button>
+                        </div>
+                        <div class="progress-info">
+                            <div class="progress-text" id="progress-text">Card 0 of 0</div>
+                            <div class="progress-bar">
+                                <div class="progress" id="flashcard-progress"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="tab-content" id="quiz-content">
+                        <div class="quiz-setup" id="quiz-setup">
+                            <h3>Choose Quiz Type</h3>
+                            <div class="quiz-type-selection">
+                                <div class="quiz-type-option" data-quiz-type="chinese-english">
+                                    <div class="quiz-type-icon">🇹🇼 → 🇺🇸</div>
+                                    <div class="quiz-type-info">
+                                        <h4>Chinese → English</h4>
+                                        <p>Test your English translation skills</p>
+                                    </div>
+                                </div>
+                                <div class="quiz-type-option" data-quiz-type="chinese-vietnamese">
+                                    <div class="quiz-type-icon">🇹🇼 → 🇻🇳</div>
+                                    <div class="quiz-type-info">
+                                        <h4>Chinese → Vietnamese</h4>
+                                        <p>Test your Vietnamese translation skills</p>
+                                    </div>
+                                </div>
+                                <div class="quiz-type-option" data-quiz-type="chinese-pinyin">
+                                    <div class="quiz-type-icon">🇹🇼 → 📝</div>
+                                    <div class="quiz-type-info">
+                                        <h4>Chinese → Pinyin</h4>
+                                        <p>Test your pinyin knowledge</p>
+                                    </div>
+                                </div>
+                                <div class="quiz-type-option" data-quiz-type="mixed">
+                                    <div class="quiz-type-icon">🎲</div>
+                                    <div class="quiz-type-info">
+                                        <h4>Mixed Questions</h4>
+                                        <p>Random combination of all question types</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="quiz-start-controls">
+                                <button id="start-selected-quiz" class="btn primary" disabled>Start Selected
+                                    Quiz</button>
+                            </div>
+                            <div class="form-group">
+                                <label for="question-count">Number of Questions:</label>
+                                <select id="question-count" class="form-control">
+                                    <option value="5">5 Questions</option>
+                                    <option value="10" selected>10 Questions</option>
+                                    <option value="15">15 Questions</option>
+                                    <option value="20">20 Questions</option>
+                                    <option value="all">All Questions</option>
+                                </select>
+                            </div>
+
+
+
+
+                        </div>
+
+                        <div class="quiz-container hidden" id="quiz-container">
+                            <div class="quiz-question" id="quiz-question">Loading question...</div>
+                            <div class="quiz-options" id="quiz-options">
+                                <!-- Quiz options will be populated by JavaScript -->
+                            </div>
+                            <div class="quiz-feedback" id="quiz-feedback"></div>
+                            <div class="quiz-controls">
+                                <button id="next-question-btn" class="btn primary hidden">Next Question</button>
+                            </div>
+                            <div class="progress-info">
+                                <div class="progress-text" id="quiz-progress-text">Question 0 of 0</div>
+                                <div class="progress-bar">
+                                    <div class="progress" id="quiz-progress"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="tab-content" id="difficult-content">
+                        <div class="difficult-words">
+                            <h3>Words Needing Practice</h3>
+                            <ul class="difficult-words-list" id="difficult-words-list">
+                                <li class="difficult-word text-center">No difficult words yet. Keep studying!</li>
+                            </ul>
+                            <div class="difficult-words-controls">
+                                <button id="practice-difficult-btn" class="btn primary">Practice These Words</button>
+                                <button id="clear-difficult-btn" class="btn warning">Clear List</button>
+                                 <button id="clear-mastered-btn" class="btn warning">Clear Mastered Words</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

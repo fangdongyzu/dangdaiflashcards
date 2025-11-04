@@ -1,0 +1,572 @@
+﻿課-序號,序號,生詞,漢拼,詞類,英譯,越譯,冊
+1-1,1,陳月美,Chén Yuèměi,,a woman from Vietnam,một phụ nữ từ Việt Nam,1
+1-1,2,李明華,Lǐ Mínghuá,,a man from Taiwan ,một người đàn ông từ Đài Loan,1
+1-1,3,王開文,Wáng Kāiwén,,a man from the US,một người đàn ông từ Mỹ,1
+1-1,4,你,nǐ,N,you,bạn,1
+1-1,5,來,lái,V,to come,đến,1
+1-1,6,是,shì,Vst,to be,là,1
+1-1,7,小姐,xiǎojiě,N,"Miss, Ms.","cô, chị",1
+1-1,8,嗎,ma,Ptc,sentence final particle,trợ từ cuối câu,1
+1-1,9,接,jiē,V,to pick sb up,đón ai đó,1
+1-1,10,我們,wǒmen,N,"we, us","chúng tôi, chúng ta",1
+1-1,11,我,wǒ,N,"I, me","tôi, tớ",1
+1-1,12,這,zhè/zhèi,Det,this,"này, cái này",1
+1-1,13,先生,xiānshēng,N,Mr. ,"ông, ngài",1
+1-1,14,好,hǎo ,Vs,"fine, well","tốt, khỏe",1
+1-1,15,姓,xìng,Vst,to be surnamed,họ,1
+1-1,16,叫,jiào,Vst,"to be called, i.e., to have the first name xx","được gọi, tên là",1
+1-1,17,你們,nǐmen,N,you (plural),các bạn,1
+1-1,18,臺灣(=台灣),Táiwān,,Taiwan,Đài Loan,1
+1-1,19,歡迎,huānyíng,,welcome,hoan nghênh,1
+1-1,20,請問,qǐngwèn,,"May I ask you…, Excuse me,…",xin hỏi...,1
+1-1,21,是的,shìde,,yes,"vâng, dạ",1
+1-1,22,謝謝,xièxie,,Thank you.,cảm ơn,1
+1-1,23,不客氣,búkèqì,,You’re welcome.,không có gì,1
+1-1,24,你好,nǐ hǎo,,How are you?Hello. ,Xin chào,1
+1-2,1,請,qǐng,V,please,xin mời,1
+1-2,2,喝,hē,V,to drink,uống,1
+1-2,3,茶,chá,N,tea,trà,1
+1-2,4,很,hěn,Adv,very,rất,1
+1-2,5,好喝,hǎohē,Vs,(lit. good to drink) to taste good,(nghĩa đen: uống ngon) ngon,1
+1-2,6,什麼,shénme,N,what,cái gì,1
+1-2,7,人,rén,N,"person, people",người,1
+1-2,8,喜歡,xǐhuān,Vst,to like,thích,1
+1-2,9,呢,ne,Ptc,sentence final particle,trợ từ cuối câu,1
+1-2,10,他,tā,N,"he, him","anh ấy, cậu ấy",1
+1-2,11,不,bù,Adv,not,không,1
+1-2,12,哪,nǎ/něi,Det,which,nào,1
+1-2,13,要,yào,Vaux,to want to,muốn,1
+1-2,14,咖啡,kāfēi,N,coffee,cà phê,1
+1-2,15,烏龍茶,Wūlóng chá,,Oolong tea,trà Ô Long,1
+1-2,16,日本,Rìběn,,Japan,Nhật Bản,1
+1-2,17,美國,Měiguó,,America,Mỹ,1
+1-2,18,對不起,duìbùqǐ,,I’m sorry.,Tôi xin lỗi,1
+1-2,19,哪國,nǎ guó/něi guó,,Which country?,Nước nào?,1
+2-1,1,張怡君,Zhāng Yíjūn,,a woman from Taiwan,một phụ nữ từ Đài Loan,1
+2-1,2,馬安同,Mǎ āntóng,,a man from the Republic of Honduras ,một người đàn ông từ Cộng hòa Honduras,1
+2-1,3,的,de,Ptc ,modification marker,trợ từ sở hữu,1
+2-1,4,家人,jiārén,N,family (members),gia đình (các thành viên),1
+2-1,5,家,jiā,N,"home, house",nhà,1
+2-1,6,漂亮,piàoliàng,Vs,pretty,xinh đẹp,1
+2-1,7,房子,fángzi,N,house,nhà,1
+2-1,8,坐,zuò,Vi,to sit,ngồi,1
+2-1,9,好,hǎo,Ptc,OK,OK,1
+2-1,10,有,yǒu,Vst,to have,có,1
+2-1,11,多,duō,Vs-pred,many,nhiều,1
+2-1,12,照片,zhàopiàn,N,photo,ảnh,1
+2-1,13,都,dōu,Adv,"all, both","đều, cả",1
+2-1,14,照相,zhàoxiàng,V-sep,to take a photo,chụp ảnh,1
+2-1,15,張,zhāng,M,"measure word for flat objects (e.g., paper, tickets)","lượng từ cho vật phẳng (ví dụ: giấy, vé)",1
+2-1,16,好看,hǎokàn,Vs,good-looking,ưa nhìn,1
+2-1,17,誰,shéi,N,who,ai,1
+2-1,18,姐姐 ,jiějie,N,older sister,chị gái,1
+2-1,19,妹妹,mèimei ,N,younger sister,em gái,1
+2-1,20,爸爸,bàba,N,dad,bố,1
+2-1,21,媽媽,māma,N,mom,mẹ,1
+2-1,22,請進,qǐng jìn,,Please come in!,Mời vào!,1
+2-2,1,田中誠一,Tiánzhōng Chéngyī,,a man form Japan,một người đàn ông từ Nhật Bản,1
+2-2,2,伯母,bómǔ,N,aunt; here a polite term for a friend’s mother regardless of age,"bác, dì; ở đây là từ lịch sự chỉ mẹ của bạn bè bất kể tuổi tác",1
+2-2,3,您,nín,N,you (honorific),bạn (kính ngữ),1
+2-2,4,名字,míngzi,N,name,tên,1
+2-2,5,書,shū,N,book,sách,1
+2-2,6,哥哥,gēge,N,older brother,anh trai,1
+2-2,7,老師,lǎoshī,N,teacher,giáo viên,1
+2-2,8,看書,kànshū,V-sep,to read,đọc sách,1
+2-2,9,幾,jǐ,N,how many,"mấy, bao nhiêu",1
+2-2,10,個,ge,M,general measure word,lượng từ chung,1
+2-2,11,沒,méi,Adv,not,không (phủ định),1
+2-2,12,兄弟,xiōngdì,N,brothers,anh em trai,1
+2-2,13,姐妹,jiěmèi,N,sisters,chị em gái,1
+2-2,14,五,wǔ,N,five,năm,1
+2-2,15,兩,liǎng,N,two,hai,1
+3-1,1,週末,zhōumò,N,weekend,cuối tuần,1
+3-1,2,聽,tīng,V,to listen,nghe,1
+3-1,3,音樂,yīnyuè,N,music,âm nhạc,1
+3-1,4,運動,yùndòng,Vi,to exercise,tập thể dục,1
+3-1,5,打,dǎ,V,to play (ball games),chơi (các môn thể thao bóng),1
+3-1,6,網球,wǎngqiú,N,tennis,quần vợt,1
+3-1,7,棒球,bàngqiú,N,baseball,bóng chày,1
+3-1,8,和,hàn,Conj,"and, as well as",và,1
+3-1,9,游泳,yóuyǒng,V-sep,to swim,bơi,1
+3-1,10,常,cháng,Adv,often,thường,1
+3-1,11,籃球,lánqiú,N,basketball,bóng rổ,1
+3-1,12,也,yě,Adv,also,cũng,1
+3-1,13,踢,tī,V,to kick,đá,1
+3-1,14,足球,zúqiú,N,soccer,bóng đá,1
+3-1,15,覺得,juéde,Vst,"to feel, to think","cảm thấy, nghĩ",1
+3-1,16,好玩,hǎowán,Vs,"interesting, fun","thú vị, vui",1
+3-1,17,明天,míngtiān,N,tomorrow,ngày mai,1
+3-1,18,早上,zǎoshàng,N,morning,buổi sáng,1
+3-1,19,去,qù,V,to go,đi,1
+3-1,20,怎麼樣,zěnmeyàng,Vs,How about it?How does that sound?What do you think?,Thế nào? Nghe vậy được không? Bạn nghĩ sao?,1
+3-1,21,啊,a,Ptc,sentence final particle ,trợ từ cuối câu,1
+3-1,22,做什麼,zuò shénme,,do what,làm gì,1
+3-1,23,好啊,Hǎo a,,OK,OK,1
+3-2,1,白如玉,Bái Rúyù,,a woman from the US,một phụ nữ từ Mỹ,1
+3-2,2,今天,jīntiān,N,today,hôm nay,1
+3-2,3,晚上,wǎnshàng,N,"evening, night","buổi tối, đêm",1
+3-2,4,看,kàn,V,"to see, to watch","xem, nhìn",1
+3-2,5,電影,diànyǐng,N,movie,phim,1
+3-2,6,妳,nǐ,N,you (female),bạn (nữ giới),1
+3-2,7,想,xiǎng,Vaux,"to want, to think","muốn, nghĩ",1
+3-2,8,還是,háishì,Conj,or (used in a question),hay là (dùng trong câu hỏi),1
+3-2,9,吧,ba,Ptc,sentence- final particle for suggestion,trợ từ cuối câu để gợi ý,1
+3-2,10,可以,kěyǐ,Vaux,could (possibility),có thể (khả năng),1
+3-2,11,學,xué,V,"to learn, to study",học,1
+3-2,12,中文,Zhōngwén,N,Chinese language,tiếng Trung Quốc,1
+3-2,13,一起,yìqǐ,Adv,together,cùng nhau,1
+3-2,14,吃,chī,V,to eat,ăn,1
+3-2,15,晚飯,wǎnfàn,N,dinner,bữa tối,1
+3-2,16,菜,cài,N,cuisine,ẩm thực,1
+3-2,17,越南,Yuènán,,Vietnam,Việt Nam,1
+3-2,18,好不好,hǎo bù hǎo,,"How about…?  
+How does that sound?
+",... có được không? Nghe vậy được không?,1
+4-1,1,一共,yígòng,Adv,altogether,tổng cộng,1
+4-1,2,多少,duōshǎo,N,"how much, how many",bao nhiêu,1
+4-1,3,錢,qián,N,money,tiền,1
+4-1,4,老闆,lǎobǎn,N,"store-owner , boss","chủ cửa hàng, ông chủ",1
+4-1,5,買,mǎi,V,to buy,mua,1
+4-1,6,杯,bēi,M,cup,cốc,1
+4-1,7,熱,rè,Vs,hot,nóng,1
+4-1,8,包子,bāozi,N,steamed buns with meat stuffing filling,bánh bao nhân thịt,1
+4-1,9,要,yào,V,"to want, to need","muốn, cần",1
+4-1,10,大,dà,Vs,large,lớn,1
+4-1,11,中,zhōng,Vs-attr,medium,trung bình,1
+4-1,12,小,xiǎo,Vs,small,nhỏ,1
+4-1,13,幫,bāng,Prep,for,"cho, thay cho",1
+4-1,14,微波,wéibō,V,to microwave,quay vi sóng,1
+4-1,15,百,bǎi,N,hundred,trăm,1
+4-1,16,塊,kuài,M,measure word for Chinese money,lượng từ cho tiền Trung Quốc,1
+4-1,17,好的,hǎode,OK,,OK,1
+4-1,18,外帶,wàidài,"take out, to go",,mang về,1
+4-1,19,內用,nèiyòng,for here,,dùng tại chỗ,1
+4-2,1,支,zhī,M,measure word for cell phones,lượng từ cho điện thoại di động,1
+4-2,2,新,xīn,Vs,new,mới,1
+4-2,3,手機,shǒujī,N,cell phone,điện thoại di động,1
+4-2,4,太,tài,Adv,too,quá,1
+4-2,5,舊,jiù,Vs,old,cũ,1
+4-2,6,了,le,Ptc,sentence-final particle indicating the speaker’s sense of certainty,trợ từ cuối câu chỉ sự chắc chắn của người nói,1
+4-2,7,種,zhǒng,M,"kind, type","loại, kiểu",1
+4-2,8,能,néng,Vaux,"can, to be able to",có thể,1
+4-2,9,上網,shàngwǎng,V-sep,"to access the internet,to use the internet","lên mạng, sử dụng internet",1
+4-2,10,那,nà/nèi,Det,that,"đó, cái đó",1
+4-2,11,貴,guì,Vs,expensive,đắt,1
+4-2,12,賣,mài,V,to sell,bán,1
+4-2,13,便宜,piányí,Vs,"cheap, inexpensive",rẻ,1
+4-2,14,要,yào,Vst,"to take, to require ","cần, đòi hỏi",1
+4-2,15,萬,wàn,N,ten thousand,mười ngàn,1
+4-2,16,千,qiān,N,thousand,ngàn,1
+4-2,17,為什麼,wèishénme,,why,tại sao,1
+5-1,1,牛肉,niúròu ,N ,beef,thịt bò,1
+5-1,2,麵,miàn,N,noodles,mì,1
+5-1,3,真,zhēn,Adv,really,thực sự,1
+5-1,4,好吃,hǎochī,Vs,delicious,ngon,1
+5-1,5,說,shuō,V,say,nói,1
+5-1,6,少,shǎo,Vs-pred,few in number,ít về số lượng,1
+5-1,7,有名,yǒumíng,Vs,"well known, famous",nổi tiếng,1
+5-1,8,小吃,xiǎochī,N,"light repast, snack","bữa ăn nhẹ, đồ ăn vặt",1
+5-1,9,最,zuì,Adv,most,nhất,1
+5-1,10,湯,tāng,N,"soup, broth","súp, nước dùng",1
+5-1,11,這麼,zhème ,Adv,so,như vậy,1
+5-1,12,知道,zhīdào,Vst,to know,biết,1
+5-1,13,家,jiā,M,"measure word for restaurants, shops, etc.","lượng từ cho nhà hàng, cửa hàng, v.v.",1
+5-1,14,店,diàn,N,"shop, store","cửa hàng, tiệm",1
+5-1,15,一定,yídìng,Adv,"really must,definitely","chắc chắn phải, nhất định",1
+5-1,16,點,diǎn,V,to order (meals),gọi (món ăn),1
+5-1,17,碗,wǎn,M,a bowl of,một bát,1
+5-1,18,是 啊,shì a,,That’s right.,Đúng vậy.,1
+5-1,19,小籠包,xiǎolóngbāo,,"xiaolongbao, e.g., small meat and cabbage-filled steamed buns",bánh bao sủi cảo,1
+5-1,20,臭豆腐,chòu dòufǔ,,stinky tofu (fermented tofu),đậu phụ thối (đậu phụ lên men),1
+5-1,21,太好了,tài hǎo le,,Excellent. Great.,Tuyệt quá. Tuyệt vời.,1
+5-2,1,昨天,zuótiān,N,yesterday,hôm qua,1
+5-2,2,餐廳,cāntīng,N,restaurant,nhà hàng,1
+5-2,3,可是,kěshì,Conj,"but, however","nhưng, tuy nhiên",1
+5-2,4,辣,là,Vs,hot (spicy),cay,1
+5-2,5,怕,pà,Vst,"(here) to not like, to fear","(ở đây) không thích, sợ",1
+5-2,6,所以,suǒyǐ,Conj,"therefore, so","vì vậy, do đó",1
+5-2,7,自己,zìjǐ,N,self,bản thân,1
+5-2,8,做飯,zuòfàn,V-sep,to cook,nấu ăn,1
+5-2,9,得,de,Ptc,complement marker,trợ từ bổ ngữ,1
+5-2,10,會,huì,Vaux,"to be able to, can",có thể,1
+5-2,11,甜點,tiándiǎn,N,dessert,món tráng miệng,1
+5-2,12,不錯,búcuò,Vs,not bad,không tệ,1
+5-2,13,可以,kěyǐ,Vaux,could (possibility),có thể (khả năng),1
+5-2,14,教,jiāo,V,to teach,dạy,1
+5-2,15,到,dào,Prep,to ,đến,1
+5-2,16,有一點,yǒu yìdiǎn,,a little,một chút,1
+5-2,17,不好,bù hǎo,,not well,không tốt,1
+6-1,1,他們,tāmen,N,they (used for people only),họ (chỉ dùng cho người),1
+6-1,2,學校,xuéxiào,N,school,trường học,1
+6-1,3,在,zài,Vst,to be located at,ở tại,1
+6-1,4,山上,shānshàng,N,"on a mountain, in the mountains","trên núi, trong vùng núi",1
+6-1,5,哪裡,nǎlǐ,N,where,ở đâu,1
+6-1,6,遠,yuǎn,Vs,far,xa,1
+6-1,7,那裡,nàlǐ,N,"that place, there","nơi đó, ở đó",1
+6-1,8,風景,fēngjǐng,N,"scenery, landscape",phong cảnh,1
+6-1,9,美,měi,Vs,beautiful  ,đẹp,1
+6-1,10,前面,qiánmiàn,N,front,phía trước,1
+6-1,11,海,hǎi,N,ocean,biển,1
+6-1,12,後面,hòumiàn,N,back,phía sau,1
+6-1,13,山,shān,N,mountain,núi,1
+6-1,14,真的,zhēnde,Adv,"really, truly","thực sự, thật sự",1
+6-1,15,地方,dìfāng,N,place,nơi chốn,1
+6-1,16,現在,xiànzài,N,now,bây giờ,1
+6-1,17,附近,fùjìn,N,"vicinity,near","vùng lân cận, gần",1
+6-1,18,樓下,lóuxià,N,downstairs,dưới lầu,1
+6-1,19,找,zhǎo,V,"to meet, to see","gặp, thấy",1
+6-1,20,朋友,péngyǒu,N,friend,bạn bè,1
+6-1,21,上課,shàngkè,V-sep,to go to class,đi học,1
+6-1,22,花蓮,Huālián,,name of a city on the eastern coast of Taiwan,tên một thành phố trên bờ biển phía đông Đài Loan,1
+6-1,23,聽說,tīngshuō,,hear that,nghe nói rằng,1
+6-2,1,近,jìn,Vs,near,gần,1
+6-2,2,方便,fāngbiàn,Vs,convenient,thuận tiện,1
+6-2,3,這裡,zhèlǐ,N,"here, this place","ở đây, nơi này",1
+6-2,4,學生,xuéshēng,N,student,học sinh,1
+6-2,5,在,zài,Prep,at,ở tại,1
+6-2,6,東西,dōngxi,N,"things, stuff",đồ đạc,1
+6-2,7,外面,wàimiàn,N,outside,bên ngoài,1
+6-2,8,裡面,lǐmiàn,N,inside,bên trong,1
+6-2,9,商店,shāngdiàn,N,store; shop,cửa hàng,1
+6-2,10,吃飯,chīfàn,V-sep,to have a meal,ăn cơm,1
+6-2,11,宿舍,sùshè,N,dormitory,ký túc xá,1
+6-2,12,樓,lóu,N,"a storey, a floor",tầng lầu,1
+6-2,13,棟,dòng,M,measure word for buildings,lượng từ cho tòa nhà,1
+6-2,14,大樓,dàlóu,N,a multi-storey building,tòa nhà nhiều tầng,1
+6-2,15,圖書館,túshūguǎn,N,library,thư viện,1
+6-2,16,旁邊,pángbiān,N,"(by the) side, next to",bên cạnh,1
+6-2,17,教室,jiàoshì,N,classroom,lớp học,1
+6-2,18,游泳池,yóuyǒngchí,N,swimming pool,hồ bơi,1
+7-1,1,點,diǎn,M,o'clock,giờ,1
+7-1,2,KTV,,N,Karaoke,Karaoke,1
+7-1,3,唱歌,chànggē,V-sep,to sing,hát,1
+7-1,4,分,fēn,M,minute,phút,1
+7-1,5,見面,jiànmiàn,V-sep,meet,gặp mặt,1
+7-1,6,從,cóng,Prep,from,từ,1
+7-1,7,中午,zhōngwǔ,N,noon,buổi trưa,1
+7-1,8,得,děi,Vaux,"to have to, must","phải, cần phải",1
+7-1,9,銀行,yínháng,N,bank,ngân hàng,1
+7-1,10,時候,shíhòu,N,when,khi nào,1
+7-1,11,後天,hòutiān,N,the day after tomorrow,ngày kia,1
+7-1,12,大安,Dà’ān,,"Da-an (name of a KTV named after a district in Taipei, where Shida is also located.)",Đại An (tên một quán Karaoke ở Đài Bắc),1
+7-1,13,下次,xià cì,,next time,lần sau,1
+7-1,14,沒問題,méi wèntí,,No problem.,Không vấn đề gì.,1
+7-1,15,對了,duìle,,by the way,nhân tiện,1
+7-1,16,有空,yǒu kòng,,to have free time,có thời gian rảnh,1
+7-1,17,再見,zàijiàn,,Goodbye.,Tạm biệt.,1
+7-2,1,在,zài,Vs,progressive aspect verb;in the process of doing something,đang (tiếp diễn),1
+7-2,2,午餐,wǔcān,N,lunch,bữa trưa,1
+7-2,3,剛,gāng,Adv,just now,vừa mới,1
+7-2,4,下課,xiàkè,V-sep,to finish class,tan học,1
+7-2,5,下午,xiàwǔ,N,afternoon,buổi chiều,1
+7-2,6,半,bàn,N,half,một nửa,1
+7-2,7,比賽,bǐsài,N,"game, competition","trò chơi, cuộc thi",1
+7-2,8,結束,jiéshù,Vp,to finish,kết thúc,1
+7-2,9,最近,zuìjìn,N,"recently, lately",gần đây,1
+7-2,10,忙,máng,Vs,busy,bận,1
+7-2,11,每,měi,Det,"every, each","mỗi, mọi",1
+7-2,12,天,tiān,M,Measure word for day,lượng từ cho ngày,1
+7-2,13,書法,shūfǎ,N,calligraphy,thư pháp,1
+7-2,14,課,kè,N,class,lớp học,1
+7-2,15,開始,kāishǐ,Vp,"to begin, to start",bắt đầu,1
+7-2,16,字,zì,N,character,chữ Hán,1
+7-2,17,寫,xiě,V,to write,viết,1
+7-2,18,可以,kěyǐ,Vaux,may (permission),có thể (xin phép),1
+7-2,19,問,wèn,V,to ask,hỏi,1
+7-2,20,等一下,děng yíxià,,later,đợi một chút,1
+7-2,21,有事,yǒu shì,,to be busy; to be engaged,có việc bận,1
+7-2,22,有意思,yǒu yìsi,,"to be interesting, to be fun","thú vị, vui",1
+8-1,1,坐,zuò,V,"to take by, to travel by",đi bằng (phương tiện),1
+8-1,2,火車,huǒchē,N,train,tàu hỏa,1
+8-1,3,跟,gēn,Prep,with,với,1
+8-1,4,玩,wán,V,to have fun,vui chơi,1
+8-1,5,怎麼,zěnme,Adv,how,như thế nào,1
+8-1,6,慢,màn,Vs,slow,chậm,1
+8-1,7,鐘頭,zhōngtóu,N,hour,giờ đồng hồ,1
+8-1,8,比較,bǐjiào,Adv,(comparatively) more,(một cách) hơn,1
+8-1,9,快,kuài,Vs,fast,nhanh,1
+8-1,10,車票,chēpiào,N,"(train , bus) ticket","vé (tàu, xe buýt)",1
+8-1,11,非常,fēicháng,Adv,very,rất,1
+8-1,12,但是,dànshì,Conj,"but, however","nhưng, tuy nhiên",1
+8-1,13,又,yòu,Adv,both…and…,vừa... vừa...,1
+8-1,14,舒服,shūfú,Vs,comfortable,thoải mái,1
+8-1,15,站,zhàn,N,station,"ga, trạm",1
+8-1,16,或是,huòshì,Conj,or,hoặc là,1
+8-1,17,臺南,Táinán,,a city in southwestern Taiwan,một thành phố ở tây nam Đài Loan,1
+8-1,18,高鐵,gāotiě,,High Speed Rail(HSR),Đường sắt cao tốc (HSR),1
+8-1,19,網路上,wǎnglù shàng,,on the Internet,trên mạng Internet,1
+8-1,20,便利商店,biànlì shāngdiàn,,convenience store,cửa hàng tiện lợi,1
+8-2,1,同學,tóngxué,N,classmate,bạn cùng lớp,1
+8-2,2,參觀,cānguān,V,to visit (an institution),tham quan (một cơ sở),1
+8-2,3,古代,gǔdài,N,ancient times,thời cổ đại,1
+8-2,4,騎,qí,V,to ride,cưỡi,1
+8-2,5,機車,jīchē,N,"motorcycle, scooter",xe máy,1
+8-2,6,載,zài,V,"to give someone a ride (on/in vehicle, e.g. motorcycle, bicycle or car)","cho ai đó đi nhờ (trên xe máy, xe đạp hoặc ô tô)",1
+8-2,7,捷運,jiéyùn,N,MRT,Tàu điện ngầm (MRT),1
+8-2,8,比,bǐ,Prep,(more…) than,(hơn...) so với,1
+8-2,9,故宮博物院（故宮）,Gùgōng Bówùyuàn,,National Palace Museum,Bảo tàng Cung điện Quốc gia,1
+8-2,10,中國,Zhōngguó,,China,Trung Quốc,1
+8-2,11,公共汽車（公車）,gōnggòng ,,bus,xe buýt,1
+8-2,12,不行,bù xíng,,will not do,không được,1
+8-2,13,計程車,jìchéngchē,,taxi,taxi,1
+8-2,14,差不多,chābùduō,,about the same,gần như giống nhau,1
+9-1,1,星期+number,xīngqí,N,week,tuần + số,1
+9-1,2,回國,huíguó,V-sep,to return to one’s country,về nước,1
+9-1,3,打算,dǎsuàn,Vaux,to plan to,dự định,1
+9-1,4,電視,diànshì,N,TV,TV,1
+9-1,5,影片,yǐngpiàn,N,film,phim,1
+9-1,6,旅行,lǚxíng,Vi,to travel,du lịch,1
+9-1,7,功課,gōngkè,N,homework,bài tập về nhà,1
+9-1,8,出去,chūqù,Vi,to go out,đi ra ngoài,1
+9-1,9,大概,dàgài,Adv,"approximately, about , probably","khoảng, chừng, có lẽ",1
+9-1,10,放假,fàngjià,,to have a holiday,nghỉ lễ,1
+9-1,11,下個星期,xià ge xīngqí,,next week,tuần sau,1
+9-1,12,有時候,yǒu shíhòu,,sometimes,đôi khi,1
+9-1,13,多久,duō jiǔ,,how long,bao lâu,1
+9-1,14,臺東,Táidōng,,name of one of the major cities on the southeastern coast of Taiwan,tên một thành phố lớn trên bờ biển đông nam Đài Loan,1
+9-2,1,女+noun,nǚ ,N,"girl-, female-",nữ + danh từ,1
+9-2,2,number+月,yuè,N,month of a year,tháng + số,1
+9-2,3,number+號,hào,N,"date, day of a month",ngày + số,1
+9-2,4,帶,dài,V,to take ,mang theo,1
+9-2,5,她,tā,N,"she, her","cô ấy, chị ấy",1
+9-2,6,還,hái,Adv,"still, additionally","vẫn, thêm nữa",1
+9-2,7,建議,jiànyì,N,suggestion,"đề nghị, gợi ý",1
+9-2,8,夜市,yèshì,N,night market,chợ đêm,1
+9-2,9,應該,yīnggāi,Vaux,should,nên,1
+9-2,10,逛,guàng,V,"to wander around, to look around","đi dạo, ngắm nghía",1
+9-2,11,特別,tèbié,Vs,special,đặc biệt,1
+9-2,12,茶館,cháguǎn,N,tea house,quán trà,1
+9-2,13,決定,juédìng,Vp,to decide,quyết định,1
+9-2,14,要是,yàoshì,Conj,if,nếu,1
+9-2,15,就,jiù,Adv,then,thì,1
+9-2,16,貓空,Māokōng,,name of a must-see place in Taipei to visit for fine tea and scenery,tên một địa điểm nổi tiếng ở Đài Bắc để thưởng trà và ngắm cảnh,1
+10-1,1,水果,shuǐguǒ,N,fruit,trái cây,1
+10-1,2,黃色,huángsè,N,yellow,màu vàng,1
+10-1,3,芒果,mángguǒ,N,mango,xoài,1
+10-1,4,給,gěi,V,to give,"cho, tặng",1
+10-1,5,塊,kuài,M,"a measure for pieces of food (e.g., meat, cake) ","lượng từ cho miếng thức ăn (ví dụ: thịt, bánh)",1
+10-1,6,香,xiāng,Vs,fragrant,thơm,1
+10-1,7,甜,tián,Vs,sweet (taste),ngọt (vị),1
+10-1,8,紅色,hóngsè,N,red,màu đỏ,1
+10-1,9,西瓜,xīguā,N,watermelon,dưa hấu,1
+10-1,10,吧,ba,Ptc,Sentence-final particle for guessing,trợ từ cuối câu để phỏng đoán,1
+10-1,11,對,duì,Vs,"correct, right",đúng,1
+10-1,12,以前,yǐqián,N,before,trước đây,1
+10-1,13,機會,jīhuì,N,opportunity,cơ hội,1
+10-1,14,請,qǐng,V,to treat sb to sth,đãi ai cái gì,1
+10-1,15,吃吃看,chīchīkàn,,"to have a taste, try it, taste it",nếm thử,1
+10-2,1,拍,pāi,V,to take (pictures),chụp (ảnh),1
+10-2,2,笑,xiào,V,"to laugh, to smile",cười,1
+10-2,3,開心,kāixīn,Vs,happy,vui vẻ,1
+10-2,4,穿,chuān,V,"to wear, to put on","mặc, mang",1
+10-2,5,衣服,yīfú,N,clothes,quần áo,1
+10-2,6,旅館,lǚguǎn,N,hotel,khách sạn,1
+10-2,7,太太,tàitai,N,wife,vợ,1
+10-2,8,男+noun,nán,N,"boy-, male-",nam + danh từ,1
+10-2,9,矮,ǎi,Vs,short (height),thấp (chiều cao),1
+10-2,10,高,gāo,Vs,tall,cao,1
+10-2,11,弟弟,dìdi,N,younger brother,em trai,1
+10-2,12,乾淨,gānjìng,Vs,clean,sạch sẽ,1
+10-2,13,窗戶,chuānghù,N,window,cửa sổ,1
+10-2,14,往,wǎng,Prep,"toward, to","hướng về, tới",1
+10-2,15,藍色,lánsè,N,blue,màu xanh lam,1
+10-2,16,因為,yīnwèi,Conj,because,bởi vì,1
+10-2,17,住,zhù,V,to stay,ở,1
+10-2,18,上個月,shàng ge yuè,,last month,tháng trước,1
+10-2,19,這些,zhèxiē,,these,những cái này,1
+11-1,1,租,zū,V,to rent,thuê,1
+11-1,2,房東,fángdōng,N,landlord,chủ nhà,1
+11-1,3,客廳,kètīng,N,living room,phòng khách,1
+11-1,4,廚房,chúfáng,N,kitchen,nhà bếp,1
+11-1,5,左邊,zuǒbiān,N,left（side）,bên trái,1
+11-1,6,右邊,yòubiān,N,right（side）,bên phải,1
+11-1,7,浴室,yùshì,N,bathroom,phòng tắm,1
+11-1,8,超市,chāoshì,N,supermarket,siêu thị,1
+11-1,9,走路,zǒulù,V-sep,to walk,đi bộ,1
+11-1,10,分鐘,fēnzhōng,M,measure word for minutes,lượng từ cho phút,1
+11-1,11,就,jiù,Adv,"only, merely","chỉ, đơn thuần",1
+11-1,12,到,dào,Vp,arrive,đến nơi,1
+11-1,13,間,jiān,M,"measure word for houses, rooms, etc.","lượng từ cho nhà cửa, phòng ốc, v.v.",1
+11-1,14,空,kōng,Vs,"vacant , empty","trống, rỗng",1
+11-1,15,房間,fángjiān,N,room,phòng,1
+11-1,16,套房,tàofáng,N,suite,căn hộ,1
+11-1,17,回去,huíqù,Vi,"to go back, to return","trở về, quay lại",1
+11-1,18,想,xiǎng,V,to think,nghĩ,1
+11-1,19,再,zài,Adv,and then,rồi thì,1
+11-1,20,電話,diànhuà,N,telephone,điện thoại,1
+11-1,21,給,gěi,Prep,to,"cho, tới",1
+11-1,22,林,lín,N,"Chinese last name, common in Taiwan ",họ Lâm (họ phổ biến ở Đài Loan),1
+11-1,23,打電話,dǎ diànhuà,,to make a phone call,gọi điện thoại,1
+11-2,1,喂,wéi,Ptc,"a particle used in addressing people, especially over the phone","này (dùng để gọi, đặc biệt qua điện thoại)",1
+11-2,2,房租,fángzū,N,rent (for a room or a house),tiền thuê nhà,1
+11-2,3,已經,yǐjīng,Adv,already ,đã,1
+11-2,4,習慣,xíguàn,Vs,"to get settled down, to get used to","quen, thích nghi",1
+11-2,5,問題,wèntí,N,"problem,question","vấn đề, câu hỏi",1
+11-2,6,熱水器,rèshuǐqì,N,water heater,bình nóng lạnh,1
+11-2,7,好像,hǎoxiàng,Adv,"to seem to be, to appear to be (often used to take the edge off of a comment)","có vẻ như, dường như (thường dùng để giảm nhẹ ý kiến)",1
+11-2,8,會,huì,Vaux,will,sẽ,1
+11-2,9,等,děng,V,to wait for,đợi,1
+11-2,10,那,nà,Ptc,"then, in that case","vậy thì, trong trường hợp đó",1
+11-2,11,裝,zhuāng,V,to install,lắp đặt,1
+11-2,12,不過,búguò,Conj,"however, but","tuy nhiên, nhưng",1
+11-2,13,付,fù,V,to pay,trả tiền,1
+11-2,14,收到,shōudào  ,,to receive,nhận được,1
+11-2,15,不好意思,bùhǎo yìsi,,sorry,xin lỗi,1
+11-2,16,沒關係,méi guānxi,,Not a problem,Không sao đâu.,1
+11-2,17,有線電視,yǒuxiàn diànshì,,cable TV,truyền hình cáp,1
+12-1,1,計畫,jìhuà,V,to plan to,lên kế hoạch,1
+12-1,2,年,nián,M,measure word for year,lượng từ cho năm,1
+12-1,3,久,jiǔ,Vs,long (time),lâu (thời gian),1
+12-1,4,時間,shíjiān,N,time,thời gian,1
+12-1,5,先,xiān,Adv,first,trước tiên,1
+12-1,6,念,niàn,V,to study,học,1
+12-1,7,大學,dàxué,N,university,đại học,1
+12-1,8,需要,xūyào,Vst,to need,cần,1
+12-1,9,花,huā,V,to spend (time or money),tiêu (thời gian hoặc tiền bạc),1
+12-1,10,獎學金,jiǎngxuéjīn,N,scholarship,học bổng,1
+12-1,11,成績,chéngjī,N,grades,điểm số,1
+12-1,12,學費,xuéfèi,N,tuition,học phí,1
+12-1,13,公司,gōngsī,N,company,công ty,1
+12-1,14,替,tì,Prep,"for, on behalf of","thay cho, nhân danh",1
+12-1,15,希望,xīwàng,Vst,to hope,hy vọng,1
+12-1,16,以後,yǐhòu,N,in the future,trong tương lai,1
+12-1,17,到,dào,V,to go/come to,đi/đến,1
+12-1,18,上班,shàngbān,V-sep,to go to work,đi làm,1
+12-1,19,念書,niànshū,V-sep,to study,học hành,1
+12-1,20,累,lèi,Vs,tired,mệt,1
+12-1,21,語言中心,yǔyán zhōngxīn,,language center,trung tâm ngôn ngữ,1
+12-1,22,加油,jiāyóu,,keep up the good work,Cố lên!,1
+12-2,1,工作,gōngzuò,Vi,to work,làm việc,1
+12-2,2,去年,qùnián,N,last year,năm ngoái,1
+12-2,3,做 ,zuò,V,"to do, to engage in ","làm, tham gia vào",1
+12-2,4,生意,shēngyì,N,business,kinh doanh,1
+12-2,5,以後,yǐhòu,N,afterwards,sau đó,1
+12-2,6,好,hǎo,Vs,easy to ,dễ,1
+12-2,7,找,zhǎo,V,to look for,tìm kiếm,1
+12-2,8,工作,gōngzuò,N,"job, work",công việc,1
+12-2,9,這樣,zhèyàng,N,this kind (of),loại này,1
+12-2,10,國家,guójiā,N,country,quốc gia,1
+12-2,11,試,shì,Vi,to try,thử,1
+12-2,12,難,nán,Vs,"hard to, difficult to ",khó,1
+12-2,13,那麼,nàme,Ptc,then,vậy thì,1
+12-2,14,再,zài,Adv,again,lại,1
+12-2,15,試試看,shìshìkàn,,"to give it a try,to try and see what happens",thử xem,1
+13-1,1,生日,shēngrì,N,birthday,sinh nhật,1
+13-1,2,快樂,kuàilè,Vs,happy,"vui vẻ, hạnh phúc",1
+13-1,3,回來,huílái,Vi,to come back,trở về,1
+13-1,4,啊,a,Ptc,a particle indicating a realization,trợ từ chỉ sự nhận ra,1
+13-1,5,怎麼,zěnme,Adv,How come?,Tại sao?,1
+13-1,6,忘（了）,wàngle,Vpt,to forget,quên,1
+13-1,7,記得,jìdé,Vst,to remember,nhớ,1
+13-1,8,當然,dāngrán,Adv,"certainly, of course","chắc chắn, dĩ nhiên",1
+13-1,9,語言,yǔyán,N,language,ngôn ngữ,1
+13-1,10,交換,jiāohuàn,V,to exchange,trao đổi,1
+13-1,11,那麼,nàme,Adv,so (very),rất (nhiều),1
+13-1,12,熱心,rèxīn,Vs,with enthusiasm,nhiệt tình,1
+13-1,13,西班牙文,Xībānyá wén,N,the Spanish language,tiếng Tây Ban Nha,1
+13-1,14,一樣,yíyàng,Vs,"the same, alike","giống nhau, tương tự",1
+13-1,15,過,guò ,V,to celebrate,"kỷ niệm, tổ chức",1
+13-1,16,左右,zuǒyòu,N,approximately ,khoảng chừng,1
+13-1,17,門口,ménkǒu,N,"gate, entrance","cổng, lối vào",1
+13-1,18,西班牙,Xībānyá,,Spain,Tây Ban Nha,1
+13-1,19,生日快樂,shēngrì kuàilè,,Happy Birthday,Chúc mừng sinh nhật,1
+13-1,20,我就是,wǒ jiù shì,,(said of self on the phone) This is s/he speaking.,(nói về bản thân khi nghe điện thoại) Tôi đây.,1
+13-1,21,好久不見,hǎojiǔ bújiàn,,long time no see,Lâu rồi không gặp.,1
+13-1,22,不必客氣,búbì kèqì,,"No need to stand on formalities, i.e., It’s my pleasure.",Không cần khách sáo.,1
+13-1,23,太客氣,tài kèqì,,That’s very kind of you.,Anh/chị quá khách sáo.,1
+13-2,1,禮物,lǐwù,N,"gift, present",quà tặng,1
+13-2,2,今年,jīnnián,N,this year,năm nay,1
+13-2,3,訂,dìng,V,to order (something in advance ),đặt (trước),1
+13-2,4,了,le,Ptc,verbal particle indicating a completed action,trợ từ chỉ hành động đã hoàn thành,1
+13-2,5,豬腳,zhūjiǎo ,N,pork knuckles,giò heo,1
+13-2,6,麵線,miànxiàn ,N,extra fine noodles,mì sợi nhỏ,1
+13-2,7,蛋,dàn,N,egg,trứng,1
+13-2,8,一點,yìdiǎn,Vs,"a little, some","một chút, một ít",1
+13-2,9,傳統,chuántǒng,N,"tradition, customs","truyền thống, phong tục",1
+13-2,10,年輕,niánqīng,Vs,young,trẻ,1
+13-2,11,蛋糕,dàngāo,N,cake,bánh ngọt,1
+13-2,12,對,duì ,Prep,to,đối với,1
+13-2,13,祝,zhù,V,"to wish (somebody happiness, good luck, etc.)","chúc (ai đó hạnh phúc, may mắn, v.v.)",1
+13-2,14,哪裡，哪裡,"Nǎlǐ, nǎlǐ",,Don’t mention it.It’s my pleasure.,Đừng khách sáo. Đó là niềm vinh hạnh của tôi.,1
+13-2,15,大部分,dà bùfèn,,"most (of), mostly","hầu hết, phần lớn",1
+13-2,16,萬事如意,wànshì rúyì,,May everything go your way.,Vạn sự như ý.,1
+13-2,17,心想事成,xīnxiǎng shìchéng,,May all your wishes come true.,Mọi điều ước đều thành hiện thực.,1
+14-1,1,天氣,tiānqì,N,weather,thời tiết,1
+14-1,2,冷,lěng,Vs,cold,lạnh,1
+14-1,3,風,fēng,N,wind,gió,1
+14-1,4,滑雪,huáxuě,V-sep,to ski,trượt tuyết,1
+14-1,5,春天,chūntiān,N,spring (season),mùa xuân,1
+14-1,6,想,xiǎng,Vst,to miss (someone),nhớ (ai đó),1
+14-1,7,新年,xīnnián,N,New Year,Năm mới,1
+14-1,8,快,kuài,Adv,soon,sớm,1
+14-1,9,父母,fùmǔ,N,parents,cha mẹ,1
+14-1,10,冬天,dōngtiān,N,winter (season),mùa đông,1
+14-1,11,明年,míngnián,N,next year,năm sau,1
+14-1,12,秋天,qiūtiān,N,autumn (season),mùa thu,1
+14-1,13,紅葉,hóngyè,N,red maple leaves,lá phong đỏ,1
+14-1,14,只,zhǐ,Adv,"only, merely","chỉ, đơn thuần",1
+14-1,15,玉山,Yùshān,,"Yu Shan (Mount Jade), tallest mountain in central Taiwan",Ngọc Sơn (núi cao nhất ở trung tâm Đài Loan),1
+14-1,16,紐約,Niǔyuē,,New York,New York,1
+14-1,17,下雪,xiàxuě,,to snow,tuyết rơi,1
+14-1,18,十二月底,shí’èryuè dǐ,,the end of December,cuối tháng Mười Hai,1
+14-2,1,雨,yǔ,N,rain,mưa,1
+14-2,2,傘,sǎn,N,umbrella,ô,1
+14-2,3,颱風,táifēng,N,typhoon,bão,1
+14-2,4,要,yào,Vaux,"will, going to","sẽ, sắp",1
+14-2,5,夏天,xiàtiān,N,summer (season),mùa hè,1
+14-2,6,濕,shī,Vs,wet,ướt,1
+14-2,7,討厭,tǎoyàn,Vs,annoying,khó chịu,1
+14-2,8,新聞,xīnwén,N,news,tin tức,1
+14-2,9,更,gèng,Adv,"even (more, less, etc.)","thậm chí (hơn, kém, v.v.)",1
+14-2,10,大家,dàjiā,N,everyone,mọi người,1
+14-2,11,小心,xiǎoxīn,Vs,"to be careful, to take care",cẩn thận,1
+14-2,12,可怕,kěpà,Vs,scary,đáng sợ,1
+14-2,13,停,tíng,Vp,to stop,dừng lại,1
+14-2,14,下雨,xiàyǔ,,to rain,mưa rơi,1
+14-2,15,這次,zhè cì,,this time,lần này,1
+14-2,16,上次,shàng cì,,last time,lần trước,1
+14-2,17,慢走,màn zǒu ,,Bye. Take care.,Tạm biệt. Bảo trọng nhé.,1
+15-1,1,醫生,yīshēng,N,doctor,bác sĩ,1
+15-1,2,一直,yìzhí,Adv,"continuously, all the way","liên tục, suốt",1
+15-1,3,流,liú,V,to flow,chảy,1
+15-1,4,鼻水,bíshuǐ,N,"snot,nasal mucus,a running nose","nước mũi, sổ mũi",1
+15-1,5,頭,tóu,N,head,đầu,1
+15-1,6,痛,tòng,Vs,painful,đau,1
+15-1,7,胃口,wèikǒu,N,appetite,"khẩu vị, sự thèm ăn",1
+15-1,8,差,chā ,Vs,"poor, bad","kém, tệ",1
+15-1,9,喉嚨,hóulóng,N,throat,cổ họng,1
+15-1,10,發炎,fāyán,Vp-sep,to be inflamed,bị viêm,1
+15-1,11,生病,shēngbìng,Vp,to fall ill,bị ốm,1
+15-1,12,發燒,fāshāo,Vp-sep,to have a fever,bị sốt,1
+15-1,13,感冒,gǎnmào,Vp,to catch/have a cold,cảm lạnh,1
+15-1,14,藥,yào,N,medicine,thuốc,1
+15-1,15,藥局,yàojú,N,"pharmacy, drug store",hiệu thuốc,1
+15-1,16,拿,ná,V,to get,lấy,1
+15-1,17,把,bǎ,Ptc,disposal marker,trợ từ xử lý (bǎ),1
+15-1,18,水,shuǐ,N,water,nước,1
+15-1,19,休息,xiūxí,Vi,to take a rest,nghỉ ngơi,1
+15-1,20,睡覺,shuìjiào,V-sep,to sleep,ngủ,1
+15-1,21,早一點,zǎo yìdiǎn,,a bit earlier,sớm hơn một chút,1
+15-2,1,臉色,liǎnsè ,N,"a person’s “color” (said of the face when healthy or sick, pleased or angry etc.)",sắc mặt,1
+15-2,2,難看,nánkàn,Vs,not to look good,không được ưa nhìn,1
+15-2,3,肚子,dùzi,N,"stomach, abdomen",bụng,1
+15-2,4,吐,tù,V,"to throw up, to vomit","nôn, mửa",1
+15-2,5,幾,jǐ,N,(a) few,(một) vài,1
+15-2,6,次,cì,M,"measure word for times, occurrences","lượng từ cho lần, lần xảy ra",1
+15-2,7,陪,péi,V,"to go/stay with somebody, to accompany","đi cùng ai đó, đi kèm",1
+15-2,8,看病,kànbìng,V-sep,to see a doctor,đi khám bệnh,1
+15-2,9,健康,jiànkāng,N,health,sức khỏe,1
+15-2,10,保險,bǎoxiǎn,N,insurance,bảo hiểm,1
+15-2,11,跟,gēn,Prep,to,"với, cho",1
+15-2,12,油,yóu,Vs,"oily, greasy","dầu mỡ, béo",1
+15-2,13,冰,bīng,Vs,icy,đá lạnh,1
+15-2,14,別,bié,Adv,don't (used in imperatives),đừng (dùng trong mệnh lệnh),1
+15-2,15,關心,guānxīn,Vs,to be concerned about,quan tâm đến,1
+15-2,16,包,bāo,M,"measure word for bags, packages etc.","lượng từ cho túi, gói, v.v.",1
+15-2,17,睡,shuì,Vi,to sleep,ngủ,1
+15-2,18,小時,xiǎoshí,N,hour,giờ đồng hồ,1
+15-2,19,怎麼了,zěnme le,,What’s wrong?,Có chuyện gì vậy?,1
+15-2,20,不用了,búyòng le,,It’s not necessary.,Không cần đâu.,1
+15-2,21,健康中心,jiànkāng zhōngxīn ,,health center,trung tâm y tế,1
+15-2,22,回家,huí jiā,,go home,về nhà,1
+15-2,23,最好,zuìhǎo,,It would be best…/ (You) should…,Tốt nhất là... / (Bạn) nên...,1

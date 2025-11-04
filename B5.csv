@@ -1,0 +1,998 @@
+﻿課-序號,序號,生詞,漢拼,詞類,英譯,越譯,冊
+1-1,1,言論,yánlùn,N,"speech, act of speaking","bài phát biểu, hành vi phát biểu",5
+1-1,2,界線,jièxiàn,N,"boundaries, demarcation","ranh giới, sự phân định",5
+1-1,3,臉書,liǎnshū,N,Facebook,Facebook,5
+1-1,4,則,zé,M,"measure for short, usually formal writings     ","lượng từ cho bài viết ngắn, thường là trang trọng",5
+1-1,5,留言,liúyán,N,"posted messages, comments","tin nhắn được đăng, bình luận",5
+1-1,6,停止,tíngzhǐ,Vp,"to call off, to cease","ngừng lại, chấm dứt",5
+1-1,7,決策,juécè,N,policy,chính sách,5
+1-1,1,無罪,wúzuì,Vs,not guilty,vô tội,5
+1-1,2,遭,zāo,Ptc,agent marker in an adversative passive sentence,dấu hiệu chỉ tác nhân trong câu bị động nghịch,5
+1-1,3,慘,cǎn,Vs,devastated ,"suy sụp, thảm thiết",5
+1-1,4,反應,fǎnyìng,N/V,"reaction, respond","phản ứng, hồi đáp",5
+1-1,5,發表,fābiǎo,V,"issue, publish (articles, news story), deliver (speeches)","công bố, đăng (bài báo, tin tức), phát biểu (bài diễn văn)",5
+1-1,6,司法,sīfǎ,N,judicial,tư pháp,5
+1-1,7,判決,pànjué,N,"judgement, sentencing (judicial)","phán quyết, tuyên án (tư pháp)",5
+1-1,8,無能,wúnéng,Vs,"to be incompetent, inept, weak","bất tài, kém cỏi, yếu kém",5
+1-1,9,幸運,xìngyùn,Vs,"lucky, fortunate",may mắn,5
+1-1,10,顧名思義,gùmíng sīyì,Id,as the name suggests/implies,đúng như tên gọi của nó,5
+1-1,11,接收,jiēshōu,V,to receive,tiếp nhận,5
+1-1,12,來源,láiyuán,N,source,nguồn,5
+1-1,13,處罰,chǔfá,V,to punish,trừng phạt,5
+1-1,14,包容,bāoróng,Vst,tolerant,"bao dung, khoan dung",5
+1-1,15,不論,búlùn,Conj,regardless of whether,bất kể là,5
+1-1,16,展現,zhǎnxiàn,V,"to reveal, show","biểu hiện, cho thấy",5
+1-1,17,胡作非為,húzuò fēiwéi,Id,"run amok, engage in lawless activities","hoành hành ngang ngược, thực hiện những hành vi phi pháp",5
+1-1,18,一旦,yídàn,Conj,"once, as soon as","một khi, ngay khi",5
+1-1,19,工具,gōngjù,N,"tool, instrument",công cụ,5
+1-1,20,洗腦,xǐnǎo,Vi,to brainwash,tẩy não,5
+1-1,21,權益,quányì,N,rights and interests,quyền lợi,5
+1-1,22,盲點,mángdiǎn,N,blind spot,điểm mù,5
+1-1,23,立場,lìchǎng,N,"standpoint, perspective","lập trường, quan điểm",5
+1-1,23,平衡,pínghéng,N,balance,sự cân bằng,5
+1-1,25,辯護,biànhù,Vi,to defend (legally),bào chữa (về mặt pháp lý),5
+1-1,26,無理取鬧,wúlǐ qǔnào,Id,"act up, have tantrums, talk nonsense and cause trouble","làm ầm ĩ vô lý, gây sự",5
+1-1,27,指正,zhǐzhèng,V,"to point out mistakes, correct","chỉ ra sai sót, sửa chữa",5
+1-1,28,一來一往,yìlái yìwǎng,Id,amidst exchanges (of opinions),giữa những cuộc trao đổi (ý kiến),5
+1-1,29,真理,zhēnlǐ,N,the truth,chân lý,5
+1-1,30,越辯越明,yuèbiàn yuèmíng,Id,"the more s/t is debated, the clearer it becomes",càng tranh luận thì càng rõ ràng,5
+1-1,31,共識,gòngshì,N,consensus,sự đồng thuận,5
+1-1,32,亂象,luànxiàng,N,"chaos, madness, disorder","sự hỗn loạn, tình trạng mất trật tự",5
+1-1,33,攻擊,gōngjí,V,to attack,tấn công,5
+1-1,34,自殺,zìshā,Vp,to commit suicide,tự sát,5
+1-1,35,過於,guòyú,Adv,"too, overly","quá, một cách quá mức",5
+1-1,36,事實上,shìshí shàng,Ph,"actually, in actual fact",trên thực tế,5
+1-1,37,仇恨,chóuhèn,N,"hatred, enmity, hostility",sự thù hận,5
+1-1,38,不實,bùshí,Vs-attr,"untrue, false","không đúng sự thật, sai sự thật",5
+1-1,39,謠言,yáoyán,N,rumor,lời đồn thổi,5
+1-1,40,霸凌,bàlíng,N/V,"bully, to bully",bắt nạt; hành vi bắt nạt,5
+1-1,41,負責,fùzé,Vs,to take responsibility for,chịu trách nhiệm,5
+1-1,42,誤解,wùjiě,V,"to misunderstand, misconstrue",hiểu lầm,5
+1-1,43,意義,yìyì,N,"meaning, significance","ý nghĩa, sự quan trọng",5
+1-1,44,因此,yīncǐ,Adv,"because of this, for this reason","vì lý do này, do đó",5
+1-1,45,否定,fǒudìng,V,to negate,phủ định,5
+1-1,46,價值,jiàzhí,N,value,giá trị,5
+1-1,47,封住,fēngzhù,V,"to seal, block","phong tỏa, chặn lại",5
+1-1,48,嘴,zuǐ,N,"mouth, opinion","miệng, ý kiến",5
+1-1,49,混亂,hùnluàn,Vs,"tumultuous, chaotic","hỗn loạn, rối ren",5
+1-1,50,唯一,wéiyī,Vs-attr,"one and only, sole",duy nhất,5
+1-2,1,濫用,lànyòng,V,to abuse,lạm dụng,5
+1-2,2,並非,bìngfēi,Adv,it is not as expected,không phải như mong đợi,5
+1-2,3,不用,búyòng,Vaux,(there is) no need to,(không) cần phải,5
+1-2,4,抓,zhuā,V,to arrest,bắt giữ,5
+1-2,5,關,guān,V,"to lock up, imprison","nhốt lại, giam giữ",5
+1-2,6,名嘴,míngzuǐ,N,"TV presenters, talk show hosts or guests, talking heads","người nói chuyên nghiệp (trên TV, v.v.)",5
+1-2,7,根據,gēnjù,N,"basis, foundation","căn cứ, nền tảng",5
+1-2,8,隨意,suíyì,Adv,"arbitrarily, as one pleases","tùy tiện, tùy thích",5
+1-2,9,鄉民,xiāngmín,N,"netizens, general public","cư dân mạng, công chúng",5
+1-2,10,匿名,nìmíng,Vi,"to be anonymous, anonymously",ẩn danh,5
+1-2,11,正義,zhèngyì,N,justice,công lý,5
+1-2,12,惡意,èyì,Adv/N,"maliciously, viciously; ill intention",một cách ác ý; ý đồ xấu,5
+1-2,13,情緒,qíngxù,N,"emotions, feelings",cảm xúc,5
+1-2,14,成,chéng,Vpt,to become,trở thành,5
+1-2,15,護身符,hùshēnfú,N,"amulet, charm, protective talisman",bùa hộ mệnh,5
+1-2,16,傳播,chuánbò,V,"to disseminate, spread","truyền bá, lan truyền",5
+1-2,17,驚人,jīngrén,Vs,"shocking, alarming, awing","gây sốc, đáng báo động",5
+1-2,18,股,gǔ,M,"measure for wind, trending or power","lượng từ cho làn gió, xu hướng hoặc sức mạnh",5
+1-2,19,有心,yǒuxīn,Vs,intentional,có chủ đích,5
+1-2,20,無意,wúyì,Vs,"unintentional, inadvertent","vô tình, không chủ ý",5
+1-2,21,威脅,wēixié,N/V,"threat, to threaten",mối đe dọa; đe dọa,5
+1-2,22,諷刺,fèngcì,V,"to mock, to be sarcastic","châm biếm, mỉa mai",5
+1-2,23,得,dé,Vpt,"to come down with, be stricken with, get","mắc phải, bị (bệnh)",5
+1-2,24,憂鬱症,yōuyùzhèng,N,depression,bệnh trầm cảm,5
+1-2,25,則,zé,Adv,conjunction used to express contrast with previous sentence ,liên từ thể hiện sự tương phản với câu trước,5
+1-2,26,閉嘴,bìzuǐ,V-sep,"to shut one’s mouth, keep one’s mouth shut","ngậm miệng, im miệng",5
+1-2,27,回應,huíyìng,V/N,"to respond, response",phản hồi; sự phản hồi,5
+1-2,28,傷害,shānghài,V/N,"to harm, damage; damage",làm tổn hại; sự tổn hại,5
+1-2,29,破壞,pòhuài,V,"to damage, cause damage to",phá hoại,5
+1-2,30,管,guǎn,V,"to mind, watch (one’s behavior, etc.)","để ý, quan tâm (đến hành vi của ai đó)",5
+1-2,31,聰明,cōngmíng,Vs,"smart, intelligent",thông minh,5
+1-2,32,標題,biāotí,N,headline,tiêu đề,5
+1-2,33,懷疑,huáiyí,Vst,suspect,nghi ngờ,5
+1-2,34,模糊,móhú,Vs,"ambiguous, vague","mơ hồ, không rõ ràng",5
+1-2,35,擅長,shàncháng,Vst,"be good at, excel at","giỏi về, xuất sắc về",5
+1-2,36,灰色,huīsè,N,gray,màu xám,5
+1-2,37,地帶,dìdài,N,"zone, area","vùng, khu vực",5
+1-2,38,法院,fǎyuàn,N,court,tòa án,5
+1-2,39,確定,quèdìng,V,"to determine, ascertain",xác định,5
+1-2,40,個人,gèrén,N,the individual,cá nhân,5
+1-2,41,承擔,chéngdān,V,to take up (responsibility),"gánh vác, đảm đương",5
+1-2,42,和諧,héxié,Vs,harmonious,hài hòa,5
+1-2,43,制定,zhìdìng,V,"to formulate, devise (laws)","soạn thảo, đề ra (luật)",5
+1-2,44,嚴格,yángé ,Vs,"strict, severe","nghiêm khắc, nghiêm ngặt",5
+1-2,45,約束,yuēshù,V,"to restrict, constrain","hạn chế, ràng buộc",5
+2-1,1,基改,jīgǎi,N,"基＝基因,改＝改造 (see Book 3)",biến đổi gen (GMO),5
+2-1,2,農糧,nóngliáng,N,"農=農作物, corp;糧=糧食, food",cây lương thực,5
+2-1,3,廣播節目,guǎngbò jiémù,Ph,broadcast program,chương trình phát thanh,5
+2-1,4,主持人,zhǔchírén,N,"host, MC",người dẫn chương trình,5
+2-1,5,聽眾,tīngzhòng,N,"listening audience, listeners",thính giả,5
+2-1,6,播,bò,V,to broadcast,phát sóng,5
+2-1,7,蟲子,chóngzi,N,"insect, bug","côn trùng, sâu bọ",5
+2-1,8,隔壁,gébì,N,next door,"bên cạnh, kế bên",5
+2-1,9,回答,huídá,V,to answer,trả lời,5
+2-1,10,死,sǐ,Vp,to die,chết,5
+2-1,11,話題,huàtí,N,topic,chủ đề,5
+2-1,12,危害,wéihài,V  ,"to harm, be detrimental to, endanger","gây hại, gây nguy hiểm",5
+2-1,13,贊成,zànchéng,Vst,"to approve, in favor","tán thành, ủng hộ",5
+2-1,14,各式各樣,gèshì gèyàng,Id,"all types of, various kinds of","đủ loại, nhiều kiểu khác nhau",5
+2-1,15,只不過,zhǐbúguò,Ph,"only, no more than","chỉ là, không hơn",5
+2-1,16,種子,zhǒngzǐ,N,seed,hạt giống,5
+2-1,17,比如說,bǐrú shuō,Ph,for example,ví dụ như,5
+2-1,18,維他命,wéitāmìng,N,vitamin,vitamin,5
+2-1,19,蔬果,shūguǒ,N,fruits and vegetables,rau quả,5
+2-1,20,抗癌,kàng’ái,Vs,anti-cancerous,chống ung thư,5
+2-1,21,過敏,guòmǐn,Vs,to be allergic,bị dị ứng,5
+2-1,22,花生,huāshēng,N,peanut,đậu phộng,5
+2-1,23,科學家,kēxuéjiā,N,scientist,nhà khoa học,5
+2-1,24,豐富,fēngfù,Vs,rich (abundant in something),phong phú,5
+2-1,25,享用,xiǎngyòng,V,"to enjoy the use of, enjoy (a meal)","thưởng thức, dùng (bữa ăn)",5
+2-1,26,達到,dádào,Vpt,"to reach, obtain",đạt được,5
+2-1,27,預防,yùfáng,Vst,"to prevent, guard against",ngăn ngừa,5
+2-1,28,疾病,jíbìng,N,"illness, sickness",bệnh tật,5
+2-1,29,效果,xiàoguǒ,N,"effect, results","hiệu quả, kết quả",5
+2-1,30,好幾（種）,hǎojǐ zhǒng,Ph,"a number of, quite a few kinds of",vài (loại),5
+2-1,31,警告,jǐnggào,V/N,"to warn, warning",cảnh báo; sự cảnh báo,5
+2-1,32,突破,túpò,Vpt,"to make a breakthrough, to top,  to break (a record, number)","đột phá, phá vỡ (kỷ lục)",5
+2-1,33,糧食,liángshí,N,"food, foodstuff",lương thực,5
+2-1,34,早晚,zǎowǎn,Adv,sooner or later,sớm muộn,5
+2-1,35,不僅,bùjǐn,Adv,not only,không chỉ,5
+2-1,36,農作物,nóngzuòwù,N,"crop, produce",cây trồng,5
+2-1,37,抵抗力,dǐkàng lì,N,"resistance, immunity","sức đề kháng, miễn dịch",5
+2-1,38,蟲害,chónghài,N,damage by pests,thiệt hại do sâu bọ,5
+2-1,39,產量,chǎnliàng,N,"output, yield, production",sản lượng,5
+2-1,40,飢荒,jīhuāng,N,famine,nạn đói,5
+2-1,41,含有,hányǒu,Vst,"to contain, to have","chứa, có",5
+2-1,42,大豆,dàdòu,N,"soybean, soya",đậu nành,5
+2-1,43,玉米,yùmǐ,N,corn,ngô,5
+2-1,44,密不可分,mìbù kěfēn,Id,"inseparable, integrated with","gắn bó khăng khít, không thể tách rời",5
+2-1,45,生產,shēngchǎn,V,"to produce, manufacture",sản xuất,5
+2-1,46,缺少,quēshǎo,Vst,to be in shortage of,thiếu hụt,5
+2-1,47,依賴,yǐkào,Vst,"to rely on, depend on","phụ thuộc vào, dựa vào",5
+2-1,48,進口,jìnkǒu,V,to import,nhập khẩu,5
+2-1,49,危機,wéijī,N,crisis,khủng hoảng,5
+2-1,50,生物科技,shēngwù kējì,Ph,bio-tech,công nghệ sinh học,5
+2-1,51,機構,jīgòu,N,"organization, depts. of gov’t","tổ chức, cơ quan",5
+2-1,52,證據,zhèngjù,N,"proof, evidence",bằng chứng,5
+2-1,53,證明,zhèngmíng,V/N,"to prove, proof",chứng minh; bằng chứng,5
+2-1,54,人體,réntǐ,N,the human body,cơ thể con người,5
+2-1,55,結論,jiélùn,N,conclusion,kết luận,5
+2-1,56,生長,shēngzhǎng,Vi,to grow,"lớn lên, phát triển",5
+2-1,57,除草劑,chúcǎojì,N,"weed killer, herbicide",thuốc diệt cỏ,5
+2-1,58,物質,wùzhí,N,"matter, substance",vật chất,5
+2-1,59,怪物,guàiwù,N,monster ,quái vật,5
+2-1,60,原料,yuánliào,N,raw materials,nguyên liệu thô,5
+2-1,61,包裝,bāozhuāng,N,packaging,bao bì,5
+2-1,62,標示,biāoshì,V/N,"to label, mark","dán nhãn, đánh dấu; nhãn mác",5
+2-1,63,一切,yíqiè,Det,all,tất cả,5
+2-2,1,昆蟲,kūnchóng,N,insect,côn trùng,5
+2-2,2,不孕,búyùn,Vs,"to be infertile, barren",vô sinh,5
+2-2,3,罹患,líhuàn,Vst,"to come down with, be stricken with, suffer from","mắc phải, bị (bệnh)",5
+2-2,4,癌症,áizhèng,N,cancer,ung thư,5
+2-2,5,蘋果,píngguǒ,N,apple,táo,5
+2-2,6,鮭魚,guīyú,N,salmon,cá hồi,5
+2-2,7,不知不覺,bùzhī bùjué,Id,"without even realizing it, before you even know it, without one even noticing","một cách vô thức, không nhận ra",5
+2-2,8,辨別,biànbié,V,"to distinguish, tell apart","phân biệt, nhận ra",5
+2-2,9,安心,ānxīn,Vs,"to have peace of mind, set one’s mind at rest",yên tâm,5
+2-2,10,雜誌,zázhì,N,"magazine, journal",tạp chí,5
+2-2,11,編輯,biānjí,V,to edit,biên tập,5
+2-2,12,後果,hòuguǒ,N,"consequence, result",hậu quả,5
+2-2,13,雜草,zácǎo,N,weed,cỏ dại,5
+2-2,14,某,mǒu,Det,"certain, some","một nào đó, một vài",5
+2-2,15,專利,zhuānlì,N,patent,bằng sáng chế,5
+2-2,16,農民,nóngmín,N,farmer,nông dân,5
+2-2,17,收購,shōugòu,V,"acquire, buy out","thu mua, mua lại",5
+2-2,18,居高不下,jūgāo búxià,Id,"remain high, won’t come down",ở mức cao không giảm,5
+2-2,19,絕對,juéduì,Adv,"absolutely, in no way","tuyệt đối, hoàn toàn không",5
+2-2,20,符合,fúhé,Vst,"to meet with, conform with","đáp ứng, phù hợp với",5
+2-2,21,非,fēi,Vst,"non-, not (classical Chinese)",không phải (từ Hán Việt cổ),5
+2-2,22,事實,shìshí,N,"fact, truth",sự thật,5
+2-2,23,種植,zhòngzhí,V,"to plant, cultivate","trồng trọt, canh tác",5
+2-2,24,總用量,zǒng yòngliàng,Ph,total dosage,tổng liều lượng,5
+2-2,25,公斤,gōngjīn,N,kilogram,kilogram,5
+2-2,26,即便,jíbiàn,Conj,"even if, despite","ngay cả khi, mặc dù",5
+2-2,27,兼,jiān,Adv,"concurrently, simultaneously",đồng thời,5
+2-2,28,欺騙,qīpiàn,V,"to deceive, scam, cheat","lừa dối, lừa gạt",5
+2-2,29,國人,guórén,N,(our) fellow countrymen,người dân (trong nước),5
+2-2,30,立法,lìfǎ,V-sep,to make a law,lập pháp,5
+2-2,31,以,yǐ,Adv,"so as to, such that","để, nhằm",5
+2-2,32,維護,wéihù,V,"to safeguard, protect","bảo vệ, duy trì",5
+2-2,33,神奇,shénqí,Vs,"magical, miraculous",kỳ diệu,5
+2-2,34,手段,shǒuduàn,N,"means, measure","biện pháp, thủ đoạn",5
+2-2,35,付出,fùchū,V,to pay (a heavy price for),trả giá,5
+2-2,36,代價,dàijià,N,(to pay a heavy) price,cái giá (phải trả),5
+2-2,37,掌握,zhǎngwò,V,"to hold, grasp, control","nắm giữ, kiểm soát",5
+3-1,1,風氣,fēngqì,N,"ethos, mood (said of society, a nation etc.)","phong khí, xu hướng xã hội",5
+3-1,2,開放,kāifàng,N,"(nominalized from its verb from) to open up to the outside world; liberal, non-conservative","mở cửa, tự do (danh từ hóa từ động từ)",5
+3-1,3,意外,yìwài,N,accident,tai nạn bất ngờ,5
+3-1,4,存在,cúnzài,Vs,to exist,tồn tại,5
+3-1,1,內在,nèizài,N,"internal, implicit; internal quality","bên trong, phẩm chất bên trong",5
+3-1,2,特質,tèzhí,N,"characteristic, quality","đặc tính, phẩm chất",5
+3-1,3,勝,shèng,Vst,"be superior to, to win (classical Chinese) ","vượt trội hơn, chiến thắng (từ Hán Việt cổ)",5
+3-1,4,醜,chǒu,Vs,ugly,xấu xí,5
+3-1,5,顏值,yánzhí,N,“face value” (play on words),"""giá trị khuôn mặt"" (chơi chữ)",5
+3-1,6,他人,tārén,N,"other people, others",người khác,5
+3-1,7,不盡然,bújìnrán,Vs,not necessarily so,không hẳn là như vậy,5
+3-1,8,要求,yāoqiú,V,"to request, demand","yêu cầu, đòi hỏi",5
+3-1,9,整出,zhěngchū,V,to produce (through plastic surgery)  ,tạo ra (thông qua phẫu thuật thẩm mỹ),5
+3-1,10,鼻子,bízi,N,nose,mũi,5
+3-1,11,皮膚,pífū,N,skin,da,5
+3-1,12,細,sì,Vs,"thin, slender","mảnh mai, thon",5
+3-1,13,腰,yāo,N,waist; small of the back,eo ngực,5
+3-1,14,豐胸,fēngxiōng,N,breast enlargement,nâng ngực,5
+3-1,15,高挺,gāotǐng,Vs,to be high-bridged (said of noses),cao và thẳng (sống mũi),5
+3-1,16,水汪汪,shuǐwāngwāng,Vs,to be “doe-eyed”,long lanh như nước (mắt),5
+3-1,17,參賽,cānsài,Vi,to take part in a competition,tham gia cuộc thi,5
+3-1,18,眼光,yǎnguāng,N,"judgment, how others look at you","sự đánh giá, cái nhìn (của người khác)",5
+3-1,19,矛盾,máodùn,Vs,contradictory,mâu thuẫn,5
+3-1,20,外貌,wàimào,N,"Looks, appearance, exterior","ngoại hình, vẻ bề ngoài",5
+3-1,21,美滿,měimǎn,Vs,"happy, fulfilled (said of families, lives, marriages, etc.)","hạnh phúc, viên mãn",5
+3-1,22,職涯,zhíyá,N,career,sự nghiệp,5
+3-1,23,以貌取人,yǐmào qǔrén,Id,judge a book by its cover; judge by appearance (said of people),đánh giá người khác qua vẻ bề ngoài,5
+3-1,24,不計一切,bújì yíqiè,Id,do whatever it takes,làm mọi cách,5
+3-1,25,英俊,yīngjùn,Vs,handsome,đẹp trai,5
+3-1,26,獲得,huòdé,Vpt,"to obtain, attain","đạt được, thu được",5
+3-1,27,青睞,qīnglài,N,special attention and favor,"sự ưu ái, thiện cảm",5
+3-1,28,對象,duìxiàng,N,significant other; boyfriend/girlfriend; object of love,"đối tượng, bạn trai/bạn gái",5
+3-1,29,智力,zhìlì,N,intelligence,trí thông minh,5
+3-1,30,同樣,tóngyàng,Vs,in the same way; similar,"tương tự, giống nhau",5
+3-1,31,團隊,tuánduì,N,team,đội ngũ,5
+3-1,32,金錢,jīnqián,N,money,tiền bạc,5
+3-1,33,投資,tóuzī,V/N,to invest; investment,đầu tư; sự đầu tư,5
+3-1,34,行為,xíngwéi,N,behavior,hành vi,5
+3-1,35,儘管,jǐnguǎn,Conj,"even though, although",mặc dù,5
+3-1,36,日漸,rìjiàn,Adv,"with each day, with each passing day, gradually","ngày càng, dần dần",5
+3-1,37,失敗,shībài,Vp,to fail,thất bại,5
+3-1,38,胸部,xiōngbù,N,breast; chest,ngực,5
+3-1,39,大小不一,dàxiǎo bùyī,Id,"in different sizes, of various sizes",có kích cỡ không đều,5
+3-1,40,變形,biànxíng,Vp,to be deformed,biến dạng,5
+3-1,41,失血,shīxiě,Vp-sep,to lose blood,mất máu,5
+3-1,42,過,guò,Adv,excessively,quá mức,5
+3-1,43,飽受,bǎoshòu,Vpt,to suffer greatly from ,chịu đựng nhiều từ,5
+3-1,44,後遺症,hòuyízhèng,N,"after-effects, sequela",di chứng,5
+3-1,45,副作用,fùzuòyòng,N,side-effects,tác dụng phụ,5
+3-1,46,多麼,duōme,Adv,how ,"biết bao, thật là",5
+3-1,47,冒險,màoxiǎn,V-sep,"to risk, take risk, adventure",mạo hiểm,5
+3-1,48,如今,rújīn,Adv,"nowadays, today","ngày nay, hiện nay",5
+3-1,49,捷徑,jiéjìng,N,shortcut,đường tắt,5
+3-1,50,進而,jìn’ér,Adv.,furthermore,"hơn nữa, từ đó",5
+3-1,51,謹慎,jǐnshèn,Vs,"careful, cautious ","thận trọng, cẩn thận",5
+3-1,52,看待,kàndài,V,to regard,"xem xét, đối đãi",5
+3-2,1,吹,chuī,V,to blow (used in the text to mean a trend has been “circulating” or “stirring”),"thổi (dùng để chỉ một xu hước đang ""lan truyền"")",5
+3-2,2,旅遊,lǚyóu,N,"tour, trip",du lịch,5
+3-2,3,極具,jíjù,Vst,to strongly possess (classical Chinese),sở hữu mạnh mẽ (từ Hán Việt cổ),5
+3-2,4,潛力,qiánlì,N,potential,tiềm năng,5
+3-2,5,理由,lǐyóu,N,reason,lý do,5
+3-2,6,天性,tiānxìng,N,"nature, instinct",bản năng tự nhiên,5
+3-2,7,列入,lièrù,V,"to include, take into","đưa vào, tính đến",5
+3-2,8,考量,kǎoliáng,N,consideration ,sự cân nhắc,5
+3-2,9,公關,gōngguān,N,public relations,quan hệ công chúng,5
+3-2,10,時尚,shíshàng,N,fashion; trend,"thời trang, xu hướng",5
+3-2,11,產業,chǎnyè,N,industry,ngành công nghiệp,5
+3-2,12,眼皮,yǎnpí,N,eyelid,mí mắt,5
+3-2,13,精神奕奕,jīngshén yìyì,Id,full of vigor/life/vitality,tràn đầy sức sống,5
+3-2,14,違反,wéifǎn,V,"to violate, go against","vi phạm, đi ngược lại",5
+3-2,15,假,jiǎ,Vs,"false, fake, bogus","giả, giả mạo",5
+3-2,16,造假,zàojiǎ,Vi,"to cheat, deceive","gian lận, giả mạo",5
+3-2,17,標籤,biāoqiān,N,label,nhãn mác,5
+3-2,18,優勢,yōushì,N,advantage,lợi thế,5
+3-2,19,理解,lǐjiě,Vst,to understand,hiểu,5
+3-2,20,生來,shēnglái,Ph,from birth (=出生以來),từ khi sinh ra,5
+3-2,21,差異,chāyì,N,difference,sự khác biệt,5
+3-2,22,天生,tiānshēng,Adv,innate ,bẩm sinh,5
+3-2,23,後天,hòutiān,N,in later stages of development,"về sau, trong quá trình phát triển",5
+3-2,24,長相,zhǎngxiàng,N,"appearance, looks","ngoại hình, khuôn mặt",5
+3-2,25,平平,píngpíng,Vs,"plain,average, mediocre","bình thường, tầm thường",5
+3-2,26,醫學,yīxué,N,medical science,y học,5
+3-2,27,縮小,suōxiǎo,V,"to shrink, shorten",thu nhỏ,5
+3-2,28,差距,chājù,N,"gap, distance between","khoảng cách, sự chênh lệch",5
+3-2,29,無疑,wúyí,Adv,undoubtedly,"chắc chắn, không nghi ngờ",5
+3-2,30,器材,qìcái,N,equipment,thiết bị,5
+3-2,31,藥品,yàopǐn,N,"drug, medicine","dược phẩm, thuốc men",5
+3-2,32,大幅,dàfú,Adv,"substantially, sharply ","đáng kể, mạnh mẽ",5
+3-2,33,事先,shìxiān,Adv,"beforehand, in advance","trước, trước đó",5
+3-2,34,評估,pínggū,V,"to evaluate, assess","đánh giá, ước lượng",5
+3-2,35,患者,huànzhě,N,patient,bệnh nhân,5
+3-2,36,動機,dòngjī,N,motivation,động cơ,5
+3-2,37,狀態,zhuàngtài,N,"state, situation","tình trạng, trạng thái",5
+3-2,38,執行,zhíxíng,V,"to carry out, execute","thực thi, tiến hành",5
+3-2,39,身體髮膚受之父母,"shēntǐ fǎfūshòuzhī fùmǔ, ",Id,"your body, from your hair to your skin, is a gift from your parents (suggests that you have a responsibility to cherish and care for it)",thân thể tóc da nhận từ cha mẹ (ý nói phải biết trân trọng),5
+3-2,40,剪,jiǎn,V,to cut (with scissors),cắt (bằng kéo),5
+3-2,41,理會,lǐhuì,V,to pay attention to ,"để ý, quan tâm đến",5
+3-2,42,有何不可,yǒuhé bùkě,Id,What's wrong with that? and why not? what's the harm in that?,Có gì là không được chứ? Tại sao không?,5
+4-1,1,刪減,shānjiǎn,V,"to cut, cut back on (as in funds, personnel, etc.)",cắt giảm,5
+4-1,2,鬥牛,dòuniú,N,bullfighting,đấu bò,5
+4-1,3,街頭,jiētóu,N,the streets (used in phrases like “take to the streets”),đường phố,5
+4-1,4,舉,jǔ,V,"to raise, hold up","giơ lên, cầm lên",5
+4-1,5,示威,shìwēi,Vi,"to demonstrate, rally","biểu tình, tuần hành",5
+4-1,6,主張,zhǔzhāng,V/N,to advocate a view or a standard,"chủ trương, quan điểm; ủng hộ một quan điểm",5
+4-1,7,保存,bǎocún,V,to preserve,"bảo tồn, gìn giữ",5
+4-1,8,廢止,fèizhǐ,V,to abolish,bãi bỏ,5
+4-1,9,引發,yǐnfā,Vst,"to set off, trigger","kích hoạt, gây ra",5
+4-1,10,正反,zhèngfǎn,N,"protesters and supporters, pros and cons","ủng hộ và phản đối, mặt tích cực và tiêu cực",5
+4-1,11,兩方,liǎngfāng,N,"both parties, the two sides","hai bên, hai phía",5
+4-1,12,激烈,jīliè,Vs,"to be intense, fierce","kịch liệt, mãnh liệt",5
+4-1,1,具有,jùyǒu,Vst,"to have, possess","có, sở hữu",5
+4-1,2,祭品,jìpǐn,N,"offering to god(s), sacrificial items","vật cúng tế, đồ tế lễ",5
+4-1,3,全民,quánmín,N,all the people,toàn dân,5
+4-1,4,座,zuò,M,"measure for large objects like mountains, castles, gigantic temples on hilltops","lượng từ cho các vật thể lớn (núi, lâu đài)",5
+4-1,5,鬥牛場,dòuniú chǎng,N,bullfighting ring,đấu trường đấu bò,5
+4-1,6,馬德里,Mǎdélǐ,N,Madrid,Madrid,5
+4-1,7,至今,zhìjīn,Adv,"to this day, heretofore",cho đến ngày nay,5
+4-1,8,鬥牛士,dòuniú shì,N,bullfighter,đấu sĩ đấu bò,5
+4-1,9,華麗,huálì,Vs,"to be magnificent, resplendent","lộng lẫy, tráng lệ",5
+4-1,10,服飾,fúshì,N,"clothing and accessories, apparel, costume","trang phục, y phục",5
+4-1,11,一面,yímiàn,Adv,"on the one hand, on the other; (do A), while (doing B)",một mặt... (mặt khác...); vừa... vừa...,5
+4-1,12,披風,pīfēng,N,cape,áo choàng không tay,5
+4-1,13,激怒,jīnù,V,"to infuriate, excite","kích động, chọc tức",5
+4-1,14,公牛,gōngniú,N,bull,bò đực,5
+4-1,15,優雅,yōuyǎ,Vs,"to be graceful, elegant","thanh lịch, duyên dáng",5
+4-1,16,姿勢,zīshì,N,"posture, position, poses","tư thế, dáng điệu",5
+4-1,17,結合,jiéhé,N/V,"to combine, unite, union, blend",sự kết hợp; kết hợp,5
+4-1,18,過人,guòrén,Vs,insurpassable ,"vượt trội, hơn người",5
+4-1,19,熟練,shóuliàn,Vs,"adept, skillful, proficient","thành thạo, điêu luyện",5
+4-1,20,崇拜,chóngbài,Vst,"to worship, adore","tôn thờ, ngưỡng mộ",5
+4-1,21,旺季,wàngjì,N,peak season,mùa cao điểm,5
+4-1,22,遊客,yóukè,N,"visitor, tourist",du khách,5
+4-1,23,前往,qiánwǎng,V,"to go to, head to","đi đến, tiến về",5
+4-1,24,觀賞,guānshǎng,V,"to view, enjoy the view of","ngắm, thưởng thức",5
+4-1,25,奔牛節,Bēnniújié,N,The Running of the Bulls (in Pamplona),Lễ hội Chạy bò Pamplona,5
+4-1,26,重頭戲,zhòngtóuxì,N,the main event,"sự kiện chính, phần chính",5
+4-1,27,狂奔,kuángbēn,Vi,"to run madly, run like crazy",chạy cuồng loạn,5
+4-1,28,歐元,ōuyuán,N,Euro,Euro,5
+4-1,29,必要,bìyào,N,need,sự cần thiết,5
+4-1,30,獨特,dútè,Vs,unique,độc đáo,5
+4-1,31,魅力,mèilì,N,charisma,"sức hấp dẫn, sự quyến rũ",5
+4-1,32,戲劇,xìjù,N,"drama, play","kịch, vở kịch",5
+4-1,33,無數,wúshù,Vs-attr,countless,vô số,5
+4-1,34,靈感,línggǎn,N,inspiration,nguồn cảm hứng,5
+4-1,35,諾貝爾,Nuòbèi'ěr,N,Nobel,Nobel,5
+4-1,36,得主,dézhǔ,N,winner,người chiến thắng,5
+4-1,37,作家,zuòjiā,N,"writer, author","nhà văn, tác giả",5
+4-1,38,海明威,Hǎimíngwēi,N,Ernest Hemmingway,Ernest Hemingway,5
+4-1,39,觀看,guānkàn,V,to watch,xem,5
+4-1,40,小說,xiǎoshuō,N,novel,tiểu thuyết,5
+4-1,41,舉世聞名,jǔshì wénmíng,Id,world-famous,nổi tiếng khắp thế giới,5
+4-1,42,推廣,tuīguǎng,V,to promote,"quảng bá, thúc đẩy",5
+4-1,43,遺產,yíchǎn,N,heritage,di sản,5
+4-1,44,由來已久,yóulái yǐjiǔ,Id,age-old,có từ lâu đời,5
+4-2,1,過時,guòshí,Vs,"passé, obsolete ","lỗi thời, lạc hậu",5
+4-2,2,不利,búlì,Vs,"disadvantageous to, detrimental to",bất lợi,5
+4-2,3,刺,cì,V,"to stab, gore ","đâm, húc",5
+4-2,4,觀眾,guānzhòng,N,viewing audience,khán giả (xem truyền hình),5
+4-2,5,轉播,zhuǎnbò,V/N,"to rebroadcast, transmission, relay",truyền hình trực tiếp; sự truyền hình trực tiếp,5
+4-2,6,幕,mù,M,measure for scenes,"lượng từ cho cảnh, hồi (kịch, phim)",5
+4-2,7,血淋淋,xiělínlín,Vs,"bloody, gory","đẫm máu, dã man",5
+4-2,8,畫面,huàmiàn,N,"scene, graphics","cảnh quay, hình ảnh",5
+4-2,9,頭,tóu,M,"measure for cattle (i.e., a head of cattle)",lượng từ cho gia súc (con),5
+4-2,10,死亡,sǐwáng,Vp,to die,chết,5
+4-2,11,折磨,zhémó,N/V,torment; to torture,sự hành hạ; hành hạ,5
+4-2,12,賠上,péishàng,V,to pay as compensation,"bù đắp, đền bù",5
+4-2,13,俗話,súhuà,N,saying ,tục ngữ,5
+4-2,14,道理,dàolǐ,N,"principle, truth, reason","lẽ phải, chân lý",5
+4-2,15,自私,zìsī,Vs,selfish ,ích kỷ,5
+4-2,16,虐待,nüèdài,V,"to abuse, maltreat","ngược đãi, bạo hành",5
+4-2,17,開設,kāishè,V,"to start, open up (a course)",mở (một khóa học),5
+4-2,18,課程,kèchéng,N,course,"khóa học, môn học",5
+4-2,19,教導,jiàodǎo,V/N,to teach; instruction,dạy dỗ; sự chỉ dạy,5
+4-2,20,享有,xiǎngyǒu,Vst,to enjoy (a privilege) ,được hưởng (một đặc quyền),5
+4-2,21,不人道,réndào,Vs,"humane, humanitarian",nhân đạo,5
+4-2,22,無辜,wúgū,Vs,innocent,vô tội,5
+4-2,23,寶貴,bǎoguì,Vs,precious,quý giá,5
+4-2,24,提升,tíshēng,V,"to elevate, raise (as in awareness)","nâng cao, cải thiện",5
+4-2,25,社群,shèqún,N,"social group, community (as in social network, social media)",cộng đồng (như mạng xã hội),5
+4-2,26,殘忍,cánrěn,Vs,to be cruel,tàn nhẫn,5
+4-2,27,刊登,kāndēng,V,"(for a media) to carry (a photo, article), publish","đăng tải, xuất bản",5
+4-2,28,高喊,gāohǎn,V,"to shout, scream, cry out","hô to, la lớn",5
+4-2,29,顯示,xiǎnshì,V,"to show, reveal","thể hiện, cho thấy",5
+4-2,30,高達,gāodá,Vst,as high as,lên tới,5
+4-2,31,僅,jǐn,Adv,only,chỉ,5
+4-2,32,無須,wúxū,Vaux,need not,không cần,5
+4-2,33,巴塞隆納,Bāsàilóngnà,N,Barcelona,Barcelona,5
+4-2,34,宣布,xuānbù,V,to announce,công bố,5
+4-2,35,娛樂,yúlè,N,"recreation, amusement, entertainment",sự giải trí,5
+4-2,36,入場,rùchǎng,Vi,to enter (a venue),vào cửa (một địa điểm),5
+4-2,37,澈底,chèdǐ,Adv,"completely, thoroughly","hoàn toàn, triệt để",5
+5-1,1,代理孕母,dàilǐ yùnmǔ,Ph,surrogate mother,người mang thai hộ,5
+5-1,2,案例,ànlì,N,"case, instance","trường hợp, vụ việc",5
+5-1,3,名,míng,M,measure for people (formal),lượng từ cho người (trang trọng),5
+5-1,4,同志,tóngzhì,N,"homosexual, gay ",người đồng tính,5
+5-1,5,心願,xīnyuàn,N,"wish, heart’s desire",tâm nguyện,5
+5-1,6,自願,zìyuàn,Vaux,"to volunteer, out of one’s own wish",tự nguyện,5
+5-1,7,對,duì,M,measure for things or people that come in matching pairs,"cặp, đôi (dùng cho những thứ đi thành cặp)",5
+5-1,8,委託,wěituō,V/ N,"to commission, to charge with; commission",ủy thác; sự ủy thác,5
+5-1,9,龍鳳胎,lóngfèng tāi,Ph,twins (one boy and one girl),song sinh một trai một gái,5
+5-1,10,遺棄,yíqì,V,"to abandon, desert","bỏ rơi, ruồng bỏ",5
+5-1,11,缺陷,quēxiàn,N,"defect, imperfection","khiếm khuyết, khuyết tật",5
+5-1,12,任,rèn,M,"measure for terms (e.g., first term as president)",nhiệm kỳ,5
+5-1,13,丈夫,zhàngfū,N,husband,chồng,5
+5-1,14,懷孕,huáiyùn,Vp-sep,to be pregnant,mang thai,5
+5-1,15,毛遂自薦,máosuì zìjiàn,Id,"volunteer one’s services, recommend oneself","tự giới thiệu bản thân, tự tiến cử",5
+5-1,16,日新月異,rìxīn yuèyì,Id,to advance with each passing day,"thay đổi từng ngày, tiến bộ không ngừng",5
+5-1,17,倫理,lúnlǐ,N,ethics,đạo đức luân lý,5
+5-1,18,整合,zhěnghé,V,to integrate,tích hợp,5
+5-1,19,合法化,héfǎhuà,Vp,to legalize,hợp pháp hóa,5
+5-1,20,需求,xūqiú,N,"demand, need, requirements ",nhu cầu,5
+5-1,21,一線希望,yíxiàn xīwàng,Id,"a ray of hope, minimal possibility",một tia hy vọng,5
+5-1,22,惡夢,è’mèng,N,nightmare,cơn ác mộng,5
+5-1,1,看似,kànsì,Vst,"seemingly, look like, seem","thoạt nhìn, có vẻ như",5
+5-1,2,費盡,fèijìn,V,"to take great pains to, exert great effort to",bỏ ra rất nhiều công sức,5
+5-1,3,千辛萬苦,qiānxīn wànkǔ,Id,"untold hardships, innumerable trials and tribulations","vô vàn khó khăn, gian khổ",5
+5-1,4,因素,yīnsù,N,"factor, element","nhân tố, yếu tố",5
+5-1,5,皆,jiē,Adv,all (same as 都 but formal),"tất cả (trang trọng, giống 都)",5
+5-1,6,承受,chéngshòu,V,"to bear, withstand, put up with","chịu đựng, gánh chịu",5
+5-1,7,不得已,bùdéyǐ,Vs,"to have no choice but to, to be forced to, have to","bất đắc dĩ, không còn cách nào khác",5
+5-1,8,代孕,dàiyùn,Vi,to surrogate  to perform surrogacy ,mang thai hộ,5
+5-1,9,婚外情,hūnwàiqíng,N,extramarital affair,ngoại tình,5
+5-1,10,破碎,pòsuì,Vs,"to break, shatter ",tan vỡ,5
+5-1,11,悲劇,bēijù,N,tragedy,bi kịch,5
+5-1,12,雙方,shuāngfāng,N,both parties,"hai bên, đôi bên",5
+5-1,13,渴望,kěwàng,N/Vst,"longing, yearning ong for; to yearn for",sự khao khát; khao khát,5
+5-1,14,供需,gōngxū,N,supply and demand,cung và cầu,5
+5-1,15,利人利己,lìrén lìjǐ,Id,benefit both oneself and others,có lợi cho mình và cho người,5
+5-1,16,雙贏,shuāngyíng,Vi,win-win,"cùng thắng, đôi bên cùng có lợi",5
+5-1,17,反觀,fǎnguān,V,"looking back on, contrasting this with, when we reflect on","ngược lại, nhìn lại",5
+5-1,18,連續,liánxù,Adv,"continuously, in a row, successively","liên tục, liên tiếp",5
+5-1,19,排名,páimíng,Vst,to rank,xếp hạng,5
+5-1,20,倒數,dàoshǔ,Vs-attr,"counting backward, from the end, from the bottom of the list (in English, 倒數第二名can be translated “second worst/lowest    /least”)","đếm ngược, từ dưới lên (ví dụ: thứ nhì từ dưới lên)",5
+5-1,21,始終,shǐzhōng,Adv,"all the while, all along, invariably","luôn luôn, từ đầu đến cuối",5
+5-1,22,忽視,hūshì,V,"to ignore, neglect, overlook","phớt lờ, bỏ qua",5
+5-1,23,夫妻,fūqī,N,"husband and wife, married couple",vợ chồng,5
+5-1,24,協助,xiézhù,V,to assist,"hỗ trợ, giúp đỡ",5
+5-1,25,長輩,zhǎngbèi,N,"elder, one’s superior","bề trên, người lớn tuổi",5
+5-1,26,忍受,rěnshòu,Vst,"to endure, suffer","chịu đựng, cam chịu",5
+5-1,27,如願,rúyuàn,Vs-sep  ,"as one hopes, as one wishes ","như ý, như nguyện",5
+5-1,28,自主權,zìzhǔquán,N,"right to make one’s own decisions, autonomy","quyền tự quyết, quyền tự chủ",5
+5-2,1,固然,gùrán,Adv,"granted, certainly, while it is definitely true that","đương nhiên, mặc dù đúng là",5
+5-2,2,交易,jiāoyì,Vi,"to trade, transact, carry out a transaction","giao dịch, mua bán",5
+5-2,3,屬,shǔ,Vst,"to belong to, be part of (a category) ","thuộc về (một loại, hạng mục)",5
+5-2,4,族群,zúqún,N,"group of people (e.g., ethnic group, disadvantaged group)","nhóm người (ví dụ: dân tộc, nhóm yếu thế)",5
+5-2,5,等於,děngyú,Vst,"tantamount to, equal to","tương đương với, bằng",5
+5-2,6,階級,jiējí,N,class (in society),giai cấp (trong xã hội),5
+5-2,7,間接,jiànjiē ,Adv,indirectly,một cách gián tiếp,5
+5-2,8,錯誤,cuòwù,N,mistake,sai lầm,5
+5-2,9,性別,xìngbié,N,"sex, gender",giới tính,5
+5-2,10,抽菸,chōuyān,Ph,to smoke a cigarette ,hút thuốc lá,5
+5-2,11,胎兒,tāi’ér,N,fetus,bào thai,5
+5-2,12,不良,bùliáng,Vs-attr,"harmful, bad","có hại, xấu",5
+5-2,13,分離,fēnlí,Vi,to be separated from,bị tách rời khỏi,5
+5-2,14,契約,qìyuē,N,"contract, agreement","hợp đồng, thỏa thuận",5
+5-2,15,仲介,zhòngjiè,N,"intermediary, agent, middleman","người trung gian, môi giới",5
+5-2,16,角色,juésè,N,role,vai trò,5
+5-2,17,涉及,shèjí,Vst,"to involve, relate to",liên quan đến,5
+5-2,18,規範,guīfàn,V/N,"to regulate, standardize; standard ","quy định, chuẩn hóa; tiêu chuẩn",5
+5-2,19,黑白不分,hēibái bùfēn,Id,cannot tell truth from non-truth,không phân biệt được trắng đen,5
+5-2,20,是非不明,shìfēi bùmíng,Id,cannot tell truth from non-truth,không phân biệt được phải trái,5
+5-2,21,紛紛,fēnfēn,Adv,"one after another, in succession","lần lượt, cái này đến cái khác",5
+5-2,22,精子,jīngzǐ,N,sperm,tinh trùng,5
+5-2,23,搞定,gǎodìng,V,to have it resolved,"giải quyết xong, xong xuôi",5
+5-2,24,獨一無二,dúyī wú’èr,Id,"unique, one of a kind",độc nhất vô nhị,5
+5-2,25,總之,zǒngzhī,Adv,"to sum it up, in short, in conclusion","tóm lại, nói tóm lại",5
+6-1,1,死刑,sǐxíng,N,"capital punishment, the death penalty","án tử hình, hình phạt tử hình",5
+6-1,2,存廢,cúnfèi,N,"preservation or abolishment, to preserve or to abolish (contracted word from 保存+廢除) ",sự bảo tồn hoặc bãi bỏ,5
+6-1,3,爭議,zhēngyì,N,controversy,tranh cãi,5
+6-1,4,僵局,jiāngjú,N,"stalemate, deadlock, impasse","bế tắc, ngõ cụt",5
+6-1,5,各自,gèzì,Adv,"each, respectively","mỗi, riêng",5
+6-1,1,嚇阻,hèzǔ,V,to deter (through intimidation),"răn đe, ngăn chặn (bằng sự đe dọa)",5
+6-1,2,隔離,gélí,V,"to isolate, separate, quarantine",cách ly,5
+6-1,3,罪犯,zuìfàn,N,criminal,tội phạm,5
+6-1,4,隨機,suíjī,Adv,randomly,ngẫu nhiên,5
+6-1,5,殺害,shāhài,V,"to murder, kill",giết hại,5
+6-1,6,黑心,hēixīn,Vs-attr,"darkened heart; evil mind (黑心食品 = unsafe food, i.e., made by profit-oriented people/companies with no conscience)","đen tối, độc ác (ví dụ: thực phẩm bẩn)",5
+6-1,7,案件,ànjiàn,N,(legal) case,vụ án,5
+6-1,8,法官,fǎguān,N,judge,thẩm phán,5
+6-1,9,判,pàn,V,"to judge, rule, give sentencing ","xét xử, tuyên án",5
+6-1,10,有期徒刑,yǒuqí túxíng,Ph,prison term (sentencing with a fixed prison term),án tù có thời hạn,5
+6-1,11,無期徒刑,wúqí túxíng,Ph,"life sentence (i.e., no chance of parole)",án tù chung thân (không có cơ hội ân xá),5
+6-1,12,死者,sǐzhě,N,"the dead person, the murder victim","người chết, nạn nhân vụ giết người",5
+6-1,13,交代,jiāodài,N,"a satisfactory answer, briefing,accountability ","sự giải trình, trách nhiệm giải trình",5
+6-1,14,彌補,míbǔ,V,"to make up for, compensate for","bù đắp, đền bù",5
+6-1,15,家屬,jiāshǔ,N,"family, family members","gia đình, thành viên gia đình",5
+6-1,16,或者,huòzhě,Conj,or,hoặc là,5
+6-1,17,犯人,fànrén,N,"criminal, prisoner","tội phạm, phạm nhân",5
+6-1,18,出獄,chūyù,Vi,"to be released from prison (監獄,jiānyù, prison)",ra tù,5
+6-1,19,把,bǎ,M,"measure for “graspable” objects like rulers, chairs, salt etc.","lượng từ cho vật có thể cầm nắm (thước kẻ, ghế, muối...)",5
+6-1,20,尺,chǐ,N,ruler,thước kẻ,5
+6-1,21,現行,xiànxíng,Vs-attr,"existing, current","hiện hành, hiện tại",5
+6-1,22,假釋,jiǎshì,Vi,parole,ân xá,5
+6-1,23,永久,yǒngjiǔ,Adv,"forever, permanently",vĩnh viễn,5
+6-1,24,害怕,hàipà,Vs,"to be afraid of, to fear",sợ hãi,5
+6-1,25,報復,bàofù,V/N,"to retaliate, get revenge; vengeance",trả thù; sự trả thù,5
+6-1,26,納稅,nàshuì,V-sep,to pay taxes,nộp thuế,5
+6-1,27,懲罰,chéngfá,N/V,punishment; to punish,sự trừng phạt; trừng phạt,5
+6-1,28,犯罪,fànzuì,V-sep,to commit a crime,phạm tội,5
+6-1,29,罰單,fádān,N,ticket (for a fine),vé phạt (phạt tiền),5
+6-1,30,闖紅燈,chuǎng hóngdēng,Ph,"run a red light (闖,to rush, break through；紅燈red light)",vượt đèn đỏ,5
+6-1,31,開,kāi,V,to write (a ticket),viết (vé phạt),5
+6-1,32,同理,tónglǐ ,Adv,"by the same token, similarly","tương tự như vậy, bằng lý lẽ tương tự",5
+6-1,33,換句話說,huànjùhuà shuō,Ph,"in other words, to put it another way",nói cách khác,5
+6-1,34,維持,wéichí,V,"to keep, maintain",duy trì,5
+6-1,35,相較於,xiāngjiào yú,Ph,"in comparison to, compared to (classical Chinese)",so với,5
+6-1,36,人權,rénquán,N,human rights,nhân quyền,5
+6-1,37,廢除,fèichú,V,to abolish,bãi bỏ,5
+6-1,38,被害人,bèihàirén,N,victim,nạn nhân,5
+6-1,39,孤兒,gū’ér,N,orphan,trẻ mồ côi,5
+6-1,40,不然,bùrán,Conj,otherwise,nếu không thì,5
+6-1,41,毀,huǐ,V,to destroy,phá hủy,5
+6-1,42,氣憤,qìfèn,Vs,"indignant, angry","phẫn nộ, tức giận",5
+6-1,43,恨,hèn,Vst,to hate,ghét,5
+6-1,44,報仇,bàochóu,V-sep,"to get revenge, get vengeance",báo thù,5
+6-1,45,便宜,piányí,Vst,to let somebody off easy,"tha bổng, xử nhẹ",5
+6-1,46,置身事外,zhìshēn shìwài,Id,"to remain aloof, sit on the sidelines, not be involved","đứng ngoài cuộc, không dính líu",5
+6-1,47,放下,fàngxià,V,"let it go, let it be, “forgive”","buông bỏ, tha thứ",5
+6-1,48,凶手,xiōngshǒu,N,"murderer, killer",kẻ giết người,5
+6-1,49,感同身受,gǎntóng shēnshòu,Id,"to empathize, feel like own experience",thấu hiểu và cảm thông,5
+6-1,50,生前,shēngqián,N,"during one’s life, before one’s death","khi còn sống, trước khi chết",5
+6-1,51,恐懼,kǒngjù,N,fear,nỗi sợ hãi,5
+6-1,52,心痛,xīntòng,Ph,"the pain in one’s heart, heartbreak, heartache","nỗi đau lòng, sự đau lòng",5
+6-1,53,天平,tiānpíng,N,"balance, scales",cán cân công lý,5
+6-1,54,衡量,héngliáng,V,"to weigh, evaluate","cân nhắc, đánh giá",5
+6-1,55,坦白,tǎnbái,Vs,"honesty, honest (坦白說 = to be honest/frank/candid)","thành thật, trung thực (thành thật mà nói)",5
+6-1,56,撫慰,fǔwèi,V,"to console, comfort","an ủi, vỗ về",5
+6-1,57,剛剛好,gānggāng hǎo,Ph,"just right, just enough, just the right amount, time, color, etc. (meaning here: justice done)","vừa đủ, hoàn hảo",5
+6-2,1,無濟於事,wújì yúshì,Id,to not help the situation; does not do anybody good; of no use,không giúp ích gì cho tình hình,5
+6-2,2,致力,zhìlì,Adv,with all might and mind,"hết sức, dồn hết tâm lực",5
+6-2,3,推動,tuīdòng,V,"to promote, push",thúc đẩy,5
+6-2,4,漫漫長路,mànmàn chánglù,Id,"a long road, there is still a long way to go",một chặng đường dài phía trước,5
+6-2,5,刑罰,xíngfá,N,"punishment, penalty",hình phạt,5
+6-2,6,顯得,xiǎnde,Vaux,"to appear, seem; come off as","có vẻ, tỏ ra",5
+6-2,7,費,fèi,V,to exert (lit. pay out),"bỏ ra, hao tổn (sức lực)",5
+6-2,8,心力,xīnlì,N,effort (physical and mental),"tâm sức, công sức",5
+6-2,9,冤枉,yuānwǎng,V,to be wronged; treated unjustly ,"bị oan, bị đối xử bất công",5
+6-2,10,槍決,qiāngjué,N/V,execution by shooting; to execute by shooting,xử bắn; hành quyết bằng súng,5
+6-2,11,犯案,fàn'àn,Vp-sep,to be implicated in a crime,liên quan đến một vụ án,5
+6-2,12,充足,chōngzú,Vs,"ample, sufficient, adequate","đầy đủ, thỏa đáng",5
+6-2,13,保證,bǎozhèng,V/N,to guarantee; guarantee,bảo đảm; sự bảo đảm,5
+6-2,14,誤判,wùpàn ,V/N,"to err in judicial judgement; erroneous judgement, miscarriage of justice","xét xử sai; bản án sai, sự oan sai",5
+6-2,15,失誤,shīwù,N,"mistake, error","sai sót, lỗi lầm",5
+6-2,16,無價,wújià,Vs,priceless,vô giá,5
+6-2,17,賠償,péicháng,N/V,"compensation, reparation; to compensate, make reparations",sự bồi thường; bồi thường,5
+6-2,18,善良,shànliáng,Vs,good and kind,"lương thiện, tốt bụng",5
+6-2,19,一面,yímiàn,Ph,"side (i.e., a good side)",mặt (ví dụ: mặt tốt),5
+6-2,20,可貴,kěguì,Vs,"valuable, priceless",đáng quý,5
+6-2,21,同情,tóngqíng,Vst/N,to sympathize;,thông cảm; sự thông cảm,5
+6-2,22,換不回,huàn bùhuí,Ph,cannot get it back,không thể lấy lại được,5
+6-2,23,和解,héjiě,Vi,"to reconcile, make up",hòa giải,5
+6-2,24,認錯,rèncuò,V-sep,to admit one’s error,nhận lỗi,5
+6-2,25,重新,chóngxīn,Adv,"anew, afresh","lại, một lần nữa",5
+6-2,26,大愛,dà’ài,N,"great love, love at the highest level","tình yêu lớn, đại ái",5
+6-2,27,感受,gǎnshòu,N,feelings,cảm nhận,5
+6-2,28,只是,zhǐshì,Adv,it's just that,chỉ là,5
+6-2,29,一命還一命,yímìng huán yímìng,Id,"a life for a life, an eye for an eye",mạng đền mạng,5
+6-2,30,好受,hǎoshòu,Vs,to feel better,cảm thấy dễ chịu hơn,5
+6-2,31,也就是說,yějiùshìshuō,Ph,"that is to say; that is; i.e.,","nghĩa là, tức là",5
+6-2,32,歐盟,ōuméng,N,the EU; European Union,Liên minh Châu Âu (EU),5
+6-2,33,潮流,cháoliú,N,trend,xu hướng,5
+6-2,34,意識到,yìshìdào,Vpt,"to be conscious of, to be aware of",nhận thức được,5
+6-2,35,唯有,wéiyǒu,Adv,only by,chỉ bằng cách,5
+6-2,36,身旁,shēnpáng,N,"next to, around you","bên cạnh, xung quanh bạn",5
+6-2,37,打造,dǎzào,V,"to create, implement","tạo dựng, xây dựng",5
+6-2,38,根本,gēnběn,Adv,"completely, fundamentally, thoroughly","hoàn toàn, về cơ bản",5
+7-1,1,傷腦筋,shāng nǎojīn,Id,"to cause a headache, a pain in the neck, to be knotty/troublesome (said of issues or problems)","gây đau đầu, rắc rối",5
+7-1,2,受益,shòuyì,Vp,"to be benefited, to benefit (from)",được hưởng lợi,5
+7-1,3,財富,cáifù,N,wealth,"của cải, sự giàu có",5
+7-1,4,思考,sīkǎo,V,to ponder ,"suy nghĩ, ngẫm nghĩ",5
+7-1,1,清晨,qīngchén,N,early morning,sáng sớm,5
+7-1,2,同齡,tónglíng,Vs,to be of the same age,cùng tuổi,5
+7-1,3,遇上,yùshàng,Vpt,"to encounter, come across","gặp phải, tình cờ gặp",5
+7-1,4,白工,báigōng,N,"work done in vain, wasted work","công việc làm không công, phí hoài",5
+7-1,5,沖走 ,chōngzǒu,V,to be washed away,bị cuốn trôi,5
+7-1,6,(一)大半,(yí) dàbàn,Ph,"a huge portion of, more than half ","một phần lớn, hơn một nửa",5
+7-1,7,慘重,cǎnzhòng,Vs,heavy (said of losses),nặng nề (về tổn thất),5
+7-1,8,值錢,zhíqián,Vs,valuable,có giá trị,5
+7-1,9,村,cūn,N,village,làng,5
+7-1,10,可憐,kělián,Vs,"to be pitiful, pitiable, poor","đáng thương, tội nghiệp",5
+7-1,11,相依為命,xiāngyī wéimìng,Id,to depend on each other (for survival),nương tựa vào nhau để sống,5
+7-1,12,一身病痛,yīshēn bìngtòng,Id,illness and pain all over the body,khắp người đau bệnh,5
+7-1,13,懂事,dǒngshì,Vs,"to be sensible, have a good head on one’s shoulders","biết điều, sáng suốt",5
+7-1,14,主動,zhǔdòng,Adv,"take the initiative, take it upon oneself to",chủ động,5
+7-1,15,援助,yuánzhù,V/ N,"to assist; assistance, aid",viện trợ; sự viện trợ,5
+7-1,16,口袋,kǒudài,N,pocket,"túi (quần, áo)",5
+7-1,17,吃力,chīlì,Vs,"to entail strenuous effort, be a strain","vất vả, tốn sức",5
+7-1,18,家產,jiāchǎn,N,family property,tài sản gia đình,5
+7-1,19,一無所有,yìwú suǒyǒu,Id,"have nothing at all, not own a thing in the world, penniless ","không có gì, tay trắng",5
+7-1,20,對於,duìyú,Prep,"as to, with regard to, to",đối với,5
+7-1,21,累積,lěijī,Vpt,to accumulate,tích lũy,5
+7-1,22,貧戶,pínhù,N,households below poverty line,hộ nghèo,5
+7-1,23,袖手旁觀,xiùshǒu pángguān,Id,"stand by and watch, sit there twiddling one’s thumbs, not lift a finger",đứng nhìn khoanh tay,5
+7-1,24,調整,tiáozhěng,V/N,to adjust; adjustment,điều chỉnh; sự điều chỉnh,5
+7-1,25,創造,chuàngzào,V,to create,sáng tạo,5
+7-1,26,津貼,jīntiē,N,allowance (as in travel allowance),"trợ cấp, phụ cấp",5
+7-1,27,等同,děngtóng,Vst,"to be tantamount to, equivalent to",tương đương với,5
+7-1,28,補貼,bǔtiē,V/N,to subsidize; subsidy,trợ cấp; sự trợ cấp,5
+7-1,29,分子,fènzǐ,N,member (of an organisation),thành viên (của một tổ chức),5
+7-1,30,舉例,jǔlì,V-sep,to give an example,lấy ví dụ,5
+7-1,31,工資,gōngzī,N,"pay, salary","tiền lương, tiền công",5
+7-1,32,完善,wánshàn,Vs,"fully devised, perfect","hoàn hảo, đầy đủ",5
+7-1,33,出手,chūshǒu,Vi,"to spend, hand out, pay out ","chi tiêu, bỏ tiền ra",5
+7-1,34,大方,dàfāng,Vs,"generous, magnanimous ","hào phóng, rộng rãi",5
+7-1,35,在於,zàiyú,Vst,"to lie in (the fact that), consist in","nằm ở, là ở",5
+7-1,36,進行,jìnxíng,V,"to carry out, conduct, undertake","tiến hành, thực hiện",5
+7-1,37,共享,gòngxiǎng,V,"to share, enjoy ","cùng chia sẻ, cùng hưởng thụ",5
+7-1,38,倘若,tǎngruò,Conj,"if, in the event that, supposing","nếu, giả sử rằng",5
+7-1,39,不服,bùfú ,Vs,"to refuse to accept, unconvinced","không phục, không chấp nhận",5
+7-1,40,稅收,shuìshōu,N,tax revenue,doanh thu thuế,5
+7-1,41,生存,shēngcún,Vi/N,"to survive, exist; survival",sự sinh tồn; tồn tại,5
+7-1,42,提心吊膽,tíxīn diàodǎn,Id,"to be on tenterhooks, be nervous","lo sợ, hồi hộp",5
+7-1,43,警力,jǐnglì,N,police force,lực lượng cảnh sát,5
+7-1,44,治安,zhì’ān,N,public security,"an ninh công cộng, trật tự xã hội",5
+7-2,1,哈佛大學,Hāfó Dàxué,N,Harvard University,Đại học Harvard,5
+7-2,2,課堂,kètáng,N,classroom,"lớp học, giờ học",5
+7-2,3,心臟,xīnzàng,N,heart (organ),tim (cơ quan),5
+7-2,4,肺臟,fèizàng,N,lung,phổi,5
+7-2,5,腎臟,shènzàng,N,kidney,thận,5
+7-2,6,急迫,jípò,Vs,"urgent, pressing","cấp bách, khẩn cấp",5
+7-2,7,器官,qìguān,N,organ,cơ quan nội tạng,5
+7-2,8,移植,yízhí,V,to transplant,cấy ghép,5
+7-2,9,捐贈,juānzèng,V,to donate,hiến tặng,5
+7-2,10,突然,túrán,Adv,suddenly,"bất ngờ, đột ngột",5
+7-2,11,全身,quánshēn,N,entire body ,toàn thân,5
+7-2,12,麻醉,mázuì,V,to anesthetize (全身麻醉 general anesthesia),gây mê,5
+7-2,13,抽,chōu,V,to levy (a tax),đánh (thuế),5
+7-2,14,迫切,pòqiè,Vs,urgent,cấp thiết,5
+7-2,15,眾人,zhòngrén,N,"people in general, the multitude","mọi người, công chúng",5
+7-2,16,奪取,duóqǔ,V,"to seize, take by force","chiếm đoạt, cướp lấy",5
+7-2,17,堂,táng,M,"measure for classes (in terms of minutes; not for courses, classrooms, or students that make up a class)",lượng từ cho tiết học (tính bằng phút),5
+7-2,18,奮鬥,fèndòu,Vi,"to struggle, strive","đấu tranh, phấn đấu",5
+7-2,19,犧牲,xīshēng,V,to sacrifice,hy sinh,5
+7-2,20,埋,mái,V,to bury,chôn cất,5
+7-2,21,繳稅單,jiǎoshuìdān,N,tax form,tờ khai thuế,5
+7-2,22,無所事事,wúsuǒ shìshì,Id,"have nothing to do, to lay idle (here, unemployed)","nhàn rỗi, không có việc gì làm",5
+7-2,23,短暫,duǎnzhàn,Vs,"transient, short, brief","ngắn ngủi, tạm thời",5
+7-2,24,拼,pīn,Vs,to work hard,làm việc chăm chỉ,5
+7-2,25,醒,xǐng,Vp,"to wake up, awaken",tỉnh dậy,5
+7-2,26,苦笑,kǔxiào,Vi,"to smile bitterly/wryly, to force a smile",cười cay đắng,5
+7-2,27,歪理,wāilǐ,N,"preposterous argument (i.e., that’s dumb! What idiot thought that up?!)","lý lẽ sai trái, ngụy biện",5
+7-2,28,米蟲,mǐchóng,N,"sponge, parasite (lit. a rice bug)","kẻ ăn bám, ký sinh trùng",5
+7-2,29,仍舊,réngjiù,Adv,still,vẫn,5
+7-2,30,劫富濟貧,jiéfù jìpín,Id,steal from the rich and give to the poor (spirit of Robin Hood),cướp của người giàu chia cho người nghèo,5
+7-2,31,強制,qiǎngzhì,Adv,"by force, coerced","bắt buộc, cưỡng chế",5
+7-2,32,奪走,duózǒu,V,"to take away, snatch","lấy đi, cướp đoạt",5
+7-2,33,被迫,bèipò,Vs,"to be forced, compelled ","bị ép buộc, bị bắt buộc",5
+7-2,34,捐款,juānkuǎn,V-sep,to donate money,quyên góp tiền,5
+7-2,35,眼紅,yǎnhóng ,Vs,"to covet, envious","thèm muốn, ghen tị",5
+7-2,36,分享,fēnxiǎng,V,to share,chia sẻ,5
+7-2,37,成果,chéngguǒ,N,fruits (of one’s hard work/labor),thành quả,5
+7-2,38,不勞而獲,bùláo érhuò,Id,to reap where one has not sown; get something for nothing,không làm mà có ăn,5
+7-2,39,依靠,yīkào,V,"to rely on, depend on","dựa vào, ỷ lại",5
+7-2,40,拉,lā,V,to pull,kéo,5
+7-2,41,貧窮,pínqióng,N,poverty,sự nghèo đói,5
+7-2,42,強盜,qiángdào,N,robber,kẻ cướp,5
+7-2,43,打擊,dǎjí,V,to strike a blow to,"đả kích, tấn công",5
+7-2,44,創富,chuàngfù,Vi,to create wealth,sáng tạo của cải,5
+7-2,45,介入,jièrù,V,"to intervene, get involved in","can thiệp, xen vào",5
+8-1,1,左右為難,zuǒyòu wéinán,Id,"in a dilemma, be in a bind, in a predicament, in a fix",tiến thoái lưỡng nan,5
+8-1,2,難民,nànmín,N,refugees ,người tị nạn,5
+8-1,3,男童,nántóng,N,"boy, male child",bé trai,5
+8-1,4,溺死,nìsǐ,Vp,"to drown (to death), die from drowning",chết đuối,5
+8-1,5,震驚,zhènjīng,Vpt,"to shock, stun, startle","gây chấn động, sốc",5
+8-1,6,接連,jiēlián,Adv,"in succession, in a row","liên tiếp, liên tục",5
+8-1,7,事件,shìjiàn,N,"incident, episode","sự kiện, vụ việc",5
+8-1,8,不滿,bùmǎn,Vs,"discontent, unhappy with","bất mãn, không hài lòng",5
+8-1,1,分擔,fēndān,V,"to share a burden, share responsibility","chia sẻ gánh nặng, chia sẻ trách nhiệm",5
+8-1,2,化,huà ,V,"to turn into, change into, convert into, transform into","biến thành, chuyển hóa thành",5
+8-1,3,轉機,zhuǎnjī,N,(life-saving) opportunity,cơ hội (cứu mạng),5
+8-1,4,海面,hǎimiàn,N,the surface of the ocean/sea,mặt biển,5
+8-1,5,難以數計,nányǐ shùjì,Id,countless (lit. hard to calculate),không thể đếm xuể,5
+8-1,6,屍體,shītǐ,N,"corpse, body","thi thể, xác chết",5
+8-1,7,怵目驚心,chùmù jīngxīn,Id,shocked to witness ,"kinh hoàng, gây sốc khi chứng kiến",5
+8-1,8,冒,mào,V,to risk,mạo hiểm,5
+8-1,9,聯合國,Liánhéguó,N,"United Nations, UN",Liên Hợp Quốc (LHQ),5
+8-1,10,止,zhǐ,Ptc,until (classical Chinese),cho đến (từ Hán Việt cổ),5
+8-1,11,庇護,bìhù,N,asylum,"sự bảo hộ, tị nạn",5
+8-1,12,人數,rénshù,N,number of people,số người,5
+8-1,13,面臨,miànlín,V,"to face, confront","đối mặt, đương đầu",5
+8-1,14,團結,tuánjié,Vi,"to unite, form solidarity with",đoàn kết,5
+8-1,15,召開,zhàokāi,V,"to convene, hold (a meeting)","triệu tập, tổ chức (cuộc họp)",5
+8-1,16,高峰會,gāofēng huì,N,Summit (meeting),hội nghị thượng đỉnh,5
+8-1,17,領袖,lǐngxiù,N,"leader, head of a state","lãnh tụ, lãnh đạo",5
+8-1,18,消除,xiāochú,V,to eliminate,"loại bỏ, xóa bỏ",5
+8-1,19,仇外,chóuwài,Vs,anti-foreign,bài ngoại,5
+8-1,20,前-,qián,N,"former-, ex-  ","cựu-, nguyên-",5
+8-1,21,歐巴馬,ōubāmǎ,N,Barack Obama (former US president),Barack Obama (cựu tổng thống Mỹ),5
+8-1,22,會議,huìyì,N,"conference, meeting","hội nghị, cuộc họp",5
+8-1,23,主義,zhǔyì,N,"“-ism” (as in terrorism, Communism)","chủ nghĩa (ví dụ: khủng bố chủ nghĩa, cộng sản chủ nghĩa)",5
+8-1,24,受害者,shòuhàizhě,N,victim,nạn nhân,5
+8-1,25,向來,xiànglái,Adv,"always, all along","luôn luôn, từ trước đến nay",5
+8-1,26,單一,dānyī,Vs-attr,"one, single (any one country’s responsibility)",duy nhất (trách nhiệm của bất kỳ một quốc gia nào),5
+8-1,27,共同,gòngtóng,Adv,"together, jointly","chung, cùng nhau",5
+8-1,28,排外,páiwài,Vi,"anti-foreign, xenophobic ",bài ngoại,5
+8-1,29,融入,róngrù,V,"to integrate, blend in","hòa nhập, hội nhập",5
+8-1,30,收容,shōuróng,V,to offer refuge to,cung cấp nơi tạm trú,5
+8-1,31,或許,huòxǔ,Adv,"perhaps, probably","có lẽ, có thể",5
+8-1,32,勞動力,láodònglì,N,manpower,nhân lực,5
+8-1,33,轉化,zhuǎnhuà,Vi,"to change into , transform into",chuyển hóa thành,5
+8-1,34,里約,Lǐyuē,N,"Rio, Brasil","Rio, Brazil",5
+8-1,35,奧運,àoyùn,N,Olympics,Thế vận hội Olympic,5
+8-1,36,首度,shǒudù,Adv,first time,lần đầu tiên,5
+8-1,37,代表隊,dàibiǎoduì,N,"representative team, team representing ",đội tuyển đại diện,5
+8-1,38,逃離,táolí,V,"to escape from, flee from","chạy trốn khỏi, thoát khỏi",5
+8-1,39,戰火,zhànhuǒ,N,fires of war,"chiến tranh, lửa đạn",5
+8-1,40,殘障,cánzhàng,N,physical disability,khuyết tật thể chất,5
+8-1,41,忘掉,wàngdiào,Vpt,to forget,quên đi,5
+8-1,42,英雄,yīngxióng,N,hero,anh hùng,5
+8-1,43,身分,shēnfèn,N,identification,"danh tính, thân phận",5
+8-1,44,索馬利亞,Suǒmǎlìyǎ,N,Somalia,Somalia,5
+8-1,45,之後,zhīhòu,N,subsequent to that,sau đó,5
+8-1,46,參選,cānxuǎn,V,to run in an election,tham gia tranh cử,5
+8-1,47,膚色,fūsè,N,skin color,màu da,5
+8-1,48,早日,zǎorì,Adv,soon,"sớm, nhanh chóng",5
+8-1,49,扶持,fúchí,V,"to support, help, aid, assist","hỗ trợ, giúp đỡ",5
+8-2,1,優先,yōuxiān,Vs,to be given priority,được ưu tiên,5
+8-2,2,無力,wúlì,Vst,"incapable of, powerless to","bất lực, không có khả năng",5
+8-2,3,安置,ānzhì,V,to make proper living arrangements for,sắp xếp chỗ ở,5
+8-2,4,支出,zhīchū,N/V,expenditure; to expend,chi tiêu; chi trả,5
+8-2,5,導致,dǎozhì,V,"to cause, result in, lead to","dẫn đến, gây ra",5
+8-2,6,賦稅,fùshuì,N,taxes,thuế má,5
+8-2,7,居民,jūmín,N,resident,cư dân,5
+8-2,8,對立,duìlì,Vs,"to oppose, be in opposition to, be antagonistic","đối lập, thù địch",5
+8-2,9,罷了,bàle,Ptc,"merely, that’s it, that is all","chỉ là vậy thôi, thế thôi",5
+8-2,10,德國,Déguó,N,Germany,Đức,5
+8-2,11,每況愈下,měikuàng yùxià,Id,"to deteriorate, go downhill, go from bad to worse","ngày càng tồi tệ, xuống dốc",5
+8-2,12,拖垮,tuōkuǎ,V,"to pull down with, drag down ","kéo đổ, làm suy sụp",5
+8-2,13,忽略,hūlüè,V,"to ignore, overlook","bỏ qua, lờ đi",5
+8-2,14,一一,yīyī,Adv,"one by one, separately",từng cái một,5
+8-2,15,過濾,guòlǜ,V,to filter,lọc,5
+8-2,16,有機可乘,yǒujī kěchéng,Id,take advantage of a situation ,có cơ hội để lợi dụng,5
+8-2,17,接二連三,jiē’èr liánsān,Id,"one after another, in rapid succession","nối tiếp nhau, liên tục",5
+8-2,18,衝突,chōngtú,Vs,to conflict,xung đột,5
+8-2,19,升高,shēnggāo,Vp,"to increase, rise","gia tăng, leo thang",5
+8-2,20,在在,zàizài,Adv,in all aspects (classical Chinese),"trong mọi mặt, ở mọi nơi (từ Hán Việt cổ)",5
+8-2,21,設置,shèzhì,V,"to establish, set up","thiết lập, thành lập",5
+8-2,22,難民營,nànmínyíng,N,refugee camp,trại tị nạn,5
+8-2,23,關閉,guānbì,V,to close down,đóng cửa,5
+8-2,24,邊界,biānjiè,N,border,biên giới,5
+8-2,25,通往,tōngwǎng,V,"to go to, lead to","dẫn đến, thông tới",5
+8-2,26,交託,jiāotuō,V,"to entrust (one’s safety, life, etc.) to","giao phó (tính mạng, sự an toàn...)",5
+8-2,27,人口,rénkǒu ,N,human,con người (số lượng),5
+8-2,28,販子,fànzi,N,trafficker,kẻ buôn người,5
+8-2,29,助長,zhùzhǎng,V,"to foster, encourage ( negatively)","làm trầm trọng thêm, khuyến khích (mang nghĩa tiêu cực)",5
+8-2,30,支付,zhīfù,V,to make a payment to,"thanh toán, trả tiền",5
+8-2,31,總理,zǒnglǐ,N,"chancellor, prime minister, premier",Thủ tướng,5
+8-2,32,梅克爾,Méikè’ěr,N,Merkel (German chancellor),Merkel (Thủ tướng Đức),5
+8-2,33,承認,chéngrèn,V,"to admit, confess",thừa nhận,5
+8-2,34,低估,dīgū,V,to underestimate,đánh giá thấp,5
+8-2,35,和平,hépíng,Vs/N,peaceful; peace,hòa bình; yên bình,5
+8-2,36,對策,duìcè,N,"countermeasure, strategy","đối sách, chiến lược",5
+8-2,37,販運,fànyùn,N,"trafficking, smuggling, transporting","buôn lậu, vận chuyển trái phép",5
+8-2,38,首要之務,shǒuyào zhīwù,Id,"top/first priority, the most important issue","nhiệm vụ hàng đầu, ưu tiên số một",5
+9-1,1,核電廠,hédiànchǎng,N,nuclear power plant,nhà máy điện hạt nhân,5
+9-1,2,熱烈,rèliè,Vs,"fervent, ardent","sôi nổi, nhiệt tình",5
+9-1,3,乃至,nǎizhì,Adv,and even ,và thậm chí,5
+9-1,1,遠處,yuǎnchù,N,a distant location ,nơi xa,5
+9-1,2,輻射,fúshè,N,radiation,bức xạ,5
+9-1,3,外洩,wàixiè,Vi,to leak,rò rỉ ra ngoài,5
+9-1,4,爆炸,bàozhà,Vp,to explode,phát nổ,5
+9-1,5,危言聳聽,wéiyán sǒngtīng,Id,"alarmist talk, inflammatory statement","nói ngoa, nói cường điệu gây hoang mang",5
+9-1,6,致命,zhìmìng,Vs,"lethal, fatal",gây chết người,5
+9-1,7,退燒,tuìshāo,Vp,"to reduce fever, wane ","hạ nhiệt, suy giảm",5
+9-1,8,行之有年,xíngzhī yǒunián,Id,"in use for years, long-established","đã được sử dụng nhiều năm, tồn tại lâu năm",5
+9-1,9,三哩島,Sānlǐdǎo,N,"Three Mile Island, PA, USA","Đảo Three Mile, Mỹ",5
+9-1,10,烏克蘭,Wūkèlán,N,Ukraine,Ukraine,5
+9-1,11,車諾比,Chēnuòbǐ,N,Chernobyl,Chernobyl,5
+9-1,12,福島,Fúdǎo,N,Fukushima,Fukushima,5
+9-1,13,核災,hézāi,N,nuclear disaster,thảm họa hạt nhân,5
+9-1,14,核電,hédiàn,N,nuclear power,điện hạt nhân,5
+9-1,15,列為,lièwéi,Vst,"to be ranked as, listed as ","được xếp hạng là, được liệt kê là",5
+9-1,16,等級,děngjí,N,"level, grade","cấp độ, hạng",5
+9-1,17,位於,wèiyú,Vst,to be located at,nằm ở,5
+9-1,18,海嘯,hǎixiào ,N,tsunami,sóng thần,5
+9-1,19,洪水,hóngshuǐ,N,flood,lũ lụt,5
+9-1,20,數百萬,shùbǎiwàn,Ph,"several millions, millions",hàng triệu,5
+9-1,21,及時,jíshí,Adv,"in time, in a timely manner",kịp thời,5
+9-1,22,顆,kē,M,"measure for round objects, e.g., bombs","lượng từ cho vật tròn (quả bom, viên đạn...)",5
+9-1,23,炸彈,zhàdàn,N,bomb,quả bom,5
+9-1,24,立即,lìjí,Adv,"immediately, at once",ngay lập tức,5
+9-1,25,令,lìng,Vst,"to cause, make, let","khiến, làm cho",5
+9-1,26,擔憂,dānyōu,Vst,"worried, concerned","lo lắng, quan ngại",5
+9-1,27,歐洲癌症護理雜誌,ōuzhōu áizhèng Hùlǐ Zázhì,Ph,European Journal of Cancer Care,Tạp chí Chăm sóc Ung thư Châu Âu,5
+9-1,28,數字,shùzì,N,"number, figures","con số, số liệu",5
+9-1,29,周圍,zhōuwéi,N,"around, surrounding, on the periphery","xung quanh, vùng lân cận",5
+9-1,30,罹癌,lí’ái,Vp,to be stricken with cancer,mắc bệnh ung thư,5
+9-1,31,偏,piān,Adv,slightly,"hơi, có phần",5
+9-1,32,青少年,qīngshàonián,N,adolescents ,thanh thiếu niên,5
+9-1,33,細胞,xìbāo,N,cell,tế bào,5
+9-1,34,製造,zhìzào,V,"to manufacture, produce, make","sản xuất, chế tạo",5
+9-1,35,廢料,fèiliào,N,"waste, waste materials","chất thải, nguyên liệu thải",5
+9-1,36,可行,kěxíng,Vs,feasible,khả thi,5
+9-1,37,偏遠,piānyuǎn,Vs,"rural, distant","xa xôi, hẻo lánh",5
+9-1,38,任誰,rèn shéi,Ph,anybody,bất kỳ ai,5
+9-1,39,因應,yīnyìng,V,"to deal with, handle","đối phó, xử lý",5
+9-1,40,再生能源,zàishēng néngyuán,Ph,renewable energy,năng lượng tái tạo,5
+9-1,41,妥善,tuǒshàn,Adv,"adequately, properly","một cách đầy đủ, thích đáng",5
+9-1,42,頭痛,tóuténg,Vs,"a headache, a pain","vấn đề đau đầu, phiền toái",5
+9-1,43,無解,wújiě,Vs,"have no solution, be unsolvable",không có lời giải,5
+9-1,44,難題,nántí,N,"difficult problem, tough problem","vấn đề hóc búa, nan đề",5
+9-1,45,正確,zhèngquè,Vs,accurate,chính xác,5
+9-2,1,環保,huánbǎo,Vs,environmentally friendly,thân thiện với môi trường,5
+9-2,2,聯想,liánxiǎng,Vi,"to associate with in the mind, think of",liên tưởng,5
+9-2,3,事故,shìgù,N,accident,tai nạn,5
+9-2,4,運作,yùnzuò,N,operation,sự vận hành,5
+9-2,5,疏失,shūshī,N,negligence,"sơ suất, bất cẩn",5
+9-2,6,視為,shìwéi,Vst,to regard as,"xem như, coi như",5
+9-2,7,一概而論,yígài érlùn,Id,to make sweeping generalizations,"đánh đồng, khái quát hóa một cách máy móc",5
+9-2,8,定時,dìngshí,Vs-attr,to be fixed in time (定時炸彈 = time bomb),được ấn định thời gian (bom hẹn giờ),5
+9-2,9,風力,fēnglì,N,wind power,năng lượng gió,5
+9-2,10,水力,shuǐlì,N,"water power, hydropower ","năng lượng nước, thủy điện",5
+9-2,11,火力,huǒlì,N,thermal power,nhiệt điện,5
+9-2,12,太陽能,tàiyángnéng,N,solar power,năng lượng mặt trời,5
+9-2,13,相比,xiāng bǐ,Vi,to be compared to,so sánh với,5
+9-2,14,機率,jīlǜ,N,"chance (of something happening), likelihood","xác suất, khả năng",5
+9-2,15,雷,léi,N,lightening,sét,5
+9-2,16,碳,tàn,N,carbon,cacbon,5
+9-2,17,排放量,páifàngliàng,N,emissions,lượng khí thải,5
+9-2,18,有利,yǒulì,Vs,beneficial to,có lợi cho,5
+9-2,19,二氧化碳,èryǎnghuàtàn,N,carbon dioxide,khí cacbonic,5
+9-2,20,溫室,wēnshì ,N,greenhouse,nhà kính,5
+9-2,21,效應,xiàoyìng,N,effect,hiệu ứng,5
+9-2,22,河流,héliú,N,river,dòng sông,5
+9-2,23,魚類,yúlèi,N,fish,các loài cá,5
+9-2,24,噪音,zàoyīn,N,noise,tiếng ồn,5
+9-2,25,地熱,dìrè,N,geothermal,địa nhiệt,5
+9-2,26,成熟,chéngshóu,Vp,mature,trưởng thành,5
+9-2,27,解決之道,jiějué zhīdào,Id,solution,giải pháp,5
+9-2,28,收取,shōuqǔ,V,"to charge, collect","thu, thu thập",5
+9-2,29,高額,gāo’é,Vs-attr,"high (amount of money, tariff, profit, etc.)","cao (số tiền, lợi nhuận...)",5
+9-2,30,惹,rě,V,"to cause, provoke, incur, stir up","gây ra, châm ngòi",5
+9-2,31,民怨,mínyuàn,N,"popular discontent, public anger",sự bất bình của dân chúng,5
+9-2,32,工業,gōngyè,N,industry,công nghiệp,5
+9-2,33,停擺,tíngbǎi,Vp,"to stop, to come to a halt","ngừng hoạt động, đình trệ",5
+9-2,34,倒退,dàotuì,Vp,"to reverse, regress","thoái lui, thụt lùi",5
+9-2,35,效率,xiàolǜ,N,efficiency,hiệu suất,5
+9-2,36,供,gōng,V,to supply,cung cấp,5
+9-2,37,外商,wàishāng,N,foreign company/businessman,"công ty nước ngoài, thương nhân nước ngoài",5
+9-2,38,優良,yōuliáng,Vs,"fine, excellent, good","tốt, ưu tú",5
+9-2,39,民生,mínshēng,N,people’s well-being/livelihood,đời sống nhân dân,5
+9-2,40,效益,xiàoyì,N,benefit,lợi ích,5
+9-2,41,設備,shèbèi,N,equipment,thiết bị,5
+9-2,42,隱憂,yǐnyōu,N,"hidden concerns, worries",mối lo ngại tiềm ẩn,5
+9-2,43,綠色,lǜsè,N,green (color),màu xanh lá cây,5
+9-2,44,替代,tìdài,V,alternative,thay thế,5
+10-1,1,同性,tóngxìng,Vs-attr,to be of the same gender,cùng giới tính,5
+10-1,2,主播,zhǔbò,N,"newscaster, anchor",người dẫn chương trình tin tức,5
+10-1,3,記者,jìzhě,N,"reporter, journalist, correspondent","phóng viên, nhà báo",5
+10-1,4,連線,liánxiàn,Vi,to be online with; be connected with,kết nối trực tuyến; được kết nối với,5
+10-1,5,傳達,chuándá,V,to convey,truyền đạt,5
+10-1,6,陣線,zhènxiàn,N,"ranks, front","hàng ngũ, mặt trận",5
+10-1,7,發起,fāqǐ,V,"to initiate, launch, start","phát động, khởi xướng",5
+10-1,8,盡快,jìnkuài,Adv,as soon/quickly as possible,càng sớm càng tốt,5
+10-1,9,同性戀,tóngxìngliàn,N,"homosexual, gay",người đồng tính luyến ái,5
+10-1,10,異性戀,yìxìngliàn,N,"heterosexual, straight ",người dị tính luyến ái,5
+10-1,11,相同,xiāngtóng,Vs,identical,giống hệt nhau,5
+10-1,12,相愛,xiāng’ài,Vs,"in love, to love each other",yêu nhau,5
+10-1,13,核心,héxīn,N,core,cốt lõi,5
+10-1,14,伴侶,bànlǚ,N,"companion, mate, partner","bạn đời, người bạn đồng hành",5
+10-1,15,無關,wúguān,Vs,"to have nothing to do with, be unrelated",không liên quan,5
+10-1,16,打破,dǎpò,V,"to break, shatter",phá vỡ,5
+10-1,17,平權,píngquán,N,equal rights,bình đẳng về quyền,5
+10-1,18,藉由,jièyóu,Prep,"through, by","thông qua, bằng cách",5
+10-1,19,節稅,jiéshuì,Vi,"to reduce, save on taxes",tiết kiệm thuế,5
+10-1,20,病危,bìngwéi,Vs,critically ill ,nguy kịch,5
+10-1,21,簽署,qiānshù,V,to sign,ký kết,5
+10-1,22,文件,wénjiàn,N,document,"tài liệu, văn bản",5
+10-1,23,彼此,bǐcǐ,N,"each other, one another",lẫn nhau,5
+10-1,24,親密,qīnmì,Vs,intimate,thân mật,5
+10-1,25,伙伴,huǒbàn,N,partner,"đối tác, cộng sự",5
+10-1,26,陌生,mòshēng,Vs,"unacquainted, not mutually known","xa lạ, không quen biết",5
+10-1,27,性病,xìngbìng,N,"sexually transmitted disease, STD",bệnh lây truyền qua đường tình dục,5
+10-1,28,偏見,piānjiàn,N,"prejudice, bias","định kiến, thành kiến",5
+10-1,29,身上,shēnshàng,N,"himself, themselves",bản thân anh ấy/họ,5
+10-1,30,異性,yìxìng,Vs-attr,opposite sex,khác giới,5
+10-1,31,有情人終成眷屬,yǒuqíngrén zhōngchéng juànshǔ,Id,"the lovers finally got married, every Jack has his Jill",những người có tình cuối cùng cũng thành vợ chồng,5
+10-1,32,末日,mòrì,N,the end of the world,ngày tận thế,5
+10-1,33,擴大,kuòdà,V,to expand,mở rộng,5
+10-1,34,範圍,fànwéi,N,"scope, range, extent","phạm vi, quy mô",5
+10-1,35,心聲,xīnshēng,N,"heartfelt wishes, aspirations","tâm tư, nguyện vọng",5
+10-1,36,法案,fǎ’àn,N,"bill, act","dự luật, đạo luật",5
+10-2,1,鏡頭,jìngtóu,N,"lens, shot, scene","ống kính, cảnh quay",5
+10-2,2,聯邦,liánbāng,N,"federal, federation, union",liên bang,5
+10-2,3,彩虹,cǎihóng,N,rainbow,cầu vồng,5
+10-2,4,旗,qí,N,"flag, banner, standard",lá cờ,5
+10-2,5,時刻,shíkè,N,moment (in time)  ,"thời khắc, khoảnh khắc",5
+10-2,6,駐外,zhùwài,Vi,to be stationed abroad,đóng trụ sở ở nước ngoài,5
+10-2,7,歡慶,huānqìng,V,to celebrate,"chào mừng, ăn mừng",5
+10-2,8,擠進,jǐjìn,Vpt,"to crowd in, squeeze in","chen chúc vào, lách vào",5
+10-2,9,生物,shēngwù,N,biology,"sinh vật, sinh học",5
+10-2,10,本能,běnnéng,N,instinct,bản năng,5
+10-2,11,繁衍,fányǎn,V,"to reproduce, propagate","sinh sôi, sinh sản",5
+10-2,12,尋找,xúnzhǎo,V,"to search for, seek",tìm kiếm,5
+10-2,13,交配,jiāopèi,Vi,"to mate, copulate",giao phối,5
+10-2,14,法則,fǎzé,N,"law (natural, not legal laws)",quy luật (tự nhiên),5
+10-2,15,定義,dìngyì,N/V,definition; to define,định nghĩa; định nghĩa,5
+10-2,16,互補,hùbǔ,Vs,to complement each other,bổ sung cho nhau,5
+10-2,17,組合,zǔhé,N/V,combination; to combine,sự kết hợp; kết hợp,5
+10-2,18,全體,quántǐ,N,"as a whole, whole, entire, overall","toàn thể, toàn bộ",5
+10-2,19,詞彙,cíhuì,N,"word, term, vocabulary","từ vựng, thuật ngữ",5
+10-2,20,稱呼,chēnghū,V/N,"to call; address, name","gọi, xưng hô; danh xưng",5
+10-2,21,建構,jiàngòu,V,"to build, construct","xây dựng, kiến tạo",5
+10-2,22,革命,gémìng,N/Vi,revolution; to have a revolution ,cách mạng; làm cách mạng,5
+10-2,23,做為,zuòwéi,Vst,to serve as,đóng vai trò là,5
+10-2,24,無視,wúshì,V,"to disregard, defy","coi thường, bất chấp",5
+10-2,25,干涉,gānshè,V,to interfere,can thiệp,5
+10-2,26,邏輯,luójí,N,logic,lô-gíc,5
+10-2,27,納入,nàrù,V,"to incorporate, include","đưa vào, bao gồm",5
+10-2,28,第三者,dìsānzhě,Ph,"“third party” (i.e., the “other man/woman”)",người thứ ba,5
+10-2,29,原則,yuánzé,N,principle,nguyên tắc,5
+10-2,30,無異,wúyì,Vs,"not different from, the same as, tantamount to","không khác gì, tương đương với",5
+10-2,31,形式,xíngshì,N,form,hình thức,5
+10-2,32,亂倫,luànlún,N,incest,loạn luân,5
+10-2,33,不倫,bùlún,N,immorality,"trái đạo đức, không chính đáng",5
+10-2,34,白宮,Báigōng,N,White House,Nhà Trắng,5
+10-2,35,巴黎鐵塔,Bālí Tiětǎ,Ph,Eiffel Tower,Tháp Eiffel,5
+10-2,36,打上,dǎshàng,V,to shine up on,chiếu sáng lên,5
+10-2,37,燈光,dēngguāng,N,lights,ánh đèn,5
+10-2,38,不容忽視,bùróng hūshì,Id,"cannot ignore, should not be ignored",không thể làm ngơ,5
+10-2,39,有賴,yǒulài,Vst,"to depend on, contingent on","phụ thuộc vào, tùy thuộc vào",5
+10-2,40,各界,gèjiè,N,"all walks of life, the public","mọi tầng lớp, công chúng",5
+10-2,41,對話,duìhuà,Vi,to engage in dialogues,đối thoại,5
+10-2,42,激辯,jībiàn,Vi,"to engage in robust debate, wrangle","tranh luận sôi nổi, tranh cãi kịch liệt",5
+10-2,43,交還,jiāohuán,V,"to give back to, to return to","trả lại, giao trả",5
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,

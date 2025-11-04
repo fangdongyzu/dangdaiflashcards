@@ -1,0 +1,660 @@
+﻿課-序號,序號,生詞,漢拼,詞類,英譯,越譯,冊
+1-1,1.        ,走,zǒu,Vi,to get to,đến được,2
+1-1,2.        ,路人,lùrén,N,someone; lit. a person on the street,người qua đường,2
+1-1,3.        ,幫忙,bāngmáng,V-sep,to help,giúp đỡ,2
+1-1,4.        ,迷路,mílù,Vp-sep,"to be lost, to have lost directions",bị lạc,2
+1-1,5.        ,下,xià,Det,next,tiếp theo,2
+1-1,6.        ,路口,lùkǒu,N,intersection,ngã tư,2
+1-1,7.        ,段,duàn,N,section,đoạn,2
+1-1,8.        ,過,guò,V,"to go past, to cross","đi qua, băng qua",2
+1-1,9.        ,第,dì,Det,used to indicate ordinal numbers,dùng để chỉ số thứ tự,2
+1-1,10.     ,紅綠燈,hónglǜdēng,N,traffic light,đèn giao thông,2
+1-1,11.     ,告訴,gàosù,V,to tell,"nói, bảo",2
+1-1,12.     ,提款機,tíkuǎnjī,N,ATM machine,máy rút tiền,2
+1-1,13.     ,超商,chāo-shāng,N,convenience store,cửa hàng tiện lợi,2
+1-1,14.     ,應該,yīnggāi,Vaux,should; ought to,nên,2
+1-1,15.     ,郵局,yóujú,N,post office,bưu điện,2
+1-1,16.     ,提,tí,V,to withdraw (money),rút (tiền),2
+1-1,17.     ,那邊,nàbiān/nèibiān,N,"over there, yonder",đằng kia,2
+1-1,18.     ,師大（師範大學）, Shīdà（Shīfàn Dàxué）,,NTNU (National Taiwan Normal University),Đại học Sư phạm Đài Loan (NTNU),2
+1-1,19.     ,和平東路,Hépíng Dōng Lù,,Heping East Road,Đường Hòa Bình Đông,2
+1-1,20.     ,往前,wǎng qián,,"forward, ahead","về phía trước, phía trước",2
+1-1,21.     ,右轉,yòu zhuǎn,,to turn right,rẽ phải,2
+1-1,22.     ,聽起來,tīng qǐlái,,"to sound, sound like",nghe có vẻ,2
+1-1,23.     ,看見,kànjiàn,,"to see, to have seen",nhìn thấy,2
+1-2,1.        ,下載,xiàzài,V,to download,tải xuống,2
+1-2,2.        ,地圖,dìtú,N,map,bản đồ,2
+1-2,3.        ,好用,hǎoyòng,Vs,"easy to use, handy","dễ sử dụng, tiện lợi",2
+1-2,4.        ,著,zhe,Ptc,a particle indicating progression or continuation of action,trợ từ chỉ sự tiếp diễn của hành động,2
+1-2,5.        ,日用品,rìyòngpǐn,N,articles of daily use,vật dụng hàng ngày,2
+1-2,6.        ,經過,jīngguò,V,to go past,đi qua,2
+1-2,7.        ,巷子,xiàngzi,N,alley,ngõ hẻm,2
+1-2,8.        ,餓,è,Vs,hungry,đói,2
+1-2,9.        ,一邊,yìbiān,Adv,"indicates doing two things simultaneously, as, while",vừa... vừa...,2
+1-2,10.     ,發現,fāxiàn,Vpt,to discover,phát hiện,2
+1-2,11.     ,離,lí,Prep,(away) from,(cách xa) khỏi,2
+1-2,12.     ,背包,bēibāo,N,backpack,ba lô,2
+1-2,13.     ,正好,zhènghǎo,Adv,"just, happen to ","vừa vặn, tình cờ",2
+1-2,14.     ,最後,zuìhòu,Adv,"in the end, finally","cuối cùng, rốt cuộc",2
+1-2,15.     ,枝,zhī,M,measure word for pens,lượng từ cho bút,2
+1-2,16.     ,筆,bǐ ,N,pen,bút,2
+1-2,17.     ,本,běn ,M,measure word for books,lượng từ cho sách,2
+1-2,18.     ,本子,běnzi,N,notebook,"vở, sổ tay",2
+1-2,19.     ,左轉,zuǒ zhuǎn ,,to turn left,rẽ trái,2
+1-2,20.     ,師大路上,Shīdà Lù shàng,,on Shida Road,trên đường Đại học Sư phạm,2
+1-2,21.     ,麵店,miàn diàn ,,noodle shop,tiệm mì,2
+2-1,1.        ,還是,háishì ,Adv,"should probably, alternatively, had better","có lẽ nên, tốt hơn là",2
+2-1,2.        ,早,zǎo,Vs,Good morning.,Chào buổi sáng.,2
+2-1,3.        ,約,yuē ,V,to invite someone to do something at a specific time,hẹn,2
+2-1,4.        ,對面,duìmiàn ,N,"on the other side of (something), opposite",đối diện,2
+2-1,5.        ,直接,zhíjiē ,Adv,directly,trực tiếp,2
+2-1,6.        ,不必,búbì ,Vaux,"no need to, not necessary to",không cần phải,2
+2-1,7.        ,換,huàn ,V,to transfer (transportation),chuyển (phương tiện),2
+2-1,8.        ,車站,chēzhàn ,N,"bus station, train station","trạm xe, ga tàu",2
+2-1,9.        ,麻煩,máfán ,Vs,troublesome,phiền phức,2
+2-1,10.     ,趕快,gǎnkuài,Adv,right away; quickly (indicating urgency),"ngay lập tức, nhanh chóng (chỉ sự khẩn cấp)",2
+2-1,11.     ,走,zǒu ,Vp,"to leave, to bid farewell","rời đi, chào tạm biệt",2
+2-1,12.     ,班次,bāncì ,N,"number of scheduled runs (of trains, flights, boats, buses)","số chuyến (tàu, xe, máy bay)",2
+2-1,13.     ,禮拜,lǐbài ,N,week,tuần,2
+2-1,14.     ,見,jiàn ,V,to see,gặp,2
+2-1,15.     ,電腦展,diànnǎo zhǎn,,computer show,triển lãm máy tính,2
+2-1,16.     ,世貿展覽館,Shìmào Zhǎnlǎn Guǎn,,World Trade Center Exhibition Hall,Hội trường Triển lãm Trung tâm Thương mại Thế giới,2
+2-1,17.     ,展覽館,zhǎnlǎn guǎn,,exhibition hall,hội trường triển lãm,2
+2-1,18.     ,台北101,Táiběi 101,,"Taipei 101, the tallest building in Taiwan. It was also the tallest building in the world from 2004 to 2010.","Taipei 101, tòa nhà cao nhất Đài Loan (2004-2010)",2
+2-1,19.     ,台北,Táiběi ,,Taipei,Đài Bắc,2
+2-1,20.     ,2號線,èr hào xiàn,,Line 2 (of the Taipei MRT),Tuyến số 2 (MRT Đài Bắc),2
+2-1,21.     ,別急,bié jí,,No need to hurry. Take your time.,Đừng vội. Cứ từ từ.,2
+2-2,1.        ,飛機,fēijī ,N,airplane,máy bay,2
+2-2,2.        ,轉機,zhuǎn jī ,V-sep,to transfer (flights),chuyển máy bay,2
+2-2,3.        ,機場,jīchǎng ,N,airport,sân bay,2
+2-2,4.        ,巴士,bāshì ,N,bus,xe buýt,2
+2-2,5.        ,市區,shìqū ,N,downtown,trung tâm thành phố,2
+2-2,6.        ,下,xià ,V,"to get off, alight, disembark",xuống (xe),2
+2-2,7.        ,交通,jiāotōng ,N,transportation,giao thông,2
+2-2,8.        ,便利,biànlì ,Vs,"convenient, handy","thuận tiện, tiện lợi",2
+2-2,9.        ,到處,dàochù ,Adv,everywhere,khắp nơi,2
+2-2,10.     ,路線,lùxiàn ,N,route,tuyến đường,2
+2-2,11.     ,複雜,fùzá ,Vs,complicated,phức tạp,2
+2-2,12.     ,輕鬆,qīngsōng ,Vs,with ease,"nhẹ nhàng, thoải mái",2
+2-2,13.     ,東部,dōngbù ,N,eastern part,miền đông,2
+2-2,14.     ,海邊,hǎibiān ,N,seaside,bờ biển,2
+2-2,15.     ,島,dǎo ,N,island,đảo,2
+2-2,16.     ,搭,dā ,V,"to take (bus, boat, plane, taxi, etc.)","đi (xe buýt, thuyền, máy bay, taxi, v.v.)",2
+2-2,17.     ,船,chuán ,N,"boat, ship","thuyền, tàu",2
+2-2,18.     ,地,de,Ptc,adverbial particle,trợ từ trạng ngữ,2
+2-2,19.     ,美美,Měiměi,,"Meimei, name of a girl",Mỹ Mỹ (tên một bé gái),2
+2-2,20.     ,法國,Fǎguó ,,France,Pháp,2
+2-2,21.     ,歐洲,ōuzhōu ,,Europe,Châu Âu,2
+2-2,22.     ,悠遊卡,yōuyóukǎ ,,EasyCard (MRT pass),Thẻ EasyCard (thẻ MRT),2
+2-2,23.     ,綠島,Lǜdǎo ,,"Green Island, to the southeast of the main island",Đảo Lục (Green Island),2
+2-2,24.     ,東南邊,dōngnán biān ,,the southeast side of,phía đông nam,2
+2-2,25.     ,好好地,hǎohǎo de ,,to do something properly,làm gì đó một cách đàng hoàng,2
+3-1,1.     ,進步,jìnbù ,Vp,"to make improvement, to progress",tiến bộ,2
+3-1,2.     ,早,zǎo ,Vs,early,sớm,2
+3-1,3.     ,考試,kǎoshì ,N,"a test, examination","bài kiểm tra, kỳ thi",2
+3-1,4.     ,準備,zhǔnbèi ,V,"to prepare, to get ready",chuẩn bị,2
+3-1,5.     ,考,kǎo,V,to take a test,thi,2
+3-1,6.     ,聽寫,tīngxiě ,N,dictation,chính tả,2
+3-1,7.     ,容易,róngyì ,Vs,easy,dễ dàng,2
+3-1,8.     ,小學,xiǎoxué ,N,elementary school,trường tiểu học,2
+3-1,9.     ,漢字,hànzì ,N,Chinese characters,chữ Hán,2
+3-1,10.  ,高中,gāozhōng ,N,senior high school,trường trung học phổ thông,2
+3-1,11.  ,過,guò,Ptc,a particle indicating experience,trợ từ chỉ kinh nghiệm,2
+3-1,12.  ,才,cái ,Adv,"just, only","mới, chỉ",2
+3-1,13.  ,說話,shuōhuà,V-sep,to speak,nói chuyện,2
+3-1,14.  ,不夠,bú gòu ,Adv,"not quite, not…enough",không đủ,2
+3-1,15.  ,流利,liúlì ,Vs,fluent,trôi chảy,2
+3-1,16.  ,雖然,suīrán ,Conj,although,mặc dù,2
+3-1,17.  ,環境,huánjìng ,N,"environment, surroundings","môi trường, xung quanh",2
+3-1,18.  ,同意,tóngyì ,Vst,to agree with,đồng ý với,2
+3-1,19.  ,報紙,bàozhǐ ,N,newspapers,báo,2
+3-1,20.  ,麵包,miànbāo ,N,bread,bánh mì,2
+3-1,21.  ,演講,yǎnjiǎng ,N,"a speech, a public lecture","bài diễn văn, bài thuyết trình",2
+3-1,22.  ,噢,òu,Ptc,Oh,Ồ,2
+3-1,23.  ,活動中心,huódòng zhōngxīn ,,activity center,trung tâm hoạt động,2
+3-1,24.  ,想起來,xiǎng qǐlái ,,to have remembered,nhớ ra,2
+3-2,1.        ,選,xuǎn ,V,to select,chọn,2
+3-2,2.        ,作業,zuòyè ,N,"homework, assignment",bài tập về nhà,2
+3-2,3.        ,練習,liànxí ,V,to practice,luyện tập,2
+3-2,4.        ,半夜,bànyè ,N,"middle of the night, late at night",nửa đêm,2
+3-2,5.        ,高興,gāoxìng ,Vs,"glad, pleased","vui mừng, hài lòng",2
+3-2,6.        ,平常,píngcháng ,Adv,usually,thường thường,2
+3-2,7.        ,爬山,páshān ,V-sep,to go hiking,"đi bộ đường dài, leo núi",2
+3-2,8.        ,認識,rènshì  ,Vpt,to get to know someone,làm quen với ai đó,2
+3-2,9.        ,聊天,liáotiān ,V-sep,to have a chat,tán gẫu,2
+3-2,10.     ,文化,wénhuà ,N,culture,văn hóa,2
+3-2,11.     ,廣告,guǎnggào ,N,"advertisement, commercial",quảng cáo,2
+3-2,12.     ,位,wèi ,M,Measure word for people (polite form),lượng từ cho người (lịch sự),2
+3-2,13.     ,了解,liǎojiě ,Vst,to understand,hiểu,2
+3-2,14.     ,生活,shēnghuó,N,life,cuộc sống,2
+3-2,15.     ,陽明山,Yángmíng Shān ,,Yangming Mountain,Núi Dương Minh,2
+3-2,16.     ,外國人,wàiguó rén ,,foreigner,người nước ngoài,2
+3-2,17.     ,一些,yìxiē ,,"a little bit of, some, a fair amount of","một chút, một ít, một lượng kha khá",2
+4-1,1.        ,高美玲,Gāo Měilíng ,,"Gao Meiling, a woman from France",Cao Mỹ Linh (một phụ nữ từ Pháp),2
+4-1,2.        ,打工,dǎgōng  ,V-sep,to work part-time,làm việc bán thời gian,2
+4-1,3.        ,主任,zhǔrèn ,N,director,giám đốc,2
+4-1,4.        ,介紹,jièshào ,V,to introduce,giới thiệu,2
+4-1,5.        ,歲,suì ,M,years of age,tuổi,2
+4-1,6.        ,語言學,yǔyánxué ,N,linguistics,ngôn ngữ học,2
+4-1,7.        ,經驗,jīngyàn ,N,experience,kinh nghiệm,2
+4-1,8.        ,談,tán,V,"to talk over, to talk about , to discuss","nói chuyện, thảo luận",2
+4-1,9.        ,當,dāng ,V,to serve as,"làm, phục vụ như là",2
+4-1,10.     ,助教,zhùjiào ,N,teaching assistant,trợ giảng,2
+4-1,11.     ,上午,shàngwǔ ,N,morning,buổi sáng (trước 12h),2
+4-1,12.     ,除了,chúle ,Prep,"except for, other than",ngoại trừ,2
+4-1,13.     ,年級,niánjí,N,grade (year in school),khối lớp (năm học),2
+4-1,14.     ,暑假,shǔjià ,N,summer vacation,kỳ nghỉ hè,2
+4-1,15.     ,請教,qǐngjiào ,V,"to ask, to inquire (polite form)","hỏi, thỉnh giáo (lịch sự)",2
+4-1,16.     ,貴,guì ,Vs-attr,your (honorable),quý (kính ngữ),2
+4-1,17.     ,薪水,xīnshuǐ ,N,pay,lương,2
+4-1,18.     ,算,suàn ,V,to calculate,tính toán,2
+4-1,19.     ,按照,ànzhào ,Prep,"based on, in accordance with","dựa trên, theo như",2
+4-1,20.     ,教授,jiàoshòu ,N,professor,giáo sư,2
+4-1,21.     ,鐘點費,zhōngdiǎn fèi ,N,hourly pay,tiền lương theo giờ,2
+4-1,22.     ,份,fèn ,M,measure word for job,lượng từ cho công việc,2
+4-1,23.     ,法文,Fǎwén ,,French language,tiếng Pháp,2
+4-1,24.     ,亞洲,Yàzhōu ,,Asia,Châu Á,2
+4-1,25.     ,西班牙語,Xībānyá yǔ ,,Spanish language,tiếng Tây Ban Nha,2
+4-1,26.     ,英文,Yīngwén ,,English language,tiếng Anh,2
+4-1,27.     ,三年級,sān niánjí,,grade three (school or university),năm thứ ba (đại học),2
+4-2,1.        ,法律,fǎlǜ ,N,law,luật pháp,2
+4-2,2.        ,夠,gòu ,Vs-pred,enough,đủ,2
+4-2,3.        ,履歷表,lǚlìbiǎo ,N,resume,sơ yếu lý lịch,2
+4-2,4.        ,面談,miàntán ,"Vi, N","to have an interview, interview","phỏng vấn, cuộc phỏng vấn",2
+4-2,5.        ,華僑,Huáqiáo ,N,overseas Chinese,Hoa kiều,2
+4-2,6.        ,辦公室,bàngōngshì,N,office,văn phòng,2
+4-2,7.        ,談話,tánhuà ,V-sep,to talk,nói chuyện,2
+4-2,8.        ,情形,qíngxíng ,N,situation,tình hình,2
+4-2,9.        ,適合,shìhé ,Vst,suitable for,phù hợp với,2
+4-2,10.     ,說明,shuōmíng ,V,to explain,giải thích,2
+4-2,11.     ,然後,ránhòu ,Adv,"afterwards, and then","sau đó, rồi thì",2
+4-2,12.     ,月底,yuèdǐ,N,the end of a month,cuối tháng,2
+4-2,13.     ,發,fā ,V,to pay (wages),trả (lương),2
+4-2,14.     ,馬上,mǎshàng ,Adv,immediately,ngay lập tức,2
+4-2,15.     ,答應,dāyìng ,V,to accept,chấp nhận,2
+4-2,16.     ,順利,shùnlì ,Vs,"to go, to proceed, smoothly","trôi chảy, suôn sẻ",2
+4-2,17,黃,Huáng ,,"a common Chinese family name, literally “yellow”",họ Hoàng,2
+4-2,18,沒想到,méi xiǎngdào ,,"unexpectedly, didn’t expect",không ngờ tới,2
+5-1,1.        ,喜酒,xǐjiǔ ,N,"wedding banquet, wedding reception",tiệc cưới,2
+5-1,2.        ,恭喜,gōngxǐ ,V,to congratulate,chúc mừng,2
+5-1,3.        ,新娘,xīnniáng ,N,bride,cô dâu,2
+5-1,4.        ,參加,cānjiā ,V,to attend,tham dự,2
+5-1,5.        ,婚禮,hūnlǐ ,N,wedding ceremony,lễ cưới,2
+5-1,6.        ,西裝,xīzhuāng ,N,a (western) suit,vest (phương Tây),2
+5-1,7.        ,正式,zhèngshì ,Vs,formal,trang trọng,2
+5-1,8.        ,客人,kèrén ,N,guest,khách,2
+5-1,9.        ,手,shǒu ,N,hand,tay,2
+5-1,10.     ,照相機,zhàoxiàngjī ,N,camera,máy ảnh,2
+5-1,11.     ,新郎,xīnláng ,N,bridegroom,chú rể,2
+5-1,12.     ,站,zhàn ,Vi,to stand,đứng,2
+5-1,13.     ,白,bái ,Vs,white,màu trắng,2
+5-1,14.     ,帥,shuài ,Vs,"handsome, good looking (of men)",đẹp trai (nam giới),2
+5-1,15.     ,禮服,lǐfú ,N,formal attire,trang phục dự tiệc,2
+5-1,16.     ,座位,zuòwèi ,N,seat,chỗ ngồi,2
+5-1,17,看起來,kàn qǐlái,,"to look, it appears to me...",trông có vẻ,2
+5-2,1.     ,結婚,jiéhūn ,Vp-sep,to get married to,kết hôn với,2
+5-2,2.     ,日子,rìzi ,N,day,ngày,2
+5-2,3.     ,親戚,qīnqī ,N,relatives,họ hàng,2
+5-2,4.     ,熱鬧,rènào ,Vs,"to be boisterous, lively","nhộn nhịp, sôi động",2
+5-2,5.     ,慶祝,qìngzhù ,V,to celebrate,ăn mừng,2
+5-2,6.     ,件,jiàn ,M,measure word for clothing,lượng từ cho quần áo,2
+5-2,7.     ,喜事,xǐshì ,N,"an auspicious occasion, such as a wedding","việc hỷ, dịp vui (như đám cưới)",2
+5-2,8.     ,請客,qǐngkè ,V-sep,"to host a banquet, treat somebody to a meal","thết đãi, đãi tiệc",2
+5-2,9.     ,紅包,hóngbāo ,N,red envelope with cash gift,phong bì đỏ (có tiền mừng),2
+5-2,10.  ,送,sòng ,V,"to give a gift,to send off, to see off","tặng quà, tiễn ai đó",2
+5-2,11.  ,新人,xīnrén ,N,newlyweds (used only at a wedding),cặp đôi mới cưới,2
+5-2,12.  ,喜宴,xǐyàn ,N,"wedding banquet, wedding reception",tiệc cưới,2
+5-2,13.  ,敬酒,jìngjiǔ ,V-sep,to make a toast (alcoholic drinks),nâng cốc chúc mừng (rượu),2
+5-2,14.  ,大人,dàrén,N,adult,người lớn,2
+5-2,15.  ,小孩,xiǎohái ,N,"child, children",trẻ con,2
+5-2,16.  ,不得了,bùdéliǎo ,Vs,very; extremely; indicates severity,"rất, cực kỳ",2
+5-2,17.  ,另外,lìngwài ,Det,another,khác,2
+5-2,18.  ,糖,táng ,N,candies,kẹo,2
+5-2,19.  ,離開,líkāi ,Vp,"to depart, to leave",rời đi,2
+5-2,20.  ,句,jù ,M,measure word for utterances,lượng từ cho câu nói,2
+5-2,21.  ,祝福,zhùfú ,V,to give blessings to,"ban phước lành, chúc phúc",2
+5-2,22.  ,話,huà ,N,"utterance, word",lời nói,2
+5-2,23.  ,一會兒,yìhuǐr ,,in a moment,một lúc nữa,2
+5-2,24.  ,有說有笑,yǒushuō yǒuxiào ,,laughing and joking,vừa nói vừa cười,2
+5-2,25.  ,有吃有喝,yǒuchī yǒuhē,,an availability of food and drink,có ăn có uống,2
+5-2,26.  ,百年好合,bǎinián hǎohé ,,"century-long matrimony, i.e., to have a long happy marriage",trăm năm hạnh phúc,2
+5-2,27.  ,早生貴子,zǎoshēng guìzǐ,,May you soon bear a child! (a traditional exhortation given to newly-weds),Sớm sinh quý tử!,2
+6-1,1.         ,李東健,Lǐ Dōngjiàn,,"Li Dongjian, a man from Seoul",Lý Đông Kiện (một người đàn ông từ Seoul),2
+6-1,2.         ,搬,bān,V,to move to,chuyển đến,2
+6-1,3.         ,河邊,hé biān ,N,riverside,bờ sông,2
+6-1,4.         ,公園,gōngyuán ,N,park,công viên,2
+6-1,5.         ,腳踏車,jiǎotàchē,N,bicycle,xe đạp,2
+6-1,6.         ,正在,zhèngzài,Adv,"right in the middle of, currently engaged in",đang,2
+6-1,7.         ,網站,wǎngzhàn,N,website,trang web,2
+6-1,8.         ,資料,zīliào,N,information,thông tin,2
+6-1,9.         ,搬家,bān jiā,V-sep,to move (home),chuyển nhà,2
+6-1,10.      ,近,jìn,Vs,"near, close by",gần,2
+6-1,11.      ,合約,héyuē,N,"contract, agreement",hợp đồng,2
+6-1,12.      ,到期,dàoqí,Vp,to expire,hết hạn,2
+6-1,13.      ,還好,háihǎo ,Adv,fortunately,may mắn thay,2
+6-1,14.      ,光線,guāngxiàn,N,natural lighting,ánh sáng tự nhiên,2
+6-1,15.      ,重要,zhòngyào,Vs,important,quan trọng,2
+6-1,16.      ,如果,rúguǒ ,Conj,if,nếu,2
+6-1,17.      ,別的,biéde,Det,other,khác,2
+6-1,18.      ,合適,héshì,Vs,suitable,phù hợp,2
+6-1,19.      ,少,shǎo,Vpt,to lack,thiếu,2
+6-1,20.      ,可惜,kěxí,Vs,"to be a shame, a pity",đáng tiếc,2
+6-1,21.      ,放,fàng ,V,"to store, to leave at a place","cất giữ, để lại",2
+6-1,22.      ,兩邊,liǎngbiān,N,both places,cả hai bên,2
+6-1,23.      ,願意,yuànyì,Vaux,to be willing to,sẵn lòng,2
+6-1,24.      ,開,kāi ,V,to drive,lái xe,2
+6-1,25.      ,存,cún,V,to save,tiết kiệm,2
+6-1,26.      ,隨身碟,suíshēndié,N,flash drive,USB,2
+6-1,27.      ,什麼樣,shénmeyàng,,what kind of,loại nào,2
+6-1,28.      ,慢慢來,mànmàn lái,,take your time,cứ từ từ,2
+6-1,29.      ,不急,bùjí,,"don’t rush, no hurry",đừng vội,2
+6-2,1.        ,相當,xiāngdāng,Adv,fairly,khá,2
+6-2,2.        ,自行車,zìxíngchē,N,bicycle,xe đạp,2
+6-2,3.        ,床,chuáng,N,bed,giường,2
+6-2,4.        ,桌子,zhuōzi,N,"desk, table",bàn,2
+6-2,5.        ,椅子,yǐzi,N,chair,ghế,2
+6-2,6.        ,家具,jiājù,N,furniture,đồ nội thất,2
+6-2,7.        ,而且,érqiě,Conj,also,hơn nữa,2
+6-2,8.        ,吵,chǎo,Vs,noisy,ồn ào,2
+6-2,9.        ,生活費,shēnghuófèi,N,living expenses,chi phí sinh hoạt,2
+6-2,10.     ,低,dī,Vs,low,thấp,2
+6-2,11.     ,留,liú ,"Vi, V","to stay, to leave behind","ở lại, để lại",2
+6-2,12.     ,長,cháng,Vs,long,dài,2
+6-2,13.     ,討論,tǎolùn,V,"to have a discussion over, to go over with",thảo luận,2
+6-2,14.     ,社團,shètuán,N,"club, association","câu lạc bộ, hội",2
+6-2,15.     ,活動,huódòng,N,activity,hoạt động,2
+6-2,16.     ,失望,shīwàng,Vs,to be disappointed,thất vọng,2
+6-2,17.     ,放心,fàngxīn,Vs-sep,"not to worry, to rest assured",yên tâm,2
+6-2,18.     ,用,yòng,V,to use,sử dụng,2
+6-2,19.     ,首爾,Shǒu’ěr,,Seoul,Seoul,2
+7-1,1.     ,垃圾,lèsè,N,garbage,rác,2
+7-1,2.     ,倒,dào,V,to throw out (garbage),đổ (rác),2
+7-1,3.     ,丟,diū,V,"to throw, to throw away (garbage)","ném, vứt (rác)",2
+7-1,4.     ,收,shōu,V,to collect,thu gom,2
+7-1,5.     ,以為,yǐwéi ,Vst,to assume wrongly,"nghĩ sai, cho rằng",2
+7-1,6.     ,回收,huíshōu,V,to recycle,tái chế,2
+7-1,7.     ,規定,guīdìng,N,"rules, regulation","quy định, quy tắc",2
+7-1,8.     ,要不然,yàobùrán,Conj,otherwise,nếu không thì,2
+7-1,9.     ,皮包,píbāo,N,purse,ví,2
+7-1,10.  ,跑,pǎo,Vi,to run,chạy,2
+7-1,11.  ,追,zhuī,V,"to run after, to chase",đuổi theo,2
+7-1,12.  ,有趣,yǒuqù ,Vs,interesting,thú vị,2
+7-1,13.  ,不壞,bú huài,Vs,not too bad,không tệ,2
+7-1,14.  ,天天,tiāntiān,,everyday,hàng ngày,2
+7-1,15.  ,汽水罐,qìshuǐ guàn,,soda can,lon nước ngọt,2
+7-1,16.  ,紙杯,zhǐbēi,,paper cup,cốc giấy,2
+7-1,17.  ,放下,fàngxià ,,put down,đặt xuống,2
+7-1,18.  ,走出來,zǒu chūlái,,to walk out of,đi ra,2
+7-1,19.  ,怎麼辦,zěnmebàn,,What now?,Làm sao bây giờ?,2
+7-2,1.         ,聊,liáo,V,to chat (about),tán gẫu (về),2
+7-2,2.         ,忽然,hūrán,Adv,suddenly,đột nhiên,2
+7-2,3.         ,聲音,shēngyīn,N,sound,âm thanh,2
+7-2,4.         ,奇怪,qíguài,Vs,"strange, odd",kỳ lạ,2
+7-2,5.         ,袋子,dàizi,N,bag,túi,2
+7-2,6.         ,輛,liàng,M,measure word for vehicles,lượng từ cho xe cộ,2
+7-2,7.         ,一定,yídìng,Vs-attr,"fixed, set, at a certain…","cố định, nhất định",2
+7-2,8.         ,地點,dìdiǎn,N,location,địa điểm,2
+7-2,9.         ,為了,wèile,Prep,"to, for the sake of","vì, vì lợi ích của",2
+7-2,10.      ,保護,bǎohù,V,to protect,bảo vệ,2
+7-2,11.      ,分類,fēnlèi,N,classification,phân loại,2
+7-2,12.      ,利用,lìyòng,V,to make use of,tận dụng,2
+7-2,13.      ,紙,zhǐ,N,paper,giấy,2
+7-2,14.      ,瓶子,píngzi,N,bottle,chai,2
+7-2,15.      ,塑膠,sùjiāo,N,plastic,nhựa,2
+7-2,16.      ,資源,zīyuán,N,resource,tài nguyên,2
+7-2,17.      ,回收桶,huíshōutǒng,N,recycling bin,thùng tái chế,2
+7-2,18.      ,城市,chéngshì,N,city,thành phố,2
+7-2,19.      ,聽見,tīngjiàn,,"to hear, to have heard",nghe thấy,2
+7-2,20.      ,開過來,kāi guòlái,,to drive over ,lái xe tới,2
+7-2,21.      ,走過去,zǒu guòqù,,to walk over ,đi bộ qua,2
+7-2,22.      ,丟進去,diū jìnqù,,to throw into,ném vào,2
+7-2,23.      ,路上,lùshàng,,on the street,trên đường,2
+8-1,1.        ,功夫,gōngfū,N,"kungfu, martial arts","võ thuật, Kungfu",2
+8-1,2.        ,叫,jiào,V,to call (for someone’s attention),gọi (để thu hút sự chú ý),2
+8-1,3.        ,見,jiàn,Ptc,accomplishment complete (in perception),trợ từ hoàn thành (trong nhận thức),2
+8-1,4.        ,推,tuī ,V,to push,đẩy,2
+8-1,5.        ,體育館,tǐyùguǎn,N,gym,phòng tập thể dục,2
+8-1,6.        ,太極拳,tàijíquán,N,"Tai Chi, shadow boxing",Thái Cực Quyền,2
+8-1,7.        ,師父,shīfù,N,(kungfu or other skill) master,sư phụ,2
+8-1,8.        ,天分,tiānfèn,N,"gift, talent","năng khiếu, tài năng bẩm sinh",2
+8-1,9.        ,懂,dǒng ,Vpt,"to understand, to comprehend",hiểu,2
+8-1,10.     ,起來,qǐlái,Vp,to wake up,thức dậy,2
+8-1,11.     ,動作,dòngzuò,N,movement,động tác,2
+8-1,12.     ,輕,qīng,Vs,"light, effortless, gentle",nhẹ nhàng,2
+8-1,13.     ,腿,tuǐ,N,leg,chân,2
+8-1,14.     ,了,liǎo ,Ptc,capability complement,trợ từ khả năng,2
+8-1,15.     ,下去,xiàqù,Ptc,a temporal particle meaning to continue with an action,trợ từ thời gian chỉ sự tiếp tục hành động,2
+8-1,16.     ,興趣,xìngqù,N,interest,"sở thích, hứng thú",2
+8-1,17.     ,借,jiè,V,to borrow,mượn,2
+8-1,18.     ,有天分,yǒu tiānfèn,,"to be gifted, talented",có năng khiếu,2
+8-1,19.     ,學會,xuéhuì,,"to learn, to master","học được, nắm vững",2
+8-1,20.     ,起不來,qǐ bù lái,,can’t get up (from bed),không dậy được (khỏi giường),2
+8-1,21.     ,走不了路,zǒu bù liǎo lù,,can’t walk,không đi được,2
+8-2,1.        ,好處,hǎochù,N,benefit,lợi ích,2
+8-2,2.        ,抱怨,bàoyuàn,Vi,to complain,phàn nàn,2
+8-2,3.        ,公尺,gōngchǐ,N,meter,mét,2
+8-2,4.        ,總是,zǒngshì,Adv,"always, invariably",luôn luôn,2
+8-2,5.        ,完,wán,Ptc,"phase marker for ‘completion’, to finish…",trợ từ chỉ sự hoàn thành,2
+8-2,6.        ,體力,tǐlì,N,physical strength,thể lực,2
+8-2,7.        ,整天,zhěngtiān,N,an entire day,cả ngày,2
+8-2,8.        ,精神,jīngshén,N,"spirit, energy","tinh thần, năng lượng",2
+8-2,9.        ,本來,běnlái,Adv,originally,"vốn dĩ, ban đầu",2
+8-2,10.     ,可能,kěnéng,Vaux,"maybe, probably","có lẽ, có thể",2
+8-2,11.     ,回,huí ,V,to return to,trở về,2
+8-2,12.     ,影響,yǐngxiǎng,V,"to influence, to interfere with",ảnh hưởng,2
+8-2,13.     ,身體,shēntǐ,N,body,cơ thể,2
+8-2,14.     ,練,liàn,V,"to practice, to train, to drill",luyện tập,2
+8-2,15.     ,想起,xiǎngqǐ,,to recall,nhớ lại,2
+9-1,1.     ,春假,chūnjià,N,spring break,kỳ nghỉ xuân,2
+9-1,2.     ,好,hǎo,Ptc,"As a resultative particle, it indicates a proper completion of an action.",trợ từ kết quả chỉ sự hoàn thành đúng đắn,2
+9-1,3.     ,到,dào,Ptc,"As a resultative particle, it indicates a successful completion of an action.",trợ từ kết quả chỉ sự hoàn thành thành công,2
+9-1,4.     ,特色,tèsè,N,"unique features, distinctive traits","đặc trưng, nét riêng biệt",2
+9-1,5.     ,夠,gòu,Vs-pred,enough,đủ,2
+9-1,6.     ,顏色,yánsè,N,color,màu sắc,2
+9-1,7.     ,廟,miào,N,temple,"đền, miếu",2
+9-1,8.     ,像,xiàng,Vst,similar to,giống với,2
+9-1,9.     ,教堂,jiàotáng,N,"church, cathedral",nhà thờ,2
+9-1,10.  ,南部,nánbù,N,southern region,miền nam,2
+9-1,11.  ,潛水,qiánshuǐ ,V-sep,"to dive (i.e., snorkel or scuba diving)",lặn (có ống thở hoặc bình dưỡng khí),2
+9-1,12.  ,各,gè ,Det,various,"các, nhiều",2
+9-1,13.  ,魚,yú,N,fish,cá,2
+9-1,14.  ,酸,suān,Vs,"sour, tart",chua,2
+9-1,15.  ,檸檬,níngméng,N,"lemon, lime",chanh,2
+9-1,16.  ,味道,wèidào,N,"taste, flavor",hương vị,2
+9-1,17.  ,泰國,Tàiguó,,Thailand,Thái Lan,2
+9-1,18.  ,比起來,bǐ qǐlái,,compared to,so với,2
+9-1,19.  ,極了,jí le,,"absolutely, extremely","cực kỳ, tuyệt vời",2
+9-1,20.  ,忘不了,wàng bù liǎo,,unforgettable,không thể quên,2
+9-2,1.     ,鄉下,xiāngxià,N,countryside,nông thôn,2
+9-2,2.     ,氣氛,qìfēn,N,atmosphere,bầu không khí,2
+9-2,3.     ,鎮,zhèn,N,rural town,thị trấn,2
+9-2,4.     ,不同,bùtóng,Vs,different,khác biệt,2
+9-2,5.     ,現代,xiàndài,N,modern,hiện đại,2
+9-2,6.     ,公寓,gōngyù,N,apartment,căn hộ,2
+9-2,7.     ,馬路,mǎlù,N,street,đường phố,2
+9-2,8.     ,寬,kuān,Vs,wide,rộng,2
+9-2,9.     ,汽車,qìchē ,N,car,ô tô,2
+9-2,10.  ,建築,jiànzhú,N,buildings,công trình kiến trúc,2
+9-2,11.  ,老,lǎo,Vs,old,cũ,2
+9-2,12.  ,層,céng,M,measure word for floors and storeys,lượng từ cho tầng lầu,2
+9-2,13.  ,北部,běibù,N,the north,miền bắc,2
+9-2,14.  ,熱情,rèqíng,Vs,"hospitable, welcoming, warmhearted","hiếu khách, nhiệt tình",2
+9-2,15.  ,擠,jǐ,Vs,crowded,đông đúc,2
+9-2,16.  ,飲料,yǐnliào,N,"drink, beverage",đồ uống,2
+9-2,17.  ,巴黎,Bālí,,Paris,Paris,2
+9-2,18.  ,高雄市,Gāoxióng Shì,,Kaohsiung City in southern Taiwan,Thành phố Cao Hùng (Đài Loan),2
+9-2,19.  ,中南部,zhōngnánbù,,central and southern regions,miền trung và nam,2
+9-2,20.  ,買得起,mǎi de qǐ ,,"afford, affordable","có khả năng mua, hợp túi tiền",2
+9-2,21.  ,百貨公司,bǎihuò gōngsī,,department store,cửa hàng bách hóa,2
+9-2,22.  ,越來越,yuèláiyuè,,"more and more, increasingly",ngày càng,2
+10-1,1.        ,馬丁,Mǎding ,,"Martin, a man from the UK",Martin (một người đàn ông từ Anh),2
+10-1,2.        ,包,bāo,V,to wrap,gói,2
+10-1,3.        ,餃子,jiǎozi ,N,dumplings,"bánh bao, sủi cảo",2
+10-1,4.        ,脫,tuō,V,"to remove, to take off (clothing)","cởi (quần áo, giày)",2
+10-1,5.        ,鞋,xié,N,shoes,giày,2
+10-1,6.        ,關,guān,V,to close,đóng,2
+10-1,7.        ,門,mén,N,door,cửa,2
+10-1,8.        ,春捲,chūnjuǎn,N,spring rolls,chả giò,2
+10-1,9.        ,泡菜,pàocài,N,"kimchi, pickled vegetables","kim chi, rau muối chua",2
+10-1,10.     ,飯廳,fàntīng,N,dining room,phòng ăn,2
+10-1,11.     ,下,xià,Ptc,to have enough space to accommodate,trợ từ chỉ đủ chỗ chứa,2
+10-1,12.     ,洗,xǐ ,V,to wash,rửa,2
+10-1,13.     ,做菜,zuòcài,V-sep,to cook,nấu ăn,2
+10-1,14.     ,水餃,shuǐjiǎo,N,dumplings (when boiled in water),sủi cảo (luộc),2
+10-1,15.     ,煮,zhǔ,V,"to cook, to boil","nấu, đun sôi",2
+10-1,16.     ,壞,huài,Vp,to go bad,hỏng,2
+10-1,17.     ,破, pò ,Vp,"to break, to split open","vỡ, rách",2
+10-1,18.     ,餡兒,xiànr,N,filling,nhân (bánh),2
+10-1,19.     ,扁,biǎn,Vs,flat,dẹt,2
+10-1,20.     ,材料,cáiliào,N,ingredients,nguyên liệu,2
+10-1,21.     ,道,dào ,M,measure word for dishes of food,lượng từ cho món ăn,2
+10-1,22.     ,飽,bǎo,Vs,"to have eaten enough, to be full",no,2
+10-1,23.     ,光,guāng,Vp,"to be finished, none left",hết sạch,2
+10-1,24.     ,鍋子,guōzi,N,"pot, kettle, pan, wok","nồi, chảo",2
+10-1,25.     ,筷子,kuàizi,N,chopsticks,đũa,2
+10-1,26.     ,碗,wǎn,N,bowl,bát,2
+10-1,27.     ,韓國,Hánguó,,(South) Korea,Hàn Quốc,2
+10-1,28.     ,看不出來,kàn bù chūlái,,"It does not occur to me that…, can’t tell (i.e., ascertain)","Không nhận ra rằng..., không thể phân biệt",2
+10-1,29.     ,酸辣湯,suānlà tāng,,hot and sour soup,canh chua cay,2
+10-2,1.        ,學期,xuéqí,N,semester,học kỳ,2
+10-2,2.        ,趁,chèn,Prep,"while, take advantage of","nhân lúc, tận dụng",2
+10-2,3.        ,皮,pí,N,"skin, wraps","vỏ, da (bánh)",2
+10-2,4.        ,嚐,cháng,V,"to savor, to taste",nếm thử,2
+10-2,5.        ,大白菜,dàbáicài,N,Chinese cabbage,cải thảo,2
+10-2,6.        ,加,jiā,V,to add,thêm vào,2
+10-2,7.        ,鹽,yán,N,salt,muối,2
+10-2,8.        ,拌,bàn,V,"to stir, to mix","trộn, khuấy",2
+10-2,9.        ,辣椒,làjiāo,N,chili peppers,ớt,2
+10-2,10.     ,調味料,tiáowèiliào,N,seasonings,gia vị,2
+10-2,11.     ,裝,zhuāng,V,to pack into,đóng gói vào,2
+10-2,12.     ,玻璃,bōlí ,N,glass,thủy tinh,2
+10-2,13.     ,壽司,shòusī ,N,sushi,sushi,2
+10-2,14.     ,像,xiàng,Vst,such as; like,"chẳng hạn như, giống như",2
+10-2,15.     ,食物,shíwù,N,food,thực phẩm,2
+10-2,16.     ,做起來,zuò qǐlái,,"when undertaken, to do","khi làm, để làm",2
+11-1,1.     ,其他,qítā ,Det,"other, the other, the remaining","khác, những cái còn lại",2
+11-1,2.     ,假期,jiàqí,N,"vacation, holiday",kỳ nghỉ,2
+11-1,3.     ,溫泉,wēnquán ,N,hot springs,suối nước nóng,2
+11-1,4.     ,建議,jiànyì,V,"to suggest, to recommand","đề nghị, gợi ý",2
+11-1,5.     ,票,piào ,N,ticket,vé,2
+11-1,6.     ,考慮,kǎolǜ ,V,to consider,cân nhắc,2
+11-1,7.     ,順便,shùnbiàn ,Adv,"without making any extra effort, on the way, while doing something else, while one is at it","tiện thể, nhân tiện",2
+11-1,8.     ,湖,hú ,N,lake,hồ,2
+11-1,9.     ,原住民,yuánzhùmín ,N,aborigines,thổ dân,2
+11-1,10.  ,趟,tàng ,M,measure word for a trip,lượng từ cho chuyến đi,2
+11-1,11.  ,後來,hòulái ,Adv,later,sau này,2
+11-1,12.  ,注意,zhùyì ,V,to pay attention to,chú ý đến,2
+11-1,13.  ,沙灘,shātān ,N,beach,bãi biển,2
+11-1,14.  ,錢包,qiánbāo,N,"wallet, purse","ví, bóp",2
+11-1,15.  ,不見,bújiàn,Vp,"to be lost, to disappear","bị mất, biến mất",2
+11-1,16.  ,被,bèi ,Ptc,a particle marking a passive sentence,trợ từ bị động,2
+11-1,17.  ,偷,tōu,V,to steal,ăn cắp,2
+11-1,18.  ,安全,ānquán ,Vs,safe,an toàn,2
+11-1,19.  ,值得,zhíde ,Vs,"worthwhile, worth",đáng giá,2
+11-1,20.  ,墾丁,Kěndīng,,"Kenting, an area on the southern tip of Taiwan, famed for beaches and rain forest",Kenting (khu vực phía nam Đài Loan),2
+11-1,21.  ,台中,Táizhōng,,"Taichung city, in central Taiwan",Thành phố Đài Trung,2
+11-1,22.  ,日月潭,Rìyuè Tán,,"Sun Moon Lake, in central Taiwan",Hồ Nhật Nguyệt,2
+11-1,23.  ,水上活動,shuǐshàng huódòng ,,"water activities,water recreation",hoạt động dưới nước,2
+11-1,24.  ,風景區,fēngjǐngqū,,scenic area,khu danh lam thắng cảnh,2
+11-2,1.     ,又,yòu,Adv,then,rồi thì,2
+11-2,2.     ,遍,biàn,M,measure word for number of times,lượng từ cho số lần,2
+11-2,3.     ,民宿,mínsù,N,Bed & Breakfast lodgings,nhà nghỉ Bed & Breakfast,2
+11-2,4.     ,運氣,yùnqì ,N,luck,vận may,2
+11-2,5.     ,摩托車,mótuōchē ,N,motorcycle,xe máy,2
+11-2,6.     ,熱帶,rèdài ,N,tropical region,vùng nhiệt đới,2
+11-2,7.     ,植物,zhíwù,N,plants,thực vật,2
+11-2,8.     ,所有,suǒyǒu,Vs-attr,all ,tất cả,2
+11-2,9.     ,白天,báitiān ,N,in the daytime,ban ngày,2
+11-2,10.  ,躺,tǎng ,Vi,to lie down,nằm xuống,2
+11-2,11.  ,黃昏,huánghūn ,N,dusk,hoàng hôn,2
+11-2,12.  ,條,tiáo ,M,measure word for street,lượng từ cho đường phố,2
+11-2,13.  ,街,jiē ,N,street,đường phố,2
+11-2,14.  ,啤酒,píjiǔ,N,beer,bia,2
+11-2,15.  ,上,shàng,Ptc,a verb particle indicating the coming into contact between two nouns,trợ từ chỉ sự tiếp xúc giữa hai danh từ,2
+11-2,16.  ,又,yòu,Conj,and,và,2
+11-2,17.  ,浪漫,làngmàn,Vs,romantic,lãng mạn,2
+11-2,18.  ,家鄉,jiāxiāng,N,"hometown, usually a village",quê hương (thường là làng),2
+11-2,19.  ,觀光客,guānguāngkè ,,tourist,khách du lịch,2
+11-2,20.  ,曬太陽,shài tàiyáng,,to sunbathe,tắm nắng,2
+11-2,21.  ,水上摩托車,shuǐshàng mótuōchē ,,jet skis,xe mô tô nước,2
+11-2,22.  ,愛上,àishàng,,to fall in love with,"yêu, phải lòng",2
+12-1,1.        ,新,xīn ,Adv,newly,mới,2
+12-1,2.        ,開,kāi,V,to open (business),mở (kinh doanh),2
+12-1,3.        ,素食,sùshí ,N,vegetarian food,đồ ăn chay,2
+12-1,4.        ,速食,sùshí ,N,fast food,đồ ăn nhanh,2
+12-1,5.        ,錯,cuò ,Vp,"to be mistaken, wrong","sai, nhầm",2
+12-1,6.        ,肉,ròu,N,meat,thịt,2
+12-1,7.        ,欸,èi ,Ptc,"an interjection particle, calling for attention",này (từ cảm thán gây sự chú ý),2
+12-1,8.        ,讓,ràng ,V,"to let, to make","để, khiến",2
+12-1,9.        ,吃素,chīsù ,V-sep,"to be a vegetarian, to eat vegetarian food",ăn chay,2
+12-1,10.     ,漢堡,hànbǎo ,N,hamburger,bánh hamburger,2
+12-1,11.     ,變,biàn,Vp,to become,trở nên,2
+12-1,12.     ,胖,pàng,Vs,fat,béo,2
+12-1,13.     ,素菜,sùcài ,N,"vegetarian food, dishes",món chay,2
+12-1,14.     ,油膩,yóunì,Vs,"oily, greasy",nhiều dầu mỡ,2
+12-1,15.     ,樣,yàng ,M,"measure word for dishes, kinds","lượng từ cho món ăn, loại",2
+12-1,16.     ,好奇,hàoqí,Vs,"curious, to wonder",tò mò,2
+12-1,17.     ,女孩,nǚhái,N,girl,cô gái,2
+12-1,18.     ,青菜,qīngcài ,N,vegetables,rau xanh,2
+12-1,19.     ,瘦,shòu ,Vs,thin,gầy,2
+12-1,20.     ,室友,shìyǒu,N,roommate,bạn cùng phòng,2
+12-1,21.     ,豬肉,zhūròu ,N,pork,thịt lợn,2
+12-1,22.     ,西方,xīfāng,N,"the West, western",phương Tây,2
+12-1,23.     ,完全,wánquán ,Adv,completely,hoàn toàn,2
+12-1,24.     ,鹹,xián,Vs,salty,mặn,2
+12-1,25.     ,炸,zhá,V,to deep fry,chiên ngập dầu,2
+12-1,26.     ,烤,kǎo ,V,"to grill, to roast, to BBQ","nướng, BBQ",2
+12-1,27.     ,沙拉,shālā ,N,salad,salad,2
+12-1,28.     ,麥當勞,Màidāngláo ,,McDonald’s,McDonald's,2
+12-1,29.     ,速食店,Sùshí diàn,,fast food restaurant,cửa hàng đồ ăn nhanh,2
+12-2,1,只要,zhǐyào ,Conj,as long as,miễn là,2
+12-2,2.        ,討厭,tǎoyàn,Vst,to dislike,"ghét, không thích",2
+12-2,3.        ,餐,cān ,M,measure word for meal,lượng từ cho bữa ăn,2
+12-2,4.        ,宗教,zōngjiào ,N,religion,tôn giáo,2
+12-2,5.        ,關係,guānxi ,N,relationship,mối quan hệ,2
+12-2,6.        ,薯條,shǔtiáo,N,French fries,khoai tây chiên,2
+12-2,7.        ,作法,zuòfǎ ,N,"way of doing something, e.g., cooking",cách làm,2
+12-2,8.        ,越,yuè ,Adv,more,càng,2
+12-2,9.        ,簡單,jiǎndān,Vs,simple,đơn giản,2
+12-2,10.     ,蒸,zhēng ,V,to steam,hấp,2
+12-2,11.     ,有機,yǒujī ,Vs-attr,organic,hữu cơ,2
+12-2,12.     ,食品,shípǐn ,N,food,thực phẩm,2
+12-2,13.     ,地球,dìqiú ,N,the earth,trái đất,2
+12-2,14.     ,汙染,wūrǎn ,N,pollution,ô nhiễm,2
+12-2,15.     ,嚴重,yánzhòng ,Vs,serious,nghiêm trọng,2
+12-2,16.     ,衛生,wèishēng ,N,hygiene,vệ sinh,2
+12-2,17.     ,營養,yíngyǎng,N,nutrition,dinh dưỡng,2
+12-2,18.     ,什麼的,shénmede,,things like (that); etc.,"những thứ như vậy, vân vân",2
+13-1,1.     ,林愛麗,Lín àilì,,"Lin Aili, a woman from Canada",Lâm Ái Lệ (một phụ nữ từ Canada),2
+13-1,2.     ,掉,diào,Vp,to lose,làm mất,2
+13-1,3.     ,低頭,dītóu,V-sep,to lower one’s head,cúi đầu,2
+13-1,4.     ,傳,chuán,V,"to send (text message, email)","gửi (tin nhắn, email)",2
+13-1,5.     ,過,guò ,Ptc,a phase particle indicating completion of an action,trợ từ chỉ sự hoàn thành hành động,2
+13-1,6.     ,簡訊,jiǎnxùn ,N,text message,tin nhắn văn bản,2
+13-1,7.     ,功能,gōngnéng ,N,function,chức năng,2
+13-1,8.     ,生氣,shēngqì ,Vs-sep,to get angry at,tức giận,2
+13-1,9.     ,叫,jiào ,V,to tell,"bảo, kêu",2
+13-1,10.  ,罵,mà ,V,"to yell at, to scold, to tell off","mắng, quở trách",2
+13-1,11.  ,健身房,jiànshēnfáng ,N,gym,phòng tập gym,2
+13-1,12.  ,啦,la,Ptc,"a sentence-final particle indicating a question, 了+啊",trợ từ cuối câu (了+啊),2
+13-1,13.  ,查,chá ,V,"to check, to look up (for information)","kiểm tra, tra cứu",2
+13-1,14.  ,班機,bānjī ,N,flight,chuyến bay,2
+13-1,15.  ,訂位,dìngwèi ,V-sep,to make reservations,đặt chỗ,2
+13-1,16.  ,電,diàn,N,electric power,điện,2
+13-1,17.  ,充電,chōngdiàn ,V-sep,to charge (the battery of an electronic device),sạc (pin),2
+13-1,18.  ,糊塗,hútú ,Vs,muddle-headed,đãng trí,2
+13-1,19.  ,喔,ō,Ptc,a sentence-final particle indicating a suggestion,trợ từ cuối câu chỉ gợi ý,2
+13-1,20.  ,義大利,Yìdàlì ,,Italy,Ý,2
+13-1,21.  ,拿走,názǒu ,,to take away,lấy đi,2
+13-1,22.  ,撿到,jiǎndào ,,"to find something, to pick up",nhặt được,2
+13-1,23.  ,留下,liúxià,,to keep for oneself,giữ lại cho bản thân,2
+13-2,1.     ,網路,wǎnglù,N,the internet,internet,2
+13-2,2.     ,發生,fāshēng ,Vp,to happen,xảy ra,2
+13-2,3.     ,事情,shìqíng ,N,"event, happening","sự kiện, chuyện xảy ra",2
+13-2,4.     ,消息,xiāoxí,N,"news, information","tin tức, thông tin",2
+13-2,5.     ,透過,tòuguò ,Prep,through,thông qua,2
+13-2,6.     ,世界,shìjiè ,N,the world,thế giới,2
+13-2,7.     ,節省,jiéshěng,V,to save,tiết kiệm,2
+13-2,8.     ,起床,qǐchuáng ,Vp-sep,to get out of bed,ra khỏi giường,2
+13-2,9.     ,檢查,jiǎnchá,V,to check,kiểm tra,2
+13-2,10.  ,郵件,yóujiàn ,N,mail,thư (điện tử),2
+13-2,11.  ,立刻,lìkè ,Adv,immediately,ngay lập tức,2
+13-2,12.  ,上傳,shàngchuán ,V,"to upload, to post","tải lên, đăng",2
+13-2,13.  ,正常,zhèngcháng ,Vs,to be normal,bình thường,2
+13-2,14.  ,談,tán ,V,"to talk over, to talk about, to discuss","nói chuyện, thảo luận",2
+13-2,15.  ,現代人,xiàndài rén ,,"modern day people, people today",con người hiện đại,2
+13-2,16.  ,比方說,bǐfāng shuō ,,for example,ví dụ,2
+13-2,17.  ,做到,zuòdào,,"to be able to achieve, to succeed in doing","có thể đạt được, thành công trong việc làm",2
+13-2,18.  ,第一手,dìyīshǒu,,first hand,trực tiếp (first hand),2
+13-2,19.  ,急著,jízhe,,in a hurry to,đang vội,2
+13-2,20.  ,打招呼,dǎ zhāohū ,,to greet someone; to say hello; to wave at someone,chào hỏi,2
+13-2,21.  ,面對面,miàn duì miàn,,face-to-face,mặt đối mặt,2
+14-1,1.     ,將來,jiānglái ,N,the future,tương lai,2
+14-1,2.     ,徵求,zhēngqiú ,V,"to seek, to invite applications for","tìm kiếm, mời ứng tuyển",2
+14-1,3.     ,教師,jiàoshī ,N,instructor,"giáo viên, giảng viên",2
+14-1,4.     ,認為,rènwéi,Vst,"to have the opinion that, to think","cho rằng, nghĩ rằng",2
+14-1,5.     ,畢業,bìyè ,Vp-sep,to graduate,tốt nghiệp,2
+14-1,6.     ,發展,fāzhǎn ,V,to develop,phát triển,2
+14-1,7.     ,連,lián,Prep,even,ngay cả,2
+14-1,8.     ,想法,xiǎngfǎ,N,"thoughts, way of thinking, idea","suy nghĩ, ý tưởng",2
+14-1,9.     ,不但,búdàn ,Conj,not only,không chỉ,2
+14-1,10.  ,繼續,jìxù ,Vaux,to continue,tiếp tục,2
+14-1,11.  ,使用,shǐyòng ,V,"to make use of, to use",sử dụng,2
+14-1,12.  ,實現,shíxiàn ,Vp,"to come true, to realize",trở thành hiện thực,2
+14-1,13.  ,招待,zhāodài ,V,"to entertain, to play host to","chiêu đãi, tiếp đón",2
+14-1,14.  ,研究所,yánjiùsuǒ ,N,graduate school,trường sau đại học,2
+14-1,15.  ,聚,jù,Vi,to get together,tụ tập,2
+14-1,16.  ,香港,Xiānggǎng ,,Hong Kong,Hồng Kông,2
+14-1,17.  ,上海,Shànghǎi ,,Shanghai,Thượng Hải,2
+14-1,18.  ,說到,shuōdào ,,to mention,nhắc đến,2
+14-1,19.  ,念完,niànwán,,to complete (an academic program),học xong,2
+14-1,20.  ,分公司,fēngōngsī ,,branch office,văn phòng chi nhánh,2
+14-1,21.  ,捨不得,shěbùdé,,reluctant to part with,"lưu luyến, không nỡ rời xa",2
+14-1,22.  ,聚一聚,jù yí jù,,get together,tụ tập một chút,2
+14-2,1.             ,當時,Adv,,at that time,vào thời điểm đó,2
+14-2,2.              ,聲調,shēngdiào ,N,tones,thanh điệu,2
+14-2,3.              ,發音,fāyīn ,N,pronunciation,phát âm,2
+14-2,4.     ,準,zhǔn ,Vs,to be accurate,chính xác,2
+14-2,5.     ,企業,qìyè ,N,enterprise,doanh nghiệp,2
+14-2,6.     ,管理,guǎnlǐ ,N,management,quản lý,2
+14-2,7.     ,系,xì,N,academic department (of a university),khoa (đại học),2
+14-2,8.     ,經濟,jīngjì,N,economy,kinh tế,2
+14-2,9.     ,幫助,bāngzhù,N,help,sự giúp đỡ,2
+14-2,10.  ,有關,yǒuguān ,Vst,to be related to,có liên quan đến,2
+14-2,11.  ,語法,yǔfǎ ,N,"syntax, grammar",ngữ pháp,2
+14-2,12.  ,研究,yánjiù ,V,to do research in,nghiên cứu,2
+14-2,13.  ,教書,jiāoshū,V-sep,to teach,dạy học,2
+14-2,14.  ,方法,fāngfǎ ,N,"method, approach",phương pháp,2
+14-2,15.  ,目的,mùdì ,N,"goal, objective","mục đích, mục tiêu",2
+14-2,16.  ,國際,guójì ,Vs-attr,international,quốc tế,2
+14-2,17.  ,翻譯,fānyì ,N,"translator, interpreter",phiên dịch viên,2
+14-2,18.  ,外交,wàijiāo,N,"diplomacy, foreign affairs",ngoại giao,2
+14-2,19.  ,人員,rényuán ,N,"staff, personnel",nhân viên,2
+14-2,20.  ,充實,chōngshí,V,"to enrich, to strengthen","làm phong phú, củng cố",2
+14-2,21.  ,專業,zhuānyè ,N,"profession, specialisation","chuyên ngành, nghề nghiệp",2
+14-2,22.  ,能力,nénglì ,N,"capacity, ability",năng lực,2
+14-2,23.  ,加拿大,Jiānádà ,,Canada,Canada,2
+14-2,24.  ,企業管理系（企管系）,qìyè guǎnlǐ xì ,,department of business management,khoa quản trị kinh doanh,2
+14-2,25.  ,國際關係,guójì guānxì,,international relations,quan hệ quốc tế,2
+15-1,1,春節,chūnjié,N,"the Lunar New Year, the Spring Festival",Tết Nguyên Đán,2
+15-1,2,伯伯,bóbo ,N,"(older) uncle, friends’ fathers in general",bác (bạn của cha),2
+15-1,3,年夜飯,niányèfàn ,N,Lunar New Year’s Eve dinner,bữa tối Giao thừa,2
+15-1,4,打擾,dǎrǎo ,V,"to trouble (someone), to disturb",làm phiền,2
+15-1,5,女兒,nǚ’ér ,N,daughter,con gái,2
+15-1,6,國外,guówài ,N,abroad,nước ngoài,2
+15-1,7,圍爐,wéilú,V-sep,for a family to gather over Lunar New Year’s Eve dinner,quây quần bên bữa tối Giao thừa,2
+15-1,8,意思,yìsi ,N,meaning,ý nghĩa,2
+15-1,9,全家,quánjiā,N,the entire family,cả gia đình,2
+15-1,10,孩子,háizi,N,children,trẻ em,2
+15-1,11,吉祥,jíxiáng ,Vs,auspicious,"tốt lành, cát tường",2
+15-1,12,年紀,niánjì ,N,age,tuổi tác,2
+15-1,13,過年,guò nián ,,to celebrate the Lunar New Year,ăn Tết,2
+15-1,14,除夕夜,chúxì yè,,Luner New Year’s Eve,đêm Giao thừa,2
+15-1,15,睡著,shuìzháo ,,to fall asleep,ngủ thiếp đi,2
+15-1,16,壓歲錢,yāsuìqián ,,New Year’s Eve money,tiền lì xì,2
+15-1,17,恭喜發財,gōngxǐ fācái,,Congratulations. I wish you wealth.,"Chúc mừng năm mới, phát tài phát lộc.",2
+15-1,18,好了,hǎo le,,OK,Được rồi.,2
+15-2,1,節日,jiérì ,N,"holiday, festival","ngày lễ, lễ hội",2
+15-2,2,打掃,dǎsǎo ,V,to clean up (must include sweeping),dọn dẹp (bao gồm quét),2
+15-2,3,另外,lìngwài,Conj,in addition,thêm vào đó,2
+15-2,4,春聯,chūnlián ,N,"New Year’s couplets (with calligraphy, in doublets)",câu đối Tết,2
+15-2,5,除夕,chúxì ,N,Lunar New Year’s Eve,Giao thừa,2
+15-2,6,年糕,niángāo,N,new year rice cake,bánh Tết (bánh gạo),2
+15-2,7,橘子,júzi,N,"orange, tangerine",quýt,2
+15-2,8,守歲,shǒusuì ,Vi,to stay up waiting for the arrival of the New Year,thức đón giao thừa,2
+15-2,9,說法,shuōfǎ,N,"way of saying things, a theory","cách nói, lý thuyết",2
+15-2,10,晚,wǎn ,Vs,late,muộn,2
+15-2,11,活,huó,Vs,"to live, to stay active","sống, hoạt động",2
+15-2,12,平安,píng’ān,Vs,"peaceful, eventless",bình an,2
+15-2,13,出門,chūmén,V-sep,"to go out, to leave the house","ra ngoài, ra khỏi nhà",2
+15-2,14,拜年,bàinián ,V-sep,to pay a New Year visit,chúc Tết,2
+15-2,15,又,yòu,Adv,again,lại,2
+15-2,16,起來,qǐlái,Ptc,"As a resultative particle, it indicates the beginning of an action of state.",trợ từ kết quả chỉ sự bắt đầu hành động/trạng thái,2
+15-2,17,華人,Huárén,,"Chinese, a person of Chinese ethnicity",người Hoa,2
+15-2,18,貼上,tiēshàng ,,to stick on (the wall),dán lên (tường),2
+15-2,19,年年有餘,niánnián yǒuyú ,,abundance every year,năm nào cũng dư dả,2
+15-2,20,步步高升,bùbù gāoshēng,,to rise in social rank,thăng tiến từng bước,2
+15-2,21,大吉大利,dàjí dàlì ,,great wishes for the new year,đại cát đại lợi,2
+15-2,22,放鞭炮,fàng biānpào ,,to set off firecrackers,đốt pháo,2
+15-2,23,大年初一,dànián chūyī ,,first day of the Lunar New Year,mùng 1 Tết,2
+15-2,24,大年初五,dànián chūwǔ,,fifth day of the Lunar New Year,mùng 5 Tết,2

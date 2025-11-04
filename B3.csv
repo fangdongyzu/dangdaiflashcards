@@ -1,0 +1,852 @@
+﻿課-序號,序號,生詞,漢拼,詞類,英譯,越譯,冊
+1-1,1,安德思,Ān Désī ,,a man from Honduras ,An Desi,3
+1-1,2,羅珊蒂,Luó Shāndì ,,a woman from Indonesia,Luo Shandi,3
+1-1,3,何雅婷,Hé Yǎtíng ,,a woman from Taiwan,He Yating,3
+1-1,4,開學,kāixué,Vp,(school) to start,khai giảng (trường học bắt đầu),3
+1-1,5,班,bān,N,"class, i.e., the students (not the classroom or the course)","lớp (chỉ tập thể học sinh, không phải phòng học hay khóa học)",3
+1-1,6,新生,xīnshēng,N,new student,sinh viên/học sinh mới,3
+1-1,7,嚴,yán,Vs,"strict, stern",nghiêm khắc,3
+1-1,8,口試,kǒushì,N,oral test,bài thi/bài kiểm tra nói,3
+1-1,9,筆試,bǐshì,N,written test,bài thi/bài kiểm tra viết,3
+1-1,10,以外,yǐwài,N,"except, other than","ngoại trừ, ngoài... ra",3
+1-1,11,口頭,kǒutóu ,Vs-attr,"verbal, oral","bằng lời nói, khẩu ngữ",3
+1-1,12,報告,bàogào ,N,report,báo cáo,3
+1-1,13,壓力,yālì,N,"pressure, stress","áp lực, sự căng thẳng",3
+1-1,14,說明,shuōmíng ,N,"instructions, explanation","hướng dẫn, lời giải thích",3
+1-1,15,清楚,qīngchǔ ,Vs,clear(ly),rõ ràng,3
+1-1,16,位子,wèizi ,N,"seat, place","chỗ ngồi, vị trí",3
+1-1,17,旁聽,pángtīng,V,"to audit,to sit in (on a class)",dự thính (một lớp học),3
+1-1,18,分,fēn ,N,Points,điểm,3
+1-1,19,羨慕,xiànmù ,Vst,to envy,ghen tị,3
+1-1,20,休學,xiūxué,Vp-sep,to take a break from school,tạm ngừng việc học,3
+1-1,21,用功,yònggōng ,Vs,"diligent, conscientious (as a student)","chăm chỉ, tận tâm (với tư cách là học sinh)",3
+1-1,22,行,xíng,Vs,to be all right,"được, ổn",3
+1-1,23,轉,zhuǎn ,V,to transfer (to a different major),chuyển (ngành học),3
+1-1,24,原來,yuánlái ,Adv,originally,"ban đầu, vốn dĩ",3
+1-1,25,會計,kuàijì ,N,"accounting, an accountant","kế toán, người kế toán",3
+1-1,26,熱門,rèmén,Vs,highly popular,cực kỳ phổ biến,3
+1-1,27,熬夜,áoyè,V-sep,"to stay up all night, to burn the midnight oil","thức khuya, thức trắng đêm",3
+1-1,28,當,dàng ,V,to fail a course,trượt (một môn học),3
+1-1,29,恐怕,kǒngpà ,Adv,"(I am) afraid that, probably","(e sợ rằng) có lẽ, e rằng",3
+1-1,30,口才,kǒucái ,N,speaking skills,tài ăn nói,3
+1-1,31,事,shì ,N,"issue, matter, event, thing","vấn đề, sự việc, sự kiện",3
+1-1,32,遲到,chídào,Vp,to be late (in arrival),đến muộn,3
+1-1,33,差一點,chà yì diǎn,,"barely, nearly, almost","suýt nữa, gần như",3
+1-1,34,這樣下去,zhèyàng xiàqù,,if it goes on like this,nếu cứ tiếp tục như thế này,3
+1-1,35,沒辦法,méi bànfǎ,,"there's no way, there's nothing that can be done","không còn cách nào, bó tay",3
+1-2,1,獨生女,dúshēngnǚ ,N,only child (girl),con một (con gái),3
+1-2,2,私立,sīlì ,Vs-attr,private,tư nhân,3
+1-2,3,理想,lǐxiǎng,Vs,"ideal, aspired","lý tưởng, mong ước",3
+1-2,4,合,hé ,Vst,"to tally with, to match","phù hợp, khớp với",3
+1-2,5,痛苦,tòngkǔ ,Vs,painful,đau đớn (về tinh thần hoặc thể xác),3
+1-2,6,科系,kēxì ,N,(academic) department,"khoa, ngành học (trong trường đại học)",3
+1-2,7,放棄,fàngqì,V,to give up,từ bỏ,3
+1-2,8,不管,bùguǎn ,Conj,"no matter, regardless of","bất kể, cho dù",3
+1-2,9,反對,fǎnduì,Vst,"to oppose, to be against",phản đối,3
+1-2,10,個性,gèxìng,N,personality,tính cách,3
+1-2,11,活潑,huópō,Vs,"lively, bubbly, vivacious","hoạt bát, sôi nổi",3
+1-2,12,外語,wàiyǔ,N,foreign language,ngoại ngữ,3
+1-2,13,擔心,dānxīn ,Vst,"to worry about, to fret over with",lo lắng,3
+1-2,14,填,tián,V,to fill out (a form),điền (vào đơn),3
+1-2,15,表,biǎo ,N,a form,mẫu đơn,3
+1-2,16,辦,bàn ,V,to deal with,"giải quyết, xử lý",3
+1-2,17,手續,shǒuxù ,N,procedures,thủ tục,3
+1-2,18,申請,shēnqǐng ,V,to apply for,"nộp đơn xin, đăng ký",3
+1-2,19,成績單,chéngjī dān,N,"report card, transcripts","bảng điểm, phiếu điểm",3
+1-2,20,考上,kǎoshàng ,,To test into,thi đỗ vào (một trường nào đó),3
+1-2,21,推薦信,tuījiàn xìn,,a letter of recommendation,thư giới thiệu,3
+2-1,1,起,qǐ ,Vp,starting from…,bắt đầu từ...,3
+2-1,2,外套,wàitào,N,"coat, jacket",áo khoác ngoài,3
+2-1,3,一般,yìbān,Adv,generally; in general,"nói chung, nhìn chung",3
+2-1,4,商品,shāngpǐn ,N,"goods, commodities",hàng hóa,3
+2-1,5,折扣,zhékòu ,N,discount,giảm giá,3
+2-1,6,省,shěng,V,"to save, to put away",tiết kiệm,3
+2-1,7,牌子,páizi ,N,brand,"nhãn hiệu, thương hiệu",3
+2-1,8,品質,pǐnzhí ,N,quality,chất lượng,3
+2-1,9,選擇,xuǎnzé ,N,choices,sự lựa chọn,3
+2-1,10,樣子,yàngzi ,N,"appearance, looks","vẻ bề ngoài, hình dáng",3
+2-1,11,摸,mō ,V,"to feel, to touch","sờ, chạm vào",3
+2-1,12,店員,diànyuán ,N,"salesperson, store employee, clerk",nhân viên cửa hàng,3
+2-1,13,短,duǎn,Vs,short,ngắn,3
+2-1,14,羊毛,yángmáo ,N,lamb’s wool,len cừu,3
+2-1,15,暖和,nuǎnhuo ,Vs,warm,ấm áp,3
+2-1,16,打折,dǎzhé ,V-sep,to offer a discount,giảm giá,3
+2-1,17,原價,yuánjià ,N,original price,giá gốc,3
+2-1,18,刷卡,shuākǎ ,V-sep,"to swipe, i.e., use a credit card",quẹt thẻ (thẻ tín dụng),3
+2-1,19,現金,xiànjīn,N,cash,tiền mặt,3
+2-1,20,麻煩,máfán,V,please (lit. allow me to trouble you),làm ơn (làm phiền),3
+2-1,21,簽名,qiānmíng ,V-sep,to sign ,ký tên,3
+2-1,22,破洞,pòdòng ,Vp-sep,to have a hole,bị thủng lỗ,3
+2-1,23,發票,fāpiào ,N,receipt,hóa đơn,3
+2-1,24,弄,nòng,V,"(pro-verb) to cause, to do",làm (một động từ thay thế cho nhiều động từ khác),3
+2-1,25,退,tuì ,V,to return (purchases),trả lại (hàng đã mua),3
+2-1,26,換,huàn,V,to exchange,đổi (hàng),3
+2-1,27,店長,diànzhǎng,N,store manager,quản lý cửa hàng,3
+2-1,28,週年慶,zhōunián qìng ,,anniversary,lễ kỷ niệm thành lập (cửa hàng),3
+2-1,29,一般來說,yìbān láishuō ,,generally speaking,nói chung là,3
+2-1,30,試穿,shì chuān ,,to try on (garments),thử (quần áo),3
+2-1,31,打完折,dǎ wán zhé,,after discouont,sau khi giảm giá,3
+2-1,32,弄丟,nòng diū,,to lose,làm mất,3
+2-2,1,購物,gòuwù ,Vi,to go shopping,đi mua sắm,3
+2-2,2,糾紛,jiūfēn,N,dispute,tranh chấp,3
+2-2,3,電信,diànxìn ,N,telecommunications ,viễn thông,3
+2-2,4,門市,ménshì ,N,retail outlet,cửa hàng bán lẻ,3
+2-2,5,居留證,jūliúzhèng ,N,Alien Resident Certificate (ARC in Taiwan),Thẻ Cư trú dành cho Người nước ngoài (ở Đài Loan),3
+2-2,6,月租型,yuèzūxíng,N,a monthly plan,gói cước trả trước hàng tháng,3
+2-2,7,帳單,zhàngdān ,N,bill,hóa đơn (cần thanh toán),3
+2-2,8,並,bìng ,Adv,contrary to assumption (followed by a negative statement),không (dùng để nhấn mạnh sự trái ngược với suy nghĩ),3
+2-2,9,包括,bāokuò,V,to include,bao gồm,3
+2-2,10,解釋,jiěshì ,N,explanation,lời giải thích,3
+2-2,11,顧客,gùkè,N,customer,khách hàng,3
+2-2,12,尤其,yóuqí ,Adv,"especially, in particular",đặc biệt là,3
+2-2,13,騙,piàn,V,"to cheat, to swindle",lừa đảo,3
+2-2,14,頓,dùn,M,verbal measure word for a duration of action,"lượng từ cho hành động kéo dài (bữa ăn, trận đòn...)",3
+2-2,15,辦法,bànfǎ,N,solution,giải pháp,3
+2-2,16,自動,zìdòng ,Adv,"by itself, on its own, automatically",tự động,3
+2-2,17,關機,guānjī,Vp-sep,"to turn off, to shut down",tắt máy,3
+2-2,18,修理,xiūlǐ ,V,to repair,sửa chữa,3
+2-2,19,繳費,jiǎofèi,V-sep,to pay a fee,nộp phí,3
+2-2,20,預付卡,yùfù kǎ ,,prepaid SIM card ,thẻ trả trước,3
+2-2,21,換成,huàn chéng ,,to change to,đổi thành,3
+2-2,22,吃到飽,chī dào bǎo ,,unlimited data (lit. all you can eat),dữ liệu không giới hạn (nghĩa đen: ăn thoải mái),3
+2-2,23,嚇一跳,xià yí tiào ,,"shocked, startled, taken aback","giật mình, hoảng hốt",3
+2-2,24,客服中心,kèfú zhōngxīn,,customer service center,trung tâm chăm sóc khách hàng,3
+3-1,1,陳敏萱,Chén Mǐnxuān ,,A woman from the Netherlands,một người phụ nữ từ Hà Lan,3
+3-1,2,高橋健太,Gāoqiáo Jiàntài ,,A man from Japan,một người đàn ông từ Nhật Bản,3
+3-1,3,空氣,kōngqì,N,air,không khí,3
+3-1,4,影響,yǐngxiǎng,N,influence,ảnh hưởng,3
+3-1,5,穩定,wěndìng,Vs,stable,ổn định,3
+3-1,6,幸虧,xìngkuī ,Adv,fortunately,may mắn thay,3
+3-1,7,躲,duǒ,Vi,"to hide, to go into hiding","trốn, ẩn nấp",3
+3-1,8,度,dù,M,degree,độ (đơn vị đo nhiệt độ),3
+3-1,9,溫度,wēndù,N,temperature,nhiệt độ,3
+3-1,10,零下,língxià,Vs-attr,below zero,dưới 0 độ,3
+3-1,11,感覺,gǎnjué,Vst,to feel,cảm thấy,3
+3-1,12,實際,shíjì,Vs,actual,thực tế,3
+3-1,13,難怪,nánguài,Adv,"it's no wonder, no wonder","chẳng trách, thảo nào",3
+3-1,14,季節,jìjié,N,season,mùa,3
+3-1,15,火鍋,huǒguō,N,hotpot,lẩu,3
+3-1,16,海鮮,hǎixiān,N,seafood,hải sản,3
+3-1,17,新鮮,xīnxiān,Vs,fresh,tươi,3
+3-1,18,櫻花,yīnghuā ,N,cherry blossom,hoa anh đào,3
+3-1,19,變化,biànhuà,N,change,sự thay đổi,3
+3-1,20,氣溫,qìwēn ,N,temperature (weather),nhiệt độ (thời tiết),3
+3-1,21,差,chā,Vst,to differ,khác biệt,3
+3-1,22,幾乎,jīhū,Adv,almost,gần như,3
+3-1,23,乾,gān,Vs,dry,khô,3
+3-1,24,發霉,fāméi ,Vp-sep,to mildew,bị mốc,3
+3-1,25,除濕機,chúshījī ,N,dehumidifier ,máy hút ẩm,3
+3-1,26,雨季,yǔjì ,N,rainy season,mùa mưa,3
+3-1,27,涼快,liángkuài ,Vs,cool ,mát mẻ,3
+3-1,28,潮濕,cháoshī,Vs,humid,ẩm ướt,3
+3-1,29,悶,mēn,Vs,stuffy,"ngột ngạt, bí",3
+3-1,30,冷氣,lěngqì ,N,air conditioning,"máy lạnh, điều hòa",3
+3-1,31,荷蘭,Hélán ,,the Netherlands (lit. Holland),Hà Lan,3
+3-1,32,出大太陽,chū dà tàiyáng ,,to be blazing hot,trời nắng gắt,3
+3-1,33,颳風,guā fēng ,,to be windy (lit. blow wind),trời có gió,3
+3-1,34,受到,shòu dào ,,"to receive, to be, to get","nhận được, bị",3
+3-1,35,受不了,shòu bù liǎo,,can't stand it,không chịu nổi,3
+3-1,36,餓死了,è sǐle ,,to starve to death (an exaggeration),đói chết (cách nói phóng đại),3
+3-1,37,後母臉,hòumǔ liǎn,,"stepmother's face, i.e., stern and cruel look","mặt mẹ kế (ám chỉ vẻ mặt nghiêm khắc, lạnh lùng)",3
+3-2,1,祖先,zǔxiān ,N,ancestor,tổ tiên,3
+3-2,2,移民,yímín ,Vi,"to immigrate, to emigrate",di cư,3
+3-2,3,當中,dāngzhōng ,N,"of, amongst","trong số, giữa",3
+3-2,4,根據,gēnjù ,Prep,"based on, in accordance with, according to","dựa trên, theo",3
+3-2,5,農曆,nónglì ,N,the lunar calendar (lit. the agricultural calendar),lịch âm,3
+3-2,6,農業,nóngyè ,N,agriculture,nông nghiệp,3
+3-2,7,農人,nóngrén ,N,farmer,người nông dân,3
+3-2,8,難得,nándé,Vs,"hard-to-come-by, rare",hiếm có,3
+3-2,9,祭祖,jìzǔ ,Vi,to venerate ancestors,cúng bái tổ tiên,3
+3-2,10,拜,bài ,V,"to honor, to pay homage to","bái, lạy",3
+3-2,11,神,shén ,N,"gods, divinities",thần thánh,3
+3-2,12,拜拜,bàibài ,Vi,to present offerings to gods or ancestors,"cúng bái (thần linh, tổ tiên)",3
+3-2,13,蚊蟲,wénchóng ,N,mosquitoes and other insects,muỗi và côn trùng,3
+3-2,14,戴,dài ,V,"to wear (items other than those that cover the torso, legs, or feet. mostly ornamental items.)","đeo, đeo (trang sức)",3
+3-2,15,香包,xiāngbāo ,N,fragrant sachet,túi thơm,3
+3-2,16,掛,guà,V,to hang,treo,3
+3-2,17,瘟疫,wēnyì,N,"pestilence, plague",dịch bệnh,3
+3-2,18,做法,zuòfǎ,N,"method, way of doing something ",cách làm,3
+3-2,19,多少,duōshǎo ,Adv,somewhat,"phần nào, một chút",3
+3-2,20,作用,zuòyòng ,N,effect,tác dụng,3
+3-2,21,迷信,míxìn ,N,superstition,mê tín,3
+3-2,22,收成,shōuchéng,N,harvest,vụ thu hoạch,3
+3-2,23,民族,mínzú ,N,ethnic group,dân tộc,3
+3-2,24,月亮,yuèliàng ,N,moon,mặt trăng,3
+3-2,25,圓,yuán ,Vs,round,tròn,3
+3-2,26,社會,shèhuì ,N,society,xã hội,3
+3-2,27,團聚,tuánjù,Vi,"to get-together, to reunite; reunion of family members (in this lesson)","sum họp, đoàn tụ",3
+3-2,28,月餅,yuèbǐng ,N,moon cake (shaped like the moon),bánh trung thu,3
+3-2,29,柚子,yòuzi,N,pomelo,bưởi,3
+3-2,30,故事,gùshì ,N,story,câu chuyện,3
+3-2,31,溫馨,wēnxīn ,Vs,"warm, heart-warming",ấm áp (về tình cảm),3
+3-2,32,端午節,Duānwǔ jié,,the Dragon Boat Festival (the 5 th day of the 5th month),Tết Đoan Ngọ (mùng 5 tháng 5 âm lịch),3
+3-2,33,中秋節,Zhōngqiū jié,,the Mid-autumn Moon Festival (the 15th day of the 8th month),Tết Trung Thu (15 tháng 8 âm lịch),3
+3-2,34,雄黃酒,xiónghuáng jiǔ ,,"realgar liquor, a wine seasoned with realgar, a type of arsenic, and is traditionally considered to be an antidote to other poisons",rượu hùng hoàng,3
+3-2,35,古時候,gǔ shíhòu,,historically; in ancient times,thời xưa,3
+3-2,36,趕走,gǎn zǒu ,,to drive away,đuổi đi,3
+3-2,37,過節,guò jié ,,to spend the holiday in some manner,ăn Tết,3
+4-1,1,愛,ài ,Vst,to love,yêu,3
+4-1,2,人情味,rénqíngwèi,N,"to be hospitable, kind, friendly","sự hiếu khách, tình người",3
+4-1,3,放,fàng ,V,to release,thả,3
+4-1,4,天燈,tiāndēng ,N,sky lantern,đèn trời,3
+4-1,5,願望,yuànwàng ,N,wish,điều ước,3
+4-1,6,訊號,xùnhào ,N,signal (data connection),tín hiệu (kết nối),3
+4-1,7,元宵,yuánxiāo ,N,sweet sticky rice dumplings,bánh trôi (ăn trong Tết Nguyên Tiêu),3
+4-1,8,牆,qiáng,N,wall,bức tường,3
+4-1,9,耐心,nàixīn ,N,patience,sự kiên nhẫn,3
+4-1,10,感動,gǎndòng ,Vs,"to be touched, moved",cảm động,3
+4-1,11,擔仔麵,dànzǎimiàn ,N,danzai noodles (special dish from Tainan),mì trộn Đài Loan (món đặc sản Đài Nam),3
+4-1,12,招牌,zhāopái ,N,store sign,biển hiệu cửa hàng,3
+4-1,13,當地,dāngdì ,Vs-attr,local,địa phương,3
+4-1,14,賺,zhuàn,V,to earn,kiếm tiền,3
+4-1,15,而,ér ,Adv,"on the other hand, rather,","mà, nhưng mà",3
+4-1,16,交,jiāo ,V,to make (friends),kết giao (bạn bè),3
+4-1,17,理想,lǐxiǎng ,N,"ideals, aspirations",lý tưởng,3
+4-1,18,剛剛,gānggang ,Adv,just now,vừa mới,3
+4-1,19,改天,gǎitiān ,Adv,some other day,hôm khác,3
+4-1,20,無聊,wúliáo ,Vs,"boring, dull",nhàm chán,3
+4-1,21,東區,dōngqū ,N,the East District (of Taipei),Khu Đông (của Đài Bắc),3
+4-1,22,煙火,yānhuǒ ,N,fireworks,pháo hoa,3
+4-1,23,跨年,kuànián ,Vi,welcome in the (solar) New Year (lit. span the years),đón giao thừa,3
+4-1,24,種類,zhǒnglèi ,N,"type, category","loại, hạng mục",3
+4-1,25,價錢,jiàqián ,N,price,giá cả,3
+4-1,26,感覺,gǎnjué,N,feeling; a feeling of… ,"cảm giác, cảm nhận",3
+4-1,27,雞排,jīpái,N,chicken fillet,miếng phi lê gà,3
+4-1,28,口,kǒu,M,mouthful,"lượng từ cho vật đưa lên miệng (ngụm, miếng...)",3
+4-1,29,紅茶,hóngchá ,N,black tea (lit. red tea),trà đen,3
+4-1,30,平溪,Píngxī ,,"Pingxi, a town in northern Taiwan",Pingxi (một thị trấn ở phía bắc Đài Loan),3
+4-1,31,元宵節,Yuánxiāo jié ,,the Lantern Festival (15th day of the 1st month),Tết Nguyên Tiêu (Rằm tháng Giêng),3
+4-1,32,孔廟,Kǒngmiào ,,Confucian Temple,Văn Miếu,3
+4-1,33,校外教學,xiàowài jiāoxué ,,"field trip, class excursion","chuyến dã ngoại, hoạt động ngoại khóa",3
+4-1,34,碰到,pèngdào ,,to run into,tình cờ gặp,3
+4-1,35,水煎包,shuǐjiān bāo ,,pan-fried pork bun,bánh bao rán,3
+4-2,1,同事,tóngshì ,N,"colleague, coworker",đồng nghiệp,3
+4-2,2,美食,měishí ,N,"delicacies, delicious foods",món ăn ngon,3
+4-2,3,上,shàng ,V,to go up to,"lên (xe, tàu...)",3
+4-2,4,泡,pào ,V,"to steep (tea)  to soak oneself in, i.e., to bath in","pha (trà), ngâm mình (bồn tắm)",3
+4-2,5,錯過,cuòguò ,Vpt,to miss (an opportunity),bỏ lỡ (cơ hội),3
+4-2,6,營業,yíngyè,Vi,"to open for business, in operation (businesses)",mở cửa kinh doanh,3
+4-2,7,夜景,yèjǐng,N,night view,cảnh đêm,3
+4-2,8,古老,gǔlǎo ,Vs,"ancient, antiquated",cổ kính,3
+4-2,9,古蹟,gǔjī ,N,historical site,di tích lịch sử,3
+4-2,10,重視,zhòngshì ,Vst,"to place emphasis on, to lay stress on, to value",coi trọng,3
+4-2,11,歷史,lìshǐ ,N,history,lịch sử,3
+4-2,12,風俗,fēngsú ,N,customs,phong tục,3
+4-2,13,習慣,xíguàn,N,habit,thói quen,3
+4-2,14,道地,dàodì ,Vs,authentic,"đích thực, chuẩn vị",3
+4-2,15,粥,zhōu ,N,"congee, watery rice",cháo,3
+4-2,16,講究,jiǎngjiù ,Vst,"to be discriminating in, to be discerning, meticulous","cầu kỳ, kỹ lưỡng",3
+4-2,17,頓,dùn ,M,measure word for the duration of a meal,lượng từ cho bữa ăn,3
+4-2,18,速度,sùdù,N,speed,tốc độ,3
+4-2,19,窄,zhǎi ,Vs,narrow,chật hẹp,3
+4-2,20,街道,jiēdào,N,street,đường phố,3
+4-2,21,蓋,gài ,V,"to build, to erect",xây dựng,3
+4-2,22,待,dāi,Vi,"to stay, to remain",ở lại,3
+4-2,23,欣賞,xīnshǎng ,V,"to appreciate, to enjoy","thưởng thức, ngắm nhìn",3
+4-2,24,美麗,měilì,Vs,beautiful,đẹp,3
+4-2,25,鈴木,Língmù,,Japanese last name: Lingmu (Japanese: Suzuki),họ Suzuki (tiếng Nhật),3
+4-2,26,赤崁樓,Chìkǎn lóu ,,"Chihkan Tower, a.k.a. Fort Provintia (stronghold built by the Dutch, in Tainan, in the 17th century)",Tháp Chihkan (Pháo đài Provintia),3
+4-2,27,留下來,liú xià lái,,to leave behind,để lại,3
+4-2,28,木造,mùzào,,wooden; made from wood,làm bằng gỗ,3
+4-2,29,非去不可,fēiqù bùkě,,Visiting (it) is a must!!,Nhất định phải đi!,3
+5-1,1,流行,liúxíng,Vst,popular,"thịnh hành, phổ biến",3
+5-1,2,唉,āi,Ptc,Oh no! Oh boy!,Ôi trời! (thể hiện thất vọng),3
+5-1,3,演唱會,yǎnchànghuì,N,concert,buổi hòa nhạc,3
+5-1,4,塞車,sāichē,Vs,"net congestion, jam","tắc đường, kẹt xe",3
+5-1,5,上線,shàngxiàn,V-sep,"to log in, go online","lên mạng, đăng nhập",3
+5-1,6,成功,chénggōng,Vp,to succeed,thành công,3
+5-1,7,倒楣,dǎoméi,Vs,"out of luck, down on one's luck","xui xẻo, đen đủi",3
+5-1,8,樂團,yuètuán,N,(music) band,ban nhạc (âm nhạc),3
+5-1,9,唱,chàng,V,to sing,hát,3
+5-1,10,興奮,xīngfèn,Vs,excited,phấn khích,3
+5-1,11,迷,mí,Vst,"to be enamored with, be into, be enchanted by, be obsessed with","mê, say mê",3
+5-1,12,歌詞,gēcí,N,lyrics,lời bài hát,3
+5-1,13,難過,nánguò,Vs,sad,buồn,3
+5-1,14,不如,bùrú,Vst,inferior to,không bằng,3
+5-1,15,現場,xiànchǎng,N,live; lit. on-site,"tại chỗ, trực tiếp",3
+5-1,16,跳,tiào,Vi,to jump,nhảy,3
+5-1,17,整,zhěng,Det,"entire, whole","toàn bộ, cả",3
+5-1,18,震動,zhèndòng,Vi,"to vibrate, to shake","rung, lắc",3
+5-1,19,漫畫,mànhuà,N,comics,truyện tranh,3
+5-1,20,內容,nèiróng,N,content,nội dung,3
+5-1,21,色情,sèqíng,Vs,pornographic; obscene,khiêu dâm; tục tĩu,3
+5-1,22,放鬆,fàngsōng,Vst,to relax,thư giãn,3
+5-1,23,心情,xīnqíng,N,mood,tâm trạng,3
+5-1,24,五月天,Wǔyuètiān,,Mayday (name of a Taiwanese rock band),Ban nhạc Mayday (Đài Loan),3
+5-1,25,算了,suàn le,,forget it; let it be!,thôi kệ đi,3
+5-1,26,受歡迎,shòu huānyíng,,well-received; well-liked; popular,"được ưa chuộng, nổi tiếng",3
+5-1,27,擠滿,jǐmǎn,,"crowded with, packed with","chật kín, đông nghẹt",3
+5-1,28,租書店,zūshū diàn,,book rental store,cửa hàng cho thuê sách,3
+5-1,29,平板電腦,píngbǎn diànnǎo,,tablet computer,máy tính bảng,3
+5-1,30,智慧型手機,zhìhuìxíng shǒujī,,smartphone,điện thoại thông minh,3
+5-1,31,殺時間,shā shíjiān,,to kill time,giết thời gian,3
+5-1,32,漫畫展,mànhuà zhǎn,,comic (book) exhibition,triển lãm truyện tranh,3
+5-1,33,來不及,lái bù jí,,"not be in time for, not make it on time",không kịp,3
+5-2,1,撞衫,zhuàngshān,Vs,"""wardrobe clash"", more than one person unintentionally wearing duplicate garments","""đụng hàng"" (mặc trùng quần áo)",3
+5-2,2,它,tā,N,it,nó (dùng cho đồ vật),3
+5-2,3,塞,sāi,V,"to stuff, cram, squeeze (into)","nhét, nhồi",3
+5-2,4,當季,dāngjì,N,in season,trong mùa (thời vụ),3
+5-2,5,款式,kuǎnshì,N,style (of clothes),kiểu dáng (quần áo),3
+5-2,6,連續劇,liánxùjù,N,TV series,phim truyền hình dài tập,3
+5-2,7,主角,zhǔjiǎo ,N,"leading role, leading actor",vai chính,3
+5-2,8,甜美,tiánměi,Vs,"sweet and cute, lovely","ngọt ngào, dễ thương",3
+5-2,9,寄,jì,V,to mail,"gửi (thư, bưu phẩm)",3
+5-2,10,居然,jūrán,Adv,"unexpectedly, counter to assumption","bất ngờ, không ngờ",3
+5-2,11,害,hài,V,adversely impacting somebody so that they…,làm cho (ai đó gặp chuyện gì),3
+5-2,12,既然,jìrán,Conj,"since, given that…","vì (rằng), bởi vì",3
+5-2,13,服裝,fúzhuāng,N,"clothing, garments","trang phục, quần áo",3
+5-2,14,媒體,méitǐ,N,the media,truyền thông,3
+5-2,15,方式,fāngshì,N,"method, ways","phương thức, cách thức",3
+5-2,16,吸引,xīyǐn,Vst,"to attract, to draw",thu hút,3
+5-2,17,避免,bìmiǎn,V,to avoid,tránh,3
+5-2,18,包包,bāobāo,N,"bag, purse",túi xách,3
+5-2,19,商人,shāngrén,N,businessperson,"thương nhân, doanh nhân",3
+5-2,20,產品,chǎnpǐn,N,product,sản phẩm,3
+5-2,21,電子,diànzǐ,N,electronics,điện tử,3
+5-2,22,市場,shìchǎng,N,market,thị trường,3
+5-2,23,新型,xīnxíng,Vs-attr,new style,kiểu mới,3
+5-2,24,落伍,luòwǔ,Vs,"behind the times, passé, old-fashioned",lỗi thời,3
+5-2,25,知音,zhīyīn,N,"bosom buddy, confidant","tri kỷ, bạn tâm giao",3
+5-2,26,想像,xiǎngxiàng,V,to imagine,tưởng tượng,3
+5-2,27,喇叭褲,lǎbākù,N,bell-bottom pants,quần ống loe,3
+5-2,28,印象,yìnxiàng,N,impression,ấn tượng,3
+5-2,29,遊戲,yóuxì,N,game,trò chơi,3
+5-2,30,化妝,huàzhuāng,V-sep,"to apply cosmetics, to make up",trang điểm,3
+5-2,31,一模一樣,yìmó yíyàng,,identical,giống hệt nhau,3
+5-2,32,淺藍色,qiǎn lánsè,,light blue,màu xanh lam nhạt,3
+5-2,33,脫掉,tuōdiào,,to take off (clothing),cởi ra (quần áo),3
+5-2,34,小題大作,xiǎotí dàzuò,,"to make a mountain out of a molehill, to make a big deal of nothing",việc bé xé ra to,3
+5-2,35,推出,tuīchū,,"to introduce, to roll out (products)","giới thiệu, ra mắt (sản phẩm)",3
+6-1,1,李文彥,Lǐ Wényàn,,an American-born Chinese,một người Mỹ gốc Hoa,3
+6-1,2,表哥,biǎogē,N,"cousin (older male cousin, from a female lineage)","anh họ (con của anh chị em của bố mẹ, lớn tuổi hơn mình)",3
+6-1,3,隨便,suíbiàn,Adv,"as one pleases oneself, to act freely","tùy tiện, qua loa",3
+6-1,4,種,zhòng,V,to grow (plants),trồng (cây),3
+6-1,5,蔬菜,shūcài,N,vegetable,rau củ,3
+6-1,6,農夫,nóngfū,N,farmer,người nông dân,3
+6-1,7,減少,jiǎnshǎo,V,"to reduce, to decrease",giảm bớt,3
+6-1,8,農藥,nóngyào,N,pesticide,thuốc trừ sâu,3
+6-1,9,天然,tiānrán,Vs-attr,natural,tự nhiên,3
+6-1,10,堆肥,duīféi,N,compost,phân compost,3
+6-1,11,辛苦,xīnkǔ,Vs,"tough, hard, bitter (life, work, etc.)","vất vả, cực nhọc",3
+6-1,12,地位,dìwèi,N,"position, status",địa vị,3
+6-1,13,收入,shōurù,N,income,thu nhập,3
+6-1,14,利潤,lìrùn,N,profit,lợi nhuận,3
+6-1,15,屋子,wūzi,N,house,ngôi nhà,3
+6-1,16,番茄,fānqié,N,tomato,cà chua,3
+6-1,17,品種,pǐnzhǒng,N,"variety, species",giống loài,3
+6-1,18,氣候,qìhòu,N,climate,khí hậu,3
+6-1,19,長,zhǎng,Vi,to grow,"lớn lên, mọc lên",3
+6-1,20,熟,shóu,Vp,"to be ripe, to ripen",chín,3
+6-1,21,片,piàn,M,"measure word for a stretch, swath (of land)",lượng từ cho một mảnh đất,3
+6-1,22,田,tián,N,"field, plot of land, paddy",cánh đồng,3
+6-1,23,照顧,zhàogù,V,to take care of ,chăm sóc,3
+6-1,24,敢,gǎn,Vaux,to dare,dám (làm gì),3
+6-1,25,條件,tiáojiàn,N,"terms, conditions, (here) good qualities (in a prospective spouse)","điều kiện, tiêu chuẩn",3
+6-1,26,黑,hēi,Vp,"dark, black","tối, đen",3
+6-1,27,摘下來,zhāi xiàlái,,"to pluck, to pick (e.g., fruit from a tree)",hái xuống,3
+6-1,28,做不動,zuò bú dòng,,to be unable to physically function due to old age,làm không nổi (vì tuổi già),3
+6-1,29,基因改造,jīyīn gǎizào,,genetically modified ,biến đổi gen,3
+6-1,30,忙得過來,máng de guòlái,,to be able to manage everything,bận cũng xoay xở được,3
+6-1,31,開玩笑,kāi wánxiào,,"to joke, to kid",đùa giỡn,3
+6-1,32,看天吃飯,kàntiān chīfàn,,livelihood depends on the whims of nature,"làm nông ""trông trời trông đất""",3
+6-2,1,小農,xiǎonóng,N,small farmer,nông dân nhỏ,3
+6-2,2,市集,shìjí,N,"bazaar, market","chợ, phiên chợ",3
+6-2,3,食材,shícái,N,"food materials, ingredients",nguyên liệu thực phẩm,3
+6-2,4,產地,chǎndì,N,place of origin,nơi sản xuất,3
+6-2,5,盡量,jìnliàng,Adv,to do one's best to,cố gắng hết sức,3
+6-2,6,友善,yǒushàn,Vs,friendly,thân thiện,3
+6-2,7,對待,duìdài,V,to treat,đối xử,3
+6-2,8,土地,tǔdì,N,land,đất đai,3
+6-2,9,信任,xìnrèn,Vst,to trust,tin tưởng,3
+6-2,10,寧可,níngkě,Vst,would rather,thà (làm gì đó),3
+6-2,11,跑,pǎo,Vi,to run,chạy,3
+6-2,12,支持,zhīchí,V,to support,ủng hộ,3
+6-2,13,文章,wénzhāng,N,article,bài viết,3
+6-2,14,推銷,tuīxiāo,V,"to promote, to market","quảng bá, tiếp thị",3
+6-2,15,其中,qízhōng,N,"of these, of which, amongst which",trong số đó,3
+6-2,16,師傅,shīfù,N,master (of a trade),"bậc thầy, sư phụ",3
+6-2,17,農村,nóngcūn,N,farming village,làng quê,3
+6-2,18,長大,zhǎngdà,Vi,to grow up,"lớn lên, trưởng thành",3
+6-2,19,幫助,bāngzhù,V,to help,giúp đỡ,3
+6-2,20,拜訪,bàifǎng,V,to pay someone a visit,thăm hỏi,3
+6-2,21,出產,chūchǎn,V,to produce,sản xuất,3
+6-2,22,由於,yóuyú,Conj,"due to, because of","do, bởi vì",3
+6-2,23,許多,xǔduō,Det,many,nhiều,3
+6-2,24,接近,jiējìn,Vst,"to come close to, to approach  ","tiếp cận, đến gần",3
+6-2,25,自然,zìrán,N,nature,tự nhiên (danh từ),3
+6-2,26,變成,biànchéng,Vpt,to become,trở thành,3
+6-2,27,休閒,xiūxián,Vs,leisure,"giải trí, thư giãn",3
+6-2,28,隨著,suízhe,Prep,"along with, with the happening of ","cùng với, theo",3
+6-2,29,觀光,guānguāng,Vi,"to tour, to sightsee","tham quan, du lịch",3
+6-2,30,消費,xiāofèi,Vi,"to be a consumer, to purchase things",tiêu dùng,3
+6-2,31,安靜,ānjìng,Vs,quiet,yên tĩnh,3
+6-2,32,消失,xiāoshī,Vp,to disappear,biến mất,3
+6-2,33,出問題,chū wèntí,,"to go wrong, to have problems","có vấn đề, trục trặc",3
+6-2,34,一方面,yì fāngmiàn,,on the one hand,một mặt,3
+7-1,1,親,qīn,Vs,close (as of familial relationship),thân thiết (về quan hệ gia đình),3
+7-1,2,爺爺,yéye,N,grandpa (father’s side),ông nội (bên nội),3
+7-1,3,鄰居,línjū,N,neighbor,hàng xóm,3
+7-1,4,狗,gǒu,N,dog,con chó,3
+7-1,5,叫,jiào,Vi,to bark,"sủa (chó, mèo)",3
+7-1,6,嗯,en,Ptc,an interjection indicating the speaker’s agreement,"ừ, ừm (thể hiện sự đồng ý)",3
+7-1,7,奶奶,nǎinai,N,grandma (father’s side),bà nội (bên nội),3
+7-1,8,過世,guòshì,Vp,"to die, pass away (honorific)",qua đời,3
+7-1,9,領養,lǐngyǎng,V,to adopt,"nhận nuôi (con nuôi, thú cưng)",3
+7-1,10,隻,zhī,M,measure word for animals,lượng từ cho động vật,3
+7-1,11,可愛,kě’ài ,Vs,cute,dễ thương,3
+7-1,12,孤單,gūdān,Vs,lonely,cô đơn,3
+7-1,13,牠,tā,N,it (animals),nó (dùng cho động vật),3
+7-1,14,髒,zāng,Vs,dirty,bẩn,3
+7-1,15,洗澡,xǐzǎo,V-sep,to take a bath,tắm,3
+7-1,16,養,yǎng,V,"to raise, to keep","nuôi (thú cưng, con cái)",3
+7-1,17,亂,luàn,Adv,"arbitrarily, without rhyme or reason","bừa bãi, lung tung",3
+7-1,18,咬,yǎo,V,to bite,cắn,3
+7-1,19,打,dǎ,V,"to hit, beat, smack, slap","đánh, đập",3
+7-1,20,分手,fēnshǒu,Vp,to break up (said of romantic relationships),chia tay (trong tình yêu),3
+7-1,21,緊張,jǐnzhāng,Vs,tense,căng thẳng,3
+7-1,22,減輕,jiǎnqīng,V,to reduce,giảm nhẹ,3
+7-1,23,送,sòng,V,to take to,đưa (ai đó đến đâu),3
+7-1,24,美容院,měiróngyuàn,N,beauty salon,tiệm làm đẹp,3
+7-1,25,推車,tuīchē,N,stroller,"xe đẩy (cho trẻ em, cho hàng)",3
+7-1,26,主人,zhǔrén,N,"master, owner",chủ nhân,3
+7-1,27,相處,xiāngchǔ,Vi,"to get along (with), to spend time together","hòa thuận, sống chung",3
+7-1,28,生 ,shēng,V,"to give birth, to bear",sinh (con),3
+7-1,29,寵物,chǒngwù,N,pet,thú cưng,3
+7-1,30,單身,dānshēn,Vs,to be single,độc thân,3
+7-1,31,醫院,yīyuàn,N,hospital,bệnh viện,3
+7-1,32,意見,yìjiàn,N,"suggestion, opinion",ý kiến,3
+7-1,33,建立,jiànlì,V,to establish,"thiết lập, xây dựng",3
+7-1,34,散步,sànbù,V-sep,to take a walk,đi dạo,3
+7-1,35,家庭,jiātíng,N,family,gia đình,3
+7-1,36,真正,zhēnzhèng,Vs-attr,"real, true, genuine","thực sự, chân chính",3
+7-1,37,幸福,xìngfú,N,"happyiness, blessing","hạnh phúc, phúc lành",3
+7-1,38,跌倒,dié dǎo ,,to fall down,bị ngã,3
+7-1,39,當成,dāngchéng,,"to consider, view as, regard","coi như, xem như",3
+7-1,40,忍不住,rěnbúzhù,,to be beyond the limits of endurance ,không nhịn được,3
+7-2,1,多元,duōyuán,Vs-attr,"diverse, diversified",đa dạng,3
+7-2,2,阿姨,āyí,N,aunt (mother’s sisters),"dì, cô (chị em với mẹ)",3
+7-2,3,先生,xiānshēng,N,husband,chồng,3
+7-2,4,下班,xiàbān,V-sep,to get off work,"tan làm, hết giờ làm",3
+7-2,5,改,gǎi,V,"correct, check (homework)","sửa, chữa (bài tập)",3
+7-2,6,公公,gōnggōng,N,father-in-law (of a female),bố chồng (của người vợ),3
+7-2,7,全,quán,Adv,"completely, entirely",hoàn toàn,3
+7-2,8,靠,kào,V,"to depend on, rely on","dựa dẫm, trông cậy vào",3
+7-2,9,單親,dānqīn,Vs-attr,single parent,đơn thân,3
+7-2,10,貴族,guìzú,N,"nobility, aristocrat",tầng lớp quý tộc,3
+7-2,11,時代,shídài,N,"period, time of",thời đại,3
+7-2,12,強,qiáng,Vs,strong,mạnh mẽ,3
+7-2,13,追,zhuī,V,"to go after someone trying to establish a relationship of love, to chase",theo đuổi (trong tình yêu),3
+7-2,14,自由,zìyóu,Vs,free,tự do,3
+7-2,15,獨立,dúlì,Vs,independent,độc lập,3
+7-2,16,安排,ānpái,V,"to handle, to arrange",sắp xếp,3
+7-2,17,享受,xiǎngshòu,Vst,to enjoy,tận hưởng,3
+7-2,18,身邊,shēnbiān,N,by one's side,bên cạnh,3
+7-2,19,伴,bàn,N,companion,"bạn đồng hành, người bạn đời",3
+7-2,20,同居,tóngjū,Vi,"to live together (as a couple), to cohabit",sống chung (như vợ chồng),3
+7-2,21,成家,chéngjiā,Vp,"to set up a family, to marry (from the male’s perspective)",lập gia đình (từ góc nhìn của đàn ông),3
+7-2,22,負擔,fùdān,V,"to bear (a burden, responsibility)","gánh vác (trách nhiệm, gánh nặng)",3
+7-2,23,養家,yǎngjiā,V-sep,to support one's family,nuôi gia đình,3
+7-2,24,責任,zérèn,N,responsibility,trách nhiệm,3
+7-2,25,亂,luàn,Vs,"to be in turmoil, be in chaos",hỗn loạn,3
+7-2,26,教養,jiàoyǎng,V,"to raise, bring up, train, educate (one's children)","dạy dỗ, giáo dục (con cái)",3
+7-2,27,接受,jiēshòu,V,to accept,chấp nhận,3
+7-2,28,組成,zǔchéng,V,to form,"hình thành, tạo thành",3
+7-2,29,道德,dàodé,Vs,moral,đạo đức,3
+7-2,30,因此,yīncǐ,Conj,"therefore, so","vì vậy, do đó",3
+7-2,31,完整,wánzhěng,Vs,"complete, integral, whole","trọn vẹn, đầy đủ",3
+7-2,32,美真,Měizhēn,,female person's name,Mỹ Chân (tên người),3
+7-2,33,家華,Jiāhuá,,male person's name,Gia Hoa (tên người),3
+7-2,34,風雲人物,fēngyún rénwù ,,"mover and shaker, popular and influential person",nhân vật nổi tiếng và có ảnh hưởng,3
+7-2,35,下決心,xià juéxīn,,"to resolve oneself, make up one's mind (to do something) ","quyết tâm, hạ quyết tâm",3
+8-1,1,整夜,zhěngyè,N,all night,suốt đêm,3
+8-1,2,開,kāi,V,"to turn on, to power on","bật, mở (đèn, máy...)",3
+8-1,3,燈,dēng,N,"light, lamp","đèn, bóng đèn",3
+8-1,4,電玩,diànwán,N,video game,trò chơi điện tử,3
+8-1,5,球賽,qiúsài,N,ball game,trận đấu bóng,3
+8-1,6,激動,jīdòng,Vs,to be excited,"kích động, hào hứng",3
+8-1,7,喊,hǎn,Vi,"to yell, shout","la hét, hò hét",3
+8-1,8,公職,gōngzhí,N,government posts,chức vụ trong chính phủ,3
+8-1,9,其實,qíshí,Adv,"in fact, actually",trên thực tế,3
+8-1,10,公務員,gōngwù yuán,N,civil servant,công chức,3
+8-1,11,煩,fán,Vs,"a ""drag"", a pain in the neck","phiền toái, rắc rối",3
+8-1,12,聽話,tīnghuà,Vs-sep,"to listen, to obey",nghe lời,3
+8-1,13,失業率,shīyèlǜ,N,unemployment rate,tỷ lệ thất nghiệp,3
+8-1,14,門,mén,M,measure word for academic courses,lượng từ cho môn học,3
+8-1,15,讀書,dúshū,V-sep,to study,học bài,3
+8-1,16,學分,xuéfēn,N,(academic) credits,tín chỉ (học thuật),3
+8-1,17,修,xiū,V,to take (courses),học (môn học),3
+8-1,18,專心,zhuānxīn,Vs,"to focus on, concentrate",tập trung,3
+8-1,19,修課,xiūkè,V-sep,to take a class,tham gia lớp học,3
+8-1,20,輔系,fǔxì,N,minor (in college),ngành học phụ (bằng phụ),3
+8-1,21,瘋,fēng,Vp,"to go crazy, to be insane","phát điên, cuồng",3
+8-1,22,誇張,kuāzhāng,Vs,to be exaggerated,"cường điệu, phóng đại",3
+8-1,23,舉行,jǔxíng,V,"to hold (a conference, exhibition)","tổ chức (hội nghị, triển lãm)",3
+8-1,24,遺憾,yíhàn,Vs,"regretful (that something undesirable happened), a pity, a shame","đáng tiếc, hối tiếc",3
+8-1,25,兒子,érzi,N,son,con trai,3
+8-1,26,期望,qíwàng,N,expectations,kỳ vọng,3
+8-1,27,狀元,zhuàngyuán,N,top-ranking in a public exam (originally the person with the highest marks on the imperial test),"trạng nguyên (người đỗ đầu), người giỏi nhất",3
+8-1,28,努力,nǔlì,Vs,diligent in,"nỗ lực, chăm chỉ",3
+8-1,29,怎麼回事,zěnme huíshì,,What's wrong?,Có chuyện gì vậy?,3
+8-1,30,大喊大叫,dàhǎn dàjiào,,"to yell, yelling, shouting",la hét ầm ĩ,3
+8-1,31,期中考,qízhōng kǎo,,mid-term exam,kỳ thi giữa kỳ,3
+8-1,32,密集班,mìjí bān,,intensive course,lớp học cấp tốc,3
+8-1,33,畢業展,bìyè zhǎn,,graduation exhibition,triển lãm tốt nghiệp,3
+8-1,34,服裝設計,fúzhuāng shèjì,,fashion design,thiết kế thời trang,3
+8-1,35,醫學系,yīxué xì,,department of medicine,khoa Y,3
+8-1,36,行行出狀元,hángháng chū zhuàngyuán,,there is a leader in every industry,ngành nào cũng có người giỏi,3
+8-2,1,冠軍,guànjūn,N,"champion, championship","quán quân, chức vô địch",3
+8-2,2,大賽,dàsài,N,"a major, usually international, competition",cuộc thi lớn (thường quốc tế),3
+8-2,3,通過,tōngguò,Vpt,to pass,"vượt qua (kỳ thi), được thông qua",3
+8-2,4,高級,gāojí,Vs-attr,"high level, advanced","trình độ cao, nâng cao",3
+8-2,5,碩士,shuòshì,N,master's degree,bằng thạc sĩ,3
+8-2,6,面試,miànshì,N,interview,buổi phỏng vấn,3
+8-2,7,卻,què,Adv,"but, yet","nhưng, thế mà",3
+8-2,8,國中,guózhōng,N,junior middle school,trường trung học cơ sở,3
+8-2,9,學歷,xuélì,N,educational background,"học lực, trình độ học vấn",3
+8-2,10,拒絕,jùjué,V,to reject,từ chối,3
+8-2,11,引起,yǐnqǐ,Vpt,"to stir up, generate, cause","gây ra (sự chú ý, tranh cãi...)",3
+8-2,12,彈性,tánxìng,N,flexibility,sự linh hoạt,3
+8-2,13,改變,gǎibiàn,V,to undergo change,thay đổi,3
+8-2,14,制度,zhìdù,N,system,"chế độ, hệ thống",3
+8-2,15,基礎,jīchǔ,N,"foundation, fundamentals ","nền tảng, cơ sở",3
+8-2,16,認真,rènzhēn,Vs,"earnest, serious","nghiêm túc, chăm chỉ",3
+8-2,17,公平,gōngpíng,Vs,fair,công bằng,3
+8-2,18,出生,chūshēng,Vp,to be born,được sinh ra,3
+8-2,19,窮,qióng,Vs,poor,nghèo khó,3
+8-2,20,父親,fùqīn,N,father,"cha, bố",3
+8-2,21,母親,mǔqīn,N,mother,"mẹ, má",3
+8-2,22,學徒,xuétú,N,apprentice,người học việc,3
+8-2,23,吃苦,chīkǔ,Vs-sep,experience tough times,"chịu khổ, trải qua khó khăn",3
+8-2,24,明白,míngbái,Vst,to understand,hiểu,3
+8-2,25,當兵,dāngbīng,V-sep,"to be a soldier, to do military service","đi lính, thực hiện nghĩa vụ quân sự",3
+8-2,26,認字,rènzì,Vi,to learn characters,nhận mặt chữ,3
+8-2,27,烘焙,hōngbèi,V,to bake,nướng (bánh),3
+8-2,28,學習,xuéxí,V,to study,học tập,3
+8-2,29,技術,jìshù,N,skills,"kỹ năng, kỹ thuật",3
+8-2,30,藝術,yìshù,N,art,nghệ thuật,3
+8-2,31,經過,jīngguò ,Prep,after,sau khi,3
+8-2,32,終於,zhōngyú,Adv,finally,cuối cùng,3
+8-2,33,億,yì,N,100 million,một trăm triệu,3
+8-2,34,夢想,mèngxiǎng,N,"dream, ideals (not during sleep)","giấc mơ, lý tưởng",3
+8-2,35,成為,chéngwéi,Vpt,to become,trở thành,3
+8-2,36,企業家,qìyèjiā,N,entrepreneur ,doanh nhân,3
+8-2,37,分店,fēndiàn,N,"branch store, branch office","chi nhánh (cửa hàng, văn phòng)",3
+8-2,38,原因,yuányīn,N,reason,nguyên nhân,3
+8-2,39,錄取,lùqǔ,V,"to accept (application), to admit","nhận vào, tuyển dụng",3
+8-2,40,成功,chénggōng,Vs,successful,thành công,3
+8-2,41,鼓勵,gǔlì,V,to encourage,"khuyến khích, động viên",3
+8-2,42,吳寶春,Wú Bǎochūn,,a famous baker from Taiwan,Ngô Bảo Xuân (một thợ làm bánh nổi tiếng Đài Loan),3
+8-2,43,新加坡,Xīnjiāpō,,Singapore,Singapore,3
+8-2,44,日文,Rìwén,,Japanese language or writing,tiếng Nhật,3
+8-2,45,世界麵包大賽,shìjiè miànbāo dàsài,,The Bakery World Cup,Cúp Bánh mì Thế giới,3
+8-2,46,EMBA(高級管理人員工商管理碩士),EMBA (gāojí guǎnlǐ rényuán gōngshāng guǎnlǐ shuòshì),,EMBA (Executive Master of Business Administration),EMBA (Thạc sĩ Quản trị Kinh doanh dành cho Quản lý Cấp cao),3
+8-2,47,小時候,xiǎo shíhòu ,,in one’s childhood,thời nhỏ,3
+8-2,48,大開眼界,dàkāi yǎnjiè,,to have one's eyes opened,mở mang tầm mắt,3
+8-2,49,X分之Y,X fēn zhī Y,,pattern for indicating percentages or fractions,X phần Y (mẫu câu chỉ phần trăm hoặc phân số),3
+9-1,1,訂單,dìngdān,N,an order (trading),đơn đặt hàng (thương mại),3
+9-1,2,客戶,kèhù,N,"customer, client",khách hàng (thương mại),3
+9-1,3,方便,fāngbiàn,V,to offer convenience,tạo điều kiện thuận lợi,3
+9-1,4,訂購,dìnggòu,V,"to order, place an order","đặt mua, đặt hàng",3
+9-1,5,成立,chénglì,V,"to establish, set up",thành lập,3
+9-1,6,假日,jiàrì,N,holiday,ngày lễ,3
+9-1,7,販賣,fànmài,V,to sell,bán hàng,3
+9-1,8,阿嬤,āmà,N,"grandma, older woman (Taiwanese)",bà ngoại/bà nội (tiếng Đài Loan),3
+9-1,9,中間商,zhōngjiān shāng,N,"middleman, reseller","người trung gian, nhà buôn",3
+9-1,10,經營,jīngyíng,V,"to operate, run (a business)","vận hành, kinh doanh",3
+9-1,11,宅配,zháipèi,Vi,express delivery,dịch vụ giao hàng tận nhà,3
+9-1,12,下,xià,V,to place (an order),đặt (hàng),3
+9-1,13,既,jì,Adv,not merely,vừa... vừa... (không những... mà còn...),3
+9-1,14,隨時,suíshí,Adv,anytime,bất cứ lúc nào,3
+9-1,15,搜尋,sōuxún,V,to search,tìm kiếm,3
+9-1,16,冰箱,bīngxiāng,N,refrigerator (lit. ice box) ,tủ lạnh,3
+9-1,17,吃虧,chīkuī,Vs-sep,to suffer a loss,chịu thiệt,3
+9-1,18,比價,bǐjià,V-sep,"to compare prices, price comparison",so sánh giá,3
+9-1,19,風險,fēngxiǎn,N,risk,rủi ro,3
+9-1,20,賣家,màijiā,N,seller,người bán,3
+9-1,21,必須,bìxū,Vaux,"must, to have to ","phải, cần phải",3
+9-1,22,信用,xìnyòng,N,credibility,"uy tín, tín nhiệm",3
+9-1,23,萬一,wànyī,Conj,in case,"phòng khi, đề phòng trường hợp",3
+9-1,24,滿意,mǎnyì,Vst,satisfied,hài lòng,3
+9-1,25,以內,yǐnèi,N,within,trong vòng,3
+9-1,26,普遍,pǔbiàn,Vs,"widespread, common","phổ biến, rộng rãi",3
+9-1,27,選擇,xuǎnzé,V,to choose,lựa chọn (động từ),3
+9-1,28,網購,wǎng gòu,,online shopping,mua sắm trực tuyến,3
+9-1,29,貨比三家不吃虧,huò bǐ sān jiā bù chīkuī,,shop around and you won't get ripped off (lit. Compare products at three stores and you won't be cheated.),So sánh hàng hóa ở ba cửa hàng thì sẽ không bị chịu thiệt.,3
+9-1,30,兩成,liǎng chéng,,"20％, literally 2/10",hai phần mười (20%),3
+9-2,1,鳳梨,fènglí,N,pineapple,quả dứa (thơm),3
+9-2,2,農產品,nóngchǎnpǐn,N,agricultural product,nông sản,3
+9-2,3,出口,chūkǒu,V,to export,xuất khẩu,3
+9-2,4,曾經,céngjīng,Adv,"been the case before, once",đã từng,3
+9-2,5,占,zhàn,Vst,"to constitute, to account for",chiếm (tỷ lệ),3
+9-2,6,成本,chéngběn,N,costs,chi phí,3
+9-2,7,價格,jiàgé,N,price,giá cả,3
+9-2,8,競爭,jìngzhēng,Vi,to compete against,cạnh tranh,3
+9-2,9,好運,hǎoyùn,N,good luck,vận may,3
+9-2,10,內餡,nèixiàn,N,filling (of pastries etc.),nhân bên trong (của bánh),3
+9-2,11,當做,dāngzuò,V,"to treat as, to serve as","coi như, dùng như",3
+9-2,12,喜餅,xǐbǐng,N,wedding-announcement pastries,bánh báo hỷ (bánh thông báo đám cưới),3
+9-2,13,喜愛,xǐ’ài,Vst,fond of,yêu thích,3
+9-2,14,茶點,chádiǎn,N,"snacks, dessert (served with tea)","điểm tâm, đồ ăn nhẹ (dùng với trà)",3
+9-2,15,商機,shāngjī,N,business opportunity,cơ hội kinh doanh,3
+9-2,16,代表,dàibiǎo,V,to represent,đại diện cho,3
+9-2,17,政府,zhèngfǔ,N,government,chính phủ,3
+9-2,18,舉辦,jǔbàn,V,"to organize, hold",tổ chức (sự kiện),3
+9-2,19,產值,chǎnzhí,N,"production value, output",giá trị sản lượng,3
+9-2,20,提高,tígāo,V,"to increase, to elevate","nâng cao, tăng lên",3
+9-2,21,知名,zhīmíng,Vs,"well known, renowned",nổi tiếng,3
+9-2,22,出現,chūxiàn,Vp,to appear,xuất hiện,3
+9-2,23,科技,kējì,N,technology ,công nghệ,3
+9-2,24,(台)斤,(Tái) jīn,M,"catty, a unit of measure in Taiwan, equivalent to 600 grams","cân (đơn vị đo lường ở Đài Loan, bằng 600 gram)",3
+9-2,25,叔叔,shúshu,N,uncle (father's younger brother),chú (em trai của bố),3
+9-2,26,口味,kǒuwèi,N,flavor,hương vị,3
+9-2,27,結果,jiéguǒ,Adv,as a result,kết quả là,3
+9-2,28,購買,gòumǎi,V,to purchase,mua hàng,3
+9-2,29,改善,gǎishàn,V,to improve,cải thiện,3
+9-2,30,並且,bìngqiě,Conj,moreover,"hơn nữa, đồng thời",3
+9-2,31,行銷,xíngxiāo,V,to market,tiếp thị,3
+9-2,32,團購,tuángòu,V,to group buy (for cheaper prices),mua theo nhóm (để được giá rẻ hơn),3
+9-2,33,店面,diànmiàn,N,storefront,mặt tiền cửa hàng,3
+9-2,34,全,quán,Det,entire,toàn bộ,3
+9-2,35,閩南語,Mǐnnányǔ,,"Southern Min dialect, i.e., Taiwanese ",tiếng Mân Nam (tiếng Đài Loan),3
+9-2,36,旺來,wànglái,,"Southern Min sound for pineapple, lit.“abundance comes”","vượng lai (cách gọi quả dứa trong tiếng Đài Loan, nghĩa là ""thịnh vượng đến"")",3
+9-2,37,東京,Dōngjīng,,Tokyo,Tokyo,3
+9-2,38,鳳梨酥,fènglí sū,,pineapple shortcake,bánh dứa,3
+9-2,39,第二位,dì èr wèi,,second (place),vị trí thứ hai,3
+9-2,40,鳳梨農,fènglí nóng,,pineapple farmer,nông dân trồng dứa,3
+10-1,1,住院,zhùyuàn,V-sep,"to stay in a hospital, be hospitalized",nằm viện,3
+10-1,2,臉,liǎn ,N,face,khuôn mặt,3
+10-1,3,受傷,shòushāng,Vp-sep,to be injured,bị thương,3
+10-1,4,撞,zhuàng,V,"to hit, collide","đâm, va phải",3
+10-1,5,遵守,zūnshǒu,V,"to obey, follow, comply with","tuân thủ, tuân theo",3
+10-1,6,規則,guīzé,N,"rules, regulations","quy tắc, quy định",3
+10-1,7,報警,bàojǐng,V-sep,to report to (or call) the police,báo cảnh sát,3
+10-1,8,急診室,jízhěnshì,N,emergency room,phòng cấp cứu,3
+10-1,9,傷,shāng,N,injury,vết thương,3
+10-1,10,骨折,gǔzhé,Vp,"to fracture, break a bone",gãy xương,3
+10-1,11,片子,piànzi,N,(X-ray) film,phim (X-quang),3
+10-1,12,開刀,kāidāo,V-sep,to have surgery,phẫu thuật,3
+10-1,13,病人,bìngrén,N,patient,bệnh nhân,3
+10-1,14,情況,qíngkuàng,N,situation,"tình hình, tình trạng",3
+10-1,15,緊急,jǐnjí,Vs,urgent,khẩn cấp,3
+10-1,16,病床,bìngchuáng,N,hospital bed,giường bệnh,3
+10-1,17,要命,yàomìng,Vs,"murderous, horrible","chết người, khủng khiếp",3
+10-1,18,打針,dǎzhēn,V-sep,"to inject, give a shot","tiêm, chích",3
+10-1,19,止痛,zhǐtòng,Vi,to kill pain (lit. stop pain),giảm đau,3
+10-1,20,手術,shǒushù,N,"operation, surgery",ca phẫu thuật,3
+10-1,21,警察,jǐngchá,N,police,cảnh sát,3
+10-1,22,危險,wéixiǎn,N,danger,sự nguy hiểm,3
+10-1,23,至於,zhìyú,Ptc,"as to, regarding",còn về,3
+10-1,24,部位,bùwèi,N,"(body) part, location",bộ phận (cơ thể),3
+10-1,25,恢復,huīfù,Vp,to recover,hồi phục,3
+10-1,26,傷口,shāngkǒu,N,wound,vết thương,3
+10-1,27,哎呀,āiya,Ptc,"interjection for realization of something important, oh no, yikes","Ôi trời! (thán từ biểu thị sự giật mình, lo lắng)",3
+10-1,28,出車禍,chū chēhuò,,to have an automobile accident,gặp tai nạn xe,3
+10-1,29,趕時間,gǎn shíjiān,,to be in a hurry,"vội, gấp rút",3
+10-1,30,撞倒,zhuàng dǎo,,"to knock down, knock over","đâm ngã, húc đổ",3
+10-1,31,救護車,jiùhù chē,,ambulance,xe cứu thương,3
+10-1,32,照X光,zhào X guāng,,to take an X-ray,chụp X-quang,3
+10-1,33,動手術,dòng shǒushù,,to have/undergo a surgery,trải qua phẫu thuật,3
+10-2,1,醫美,yīměi,N,cosmetic surgery,thẩm mỹ (y học),3
+10-2,2,合理,hélǐ,Vs,reasonable,hợp lý,3
+10-2,3,休假,xiūjià,V-sep,to take time off,nghỉ phép,3
+10-2,4,迷人,mírén,Vs,"charming, attractive","quyến rũ, hấp dẫn",3
+10-2,5,職場,zhíchǎng,N,workplace,nơi làm việc,3
+10-2,6,競爭力,jìngzhēng lì,N,competitive edge,sức cạnh tranh,3
+10-2,7,調查,diàochá,N,"survey, investigation","cuộc khảo sát, điều tra",3
+10-2,8,整型,zhěngxíng,V-sep,plastic surgery,phẫu thuật thẩm mỹ,3
+10-2,9,增加,zēngjiā,V,to increase,tăng lên,3
+10-2,10,自信,zìxìn,N,self-confidence,sự tự tin,3
+10-2,11,外表,wàibiǎo,N,"appearance, exterior",vẻ bề ngoài,3
+10-2,12,普通,pǔtōng,Vs,"common, ordinary","bình thường, phổ thông",3
+10-2,13,從事,cóngshì,V,"to be engaged in, work in (a field of work)","tham gia vào, làm việc trong (lĩnh vực)",3
+10-2,14,醫治,yīzhì,V,"to heal, cure",chữa trị,3
+10-2,15,一向,yíxiàng,Adv,have always,luôn luôn,3
+10-2,16,一般,yìbān,Vs-attr,"general, most","chung, phổ biến",3
+10-2,17,主要,zhǔyào,Vs-attr,"primary, main","chủ yếu, chính",3
+10-2,18,待遇,dàiyù,N,pay,"đãi ngộ, lương bổng",3
+10-2,19,公立,gōnglì,Vs-attr,public; government-run,công lập (do chính phủ điều hành),3
+10-2,20,外科,wàikē,N,department of surgery,"khoa phẫu thuật, ngoại khoa",3
+10-2,21,超過,chāoguò,Vpt,to exceed,vượt quá,3
+10-2,22,倍,bèi,M,"times, -fold ",lần (gấp bao nhiêu lần),3
+10-2,23,另,lìng,Det,"another, additional",khác,3
+10-2,24,價值觀,jiàzhíguān,N,values,quan điểm giá trị,3
+10-2,25,尊敬,zūnjìng,Vst,"to respect, respectful of",tôn trọng,3
+10-2,26,告,gào,V,"to sue, bring suit against","kiện, khởi kiện",3
+10-2,27,平均,píngjūn,Adv,average,trung bình,3
+10-2,28,醫療,yīliáo,N,"medical treatment, health care","sự chữa trị, chăm sóc y tế",3
+10-2,29,怪,guài,V,to blame,"trách, đổ lỗi",3
+10-2,30,愛林,àilín,,female person's name,Ái Lâm (tên người),3
+10-2,31,微整型,wéi zhěngxíng,,"micro-cosmetic surgery, plastic surgery, face contouring",phẫu thuật thẩm mỹ nhẹ (tạo đường nét khuôn mặt),3
+10-2,32,數一數二,shùyī shù’èr,,"one of the top or best in…, leading…",một trong những... hàng đầu,3
+10-2,33,人際關係,rénjì guānxì,,interpersonal relations,mối quan hệ giữa người với người,3
+10-2,34,動不動就,dòng bú dòng jiù,,to do something impetuously,"cứ động một tí là..., hay...",3
+10-2,35,找回,zhǎo huí,,"to rediscover, to retrieve","tìm lại, lấy lại",3
+11-1,1,建,jiàn,V,to build (Classical Chinese),xây dựng (văn ngôn),3
+11-1,2,重建,chóngjiàn,V,to rebuild,xây dựng lại,3
+11-1,3,到底,dàodǐ,Adv,"in the end, after all","rốt cuộc, rốt cục",3
+11-1,4,世紀,shìjì,N,century ,thế kỷ,3
+11-1,5,貿易,màoyì,N,trade,thương mại,3
+11-1,6,商業,shāngyè,N,"commerce, business","thương nghiệp, kinh doanh",3
+11-1,7,利益,lìyì,N,"gains, benefit",lợi ích,3
+11-1,8,派,pài,V,"to send, dispatch","cử, phái",3
+11-1,9,軍隊,jūnduì,N,"army, military",quân đội,3
+11-1,10,燒,shāo,V,to burn,đốt cháy,3
+11-1,11,城牆,chéngqiáng,N,"city walls, defensive walls",tường thành,3
+11-1,12,頭髮,tóufǎ,N,hair,tóc,3
+11-1,13,甚至,shènzhì,Adv,"even, even to the point of",thậm chí,3
+11-1,14,打仗,dǎzhàng,V-sep,to engage in warfare,"đánh nhau, giao chiến",3
+11-1,15,少數,shǎoshù,N,"minority, a few","thiểu số, số ít",3
+11-1,16,開墾,kāikěn,V,to open up land for farming,khai khẩn (đất đai),3
+11-1,17,將軍,jiāngjūn,N,general,tướng quân,3
+11-1,18,軍人,jūnrén,N,military service member,quân nhân,3
+11-1,19,平原,píngyuán,N,"flatland, plains",đồng bằng,3
+11-1,20,人口,rénkǒu,N,population ,dân số,3
+11-1,21,血統,xiětǒng,N,"blood, bloodline","dòng máu, huyết thống",3
+11-1,22,嘍,lou,Ptc,a sentence-final particle meaning ‘in that case’,"nha (trợ từ cuối câu, ý ""vậy thì..."")",3
+11-1,23,孫子,sūnzi,N,grandson,cháu trai,3
+11-1,24,領土,lǐngtǔ,N,territory (of a nation),lãnh thổ,3
+11-1,25,男性,nánxìng,N,male,nam giới,3
+11-1,26,禁止,jìnzhǐ,V,to forbid,cấm,3
+11-1,27,娶,qǔ,V,to take a woman in marriage,cưới (vợ),3
+11-1,28,相信,xiāngxìn,Vst,to believe,tin tưởng,3
+11-1,29,精彩,jīngcǎi,Vs,"splendid, brilliant as (of a performance)","tuyệt vời, xuất sắc (về màn trình diễn)",3
+11-1,30,紅毛城,Hóngmáo chéng,,"Fort Santo Domingo, lit. red-hair city",Thành Hồng Mao (Fort Santo Domingo),3
+11-1,31,東方,Dōngfāng,,"the East, the Orient",phương Đông,3
+11-1,32,淡水,Dànshuǐ,,Tamsui,Đạm Thủy (Tamsui),3
+11-1,33,漢人,Hàn rén,,Han-ethnic Chinese,người Hán,3
+11-1,34,鄭成功,Zhèng Chénggōng,,"Koxinga, 國姓爺, 1624-1662, who ruled Taiwan against the Manchu sovereignty",Trịnh Thành Công (Koxinga),3
+11-1,35,明朝,Míng cháo,,"Ming Dynasty, 1368-1644",nhà Minh,3
+11-1,36,中南美洲,Zhōngnán Měizhōu,,Central and South America ,Trung và Nam Mỹ,3
+11-1,37,清朝,Qīng cháo,,"Qing Dynasty, 1644-1911",nhà Thanh,3
+11-1,38,大清帝國,Dàqīng dìguó,,the Qing Empire,Đế quốc Đại Thanh,3
+11-1,39,輪到,lúndào,,"one's turn, it's up to ",đến lượt,3
+11-1,40,十七世紀初,shíqī shìjì chū,,early 17th century,đầu thế kỷ 17,3
+11-1,41,打敗,dǎ bài,,to defeat,đánh bại,3
+11-1,42,十七世紀末,shíqī shìjì mò,,late 17th century,cuối thế kỷ 17,3
+11-2,1,餐桌,cānzhuō,N,dining table,bàn ăn,3
+11-2,2,中式,Zhōngshì,N,Chinese-style,kiểu Trung Quốc,3
+11-2,3,套,tào,M,"set of (books, clothes, equipment etc)","bộ (sách, quần áo...)",3
+11-2,4,燒餅,shāobǐng,N,"clay oven sesame seed biscuits, like Indian ‘nan’",bánh thiêu (bánh mè kẹp),3
+11-2,5,油條,yóutiáo,N,deep-fried dough sticks,quẩy (dầu cháo quẩy),3
+11-2,6,飯糰,fàntuán,N,rice rolls with various fillings,cơm nắm,3
+11-2,7,豆漿,dòujiāng,N,soy milk ,sữa đậu nành,3
+11-2,8,內戰,nèizhàn,N,civil war,nội chiến,3
+11-2,9,人民,rénmín,N,the people,nhân dân,3
+11-2,10,攤子,tānzi,N,"roadside stand, vendor's stall","sạp hàng, quầy hàng",3
+11-2,11,菜單,càidān,N,menu,thực đơn,3
+11-2,12,蘿蔔,luóbo,N,daikon radish ,củ cải trắng,3
+11-2,13,接著,jiēzhe,Adv,"to continue, to pick up where something left off","tiếp theo, sau đó",3
+11-2,14,戰爭,zhànzhēng,N,war,chiến tranh,3
+11-2,15,不斷,búduàn,Vs,"continual, incessant","liên tục, không ngừng",3
+11-2,16,遷移,qiānyí,Vi,to migrate,"di chuyển, di cư",3
+11-2,17,多半,duōbàn,Adv,"mostly, in the majority of cases","phần lớn, đa số",3
+11-2,18,困難,kùnnán,Vs,difficult,khó khăn,3
+11-2,19,節儉,jiéjiǎn,Vs,frugal,"tiết kiệm, tằn tiện",3
+11-2,20,主婦,zhǔfù,N,housewife,bà nội trợ,3
+11-2,21,煎,jiān,V,to pan fry,"rán, chiên",3
+11-2,22,菜色,càisè,N,variety of dishes,"món ăn, các món",3
+11-2,23,以及,yǐjí,Conj,"and, as well as","và, cũng như",3
+11-2,24,美味,měiwèi,Vs,delicious,ngon miệng,3
+11-2,25,點心,diǎnxīn,N,desserts,"món tráng miệng, điểm tâm",3
+11-2,26,日式,Rìshì,N,Japanese-style,kiểu Nhật,3
+11-2,27,飲食,yǐnshí,N,"food, diet","ẩm thực, đồ ăn thức uống",3
+11-2,28,深,shēn,Vs,deep,sâu sắc,3
+11-2,29,蔣介石,Jiǎng Jièshí,,"Chiang Kai-Shek, 1887-1975",Tưởng Giới Thạch,3
+11-2,30,國共內戰,Guó Gòng nèizhàn,,"the Chinese Civil War (i.e., between the Kuomintang and the Communists), 1927-1937, 1945-1950",Nội chiến Quốc - Cộng,3
+11-2,31,客家人,Kèjiā rén,,"the Hakka people, a branch of Han",người Khách Gia (Hakka),3
+11-2,32,閩南人,Mǐnnán rén,,"the Southern Min people, also called Hokkien",người Mân Nam,3
+11-2,33,蛋餅,dàn bǐng,,an egg wrap,bánh trứng,3
+11-2,34,打輸,dǎ shū,,to be defeated,thua trận,3
+11-2,35,擺攤子,bǎi tānzi,,to set up a vendor's stall,dựng sạp hàng,3
+11-2,36,蘿蔔糕,luóbo gāo,,daikon cakes,bánh củ cải,3
+11-2,37,烹飪課,pēngrèn kè,,cooking class,lớp học nấu ăn,3
+11-2,38,曬乾,shài gān,,to sun dry,phơi khô,3
+11-2,39,各種各樣,gèzhǒng gèyàng,,various types,"đủ loại, đủ kiểu",3
+11-2,40,殖民統治,zhímín tǒngzhì,,to colonise and rule,sự cai trị thuộc địa,3
+11-2,41,味噌湯,wèizēng tāng,,miso soup (Japanese food),súp miso (món ăn Nhật Bản),3
+11-2,42,蘿蔔乾,luóbo gān,,dried daikon,củ cải khô,3
+11-2,43,進一步,jìn yī bù,,further,thêm một bước nữa,3
+12-1,1,投票,tóupiào,V-sep,to vote,bỏ phiếu,3
+12-1,2,抱歉,bàoqiàn,Vs,"sorry, apologetic",xin lỗi,3
+12-1,3,表妹,biǎomèi,N,younger female cousin,"em họ (con của anh chị em bố mẹ, nhỏ tuổi hơn mình)",3
+12-1,4,反核,fǎn hé,Vs-attr,anti-nuclear ,phản đối hạt nhân,3
+12-1,5,遊行,yóuxíng,N,"demonstration, rally","cuộc biểu tình, tuần hành",3
+12-1,6,政治,zhèngzhì,N,politics,chính trị,3
+12-1,7,熱衷,rèzhōng,Vst,"enthusiastic about, passionate about","say mê, nhiệt tình với",3
+12-1,8,前途,qiántú,N,"future, prospects","tương lai, triển vọng",3
+12-1,9,勸,quàn,V,"to persuade, to urge",khuyên nhủ,3
+12-1,10,而已,éryǐ,Ptc,"only, merely",mà thôi (chỉ vậy thôi),3
+12-1,11,民主,mínzhǔ,Vs,democratic,dân chủ,3
+12-1,12,表達,biǎodá,V,to express,"bày tỏ, thể hiện",3
+12-1,13,公共,gōnggòng,Vs-attr,public,công cộng,3
+12-1,14,議題,yìtí,N,issue,"vấn đề, chủ đề thảo luận",3
+12-1,15,核能,hénéng,N,nuclear power,năng lượng hạt nhân,3
+12-1,16,電廠,diànchǎng,N,power plant,nhà máy điện,3
+12-1,17,由,yóu,Prep,"up to, by (a doer)",bởi (ai đó),3
+12-1,18,專家,zhuānjiā,N,"expert, specialist",chuyên gia,3
+12-1,19,全面,quánmiàn,Adv,comprehensively,toàn diện,3
+12-1,20,民意,mínyì,N,"public will, popular opinion",ý dân,3
+12-1,21,代表,dàibiǎo,N,representative,đại diện (danh từ),3
+12-1,22,處理,chǔlǐ,V,"to deal with, handle, tackle","xử lý, giải quyết",3
+12-1,23,政黨,zhèngdǎng,N,political party,đảng phái chính trị,3
+12-1,24,難道,nándào,Adv,"Could it be that…?, Is it that…?","chẳng lẽ, lẽ nào",3
+12-1,25,滿,mǎn,Vpt,to become,"tròn, đầy (được... tuổi)",3
+12-1,26,憲法,xiànfǎ,N,constitution,hiến pháp,3
+12-1,27,投票權,tóupiào quán,N,"right to vote, suffrage",quyền bỏ phiếu,3
+12-1,28,選舉,xuǎnjǔ,N,election,sự bầu cử,3
+12-1,29,權利,quánlì,N,right,quyền lợi,3
+12-1,30,表示,biǎoshì,V,"to mean, indicate","có nghĩa là, cho thấy",3
+12-1,31,反映,fǎnyìng,Vpt,to reflect,phản ánh,3
+12-1,32,為,wèi,Prep,for,"vì, cho",3
+12-1,33,服務,fúwù,V,to serve,phục vụ,3
+12-1,34,職位,zhíwèi,N,"position, job",chức vụ,3
+12-1,35,任期,rènqí,N,term of office,nhiệm kỳ,3
+12-1,36,選民,xuǎnmín,N,"voters, electorate",cử tri,3
+12-1,37,完美,wánměi,Vs,perfect,hoàn hảo,3
+12-1,38,積極,jījí,Vs,"actively, to take it upon oneself to, take the initiative to","tích cực, chủ động",3
+12-1,39,最佳,zuìjiā,Vs-attr,"the very best, the best possible","tốt nhất, hay nhất",3
+12-1,40,推銷員,tuīxiāo yuán,N,salesperson,nhân viên tiếp thị,3
+12-1,41,有道理,yǒu dàolǐ,,there’s some truth (to what you are saying),có lý,3
+12-1,42,候選人,hòuxuǎn rén,,candidate,ứng cử viên,3
+12-2,1,學術界,xuéshùjiè,N,"academia, the academic fields or circles",giới học thuật,3
+12-2,2,從政,cóngzhèng,Vi,to engage in politics,tham gia chính trị,3
+12-2,3,政策,zhèngcè,N,policy,chính sách,3
+12-2,4,安定,āndìng,Vs,stable,ổn định,3
+12-2,5,辭,cí,Vp,"to quit, resign",từ chức,3
+12-2,6,頭腦,tóunǎo,N,"brain, mind",đầu óc,3
+12-2,7,改革,gǎigé,N,reforms,cải cách,3
+12-2,8,看法,kànfǎ,N,"view, opinion",quan điểm,3
+12-2,9,教育,jiàoyù,N,education ,giáo dục,3
+12-2,10,方面,fāngmiàn,N,in the areas of (an issue),"mặt, lĩnh vực",3
+12-2,11,得到,dédào,V,to obtain,đạt được,3
+12-2,12,連任,liánrèn,V,to serve a successive term,tái cử,3
+12-2,13,屆,jiè,M,"term, tenure of elected office",nhiệm kỳ (của chức vụ dân cử),3
+12-2,14,支持度,zhīchídù,N,approval rating,tỷ lệ ủng hộ,3
+12-2,15,落選,luòxuǎn,Vp,to lose an election,thất cử,3
+12-2,16,得票率,dépiàolǜ,N,percentage of votes received,tỷ lệ phiếu bầu,3
+12-2,17,預期,yùqí,N,expectation,kỳ vọng,3
+12-2,18,暫時,zhànshí,Adv,"temporarily, for the time being",tạm thời,3
+12-2,19,老家,lǎojiā,N,hometown,quê nhà,3
+12-2,20,形象,xíngxiàng,N,image,hình ảnh,3
+12-2,21,商量,shāngliáng,V,"to confer, consult with","bàn bạc, thảo luận",3
+12-2,22,人脈,rénmài,N,"network of people, contacts",mạng lưới quan hệ,3
+12-2,23,弱勢,ruòshì,N,disadvantaged (lit. weak power),"yếu thế, thiệt thòi",3
+12-2,24,退休,tuìxiū,Vp,to retire,nghỉ hưu,3
+12-2,25,事業,shìyè,N,"business, career",sự nghiệp,3
+12-2,26,捐,juān,V,to donate,quyên góp,3
+12-2,27,義務,yìwù,Adv,"to volunteer, on a voluntary basis, to do something gratis","tình nguyện, không công",3
+12-2,28,經費,jīngfèi,N,funds,"kinh phí, ngân quỹ",3
+12-2,29,競選,jìngxuǎn,V,run for (an office),tranh cử,3
+12-2,30,也許,yěxǔ,Adv,perhaps,có lẽ,3
+12-2,31,政治界,zhèngzhìjiè,N,the world of politics,giới chính trị,3
+12-2,32,權力,quánlì,N,power ,quyền lực,3
+12-2,33,辭掉,cídiào,,"to quit, resign",từ bỏ (công việc),3
+12-2,34,提出,tíchū,,to propose,đề xuất,3
+12-2,35,國民年金,guómín niánjīn,,national pension (scheme),lương hưu quốc gia,3
+12-2,36,中間選民,zhōngjiān xuǎnmín,,swing voters,cử tri trung lập,3
+12-2,37,一陣子,yí zhèn zi,,"a while, a short duration of time",một thời gian ngắn,3
+12-2,38,下一步,xià yí bù,,the next step (in doing things),bước tiếp theo,3
+12-2,39,盡可能,jìn kěnéng,,"as far as possible, do one's best",hết sức có thể,3
+12-2,40,出版社,chūbǎn shè,,publishing company,nhà xuất bản,3
+12-2,41,捐出,juānchū,,to donate,quyên góp (một cách rõ ràng),3
+12-2,42,二手書,èrshǒu shū,,secondhand book,sách cũ,3

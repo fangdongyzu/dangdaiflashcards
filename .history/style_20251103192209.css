@@ -1,0 +1,602 @@
+:root {
+    --primary-color: #3498db;
+    --secondary-color: #2980b9;
+    --accent-color: #e74c3c;
+    --light-color: #ecf0f1;
+    --dark-color: #2c3e50;
+    --success-color: #2ecc71;
+    --warning-color: #f39c12;
+    --border-radius: 8px;
+    --box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #f5f7fa;
+    color: var(--dark-color);
+    line-height: 1.6;
+    font-size: 16px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+/* Mobile-first approach */
+header {
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 15px;
+    background-color: white;
+    border-radius: var(--border-radius);
+    box-shadow: var(--box-shadow);
+}
+
+h1 {
+    color: var(--primary-color);
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+}
+
+.app-description {
+    color: #7f8c8d;
+    margin: 0 auto;
+    font-size: 0.9rem;
+}
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.control-panel {
+    background-color: white;
+    padding: 15px;
+    border-radius: var(--border-radius);
+    box-shadow: var(--box-shadow);
+    order: 1;
+}
+
+.study-area {
+    background-color: white;
+    padding: 15px;
+    border-radius: var(--border-radius);
+    box-shadow: var(--box-shadow);
+    min-height: 400px;
+    display: flex;
+    flex-direction: column;
+    order: 2;
+}
+
+/* Desktop layout */
+@media (min-width: 768px) {
+    .container {
+        padding: 20px;
+    }
+    
+    h1 {
+        font-size: 2rem;
+    }
+    
+    .main-content {
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        gap: 20px;
+    }
+    
+    .control-panel {
+        order: 0;
+        padding: 20px;
+    }
+    
+    .study-area {
+        padding: 20px;
+        min-height: 500px;
+    }
+}
+
+/* Form elements */
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 6px;
+    font-weight: 600;
+    color: var(--dark-color);
+    font-size: 0.9rem;
+}
+
+select, .btn {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: var(--border-radius);
+    font-size: 16px; /* Prevents zoom on iOS */
+    background-color: white;
+}
+
+.btn {
+    background-color: var(--primary-color);
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-weight: 600;
+    margin-bottom: 10px;
+    text-align: center;
+    display: inline-block;
+    touch-action: manipulation; /* Improves touch responsiveness */
+}
+
+.btn:hover {
+    background-color: var(--secondary-color);
+    transform: translateY(-2px);
+}
+
+.btn:active {
+    transform: translateY(0);
+}
+
+.btn.secondary {
+    background-color: var(--light-color);
+    color: var(--dark-color);
+}
+
+.btn.secondary:hover {
+    background-color: #d5dbdb;
+}
+
+.btn.success {
+    background-color: var(--success-color);
+}
+
+.btn.warning {
+    background-color: var(--warning-color);
+}
+
+.button-group {
+    margin-bottom: 15px;
+}
+
+/* Stats */
+.stats {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    margin-top: 15px;
+}
+
+.stat-item {
+    text-align: center;
+    padding: 10px;
+    background-color: var(--light-color);
+    border-radius: var(--border-radius);
+}
+
+.stat-value {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: var(--primary-color);
+}
+
+.stat-label {
+    font-size: 0.8rem;
+    color: #7f8c8d;
+}
+
+/* Tabs */
+.tab-container {
+    margin-top: 15px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.tabs {
+    display: flex;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 15px;
+    overflow-x: auto; /* Horizontal scrolling for mobile */
+    -webkit-overflow-scrolling: touch; /* Smooth scrolling on iOS */
+}
+
+.tab {
+    padding: 10px 15px;
+    cursor: pointer;
+    border-bottom: 3px solid transparent;
+    white-space: nowrap; /* Prevents text wrapping */
+    flex-shrink: 0; /* Prevents tabs from shrinking */
+    font-size: 0.9rem;
+}
+
+.tab.active {
+    border-bottom: 3px solid var(--primary-color);
+    font-weight: bold;
+}
+
+.tab-content {
+    display: none;
+    flex: 1;
+    overflow: auto;
+}
+
+.tab-content.active {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Flashcard styles */
+.flashcard {
+    perspective: 1000px;
+    margin: 15px auto;
+    width: 100%;
+    height: 250px;
+    max-width: 400px;
+}
+
+@media (min-width: 480px) {
+    .flashcard {
+        height: 300px;
+        max-width: 450px;
+    }
+}
+
+.flashcard-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+}
+
+.flashcard.flipped .flashcard-inner {
+    transform: rotateY(180deg);
+}
+
+.flashcard-front, .flashcard-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    border-radius: var(--border-radius);
+    box-shadow: var(--box-shadow);
+    -webkit-tap-highlight-color: transparent; /* Removes blue tap highlight on mobile */
+}
+
+.flashcard-front {
+    background-color: var(--primary-color);
+    color: white;
+}
+
+.flashcard-back {
+    background-color: var(--light-color);
+    color: var(--dark-color);
+    transform: rotateY(180deg);
+}
+
+.chinese-character {
+    font-size: 2.5rem;
+    margin-bottom: 8px;
+}
+
+.pinyin {
+    font-size: 1.25rem;
+    margin-bottom: 8px;
+}
+
+.meaning {
+    font-size: 1rem;
+}
+
+@media (min-width: 480px) {
+    .chinese-character {
+        font-size: 3rem;
+    }
+    
+    .pinyin {
+        font-size: 1.5rem;
+    }
+    
+    .meaning {
+        font-size: 1.1rem;
+    }
+}
+
+/* Flashcard controls */
+.flashcard-controls {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 8px;
+    margin-top: 15px;
+}
+
+.flashcard-controls .btn {
+    width: 100%;
+    padding: 10px;
+    font-size: 0.9rem;
+}
+
+@media (min-width: 480px) {
+    .flashcard-controls {
+        grid-template-columns: repeat(5, 1fr);
+        gap: 10px;
+    }
+    
+    .flashcard-controls .btn {
+        padding: 12px 8px;
+    }
+}
+
+/* Progress bars */
+.progress-info {
+    margin-top: 15px;
+}
+
+.progress-text {
+    text-align: center;
+    margin-bottom: 8px;
+    font-size: 0.9rem;
+}
+
+.progress-bar {
+    height: 8px;
+    background-color: #e0e0e0;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.progress {
+    height: 100%;
+    background-color: var(--success-color);
+    width: 0%;
+    transition: width 0.3s ease;
+}
+
+/* Vocabulary table */
+.vocabulary-list {
+    margin-top: 15px;
+    overflow: auto;
+    flex: 1;
+}
+
+.vocabulary-table {
+    width: 100%;
+    border-collapse: collapse;
+    min-width: 500px; /* Ensures table doesn't get too narrow */
+}
+
+.vocabulary-table th, .vocabulary-table td {
+    padding: 10px 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    font-size: 0.9rem;
+}
+
+.vocabulary-table th {
+    background-color: var(--light-color);
+    position: sticky;
+    top: 0;
+    font-weight: 600;
+}
+
+.vocabulary-table tr:hover {
+    background-color: #f1f1f1;
+}
+
+/* Quiz styles */
+.quiz-container {
+    margin-top: 15px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.quiz-question {
+    font-size: 1.1rem;
+    margin-bottom: 15px;
+    text-align: center;
+    padding: 0 10px;
+}
+
+.quiz-options {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 8px;
+    margin-bottom: 15px;
+    flex: 1;
+}
+
+@media (min-width: 480px) {
+    .quiz-options {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+.quiz-option {
+    padding: 15px;
+    background-color: var(--light-color);
+    border-radius: var(--border-radius);
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border: 2px solid transparent;
+    font-size: 0.95rem;
+    min-height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.quiz-option:hover {
+    background-color: #d5dbdb;
+    transform: translateY(-2px);
+}
+
+.quiz-option:active {
+    transform: translateY(0);
+}
+
+.quiz-option.correct {
+    background-color: var(--success-color);
+    color: white;
+    border-color: var(--success-color);
+}
+
+.quiz-option.incorrect {
+    background-color: var(--accent-color);
+    color: white;
+    border-color: var(--accent-color);
+}
+
+.quiz-feedback {
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 15px;
+    border-radius: var(--border-radius);
+    font-weight: 600;
+}
+
+.quiz-controls {
+    text-align: center;
+}
+
+/* Difficult words list */
+.difficult-words {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.difficult-words h3 {
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.difficult-words-list {
+    list-style-type: none;
+    flex: 1;
+    overflow-y: auto;
+    margin-bottom: 15px;
+}
+
+.difficult-word {
+    padding: 12px;
+    border-bottom: 1px solid #ddd;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.difficult-word:last-child {
+    border-bottom: none;
+}
+
+.word-info {
+    flex: 1;
+    min-width: 200px;
+}
+
+.word-actions {
+    display: flex;
+    gap: 5px;
+}
+
+.word-actions .btn {
+    width: auto;
+    padding: 6px 12px;
+    font-size: 0.8rem;
+    margin-bottom: 0;
+}
+
+.difficult-words-controls {
+    display: flex;
+    gap: 10px;
+    margin-top: auto;
+}
+
+.difficult-words-controls .btn {
+    flex: 1;
+}
+
+/* Utility classes */
+.hidden {
+    display: none !important;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.mt-10 {
+    margin-top: 10px;
+}
+
+.mb-10 {
+    margin-bottom: 10px;
+}
+
+/* Touch improvements */
+@media (hover: none) and (pointer: coarse) {
+    .btn:hover {
+        background-color: var(--primary-color);
+        transform: none;
+    }
+    
+    .quiz-option:hover {
+        background-color: var(--light-color);
+        transform: none;
+    }
+    
+    /* Increase tap targets for mobile */
+    .tab {
+        padding: 12px 16px;
+    }
+    
+    .quiz-option {
+        padding: 18px 15px;
+    }
+}
+
+/* High contrast mode support */
+@media (prefers-contrast: high) {
+    .flashcard-front {
+        background-color: #000;
+        color: #fff;
+    }
+    
+    .flashcard-back {
+        background-color: #fff;
+        color: #000;
+        border: 2px solid #000;
+    }
+}
+
+/* Reduced motion support */
+@media (prefers-reduced-motion: reduce) {
+    .flashcard-inner {
+        transition: none;
+    }
+    
+    .btn, .quiz-option {
+        transition: none;
+    }
+}
