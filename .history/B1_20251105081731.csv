@@ -4,10 +4,10 @@
 1-1,3,王開文,Wáng Kāiwén,,a man from the US,một người đàn ông từ Mỹ,1
 1-1,4,你,nǐ,N,you,bạn,1
 1-1,5,來,lái,V,to come,đến,1
-1-1,6,是,shì,Vst,to be,là,1
+1-1,6,是,shì,åVst,to be,là,1
 1-1,7,小姐,xiǎojiě,N,"Miss, Ms.","cô, chị",1
 1-1,8,嗎,ma,Ptc,sentence final particle,trợ từ cuối câu,1
-1-1,9,接,jiē,V,to pick sb up,đón/tiếp ai đó,1
+1-1,9,接,jiē,V,to pick sb up,đón ai đó,1
 1-1,10,我們,wǒmen,N,"we, us","chúng tôi, chúng ta",1
 1-1,11,我,wǒ,N,"I, me","tôi, tớ",1
 1-1,12,這,zhè/zhèi,Det,this,"này, cái này",1
@@ -45,7 +45,7 @@
 2-1,1,張怡君,Zhāng Yíjūn,,a woman from Taiwan,một phụ nữ từ Đài Loan,1
 2-1,2,馬安同,Mǎ āntóng,,a man from the Republic of Honduras ,một người đàn ông từ Cộng hòa Honduras,1
 2-1,3,的,de,Ptc ,modification marker,trợ từ sở hữu,1
-2-1,4,家人,jiārén,N,family (members),người nhà,1
+2-1,4,家人,jiārén,N,family (members),gia đình (các thành viên),1
 2-1,5,家,jiā,N,"home, house",nhà,1
 2-1,6,漂亮,piàoliàng,Vs,pretty,xinh đẹp,1
 2-1,7,房子,fángzi,N,house,nhà,1
@@ -53,7 +53,7 @@
 2-1,9,好,hǎo,Ptc,OK,OK,1
 2-1,10,有,yǒu,Vst,to have,có,1
 2-1,11,多,duō,Vs-pred,many,nhiều,1
-2-1,12,照片,zhàopiàn,N,photo,"hình, ảnh",1
+2-1,12,照片,zhàopiàn,N,photo,ảnh,1
 2-1,13,都,dōu,Adv,"all, both","đều, cả",1
 2-1,14,照相,zhàoxiàng,V-sep,to take a photo,chụp ảnh,1
 2-1,15,張,zhāng,M,"measure word for flat objects (e.g., paper, tickets)","lượng từ cho vật phẳng (ví dụ: giấy, vé)",1
@@ -82,9 +82,9 @@
 3-1,1,週末,zhōumò,N,weekend,cuối tuần,1
 3-1,2,聽,tīng,V,to listen,nghe,1
 3-1,3,音樂,yīnyuè,N,music,âm nhạc,1
-3-1,4,運動,yùndòng,Vi,to exercise,tập thể dục (HV: Vận Động),1
+3-1,4,運動,yùndòng,Vi,to exercise,tập thể dục,1
 3-1,5,打,dǎ,V,to play (ball games),chơi (các môn thể thao bóng),1
-3-1,6,網球,wǎngqiú,N,tennis,"quần vợt, tennis",1
+3-1,6,網球,wǎngqiú,N,tennis,quần vợt,1
 3-1,7,棒球,bàngqiú,N,baseball,bóng chày,1
 3-1,8,和,hàn,Conj,"and, as well as",và,1
 3-1,9,游泳,yóuyǒng,V-sep,to swim,bơi,1
@@ -173,11 +173,11 @@ How does that sound?
 5-1,13,家,jiā,M,"measure word for restaurants, shops, etc.","lượng từ cho nhà hàng, cửa hàng, v.v.",1
 5-1,14,店,diàn,N,"shop, store","cửa hàng, tiệm",1
 5-1,15,一定,yídìng,Adv,"really must,definitely","chắc chắn phải, nhất định",1
-5-1,16,點,diǎn,V,to order (meals),"gọi món, order",1
+5-1,16,點,diǎn,V,to order (meals),gọi (món ăn),1
 5-1,17,碗,wǎn,M,a bowl of,một bát,1
 5-1,18,是 啊,shì a,,That’s right.,Đúng vậy.,1
-5-1,19,小籠包,xiǎolóngbāo,,"xiaolongbao, e.g., small meat and cabbage-filled steamed buns",xiao long bao,1
-5-1,20,臭豆腐,chòu dòufǔ,,stinky tofu (fermented tofu),đậu phụ thối,1
+5-1,19,小籠包,xiǎolóngbāo,,"xiaolongbao, e.g., small meat and cabbage-filled steamed buns",bánh bao sủi cảo,1
+5-1,20,臭豆腐,chòu dòufǔ,,stinky tofu (fermented tofu),đậu phụ thối (đậu phụ lên men),1
 5-1,21,太好了,tài hǎo le,,Excellent. Great.,Tuyệt quá. Tuyệt vời.,1
 5-2,1,昨天,zuótiān,N,yesterday,hôm qua,1
 5-2,2,餐廳,cāntīng,N,restaurant,nhà hàng,1
@@ -192,9 +192,9 @@ How does that sound?
 5-2,11,甜點,tiándiǎn,N,dessert,món tráng miệng,1
 5-2,12,不錯,búcuò,Vs,not bad,không tệ,1
 5-2,13,可以,kěyǐ,Vaux,could (possibility),có thể (khả năng),1
-5-2,14,教,jiāo,V,to teach,dạy (HV: giáo),1
+5-2,14,教,jiāo,V,to teach,dạy,1
 5-2,15,到,dào,Prep,to ,đến,1
-5-2,16,有一點,yǒu yìdiǎn,,a little,có một chút,1
+5-2,16,有一點,yǒu yìdiǎn,,a little,một chút,1
 5-2,17,不好,bù hǎo,,not well,không tốt,1
 6-1,1,他們,tāmen,N,they (used for people only),họ (chỉ dùng cho người),1
 6-1,2,學校,xuéxiào,N,school,trường học,1
@@ -210,7 +210,7 @@ How does that sound?
 6-1,12,後面,hòumiàn,N,back,phía sau,1
 6-1,13,山,shān,N,mountain,núi,1
 6-1,14,真的,zhēnde,Adv,"really, truly","thực sự, thật sự",1
-6-1,15,地方,dìfāng,N,place,nơi chốn (HV: Địa Phương),1
+6-1,15,地方,dìfāng,N,place,nơi chốn,1
 6-1,16,現在,xiànzài,N,now,bây giờ,1
 6-1,17,附近,fùjìn,N,"vicinity,near","vùng lân cận, gần",1
 6-1,18,樓下,lóuxià,N,downstairs,dưới lầu,1
@@ -230,7 +230,7 @@ How does that sound?
 6-2,9,商店,shāngdiàn,N,store; shop,cửa hàng,1
 6-2,10,吃飯,chīfàn,V-sep,to have a meal,ăn cơm,1
 6-2,11,宿舍,sùshè,N,dormitory,ký túc xá,1
-6-2,12,樓,lóu,N,"a storey, a floor","tầng, lầu",1
+6-2,12,樓,lóu,N,"a storey, a floor",tầng lầu,1
 6-2,13,棟,dòng,M,measure word for buildings,lượng từ cho tòa nhà,1
 6-2,14,大樓,dàlóu,N,a multi-storey building,tòa nhà nhiều tầng,1
 6-2,15,圖書館,túshūguǎn,N,library,thư viện,1
@@ -269,7 +269,7 @@ How does that sound?
 7-2,13,書法,shūfǎ,N,calligraphy,thư pháp,1
 7-2,14,課,kè,N,class,lớp học,1
 7-2,15,開始,kāishǐ,Vp,"to begin, to start",bắt đầu,1
-7-2,16,字,zì,N,character,chữ,1
+7-2,16,字,zì,N,character,chữ Hán,1
 7-2,17,寫,xiě,V,to write,viết,1
 7-2,18,可以,kěyǐ,Vaux,may (permission),có thể (xin phép),1
 7-2,19,問,wèn,V,to ask,hỏi,1
@@ -279,7 +279,7 @@ How does that sound?
 8-1,1,坐,zuò,V,"to take by, to travel by",đi bằng (phương tiện),1
 8-1,2,火車,huǒchē,N,train,tàu hỏa,1
 8-1,3,跟,gēn,Prep,with,với,1
-8-1,4,玩,wán,V,to have fun,chơi,1
+8-1,4,玩,wán,V,to have fun,vui chơi,1
 8-1,5,怎麼,zěnme,Adv,how,như thế nào,1
 8-1,6,慢,màn,Vs,slow,chậm,1
 8-1,7,鐘頭,zhōngtóu,N,hour,giờ đồng hồ,1
@@ -310,7 +310,7 @@ How does that sound?
 8-2,12,不行,bù xíng,,will not do,không được,1
 8-2,13,計程車,jìchéngchē,,taxi,taxi,1
 8-2,14,差不多,chābùduō,,about the same,gần như giống nhau,1
-9-1,1,星期 + number ,xīngqí,N,"week + number (星期一, 星期二,...)","tuần + số (星期一, 星期二,...)",1
+9-1,1,星期+number,xīngqí,N,week,tuần + số,1
 9-1,2,回國,huíguó,V-sep,to return to one’s country,về nước,1
 9-1,3,打算,dǎsuàn,Vaux,to plan to,dự định,1
 9-1,4,電視,diànshì,N,TV,TV,1
@@ -324,9 +324,9 @@ How does that sound?
 9-1,12,有時候,yǒu shíhòu,,sometimes,đôi khi,1
 9-1,13,多久,duō jiǔ,,how long,bao lâu,1
 9-1,14,臺東,Táidōng,,name of one of the major cities on the southeastern coast of Taiwan,tên một thành phố lớn trên bờ biển đông nam Đài Loan,1
-9-2,1,女+noun,nǚ ,N,"girl-, female- (女學生, 女老師,...)","nữ + danh từ (女學生, 女老師,...)",1
-9-2,2,number+月,yuè,N,"month of a year (一月, 二月,...)","số + tháng (一月, 二月,...)",1
-9-2,3,number+號,hào,N,"date, day of a month (一號, 二號...)","số + ngày (一號, 二號...)",1
+9-2,1,女+noun,nǚ ,N,"girl-, female-",nữ + danh từ,1
+9-2,2,number+月,yuè,N,month of a year,tháng + số,1
+9-2,3,number+號,hào,N,"date, day of a month",ngày + số,1
 9-2,4,帶,dài,V,to take ,mang theo,1
 9-2,5,她,tā,N,"she, her","cô ấy, chị ấy",1
 9-2,6,還,hái,Adv,"still, additionally","vẫn, thêm nữa",1
@@ -362,7 +362,7 @@ How does that sound?
 10-2,5,衣服,yīfú,N,clothes,quần áo,1
 10-2,6,旅館,lǚguǎn,N,hotel,khách sạn,1
 10-2,7,太太,tàitai,N,wife,vợ,1
-10-2,8,男+noun,nán,N,"boy-, male- (男學生, 男老師,...)","nam + danh từ (男學生, 男老師,...)",1
+10-2,8,男+noun,nán,N,"boy-, male-",nam + danh từ,1
 10-2,9,矮,ǎi,Vs,short (height),thấp (chiều cao),1
 10-2,10,高,gāo,Vs,tall,cao,1
 10-2,11,弟弟,dìdi,N,younger brother,em trai,1
@@ -529,7 +529,7 @@ How does that sound?
 15-1,1,醫生,yīshēng,N,doctor,bác sĩ,1
 15-1,2,一直,yìzhí,Adv,"continuously, all the way","liên tục, suốt",1
 15-1,3,流,liú,V,to flow,chảy,1
-15-1,4,鼻水,bíshuǐ,N,"snot,nasal mucus,a running nose","nước mũi",1
+15-1,4,鼻水,bíshuǐ,N,"snot,nasal mucus,a running nose","nước mũi, sổ mũi",1
 15-1,5,頭,tóu,N,head,đầu,1
 15-1,6,痛,tòng,Vs,painful,đau,1
 15-1,7,胃口,wèikǒu,N,appetite,"khẩu vị, sự thèm ăn",1
@@ -561,7 +561,7 @@ How does that sound?
 15-2,12,油,yóu,Vs,"oily, greasy","dầu mỡ, béo",1
 15-2,13,冰,bīng,Vs,icy,đá lạnh,1
 15-2,14,別,bié,Adv,don't (used in imperatives),đừng (dùng trong mệnh lệnh),1
-15-2,15,關心,guānxīn,Vs,to be concerned about,quan tâm,1
+15-2,15,關心,guānxīn,Vs,to be concerned about,quan tâm đến,1
 15-2,16,包,bāo,M,"measure word for bags, packages etc.","lượng từ cho túi, gói, v.v.",1
 15-2,17,睡,shuì,Vi,to sleep,ngủ,1
 15-2,18,小時,xiǎoshí,N,hour,giờ đồng hồ,1
