@@ -528,6 +528,7 @@ class VocabularyApp {
         this.switchTab('quiz');
         this.showMessage('Please select a quiz type to begin', 'info');
     }
+
     startSelectedQuiz() {
         if (!this.quizType) {
             this.showMessage('Please select a quiz type first', 'error');
@@ -552,32 +553,13 @@ class VocabularyApp {
         const quizContainer = this.getElement('quiz-container');
 
         if (quizSetup) quizSetup.classList.add('hidden');
-        if (quizContainer) {
-            quizContainer.classList.remove('hidden');
-            // Ensure proper structure
-            quizContainer.innerHTML = `
-            <div class="quiz-content">
-                <div class="quiz-progress">
-                    <div id="quiz-progress-text" class="progress-text">Question 0 of 0</div>
-                    <div class="progress-bar">
-                        <div id="quiz-progress" class="progress-fill" style="width: 0%"></div>
-                    </div>
-                </div>
-                <div id="quiz-question" class="quiz-question"></div>
-                <div id="quiz-options" class="quiz-options"></div>
-                <div id="quiz-feedback" class="quiz-feedback"></div>
-                <button id="next-question-btn" class="btn primary hidden">Next Question</button>
-            </div>
-        `;
-
-            // Re-bind the next question button
-            this.safeAddEventListener('next-question-btn', 'click', () => this.nextQuestion());
-        }
+        if (quizContainer) quizContainer.classList.remove('hidden');
 
         this.currentQuizIndex = 0;
         this.quizScore = 0;
         this.displayQuizQuestion();
     }
+
     generateQuizQuestions(vocabulary) {
         const questions = [];
 
@@ -731,86 +713,7 @@ class VocabularyApp {
         return this.shuffleArray(options);
     }
 
-    displayQuizQuestion() {
-        console.log('Displaying quiz question:', this.currentQuizIndex);
-        console.log('Total questions:', this.quizQuestions.length);
-
-        const quizContainer = this.getElement('quiz-container');
-        if (!quizContainer) {
-            console.error('Quiz container element not found');
-            return;
-        }
-
-        // Ensure quiz container has the proper structure
-        if (!this.getElement('quiz-question') || !this.getElement('quiz-options')) {
-            console.log('Recreating quiz structure...');
-            quizContainer.innerHTML = `
-            <div class="quiz-content">
-                <div class="quiz-progress">
-                    <div id="quiz-progress-text" class="progress-text">Question 0 of 0</div>
-                    <div class="progress-bar">
-                        <div id="quiz-progress" class="progress-fill" style="width: 0%"></div>
-                    </div>
-                </div>
-                <div id="quiz-question" class="quiz-question"></div>
-                <div id="quiz-options" class="quiz-options"></div>
-                <div id="quiz-feedback" class="quiz-feedback"></div>
-                <button id="next-question-btn" class="btn primary hidden">Next Question</button>
-            </div>
-        `;
-
-            // Re-bind the next question button
-            this.safeAddEventListener('next-question-btn', 'click', () => this.nextQuestion());
-        }
-
-        if (this.quizQuestions.length === 0) {
-            quizContainer.innerHTML = `
-            <div class="text-center">
-                <h3>No Quiz Available</h3>
-                <p>Not enough vocabulary to generate quiz questions.</p>
-                <p>Please load a lesson with at least 2 vocabulary words.</p>
-            </div>
-        `;
-            return;
-        }
-
-        if (this.currentQuizIndex >= this.quizQuestions.length) {
-            this.showQuizResults();
-            return;
-        }
-
-        const question = this.quizQuestions[this.currentQuizIndex];
-        const quizQuestion = this.getElement('quiz-question');
-        const quizOptions = this.getElement('quiz-options');
-        const quizFeedback = this.getElement('quiz-feedback');
-        const nextButton = this.getElement('next-question-btn');
-
-        if (!quizQuestion || !quizOptions || !quizFeedback || !nextButton) {
-            console.error('Required quiz elements not found after recreation');
-            return;
-        }
-
-        // Show quiz type in the question display
-        const typeIndicator = this.getQuizTypeIndicator(question.type);
-        quizQuestion.innerHTML = `
-        ${question.question}
-        <div class="quiz-type-indicator">${typeIndicator}</div>
-    `;
-
-        quizFeedback.textContent = '';
-        quizFeedback.className = 'quiz-feedback';
-        nextButton.classList.add('hidden');
-
-        quizOptions.innerHTML = question.options.map(option => `
-        <div class="quiz-option" data-answer="${this.escapeHtml(option)}">${option}</div>
-    `).join('');
-
-        quizOptions.querySelectorAll('.quiz-option').forEach(option => {
-            option.addEventListener('click', (e) => this.checkAnswer(e.target));
-        });
-
-        this.updateQuizProgress();
-    }
+    
 
     getQuizTypeIndicator(type) {
         const indicators = {

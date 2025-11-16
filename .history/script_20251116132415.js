@@ -528,6 +528,7 @@ class VocabularyApp {
         this.switchTab('quiz');
         this.showMessage('Please select a quiz type to begin', 'info');
     }
+
     startSelectedQuiz() {
         if (!this.quizType) {
             this.showMessage('Please select a quiz type first', 'error');
@@ -552,32 +553,13 @@ class VocabularyApp {
         const quizContainer = this.getElement('quiz-container');
 
         if (quizSetup) quizSetup.classList.add('hidden');
-        if (quizContainer) {
-            quizContainer.classList.remove('hidden');
-            // Ensure proper structure
-            quizContainer.innerHTML = `
-            <div class="quiz-content">
-                <div class="quiz-progress">
-                    <div id="quiz-progress-text" class="progress-text">Question 0 of 0</div>
-                    <div class="progress-bar">
-                        <div id="quiz-progress" class="progress-fill" style="width: 0%"></div>
-                    </div>
-                </div>
-                <div id="quiz-question" class="quiz-question"></div>
-                <div id="quiz-options" class="quiz-options"></div>
-                <div id="quiz-feedback" class="quiz-feedback"></div>
-                <button id="next-question-btn" class="btn primary hidden">Next Question</button>
-            </div>
-        `;
-
-            // Re-bind the next question button
-            this.safeAddEventListener('next-question-btn', 'click', () => this.nextQuestion());
-        }
+        if (quizContainer) quizContainer.classList.remove('hidden');
 
         this.currentQuizIndex = 0;
         this.quizScore = 0;
         this.displayQuizQuestion();
     }
+
     generateQuizQuestions(vocabulary) {
         const questions = [];
 
@@ -732,45 +714,20 @@ class VocabularyApp {
     }
 
     displayQuizQuestion() {
-        console.log('Displaying quiz question:', this.currentQuizIndex);
-        console.log('Total questions:', this.quizQuestions.length);
-
-        const quizContainer = this.getElement('quiz-container');
-        if (!quizContainer) {
+        const quizContent = this.getElement('quiz-container');
+        if (!quizContent) {
             console.error('Quiz container element not found');
             return;
         }
 
-        // Ensure quiz container has the proper structure
-        if (!this.getElement('quiz-question') || !this.getElement('quiz-options')) {
-            console.log('Recreating quiz structure...');
-            quizContainer.innerHTML = `
-            <div class="quiz-content">
-                <div class="quiz-progress">
-                    <div id="quiz-progress-text" class="progress-text">Question 0 of 0</div>
-                    <div class="progress-bar">
-                        <div id="quiz-progress" class="progress-fill" style="width: 0%"></div>
-                    </div>
-                </div>
-                <div id="quiz-question" class="quiz-question"></div>
-                <div id="quiz-options" class="quiz-options"></div>
-                <div id="quiz-feedback" class="quiz-feedback"></div>
-                <button id="next-question-btn" class="btn primary hidden">Next Question</button>
-            </div>
-        `;
-
-            // Re-bind the next question button
-            this.safeAddEventListener('next-question-btn', 'click', () => this.nextQuestion());
-        }
-
         if (this.quizQuestions.length === 0) {
-            quizContainer.innerHTML = `
-            <div class="text-center">
-                <h3>No Quiz Available</h3>
-                <p>Not enough vocabulary to generate quiz questions.</p>
-                <p>Please load a lesson with at least 2 vocabulary words.</p>
-            </div>
-        `;
+            quizContent.innerHTML = `
+                <div class="text-center">
+                    <h3>No Quiz Available</h3>
+                    <p>Not enough vocabulary to generate quiz questions.</p>
+                    <p>Please load a lesson with at least 2 vocabulary words.</p>
+                </div>
+            `;
             return;
         }
 
@@ -786,24 +743,24 @@ class VocabularyApp {
         const nextButton = this.getElement('next-question-btn');
 
         if (!quizQuestion || !quizOptions || !quizFeedback || !nextButton) {
-            console.error('Required quiz elements not found after recreation');
+            console.error('Required quiz elements not found');
             return;
         }
 
         // Show quiz type in the question display
         const typeIndicator = this.getQuizTypeIndicator(question.type);
         quizQuestion.innerHTML = `
-        ${question.question}
-        <div class="quiz-type-indicator">${typeIndicator}</div>
-    `;
+            ${question.question}
+            <div class="quiz-type-indicator">${typeIndicator}</div>
+        `;
 
         quizFeedback.textContent = '';
         quizFeedback.className = 'quiz-feedback';
         nextButton.classList.add('hidden');
 
         quizOptions.innerHTML = question.options.map(option => `
-        <div class="quiz-option" data-answer="${this.escapeHtml(option)}">${option}</div>
-    `).join('');
+            <div class="quiz-option" data-answer="${this.escapeHtml(option)}">${option}</div>
+        `).join('');
 
         quizOptions.querySelectorAll('.quiz-option').forEach(option => {
             option.addEventListener('click', (e) => this.checkAnswer(e.target));
@@ -858,50 +815,16 @@ class VocabularyApp {
         this.currentQuizIndex++;
         this.displayQuizQuestion();
     }
-    restartQuiz() {
-        console.log('Restarting quiz...');
+    
 
-        // Hide results and show quiz container with proper structure
-        const quizContainer = this.getElement('quiz-container');
-        const quizSetup = this.getElement('quiz-setup');
+   showQuizResults() {
+    const quizContainer = this.getElement('quiz-container');
+    if (!quizContainer) return;
 
-        if (quizSetup) quizSetup.classList.add('hidden');
-        if (quizContainer) {
-            quizContainer.classList.remove('hidden');
-            // Reset the quiz container to its original structure
-            quizContainer.innerHTML = `
-            <div class="quiz-content">
-                <div class="quiz-progress">
-                    <div id="quiz-progress-text" class="progress-text">Question 0 of 0</div>
-                    <div class="progress-bar">
-                        <div id="quiz-progress" class="progress-fill" style="width: 0%"></div>
-                    </div>
-                </div>
-                <div id="quiz-question" class="quiz-question"></div>
-                <div id="quiz-options" class="quiz-options"></div>
-                <div id="quiz-feedback" class="quiz-feedback"></div>
-                <button id="next-question-btn" class="btn primary hidden">Next Question</button>
-            </div>
-        `;
-        }
+    const percentage = Math.round((this.quizScore / this.quizQuestions.length) * 100);
+    const scoreClass = percentage >= 70 ? 'success-message' : percentage >= 50 ? 'warning-message' : 'error-message';
 
-        // Re-bind the next question button event
-        this.safeAddEventListener('next-question-btn', 'click', () => this.nextQuestion());
-
-        // Reset quiz state and start
-        this.currentQuizIndex = 0;
-        this.quizScore = 0;
-        this.displayQuizQuestion();
-    }
-
-    showQuizResults() {
-        const quizContainer = this.getElement('quiz-container');
-        if (!quizContainer) return;
-
-        const percentage = Math.round((this.quizScore / this.quizQuestions.length) * 100);
-        const scoreClass = percentage >= 70 ? 'success-message' : percentage >= 50 ? 'warning-message' : 'error-message';
-
-        quizContainer.innerHTML = `
+    quizContainer.innerHTML = `
         <div class="text-center">
             <h2>Quiz Complete! 🎓</h2>
             <div class="${scoreClass}" style="margin: 20px 0; padding: 20px;">
@@ -913,24 +836,24 @@ class VocabularyApp {
         </div>
     `;
 
-        // Direct event binding
-        const restartBtn = this.getElement('restart-quiz-btn');
-        const newQuizBtn = this.getElement('new-quiz-btn');
-
-        if (restartBtn) {
-            restartBtn.addEventListener('click', () => {
-                console.log('Restart quiz clicked');
-                this.restartQuiz();
-            });
-        }
-
-        if (newQuizBtn) {
-            newQuizBtn.addEventListener('click', () => {
-                console.log('New quiz clicked');
-                this.showQuizSelection();
-            });
-        }
+    // Direct event binding
+    const restartBtn = this.getElement('restart-quiz-btn');
+    const newQuizBtn = this.getElement('new-quiz-btn');
+    
+    if (restartBtn) {
+        restartBtn.addEventListener('click', () => {
+            console.log('Restart quiz clicked');
+            this.restartQuiz();
+        });
     }
+    
+    if (newQuizBtn) {
+        newQuizBtn.addEventListener('click', () => {
+            console.log('New quiz clicked');
+            this.showQuizSelection();
+        });
+    }
+}
 
 
     updateQuizProgress() {
