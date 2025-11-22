@@ -23,24 +23,6 @@ class VocabularyApp {
         this.loadBookData(this.currentBook);
         this.initializeQuizUI();
     }
-    startFlashcards() {
-    console.log('startFlashcards method called');
-    
-    const filteredVocab = this.vocabulary.filter(word => word.lesson === this.currentLesson);
-    console.log('Filtered vocab length:', filteredVocab.length);
-    console.log('Current lesson:', this.currentLesson);
-    
-    if (filteredVocab.length === 0) {
-        this.showMessage('No vocabulary found for this lesson. Please load vocabulary first.', 'error');
-        return;
-    }
-
-    this.currentFlashcardIndex = 0;
-    this.displayFlashcard();
-    this.switchTab('flashcards');
-    
-    console.log('Switched to flashcards tab');
-}
     bindEvents() {
         console.log('Binding events...');
 
@@ -75,7 +57,10 @@ class VocabularyApp {
             this.loadVocabulary();
         });
 
-        this.safeAddEventListener('start-flashcards-btn', 'click', this.startFlashcards.bind(this));;
+        this.safeAddEventListener('start-flashcards-btn', 'click', () => {
+            console.log('Start flashcards button clicked');
+            this.startFlashcards();
+        });
 
         this.safeAddEventListener('start-quiz-btn', 'click', () => this.showQuizSelection());
 

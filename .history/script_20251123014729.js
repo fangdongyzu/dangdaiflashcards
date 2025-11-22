@@ -23,87 +23,73 @@ class VocabularyApp {
         this.loadBookData(this.currentBook);
         this.initializeQuizUI();
     }
-    startFlashcards() {
-    console.log('startFlashcards method called');
-    
-    const filteredVocab = this.vocabulary.filter(word => word.lesson === this.currentLesson);
-    console.log('Filtered vocab length:', filteredVocab.length);
-    console.log('Current lesson:', this.currentLesson);
-    
-    if (filteredVocab.length === 0) {
-        this.showMessage('No vocabulary found for this lesson. Please load vocabulary first.', 'error');
-        return;
-    }
 
-    this.currentFlashcardIndex = 0;
-    this.displayFlashcard();
-    this.switchTab('flashcards');
-    
-    console.log('Switched to flashcards tab');
-}
-    bindEvents() {
-        console.log('Binding events...');
+bindEvents() {
+    console.log('Binding events...');
 
-        this.safeAddEventListener('question-count', 'change', (e) => {
-            this.quizQuestionCount = e.target.value === 'all' ? 'all' : parseInt(e.target.value);
-        });
+    this.safeAddEventListener('question-count', 'change', (e) => {
+        this.quizQuestionCount = e.target.value === 'all' ? 'all' : parseInt(e.target.value);
+    });
 
-        // Safe event binding with null checks - bind the context
-        this.safeAddEventListener('book-select', 'change', (e) => {
-            this.currentBook = e.target.value;
-            this.loadBookData(this.currentBook);
-        });
+    // Safe event binding with null checks - bind the context
+    this.safeAddEventListener('book-select', 'change', (e) => {
+        this.currentBook = e.target.value;
+        this.loadBookData(this.currentBook);
+    });
 
-        this.safeAddEventListener('lesson-select', 'change', (e) => {
-            this.currentLesson = e.target.value;
-            this.currentFlashcardIndex = 0;
-            if (this.getElement('flashcards-content')?.classList.contains('active')) {
-                this.displayFlashcard();
-            }
-        });
-
-        this.safeAddEventListener('mode-select', 'change', (e) => {
-            this.flashcardMode = e.target.value;
-            if (this.getElement('flashcards-content')?.classList.contains('active')) {
-                this.displayFlashcard();
-            }
-        });
-
-        // Use arrow functions or bind the context
-        this.safeAddEventListener('load-vocab-btn', 'click', () => {
-            console.log('Load vocab button clicked');
-            this.loadVocabulary();
-        });
-
-        this.safeAddEventListener('start-flashcards-btn', 'click', this.startFlashcards.bind(this));;
-
-        this.safeAddEventListener('start-quiz-btn', 'click', () => this.showQuizSelection());
-
-        this.safeAddEventListener('prev-card-btn', 'click', () => this.previousCard());
-        this.safeAddEventListener('next-card-btn', 'click', () => this.nextCard());
-        this.safeAddEventListener('flip-card-btn', 'click', () => this.flipCard());
-        this.safeAddEventListener('mark-difficult-btn', 'click', () => this.markAsDifficult());
-        this.safeAddEventListener('mark-mastered-btn', 'click', () => this.markAsMastered());
-
-        this.safeAddEventListener('next-question-btn', 'click', () => this.nextQuestion());
-        this.safeAddEventListener('start-selected-quiz', 'click', () => this.startSelectedQuiz());
-
-        this.safeAddEventListener('practice-difficult-btn', 'click', () => this.practiceDifficultWords());
-        this.safeAddEventListener('clear-difficult-btn', 'click', () => this.clearDifficultWords());
-        this.safeAddEventListener('clear-mastered-btn', 'click', () => this.clearMasteredWords());
-
-        document.querySelectorAll('.tab').forEach(tab => {
-            tab.addEventListener('click', (e) => this.switchTab(e.target.dataset.tab));
-        });
-
-        const flashcard = this.getElement('flashcard');
-        if (flashcard) {
-            flashcard.addEventListener('click', (e) => {
-                if (e.target.closest('.flashcard-controls')) return;
-                this.flipCard();
-            });
+    this.safeAddEventListener('lesson-select', 'change', (e) => {
+        this.currentLesson = e.target.value;
+        this.currentFlashcardIndex = 0;
+        if (this.getElement('flashcards-content')?.classList.contains('active')) {
+            this.displayFlashcard();
         }
+    });
+
+    this.safeAddEventListener('mode-select', 'change', (e) => {
+        this.flashcardMode = e.target.value;
+        if (this.getElement('flashcards-content')?.classList.contains('active')) {
+            this.displayFlashcard();
+        }
+    });
+
+    // Use arrow functions or bind the context
+    this.safeAddEventListener('load-vocab-btn', 'click', () => {
+        console.log('Load vocab button clicked');
+        this.loadVocabulary();
+    });
+    
+    this.safeAddEventListener('start-flashcards-btn', 'click', () => {
+        console.log('Start flashcards button clicked');
+        this.startFlashcards();
+    });
+
+    this.safeAddEventListener('start-quiz-btn', 'click', () => this.showQuizSelection());
+
+    this.safeAddEventListener('prev-card-btn', 'click', () => this.previousCard());
+    this.safeAddEventListener('next-card-btn', 'click', () => this.nextCard());
+    this.safeAddEventListener('flip-card-btn', 'click', () => this.flipCard());
+    this.safeAddEventListener('mark-difficult-btn', 'click', () => this.markAsDifficult());
+    this.safeAddEventListener('mark-mastered-btn', 'click', () => this.markAsMastered());
+
+    this.safeAddEventListener('next-question-btn', 'click', () => this.nextQuestion());
+    this.safeAddEventListener('start-selected-quiz', 'click', () => this.startSelectedQuiz());
+
+    this.safeAddEventListener('practice-difficult-btn', 'click', () => this.practiceDifficultWords());
+    this.safeAddEventListener('clear-difficult-btn', 'click', () => this.clearDifficultWords());
+    this.safeAddEventListener('clear-mastered-btn', 'click', () => this.clearMasteredWords());
+
+    document.querySelectorAll('.tab').forEach(tab => {
+        tab.addEventListener('click', (e) => this.switchTab(e.target.dataset.tab));
+    });
+
+    const flashcard = this.getElement('flashcard');
+    if (flashcard) {
+        flashcard.addEventListener('click', (e) => {
+            if (e.target.closest('.flashcard-controls')) return;
+            this.flipCard();
+        });
     }
+}
 
     safeAddEventListener(elementId, event, handler) {
         const element = this.getElement(elementId);
@@ -166,7 +152,7 @@ class VocabularyApp {
             const csvData = await this.fetchCSVData(book);
             this.vocabulary = this.parseCSVData(csvData);
             this.updateStats();
-
+          
         } catch (error) {
             console.error('Error loading book data:', error);
             this.showMessage(`Error loading ${book}.csv: ${error.message}`, 'error');
@@ -202,7 +188,7 @@ class VocabularyApp {
                     const cleanedText = this.removeBOM(text);
 
                     if (this.isValidCSV(cleanedText)) {
-
+                      
                         return cleanedText;
                     }
                 } catch (e) {
@@ -368,7 +354,7 @@ class VocabularyApp {
                         book: this.cleanField(row[7]) || '1'
                     };
 
-
+                   
                     if (vocabItem.chinese && vocabItem.chinese.trim() !== '') {
                         vocabulary.push(vocabItem);
                     }
@@ -378,7 +364,7 @@ class VocabularyApp {
             }
         }
 
-
+   
         return vocabulary;
     }
     displayFlashcard() {
@@ -665,7 +651,7 @@ class VocabularyApp {
                     }
                     break;
 
-
+                
                     const questionTypes = [];
                     if (word.english && word.english.trim() !== '') questionTypes.push('english');
                     if (word.vietnamese && word.vietnamese.trim() !== '') questionTypes.push('vietnamese');

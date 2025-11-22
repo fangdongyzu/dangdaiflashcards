@@ -23,32 +23,13 @@ class VocabularyApp {
         this.loadBookData(this.currentBook);
         this.initializeQuizUI();
     }
-    startFlashcards() {
-    console.log('startFlashcards method called');
-    
-    const filteredVocab = this.vocabulary.filter(word => word.lesson === this.currentLesson);
-    console.log('Filtered vocab length:', filteredVocab.length);
-    console.log('Current lesson:', this.currentLesson);
-    
-    if (filteredVocab.length === 0) {
-        this.showMessage('No vocabulary found for this lesson. Please load vocabulary first.', 'error');
-        return;
-    }
 
-    this.currentFlashcardIndex = 0;
-    this.displayFlashcard();
-    this.switchTab('flashcards');
-    
-    console.log('Switched to flashcards tab');
-}
     bindEvents() {
-        console.log('Binding events...');
 
         this.safeAddEventListener('question-count', 'change', (e) => {
             this.quizQuestionCount = e.target.value === 'all' ? 'all' : parseInt(e.target.value);
         });
-
-        // Safe event binding with null checks - bind the context
+        // Safe event binding with null checks
         this.safeAddEventListener('book-select', 'change', (e) => {
             this.currentBook = e.target.value;
             this.loadBookData(this.currentBook);
@@ -69,14 +50,8 @@ class VocabularyApp {
             }
         });
 
-        // Use arrow functions or bind the context
-        this.safeAddEventListener('load-vocab-btn', 'click', () => {
-            console.log('Load vocab button clicked');
-            this.loadVocabulary();
-        });
-
-        this.safeAddEventListener('start-flashcards-btn', 'click', this.startFlashcards.bind(this));;
-
+        this.safeAddEventListener('load-vocab-btn', 'click', () => this.loadVocabulary());
+        this.safeAddEventListener('start-flashcards-btn', 'click', () => this.startFlashcards());
         this.safeAddEventListener('start-quiz-btn', 'click', () => this.showQuizSelection());
 
         this.safeAddEventListener('prev-card-btn', 'click', () => this.previousCard());
@@ -90,7 +65,9 @@ class VocabularyApp {
 
         this.safeAddEventListener('practice-difficult-btn', 'click', () => this.practiceDifficultWords());
         this.safeAddEventListener('clear-difficult-btn', 'click', () => this.clearDifficultWords());
-        this.safeAddEventListener('clear-mastered-btn', 'click', () => this.clearMasteredWords());
+        this.safeAddEventListener('clear-mastered-btn', 'click', () => this.clearMasteredWords()); // Add this line
+
+
 
         document.querySelectorAll('.tab').forEach(tab => {
             tab.addEventListener('click', (e) => this.switchTab(e.target.dataset.tab));
@@ -166,7 +143,7 @@ class VocabularyApp {
             const csvData = await this.fetchCSVData(book);
             this.vocabulary = this.parseCSVData(csvData);
             this.updateStats();
-
+            this.showMessage(`Successfully loaded ${this.vocabulary.length} words from ${book}`, 'success');
         } catch (error) {
             console.error('Error loading book data:', error);
             this.showMessage(`Error loading ${book}.csv: ${error.message}`, 'error');
@@ -202,7 +179,7 @@ class VocabularyApp {
                     const cleanedText = this.removeBOM(text);
 
                     if (this.isValidCSV(cleanedText)) {
-
+                        console.log(`Successfully decoded with ${name}`);
                         return cleanedText;
                     }
                 } catch (e) {
@@ -264,6 +241,7 @@ class VocabularyApp {
             }
         }
 
+        console.log(`Parsed ${vocabulary.length} vocabulary items`);
         return vocabulary;
     }
 
@@ -342,45 +320,7 @@ class VocabularyApp {
         this.showMessage(`Loaded ${filteredVocab.length} words from lesson ${this.currentLesson}`, 'success');
     }
 
-    parseCSVData(csvText) {
-        csvText = this.cleanText(csvText);
-        const lines = csvText.split('\n').filter(line => line.trim() !== '');
-
-        if (lines.length === 0) {
-            throw new Error('CSV file is empty after cleaning');
-        }
-
-        const vocabulary = [];
-
-        for (let i = 1; i < lines.length; i++) {
-            try {
-                const row = this.parseCSVLine(lines[i]);
-
-                if (row.length >= 7) {
-                    const vocabItem = {
-                        lesson: this.cleanField(row[0]),
-                        index: parseInt(this.cleanField(row[1])) || i,
-                        chinese: this.cleanField(row[2]),
-                        pinyin: this.cleanField(row[3]),  // Make sure this is correct
-                        pos: this.cleanField(row[4]),
-                        english: this.cleanField(row[5]),
-                        vietnamese: this.cleanField(row[6]),
-                        book: this.cleanField(row[7]) || '1'
-                    };
-
-
-                    if (vocabItem.chinese && vocabItem.chinese.trim() !== '') {
-                        vocabulary.push(vocabItem);
-                    }
-                }
-            } catch (error) {
-                console.warn(`Skipping invalid row ${i + 1}:`, error);
-            }
-        }
-
-
-        return vocabulary;
-    }
+    
     displayFlashcard() {
         let filteredVocab;
 
@@ -388,7 +328,13 @@ class VocabularyApp {
         if (this.currentLesson === 'difficult-words' && this.originalVocabulary) {
             filteredVocab = this.vocabulary; // Use the temp vocabulary
         } else {
-            filteredVocab = this.vocabulary.filter(word => word.lesson === this.currentLesson);
+            // Use the same filtering logic as in loadVocabulary()
+            filteredVocab = this.vocabulary.filter(word => {
+                // Handle both cases: when lesson is stored as "1-1" and when it might be processed differently
+                return word.lesson === this.currentLesson ||
+                    word.lesson === `Lesson ${this.currentLesson}` ||
+                    (word.lesson && word.lesson.includes(this.currentLesson));
+            });
         }
 
         if (filteredVocab.length === 0) {
@@ -405,39 +351,62 @@ class VocabularyApp {
 
         flashcard.classList.remove('flipped');
 
-        // TEMPORARY DEBUG: Log the actual HTML that will be inserted
-        console.log('Front content HTML:', `<div class="chinese-character">${currentWord.chinese}</div>`);
-        console.log('Back content HTML:', `
-        <div class="pinyin">${currentWord.pinyin}</div>
-        <div class="meaning">${currentWord.english}</div>
-        <div class="meaning">${currentWord.vietnamese}</div>
-        ${currentWord.pos ? `<div class="pos">(${currentWord.pos})</div>` : ''}
-    `);
+        // Debug logging to check the actual data
+        console.log('Current word:', currentWord);
+        console.log('Pinyin value:', currentWord.pinyin);
 
         // Add all flashcard mode cases
         switch (this.flashcardMode) {
             case 'chinese-front':
                 frontContent.innerHTML = `<div class="chinese-character">${currentWord.chinese}</div>`;
                 backContent.innerHTML = `
-                <div class="pinyin">${currentWord.pinyin}</div>
+                <div class="pinyin">${currentWord.pinyin || 'No pinyin available'}</div>
                 <div class="meaning">${currentWord.english}</div>
                 <div class="meaning">${currentWord.vietnamese}</div>
                 ${currentWord.pos ? `<div class="pos">(${currentWord.pos})</div>` : ''}
             `;
                 break;
-            // ... other cases remain the same
+            case 'english-front':
+                frontContent.innerHTML = `<div class="english-meaning">${currentWord.english}</div>`;
+                backContent.innerHTML = `
+                <div class="chinese-character">${currentWord.chinese}</div>
+                <div class="pinyin">${currentWord.pinyin || 'No pinyin available'}</div>
+                <div class="meaning">${currentWord.vietnamese}</div>
+                ${currentWord.pos ? `<div class="pos">(${currentWord.pos})</div>` : ''}
+            `;
+                break;
+            case 'vietnamese-front':
+                frontContent.innerHTML = `<div class="vietnamese-meaning">${currentWord.vietnamese}</div>`;
+                backContent.innerHTML = `
+                <div class="chinese-character">${currentWord.chinese}</div>
+                <div class="pinyin">${currentWord.pinyin || 'No pinyin available'}</div>
+                <div class="meaning">${currentWord.english}</div>
+                ${currentWord.pos ? `<div class="pos">(${currentWord.pos})</div>` : ''}
+            `;
+                break;
+            case 'pinyin-front':
+                frontContent.innerHTML = `<div class="pinyin">${currentWord.pinyin || 'No pinyin available'}</div>`;
+                backContent.innerHTML = `
+                <div class="chinese-character">${currentWord.chinese}</div>
+                <div class="meaning">${currentWord.english}</div>
+                <div class="meaning">${currentWord.vietnamese}</div>
+                ${currentWord.pos ? `<div class="pos">(${currentWord.pos})</div>` : ''}
+            `;
+                break;
+            default:
+                // Default to chinese-front
+                frontContent.innerHTML = `<div class="chinese-character">${currentWord.chinese}</div>`;
+                backContent.innerHTML = `
+                <div class="pinyin">${currentWord.pinyin || 'No pinyin available'}</div>
+                <div class="meaning">${currentWord.english}</div>
+                <div class="meaning">${currentWord.vietnamese}</div>
+                ${currentWord.pos ? `<div class="pos">(${currentWord.pos})</div>` : ''}
+            `;
         }
-
-        // DEBUG: Check if elements exist after setting innerHTML
-        setTimeout(() => {
-            const pinyinElement = backContent.querySelector('.pinyin');
-            console.log('Pinyin element found:', pinyinElement);
-            console.log('Pinyin element content:', pinyinElement?.textContent);
-            console.log('Pinyin element computed style:', pinyinElement ? window.getComputedStyle(pinyinElement) : 'No element');
-        }, 100);
 
         this.updateFlashcardProgress();
     }
+
 
     showEmptyFlashcard() {
         const frontContent = this.getElement('flashcard-front-content');
@@ -665,7 +634,7 @@ class VocabularyApp {
                     }
                     break;
 
-
+                case 'mixed':
                     const questionTypes = [];
                     if (word.english && word.english.trim() !== '') questionTypes.push('english');
                     if (word.vietnamese && word.vietnamese.trim() !== '') questionTypes.push('vietnamese');

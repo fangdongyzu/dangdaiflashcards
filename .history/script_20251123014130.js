@@ -23,32 +23,13 @@ class VocabularyApp {
         this.loadBookData(this.currentBook);
         this.initializeQuizUI();
     }
-    startFlashcards() {
-    console.log('startFlashcards method called');
-    
-    const filteredVocab = this.vocabulary.filter(word => word.lesson === this.currentLesson);
-    console.log('Filtered vocab length:', filteredVocab.length);
-    console.log('Current lesson:', this.currentLesson);
-    
-    if (filteredVocab.length === 0) {
-        this.showMessage('No vocabulary found for this lesson. Please load vocabulary first.', 'error');
-        return;
-    }
 
-    this.currentFlashcardIndex = 0;
-    this.displayFlashcard();
-    this.switchTab('flashcards');
-    
-    console.log('Switched to flashcards tab');
-}
     bindEvents() {
-        console.log('Binding events...');
 
         this.safeAddEventListener('question-count', 'change', (e) => {
             this.quizQuestionCount = e.target.value === 'all' ? 'all' : parseInt(e.target.value);
         });
-
-        // Safe event binding with null checks - bind the context
+        // Safe event binding with null checks
         this.safeAddEventListener('book-select', 'change', (e) => {
             this.currentBook = e.target.value;
             this.loadBookData(this.currentBook);
@@ -69,14 +50,8 @@ class VocabularyApp {
             }
         });
 
-        // Use arrow functions or bind the context
-        this.safeAddEventListener('load-vocab-btn', 'click', () => {
-            console.log('Load vocab button clicked');
-            this.loadVocabulary();
-        });
-
-        this.safeAddEventListener('start-flashcards-btn', 'click', this.startFlashcards.bind(this));;
-
+        this.safeAddEventListener('load-vocab-btn', 'click', () => this.loadVocabulary());
+        this.safeAddEventListener('start-flashcards-btn', 'click', () => this.startFlashcards());
         this.safeAddEventListener('start-quiz-btn', 'click', () => this.showQuizSelection());
 
         this.safeAddEventListener('prev-card-btn', 'click', () => this.previousCard());
@@ -90,7 +65,9 @@ class VocabularyApp {
 
         this.safeAddEventListener('practice-difficult-btn', 'click', () => this.practiceDifficultWords());
         this.safeAddEventListener('clear-difficult-btn', 'click', () => this.clearDifficultWords());
-        this.safeAddEventListener('clear-mastered-btn', 'click', () => this.clearMasteredWords());
+        this.safeAddEventListener('clear-mastered-btn', 'click', () => this.clearMasteredWords()); // Add this line
+
+
 
         document.querySelectorAll('.tab').forEach(tab => {
             tab.addEventListener('click', (e) => this.switchTab(e.target.dataset.tab));
@@ -166,7 +143,7 @@ class VocabularyApp {
             const csvData = await this.fetchCSVData(book);
             this.vocabulary = this.parseCSVData(csvData);
             this.updateStats();
-
+            this.showMessage(`Successfully loaded ${this.vocabulary.length} words from ${book}`, 'success');
         } catch (error) {
             console.error('Error loading book data:', error);
             this.showMessage(`Error loading ${book}.csv: ${error.message}`, 'error');
@@ -202,7 +179,7 @@ class VocabularyApp {
                     const cleanedText = this.removeBOM(text);
 
                     if (this.isValidCSV(cleanedText)) {
-
+                        console.log(`Successfully decoded with ${name}`);
                         return cleanedText;
                     }
                 } catch (e) {
@@ -263,6 +240,7 @@ class VocabularyApp {
                 console.warn(`Skipping invalid row ${i + 1}:`, error);
             }
         }
+
 
         return vocabulary;
     }
@@ -368,7 +346,7 @@ class VocabularyApp {
                         book: this.cleanField(row[7]) || '1'
                     };
 
-
+                   
                     if (vocabItem.chinese && vocabItem.chinese.trim() !== '') {
                         vocabulary.push(vocabItem);
                     }
@@ -378,7 +356,7 @@ class VocabularyApp {
             }
         }
 
-
+        console.log(`Parsed ${vocabulary.length} vocabulary items`);
         return vocabulary;
     }
     displayFlashcard() {
@@ -665,7 +643,7 @@ class VocabularyApp {
                     }
                     break;
 
-
+                case 'mixed':
                     const questionTypes = [];
                     if (word.english && word.english.trim() !== '') questionTypes.push('english');
                     if (word.vietnamese && word.vietnamese.trim() !== '') questionTypes.push('vietnamese');

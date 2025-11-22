@@ -25,7 +25,7 @@ body {
 }
 
 .container {
-    max-width: 1000px;
+    max-width: 00px;
     margin: 0 auto;
     padding: 18px;
 }
@@ -355,7 +355,7 @@ select:focus {
 
 .pinyin {
     color: #333333; /* Dark gray for good contrast */
-    font-size: 12px;
+    font-size: 16px;
     font-weight: 500;
     margin-bottom: 10px;
     text-align: center;
