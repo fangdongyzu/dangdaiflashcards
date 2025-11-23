@@ -362,7 +362,7 @@ select:focus {
 
 @media (min-width: 480px) {
     .chinese-character {
-        font-size: 3rem;
+        font-size: 30rem;
     }
     
     .pinyin {

@@ -362,7 +362,7 @@ select:focus {
 
 @media (min-width: 480px) {
     .chinese-character {
-        font-size: 3rem;
+        font-size: 3.6rem;
     }
     
     .pinyin {
@@ -376,7 +376,7 @@ select:focus {
 
 @media (min-width: 768px) {
     .chinese-character {
-        font-size: 3rem;
+        font-size: 2.rem;
     }
     
     .pinyin {
@@ -958,7 +958,7 @@ select:focus {
     }
     
     .chinese-character {
-        font-size: 2rem;
+        font-size: 2.7rem;
     }
 }
 .quiz-controls {
@@ -1037,7 +1037,7 @@ footer a:hover {
 }
 
 .chinese-character {
-    font-size: 2em;
+    font-size: 2.5em;
     font-weight: 600;
     margin-bottom: 15px;
     text-align: center;
