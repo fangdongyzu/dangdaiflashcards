@@ -632,7 +632,6 @@ class VocabularyApp {
                 </div>
                 <div id="quiz-question" class="quiz-question"></div>
                 <div id="quiz-options" class="quiz-options"></div>
-                <div id="quiz-feedback" class="quiz-feedback"></div>
                 <button id="next-question-btn" class="btn primary hidden">Next Question</button>
             </div>
         `;
@@ -821,7 +820,6 @@ class VocabularyApp {
                 </div>
                 <div id="quiz-question" class="quiz-question"></div>
                 <div id="quiz-options" class="quiz-options"></div>
-                <div id="quiz-feedback" class="quiz-feedback"></div>
                 <button id="next-question-btn" class="btn primary hidden">Next Question</button>
             </div>
         `;
@@ -849,10 +847,9 @@ class VocabularyApp {
         const question = this.quizQuestions[this.currentQuizIndex];
         const quizQuestion = this.getElement('quiz-question');
         const quizOptions = this.getElement('quiz-options');
-        const quizFeedback = this.getElement('quiz-feedback');
         const nextButton = this.getElement('next-question-btn');
 
-        if (!quizQuestion || !quizOptions || !quizFeedback || !nextButton) {
+        if (!quizQuestion || !quizOptions ||!nextButton) {
             console.error('Required quiz elements not found after recreation');
             return;
         }

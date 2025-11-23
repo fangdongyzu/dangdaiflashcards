@@ -906,7 +906,17 @@ class VocabularyApp {
             }
         });
 
-       
+        if (isCorrect) {
+            this.quizScore++;
+            quizFeedback.textContent = 'Correct! 🎉';
+            quizFeedback.className = 'quiz-feedback success-message';
+        } else {
+            quizFeedback.innerHTML = `
+                Incorrect 😔<br>
+                <small>The correct answer is: <strong>${question.correctAnswer}</strong></small>
+            `;
+            quizFeedback.className = 'quiz-feedback error-message';
+        }
 
         nextButton.classList.remove('hidden');
     }

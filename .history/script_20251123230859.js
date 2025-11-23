@@ -632,7 +632,6 @@ class VocabularyApp {
                 </div>
                 <div id="quiz-question" class="quiz-question"></div>
                 <div id="quiz-options" class="quiz-options"></div>
-                <div id="quiz-feedback" class="quiz-feedback"></div>
                 <button id="next-question-btn" class="btn primary hidden">Next Question</button>
             </div>
         `;
@@ -821,7 +820,6 @@ class VocabularyApp {
                 </div>
                 <div id="quiz-question" class="quiz-question"></div>
                 <div id="quiz-options" class="quiz-options"></div>
-                <div id="quiz-feedback" class="quiz-feedback"></div>
                 <button id="next-question-btn" class="btn primary hidden">Next Question</button>
             </div>
         `;
@@ -849,7 +847,6 @@ class VocabularyApp {
         const question = this.quizQuestions[this.currentQuizIndex];
         const quizQuestion = this.getElement('quiz-question');
         const quizOptions = this.getElement('quiz-options');
-        const quizFeedback = this.getElement('quiz-feedback');
         const nextButton = this.getElement('next-question-btn');
 
         if (!quizQuestion || !quizOptions || !quizFeedback || !nextButton) {
@@ -865,7 +862,6 @@ class VocabularyApp {
     `;
 
         quizFeedback.textContent = '';
-        quizFeedback.className = 'quiz-feedback';
         nextButton.classList.add('hidden');
 
         quizOptions.innerHTML = question.options.map(option => `
@@ -892,7 +888,6 @@ class VocabularyApp {
         const question = this.quizQuestions[this.currentQuizIndex];
         const isCorrect = selectedOption.dataset.answer === question.correctAnswer;
         const quizOptions = this.getElement('quiz-options');
-        const quizFeedback = this.getElement('quiz-feedback');
         const nextButton = this.getElement('next-question-btn');
 
         if (!quizOptions || !quizFeedback || !nextButton) return;
@@ -936,7 +931,6 @@ class VocabularyApp {
                 </div>
                 <div id="quiz-question" class="quiz-question"></div>
                 <div id="quiz-options" class="quiz-options"></div>
-                <div id="quiz-feedback" class="quiz-feedback"></div>
                 <button id="next-question-btn" class="btn primary hidden">Next Question</button>
             </div>
         `;

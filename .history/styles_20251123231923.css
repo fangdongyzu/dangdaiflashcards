@@ -564,7 +564,7 @@ select:focus {
     border-radius: var(--border-radius);
     font-weight: 600;
     font-size: 1.17rem;
-    display:none;
+    display：none；
 }
 
 .quiz-controls {

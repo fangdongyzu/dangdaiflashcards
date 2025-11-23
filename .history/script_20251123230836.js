@@ -632,7 +632,6 @@ class VocabularyApp {
                 </div>
                 <div id="quiz-question" class="quiz-question"></div>
                 <div id="quiz-options" class="quiz-options"></div>
-                <div id="quiz-feedback" class="quiz-feedback"></div>
                 <button id="next-question-btn" class="btn primary hidden">Next Question</button>
             </div>
         `;
@@ -821,7 +820,6 @@ class VocabularyApp {
                 </div>
                 <div id="quiz-question" class="quiz-question"></div>
                 <div id="quiz-options" class="quiz-options"></div>
-                <div id="quiz-feedback" class="quiz-feedback"></div>
                 <button id="next-question-btn" class="btn primary hidden">Next Question</button>
             </div>
         `;
@@ -936,7 +934,6 @@ class VocabularyApp {
                 </div>
                 <div id="quiz-question" class="quiz-question"></div>
                 <div id="quiz-options" class="quiz-options"></div>
-                <div id="quiz-feedback" class="quiz-feedback"></div>
                 <button id="next-question-btn" class="btn primary hidden">Next Question</button>
             </div>
         `;
