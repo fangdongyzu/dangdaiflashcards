@@ -347,6 +347,19 @@ select:focus {
     border: 2.7px solid var(--light-color);
 }
 
+.chinese-character {
+    font-size: 3.15rem; /* 10% smaller from 3.5rem */
+    margin-bottom: 13.5px;
+    font-weight: 600;
+}
+
+.pinyin {
+    color: #333333; /* Dark gray for good contrast */
+    font-size: 12px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    text-align: center;
+}
 
 .meaning {
     font-size: 1.17rem; /* 10% smaller from 1.3rem */
@@ -356,7 +369,7 @@ select:focus {
 .pos {
     font-size: 0.99rem;
     font-style: italic;
-    color: #2e2e2e;
+    color: #7f8c8d;
     margin-top: 9px;
 }
 
@@ -1023,14 +1036,14 @@ footer a:hover {
 .english-meaning {
     font-size: 1em;
     font-weight: 600;
-    color:  #ede8e8;
+    color: #333;
     text-align: center;
     margin-bottom: 10px;
 }
 .vietnamese-meaning {
-    font-size: 1.2em;
+    font-size: 1em;
     font-weight: 600;
-    color: #ede8e8;
+    color: #333;
     text-align: center;
     margin-bottom: 10px;
     font-family: Arial, sans-serif;
@@ -1042,26 +1055,4 @@ footer a:hover {
     margin-bottom: 15px;
     text-align: center;
     font-family: "Microsoft YaHei", "SimHei", sans-serif;
-}
-
-.pinyin {
-    color: #333333; /* Dark gray for good contrast */
-    font-size: 1.5em;
-    font-weight: 500;
-    margin-bottom: 10px;
-    text-align: center;
-}
-.meaning {
-    font-size: 1.3em;
-    margin-bottom: 8px;
-    text-align: center;
-    line-height: 1.4;
-}
-
-.pos {
-    font-size: 0.9em;
-    color: #666;
-    font-style: italic;
-    text-align: center;
-    margin-top: 10px;
 }

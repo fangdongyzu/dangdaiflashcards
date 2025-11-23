@@ -348,6 +348,14 @@ select:focus {
 }
 
 
+.pinyin {
+    color: #333333; /* Dark gray for good contrast */
+    font-size: 12px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
 .meaning {
     font-size: 1.17rem; /* 10% smaller from 1.3rem */
     margin-bottom: 7.2px;
@@ -1023,7 +1031,7 @@ footer a:hover {
 .english-meaning {
     font-size: 1em;
     font-weight: 600;
-    color:  #ede8e8;
+    color: #333;
     text-align: center;
     margin-bottom: 10px;
 }
@@ -1044,24 +1052,3 @@ footer a:hover {
     font-family: "Microsoft YaHei", "SimHei", sans-serif;
 }
 
-.pinyin {
-    color: #333333; /* Dark gray for good contrast */
-    font-size: 1.5em;
-    font-weight: 500;
-    margin-bottom: 10px;
-    text-align: center;
-}
-.meaning {
-    font-size: 1.3em;
-    margin-bottom: 8px;
-    text-align: center;
-    line-height: 1.4;
-}
-
-.pos {
-    font-size: 0.9em;
-    color: #666;
-    font-style: italic;
-    text-align: center;
-    margin-top: 10px;
-}

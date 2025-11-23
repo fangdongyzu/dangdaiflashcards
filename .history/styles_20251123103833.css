@@ -1046,13 +1046,13 @@ footer a:hover {
 
 .pinyin {
     color: #333333; /* Dark gray for good contrast */
-    font-size: 1.5em;
+    font-size: 1.3em;
     font-weight: 500;
     margin-bottom: 10px;
     text-align: center;
 }
 .meaning {
-    font-size: 1.3em;
+    font-size: 1.1em;
     margin-bottom: 8px;
     text-align: center;
     line-height: 1.4;
