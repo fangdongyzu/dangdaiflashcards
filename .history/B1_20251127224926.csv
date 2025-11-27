@@ -1,0 +1,572 @@
+﻿課-序號,序號,生詞,漢拼,詞類,越譯,泰譯,緬譯,日譯,韓譯,韓譯,冊
+1-1,1,陳月美,Chén Yuèměi,,một phụ nữ Việt Nam,ผู้หญิงเวียดนาม (phu ying wiat nam),ဗီယက်နမ်အမျိုးသမီး (viet nam a myo tha mee),ベトナム出身の女性 (Betonamu shusshin no josei),베트남 여자 (beteunam yeoja),,1
+1-1,2,李明華,Lǐ Mínghuá,,một người đàn ông Đài Loan,ผู้ชายไต้หวัน (phu chai tai wan),ထိုင်ဝမ်အမျိုးသား (tai wan a myo tha),台湾出身の男性 (Taiwan shusshin no dansei),대만 남자 (daeman namja),,1
+1-1,3,王開文,Wáng Kāiwén,,một người đàn ông Mỹ,ผู้ชายอเมริกัน (phu chai a me ri kan),အမေရိကန်အမျိုးသား (a may ri kan a myo tha),アメリカ出身の男性 (Amerika shusshin no dansei),미국 남자 (miguk namja),,1
+1-1,4,你,nǐ,N,bạn / anh / chị,คุณ (khun),ခင်ဗျား (khin byar) / ရှင် (shin),あなた (anata),당신 / 너 (dangsin / neo),,1
+1-1,5,來,lái,V,đến,มา (ma),လာသည် (lar thi),来る (kuru),오다 (oda),,1
+1-1,6,是,shì,Vst,là,เป็น / คือ (pen / khue),ဖြစ်သည် (pyit thi),～です (desu),이다 (ida),,1
+1-1,7,小姐,xiǎojiě,N,Cô,คุณ / นางสาว (khun / nang sao),မ (ma),～さん (san),~양 / ~씨 (yang / ssi),,1
+1-1,8,嗎,ma,Ptc,trợ từ cuối câu,คำลงท้าย (kham long thai),ဝါကျအဆုံးသတ်ပစ္စည်း (war kya a sone that pyit see),終助詞 (shūjoshi),종결 어미 (jonggyeol eomi),,1
+1-1,9,接,jiē,V,đón ai đó,ไปรับ (pai rap),သွားကြိုသည် (thwar kyo thi),迎えに行く (mukae ni iku),마중 나가다 (majung nagada),,1
+1-1,10,我們,wǒmen,N,chúng tôi / chúng ta,พวกเรา (phuak rao),ကျွန်တော်တို့ (kyan naw toe),私たち (watashitachi),우리 (uri),,1
+1-1,11,我,wǒ,N,tôi,ฉัน / ผม (chan / phom),ကျွန်တော် (kyan naw) / ကျွန်မ (kyan ma),私 (watashi),저 / 나 (jeo / na),,1
+1-1,12,這,zhè/zhèi,Det,cái này / đây,นี่ (nee),ဒီ (de),これ (kore),이것 (igeot),,1
+1-1,13,先生,xiānshēng,N,Ông / Anh,คุณ / นาย (khun / nai),ဦး / ကို (u / ko),～さん (san),~씨 / ~군 (ssi / gun),,1
+1-1,14,好,hǎo ,Vs,khỏe / tốt,สบายดี (sabai dee),နေကောင်းသည် (nay kaung thi),元気 (genki),잘 / 안녕하다 (jal / annyeonghada),,1
+1-1,15,姓,xìng,Vst,họ là,แซ่ (sae),အမည်(မျိုးရိုး)ရှိသည် (a myin shi thi),姓は～です (sei wa ~ desu),성이 ~이다 (seong-i ~ida),,1
+1-1,16,叫,jiào,Vst,tên là / gọi là,ชื่อ / เรียกว่า (chue / riak wa),ခေါ်သည် (khaw thi),～と言う (to iu),~라고 부르다 (rago bureuda),,1
+1-1,17,你們,nǐmen,N,các bạn,พวกคุณ (phuak khun),ခင်ဗျားတို့ (khin byar toe),あなたたち (anatatachi),당신들 (dangsindeul),,1
+1-1,18,臺灣(=台灣),Táiwān,,Đài Loan,ไต้หวัน (tai wan),ထိုင်ဝမ် (tai wan),台湾 (Taiwan),대만 (daeman),,1
+1-1,19,歡迎,huānyíng,,chào mừng,ยินดีต้อนรับ (yin dee ton rap),ကြိုဆိုပါ၏ (kyo so par e),ようこそ (yōkoso),환영하다 (hwanyeonghada),,1
+1-1,20,請問,qǐngwèn,,Xin hỏi...,ขอถามหน่อย... (kho tham noi),မေးပါရစေ (may par ya say),お尋ねしますが (otazune shimasu ga),말씀 좀 묻겠습니다 (malsseum jom mutgesseumnida),,1
+1-1,21,是的,shìde,,vâng / phải,ใช่ / ครับ / ค่ะ (chai / khrap / kha),ဟုတ်ကဲ့ (hoke kae),はい (hai),네 / 예 (ne / ye),,1
+1-1,22,謝謝,xièxie,,Cảm ơn.,ขอบคุณ (khop khun),ကျေးဇူးတင်ပါတယ် (kyay zu tin par tal),ありがとうございます (arigatō gozaimasu),감사합니다 (gamsahamnida),,1
+1-1,23,不客氣,búkèqì,,Không có chi.,ไม่เป็นไร (mai pen rai),ရပါတယ် (ya par tal),どういたしまして (dōitashimashite),천만에요 (cheonmaneyo),,1
+1-1,24,你好,nǐ hǎo,,Bạn khỏe không? Xin chào.,สบายดีไหม / สวัสดี (sabai dee mai / sawatdee),နေကောင်းလား / မင်္ဂလာပါ (nay kaung lar / mingalar par),お元気ですか / こんにちは (ogenki desu ka / konnichiwa),잘 지내세요? / 안녕하세요 (jal jinaeseyo / annyeonghaseyo),,1
+1-2,1,請,qǐng,V,làm ơn / mời,กรุณา / เชิญ (karuna / choen),ကျေးဇူးပြု၍ (kyay zu pyu yue),お願いします (onegaishimasu),제발 / 부탁합니다 (jebal / butakamnida),,1
+1-2,2,喝,hē,V,uống,ดื่ม (duem),သောက်သည် (thauk thi),飲む (nomu),마시다 (masida),,1
+1-2,3,茶,chá,N,trà,ชา (cha),လက်ဖက်ရည် (lat hpet yay),お茶 (ocha),차 (cha),,1
+1-2,4,很,hěn,Adv,rất,มาก (mak),သိပ် (thate),とても (totemo),매우 / 아주 (maeu / aju),,1
+1-2,5,好喝,hǎohē,Vs,ngon (uống),อร่อย (a roi),သောက်လို့ကောင်း (thauk lo kaung),美味しい (oishii),맛있다 (masitda),,1
+1-2,6,什麼,shénme,N,cái gì,อะไร (a rai),ဘာ (bar),何 (nani),무엇 (mueot),,1
+1-2,7,人,rén,N,người,คน (khon),လူ (lu),人 (hito),사람 (saram),,1
+1-2,8,喜歡,xǐhuān,Vst,thích,ชอบ (chop),ကြိုက်သည် (kyaik thi),好き (suki),좋아하다 (joahada),,1
+1-2,9,呢,ne,Ptc,trợ từ cuối câu,คำลงท้าย (kham long thai),ဝါကျအဆုံးသတ်ပစ္စည်း (war kya a sone that pyit see),終助詞 (shūjoshi),종결 어미 (jonggyeol eomi),,1
+1-2,10,他,tā,N,anh ấy,เขา (khao),သူ (thu),彼 (kare),그 (geu),,1
+1-2,11,不,bù,Adv,không,ไม่ (mai),မ (ma - prefix),～ない (nai),아니다 / 안 (anida / an),,1
+1-2,12,哪,nǎ/něi,Det,nào,ไหน (nai),ဘယ် (bal),どの (dono),어느 (eoneu),,1
+1-2,13,要,yào,Vaux,muốn,อยาก (yak),ချင် (chin),～したい (shitai),원하다 / ~고 싶다 (wonhada / go sipda),,1
+1-2,14,咖啡,kāfēi,N,cà phê,กาแฟ (ka fae),ကော်ဖီ (kaw fi),コーヒー (kōhī),커피 (keopi),,1
+1-2,15,烏龍茶,Wūlóng chá,,trà Ô long,ชาอูหลง (cha u long),အူလောင်လက်ဖက်ရည် (u laung lat hpet yay),ウーロン茶 (ūroncha),우롱차 (urongcha),,1
+1-2,16,日本,Rìběn,,Nhật Bản,ญี่ปุ่น (yi pun),ဂျပန် (ja pan),日本 (nihon),일본 (ilbon),,1
+1-2,17,美國,Měiguó,,Mỹ,อเมริกา (a me ri ka),အမေရိကန် (a may ri kan),アメリカ (amerika),미국 (miguk),,1
+1-2,18,對不起,duìbùqǐ,,Xin lỗi.,ขอโทษ (kho thot),တောင်းပန်ပါတယ် (taung pan par tal),すみません (sumimasen),미안합니다 / 죄송합니다 (mianhamnida / joesonghamnida),,1
+1-2,19,哪國,nǎ guó/něi guó,,Nước nào?,ประเทศไหน (pra thet nai),ဘယ်နိုင်ငံ (bal naing ngan),どこの国 (doko no kuni),어느 나라 (eoneu nara),,1
+2-1,1,張怡君,Zhāng Yíjūn,,phụ nữ Đài Loan,ผู้หญิงไต้หวัน (phu ying tai wan),ထိုင်ဝမ်အမျိုးသမီး (tai wan a myo tha mee),台湾出身の女性 (Taiwan shusshin no josei),대만 여자 (daeman yeoja),,1
+2-1,2,馬安同,Mǎ āntóng,,đàn ông Honduras,ผู้ชายฮอนดูรัส (phu chai hon du rat),ဟွန်ဒူးရပ်စ်အမျိုးသား (hon du ras a myo tha),ホンジュラス共和国の男性 (Honjurasu kyōwakoku no dansei),온두라스 남자 (onduraseu namja),,1
+2-1,3,的,de,Ptc ,trợ từ sở hữu/bổ nghĩa,คำขยาย / ของ (kham kha yai / khong),၏ (e),の (no),의 (ui),,1
+2-1,4,家人,jiārén,N,gia đình (người nhà),ครอบครัว (khrop khrua),မိသားစု (mi thar su),家族 (kazoku),가족 (gajok),,1
+2-1,5,家,jiā,N,nhà,บ้าน (ban),အိမ် (ein),家 (ie),집 (jip),,1
+2-1,6,漂亮,piàoliàng,Vs,xinh đẹp,สวย (suai),လှသည် (hla thi),きれい (kirei),예쁘다 (yeppeuda),,1
+2-1,7,房子,fángzi,N,ngôi nhà,บ้าน (ban),အိမ် (ein),家 (ie),집 (jip),,1
+2-1,8,坐,zuò,Vi,ngồi,นั่ง (nang),ထိုင်သည် (htaing thi),座る (suwaru),앉다 (anda),,1
+2-1,9,好,hǎo,Ptc,được / OK,โอเค / ตกลง (o khe / tok long),ဟုတ်ကဲ့ (hoke kae),OK / 大丈夫 (OK / daijōbu),오케이 / 괜찮다 (okei / gwaenchanta),,1
+2-1,10,有,yǒu,Vst,có,มี (mee),ရှိသည် (shi thi),ある / いる (aru / iru),있다 (itda),,1
+2-1,11,多,duō,Vs-pred,nhiều,มาก / เยอะ (mak / yoe),များ (myar),多い (ōi),많다 (manta),,1
+2-1,12,照片,zhàopiàn,N,bức ảnh,รูปถ่าย (rup thai),ဓာတ်ပုံ (dat pone),写真 (shashin),사진 (sajin),,1
+2-1,13,都,dōu,Adv,tất cả / cả hai,ทั้งหมด / ทั้งสอง (thang mot / thang song),အားလုံး (ar lone),みんな / 両方 (minna / ryōhō),모두 / 둘 다 (modu / dul da),,1
+2-1,14,照相,zhàoxiàng,V-sep,chụp ảnh,ถ่ายรูป (thai rup),ဓာတ်ပုံရိုက်သည် (dat pone yaik thi),写真を撮る (shashin o toru),사진을 찍다 (sajin-eul jjikda),,1
+2-1,15,張,zhāng,M,tấm / tờ,ใบ / แผ่น (bai / phaen),ရွက် / ချပ် (ywet / chat),枚 (mai),장 (jang),,1
+2-1,16,好看,hǎokàn,Vs,đẹp trai / ưa nhìn,ดูดี / หล่อ (du dee / lo),ကြည့်ကောင်းသည် (kyi kaung thi),かっこいい (kakkoii),잘생기다 / 멋있다 (jalsaenggida / meositda),,1
+2-1,17,誰,shéi,N,ai,ใคร (khrai),ဘယ်သူ (bal thu),誰 (dare),누구 (nugu),,1
+2-1,18,姐姐 ,jiějie,N,chị gái,พี่สาว (phee sao),အစ်မ (a ma),お姉さん (onēsan),언니 / 누나 (eonni / nuna),,1
+2-1,19,妹妹,mèimei ,N,em gái,น้องสาว (nong sao),ညီမ (nyi ma),妹 (imōto),여동생 (yeodongsaeng),,1
+2-1,20,爸爸,bàba,N,bố / ba,พ่อ (pho),အဖေ (a fay),お父さん (otōsan),아빠 / 아버지 (appa / abeoji),,1
+2-1,21,媽媽,māma,N,mẹ / má,แม่ (mae),အမေ (a may),お母さん (okāsan),엄마 / 어머니 (eomma / eomeoni),,1
+2-1,22,請進,qǐng jìn,,Mời vào!,เชิญเข้าข้างใน (choen khao khang nai),အထဲဝင်ပါ (a htel win par),どうぞ入ってください (dōzo haitte kudasai),들어오세요 (deureooseyo),,1
+2-2,1,田中誠一,Tiánzhōng Chéngyī,,đàn ông Nhật Bản,ผู้ชายญี่ปุ่น (phu chai yi pun),ဂျပန်အမျိုးသား (ja pan a myo tha),日本人の男性 (nihonjin no dansei),일본 남자 (ilbon namja),,1
+2-2,2,伯母,bómǔ,N,cô / dì / bác gái,น้า / ป้า (na / pa),အဒေါ် (a daw),おばさん (obasan),아주머니 (ajumeoni),,1
+2-2,3,您,nín,N,Ngài / Ông / Bà,ท่าน (than),ခင်ဗျား / ရှင် (khin byar / shin),あなた様 (anatasama),선생님 / 당신 (seonsaengnim / dangsin),,1
+2-2,4,名字,míngzi,N,tên,ชื่อ (chue),နာမည် (nar mal),名前 (namae),이름 (ireum),,1
+2-2,5,書,shū,N,sách,หนังสือ (nang sue),စာအုပ် (sar oke),本 (hon),책 (chaek),,1
+2-2,6,哥哥,gēge,N,anh trai,พี่ชาย (phee chai),အစ်ကို (a ko),お兄さん (onīsan),오빠 / 형 (oppa / hyeong),,1
+2-2,7,老師,lǎoshī,N,giáo viên,ครู / อาจารย์ (khru / a chan),ဆရာ (sa yar),先生 (sensei),선생님 (seonsaengnim),,1
+2-2,8,看書,kànshū,V-sep,đọc,อ่าน (an),ဖတ်သည် (phat thi),読む (yomu),읽다 (ikda),,1
+2-2,9,幾,jǐ,N,bao nhiêu,กี่ (kee),ဘယ်လောက် (bal lauk),いくつ (ikutsu),몇 (myeot),,1
+2-2,10,個,ge,M,cái / con,อัน / ตัว (an / tua),ခု (ku),個 (ko),개 (gae),,1
+2-2,11,沒,méi,Adv,không,ไม่ (mai),မ (ma),～ない (nai),아니다 / 안 (anida / an),,1
+2-2,12,兄弟,xiōngdì,N,anh em trai,พี่น้องผู้ชาย (phee nong phu chai),ညီအစ်ကို (nyi a ko),兄弟 (kyōdai),남자 형제 (namja hyeongje),,1
+2-2,13,姐妹,jiěmèi,N,chị em gái,พี่น้องผู้หญิง (phee nong phu ying),ညီအစ်မ (nyi a ma),姉妹 (shimai),여자 형제 (yeoja hyeongje),,1
+2-2,14,五,wǔ,N,năm,ห้า (ha),ငါး (ngar),五 (go),오 / 다섯 (o / daseot),,1
+2-2,15,兩,liǎng,N,hai,สอง (song),နှစ် (hnit),二 (ni),이 / 둘 (i / dul),,1
+3-1,1,週末,zhōumò,N,cuối tuần,สุดสัปดาห์ (sut sap da),ပိတ်ရက် (pate yat),週末 (shūmatsu),주말 (jumal),,1
+3-1,2,聽,tīng,V,nghe,ฟัง (fang),နားထောင်သည် (nar htaung thi),聞く (kiku),듣다 (deutda),,1
+3-1,3,音樂,yīnyuè,N,âm nhạc,ดนตรี / เพลง (don tree / phleng),သီချင်း (thi chin),音楽 (ongaku),음악 (eumak),,1
+3-1,4,運動,yùndòng,Vi,tập thể dục,ออกกำลังกาย (ok kam lang kai),လေ့ကျင့်ခန်းလုပ်သည် (lay kyin khan loke thi),運動する (undō suru),운동하다 (undonghada),,1
+3-1,5,打,dǎ,V,chơi (bóng),เล่น (บอล) (len bon),ကစားသည် (ka sar thi),（球技を）する (kyūgi o suru),(공놀이를) 하다 (gongnori-reul hada),,1
+3-1,6,網球,wǎngqiú,N,quần vợt,เทนนิส (then nit),တင်းနစ် (ten nis),テニス (tenisu),테니스 (teniseu),,1
+3-1,7,棒球,bàngqiú,N,bóng chày,เบสบอล (bet bon),ဘေ့စ်ဘော (base ball),野球 (yakyū),야구 (yagu),,1
+3-1,8,和,hàn,Conj,"và, cũng như",และ (lae),နှင့် (nin),と (to),그리고 / ~와/과 (geurigo / wa/gwa),,1
+3-1,9,游泳,yóuyǒng,V-sep,bơi,ว่ายน้ำ (wai nam),ရေကူးသည် (yay ku thi),泳ぐ (oyogu),수영하다 (suyeonghada),,1
+3-1,10,常,cháng,Adv,thường,บ่อย (boi),မဲ (mal),よく (yoku),종종 / 자주 (jongjong / jaju),,1
+3-1,11,籃球,lánqiú,N,bóng rổ,บาสเกตบอล (bat ket bon),ဘတ်စကက်ဘော (bas ket ball),バスケットボール (basukettobōru),농구 (nonggu),,1
+3-1,12,也,yě,Adv,cũng,ก็...ด้วย (ko duai),လည်း (lal),も (mo),도 (do),,1
+3-1,13,踢,tī,V,đá,เตะ (te),ကန်သည် (kan thi),蹴る (keru),차다 (chada),,1
+3-1,14,足球,zúqiú,N,bóng đá,ฟุตบอล (fut bon),ဘောလုံး (baw lone),サッカー (sakkā),축구 (chukgu),,1
+3-1,15,覺得,juéde,Vst,cảm thấy / nghĩ,รู้สึก / คิดว่า (ru suek / khit wa),ထင်သည် (htin thi),感じる / 思う (kanjiru / omou),느끼다 / 생각하다 (neukkida / saenggakhada),,1
+3-1,16,好玩,hǎowán,Vs,thú vị / vui,น่าสนใจ / สนุก (na son jai / sa nuk),စိတ်ဝင်စားစရာ (sate win sar sa yar),面白い (omoshiroi),재미있다 (jaemiitda),,1
+3-1,17,明天,míngtiān,N,ngày mai,พรุ่งนี้ (phrung nee),မနက်ဖြန် (ma net phan),明日 (ashita),내일 (naeil),,1
+3-1,18,早上,zǎoshàng,N,buổi sáng,ตอนเช้า (ton chao),မနက် (ma net),朝 (asa),아침 (achim),,1
+3-1,19,去,qù,V,đi,ไป (pai),သွားသည် (thwar thi),行く (iku),가다 (gada),,1
+3-1,20,怎麼樣,zěnmeyàng,Vs,Thế nào? Bạn nghĩ sao?,เป็นยังไงบ้าง (pen yang ngai bang),ဘယ်လိုလဲ (bal lo lal),どうですか (dō desu ka),어때요? (eottaeyo),,1
+3-1,21,啊,a,Ptc,trợ từ cuối câu,คำลงท้าย (kham long thai),ဝါကျအဆုံးသတ်ပစ္စည်း (war kya a sone that pyit see),終助詞 (shūjoshi),종결 어미 (jonggyeol eomi),,1
+3-1,22,做什麼,zuò shénme,,làm gì,ทำอะไร (tham a rai),ဘာလုပ် (bar loke),何をする (nani o suru),무엇을 하다 (mueoseul hada),,1
+3-1,23,好啊,Hǎo a,,được / OK,โอเค (o khe),ဟုတ်ကဲ့ (hoke kae),OK / いいですよ (OK / ii desu yo),괜찮다 / 오케이 (gwaenchanta / okei),,1
+3-2,1,白如玉,Bái Rúyù,,phụ nữ Mỹ,ผู้หญิงอเมริกัน (phu ying a me ri kan),အမေရိကန်အမျိုးသမီး (a may ri kan a myo tha mee),アメリカ人の女性 (amerikajin no josei),미국 여자 (miguk yeoja),,1
+3-2,2,今天,jīntiān,N,hôm nay,วันนี้ (wan nee),ဒီနေ့ (de nay),今日 (kyō),오늘 (oneul),,1
+3-2,3,晚上,wǎnshàng,N,buổi tối / đêm,ตอนเย็น / กลางคืน (ton yen / klang khuen),ည (nya),晩 / 夜 (ban / yoru),저녁 / 밤 (jeonyeok / bam),,1
+3-2,4,看,kàn,V,xem / nhìn,ดู / มอง (du / mong),ကြည့်သည် (kyi thi),見る (miru),보다 (boda),,1
+3-2,5,電影,diànyǐng,N,phim,หนัง (nang),ရုပ်ရှင် (yoke shin),映画 (eiga),영화 (yeonghwa),,1
+3-2,6,妳,nǐ,N,bạn (nữ) / chị / cô,คุณ (khun),ရှင် (shin),あなた (anata),당신 (dangsin),,1
+3-2,7,想,xiǎng,Vaux,muốn / nghĩ,อยาก / คิด (yak / khit),ချင် / ထင် (chin / htin),欲しい / 思う (hoshii / omou),원하다 / 생각하다 (wonhada / saenggakhada),,1
+3-2,8,還是,háishì,Conj,hay là,หรือ (rue),သို့မဟုတ် (thoe ma hoke),または / か (matawa / ka),아니면 / ~나 (animyeon / na),,1
+3-2,9,吧,ba,Ptc,nhé / đi,นะ / เถอะ (na / thoe),ပါ (par),～ましょう (mashō),~자 / ~까요 (ja / kkayo),,1
+3-2,10,可以,kěyǐ,Vaux,có thể,อาจจะ (at cha),ဖြစ်နိုင်သည် (pyit naing thi),～かもしれない (kamoshirenai),~할 수 있다 (hal su itda),,1
+3-2,11,學,xué,V,học,เรียน (rian),သင်ယူသည် (thin yu thi),学ぶ / 勉強する (manabu / benkyō suru),배우다 / 공부하다 (baeuda / gongbuhada),,1
+3-2,12,中文,Zhōngwén,N,tiếng Trung,ภาษาจีน (pha sa jeen),တရုတ်စာ (ta yoke sar),中国語 (chūgokugo),중국어 (junggugeo),,1
+3-2,13,一起,yìqǐ,Adv,cùng nhau,ด้วยกัน (duai kan),အတူတူ (a tu tu),一緒に (issho ni),함께 / 같이 (hamkke / gachi),,1
+3-2,14,吃,chī,V,ăn,กิน / ทาน (kin / than),စားသည် (sar thi),食べる (taberu),먹다 (meokda),,1
+3-2,15,晚飯,wǎnfàn,N,bữa tối,อาหารเย็น (a han yen),ညစာ (nya sar),夕食 (yūshoku),저녁 식사 (jeonyeok siksa),,1
+3-2,16,菜,cài,N,ẩm thực / món ăn,อาหาร (a han),အစားအစာ (a sar a sar),料理 (ryōri),요리 (yori),,1
+3-2,17,越南,Yuènán,,Việt Nam,เวียดนาม (wiat nam),ဗီယက်နမ် (viet nam),ベトナム (betonamu),베트남 (beteunam),,1
+3-2,18,好不好,hǎo bù hǎo,,...thì sao?,...เป็นไงบ้าง (pen ngai bang),ဘယ်လိုလဲ (bal lo lal),～はどうですか (wa dō desu ka),~는 어때요? (neun eottaeyo),,1
+4-1,1,一共,yígòng,Adv,tổng cộng,ทั้งหมด (thang mot),စုစုပေါင်း (su su paung),合計 (gōkei),모두 합쳐서 (modu hapchyeoseo),,1
+4-1,2,多少,duōshǎo,N,bao nhiêu,เท่าไหร่ (thao rai),ဘယ်လောက် (bal lauk),いくら (ikura),얼마 (eolma),,1
+4-1,3,錢,qián,N,tiền,เงิน (ngoen),ပိုက်ဆံ (pike san),お金 (okane),돈 (don),,1
+4-1,4,老闆,lǎobǎn,N,ông chủ,เจ้าของร้าน (chao khong ran),သူဌေး (tha htay),店主 / 上司 (tenshu / jōshi),주인 / 사장님 (juin / sajangnim),,1
+4-1,5,買,mǎi,V,mua,ซื้อ (sue),ဝယ်သည် (wal thi),買う (kau),사다 (sada),,1
+4-1,6,杯,bēi,M,cốc / ly,ถ้วย / แก้ว (thuai / kaeo),ခွက် (khwet),カップ / 杯 (kappu / hai),컵 / 잔 (keop / jan),,1
+4-1,7,熱,rè,Vs,nóng,ร้อน (ron),ပူသည် (pu thi),熱い (atsui),뜨겁다 (tteugeopda),,1
+4-1,8,包子,bāozi,N,bánh bao thịt,ซาลาเปาไส้หมู (sa la pao sai mu),ပေါက်စီ (pauk si),肉まん (nikuman),고기 만두 (gogi mandu),,1
+4-1,9,要,yào,V,cần / muốn,ต้องการ (tong kan),လိုချင်သည် (lo chin thi),要る / 欲しい (iru / hoshii),필요하다 (piryohada),,1
+4-1,10,大,dà,Vs,lớn,ใหญ่ (yai),ကြီး (kyi),大きい (ōkii),크다 / 대 (keuda / dae),,1
+4-1,11,中,zhōng,Vs-attr,vừa,กลาง (klang),အလယ် (a lal),中 (chū),중간 / 중 (junggan / jung),,1
+4-1,12,小,xiǎo,Vs,nhỏ,เล็ก (lek),ငယ် (ngal),小さい (chīsai),작다 / 소 (jakda / so),,1
+4-1,13,幫,bāng,Prep,cho,สำหรับ (sam rap),အတွက် (a twet),～のために (no tame ni),~을 위해 (eul wihae),,1
+4-1,14,微波,wéibō,V,quay lò vi sóng,อุ่นไมโครเวฟ (un mai khro wep),မိုက်ခရိုဝေ့ဖ်ဖြင့်နွှေးသည် (micro wave phyint nway thi),電子レンジで温める (denshirenji de atatameru),전자레인지에 데우다 (jeonjareinjie deuda),,1
+4-1,15,百,bǎi,N,trăm,ร้อย (roi),ရာ (yar),百 (hyaku),백 (baek),,1
+4-1,16,塊,kuài,M,tệ,หยวน (yuan),ယွမ် (yuan),元 (gen),위안 (wian),,1
+4-1,17,好的,hǎode,,được,โอเค (o khe),ဟုတ်ကဲ့ (hoke kae),OK (OK),오케이 (okei),,1
+4-1,18,外帶,wàidài,,mang đi,กลับบ้าน (klap ban),ပါဆယ် (par sal),持ち帰り (mochikaeri),포장하다 (pojanghada),,1
+4-1,19,內用,nèiyòng,,ăn tại chỗ,ทานที่นี่ (than thee nee),ဆိုင်မှာစားသည် (saing hmar sar thi),店内で (tennai de),먹고 가다 (meokgo gada),,1
+4-2,1,支,zhī,M,cái (lượng từ),เครื่อง (khrueang),လုံး (lone),台 (dai),대 (dae),,1
+4-2,2,新,xīn,Vs,mới,ใหม่ (mai),သစ် (thit),新しい (atarashii),새롭다 (saeropda),,1
+4-2,3,手機,shǒujī,N,điện thoại di động,มือถือ (mue thue),ဖုန်း (phone),携帯電話 (keitai denwa),휴대전화 / 핸드폰 (hyudaejeonhwa / haendeupon),,1
+4-2,4,太,tài,Adv,quá / cũng,เกินไป / ก็ (koen pai / ko),သိပ် / လည်း (thate / lal),～すぎる / も (sugiru / mo),너무 / ~도 (neomu / do),,1
+4-2,5,舊,jiù,Vs,cũ,เก่า (kao),ဟောင်း (haung),古い (furui),낡은 / 오래된 (nalgeun / oraedoen),,1
+4-2,6,了,le,Ptc,chứ / mà,...นะ (na),ပေါ့ (paw),～よ (yo),~지요 (jiyo),,1
+4-2,7,種,zhǒng,M,loại,ชนิด (cha nit),အမျိုးအစား (a myo a sar),種類 (shurui),종류 (jongnyu),,1
+4-2,8,能,néng,Vaux,có thể,สามารถ / ได้ (sa mat / dai),နိုင်သည် (naing thi),できる (dekiru),할 수 있다 (hal su itda),,1
+4-2,9,上網,shàngwǎng,V-sep,lên mạng,เล่นอินเทอร์เน็ต (len in thoe net),အင်တာနက်သုံးသည် (internet thone thi),インターネットをする (intānetto o suru),인터넷을 하다 (inteonet-eul hada),,1
+4-2,10,那,nà/nèi,Det,cái đó,นั่น (nan),ဟို (ho),あれ (are),그것 / 저것 (geugeot / jeogeot),,1
+4-2,11,貴,guì,Vs,đắt,แพง (phaeng),ဈေးကြီး (zay kyi),高い (takai),비싸다 (bissada),,1
+4-2,12,賣,mài,V,bán,ขาย (khai),ရောင်းသည် (yaung thi),売る (uru),팔다 (palda),,1
+4-2,13,便宜,piányí,Vs,rẻ,ถูก (thuk),ဈေးပေါ (zay paw),安い (yasui),싸다 (ssada),,1
+4-2,14,要,yào,Vst,tốn / mất (thời gian),ใช้ (เวลา) (chai),ကြာသည် (kyar thi),かかる (kakaru),걸리다 (geollida),,1
+4-2,15,萬,wàn,N,mười nghìn (vạn),หมื่น (muen),သောင်း (thaung),一万 (ichiman),만 (man),,1
+4-2,16,千,qiān,N,nghìn,พัน (phan),ထောင် (htaung),千 (sen),천 (cheon),,1
+4-2,17,為什麼,wèishénme,,tại sao,ทำไม (tham mai),ဘာလို့ (bar lo),なぜ (naze),왜 (wae),,1
+5-1,1,牛肉,niúròu ,N ,thịt bò,เนื้อวัว (nuea wua),အမဲသား (a mal thar),牛肉 (gyūniku),소고기 (sogogi),,1
+5-1,2,麵,miàn,N,mì,ก๋วยเตี๋ยว (kuai tiao),ခေါက်ဆွဲ (khauk swal),麺 (men),국수 (guksu),,1
+5-1,3,真,zhēn,Adv,thật sự,จริงๆ (jing jing),တကယ် (ta kal),本当に (hontō ni),정말 (jeongmal),,1
+5-1,4,好吃,hǎochī,Vs,ngon,อร่อย (a roi),စားကောင်း (sar kaung),美味しい (oishii),맛있다 (masitda),,1
+5-1,5,說,shuō,V,nói,พูด (phut),ပြောသည် (pyaw thi),言う (iu),말하다 (malhada),,1
+5-1,6,少,shǎo,Vs-pred,ít,น้อย (noi),နည်း (nee),少ない (sukunai),적다 (jeokda),,1
+5-1,7,有名,yǒumíng,Vs,nổi tiếng,มีชื่อเสียง (mee chue siang),နာမည်ကြီး (nar mal kyi),有名 (yūmei),유명하다 (yumyeonghada),,1
+5-1,8,小吃,xiǎochī,N,đồ ăn nhẹ,ของว่าง (khong wang),သရေစာ (tha yay sar),軽食 (keishoku),간식 (gansik),,1
+5-1,9,最,zuì,Adv,nhất,ที่สุด (thee sut),အ...ဆုံး (a...sone),一番 (ichiban),가장 / 제일 (gajang / jeil),,1
+5-1,10,湯,tāng,N,canh / súp,ซุป / แกงจืด (sup / kaeng chuet),ဟင်းရည် (hin yay),スープ (sūpu),국 / 스프 (guk / seupeu),,1
+5-1,11,這麼,zhème ,Adv,vì vậy,ดังนั้น (dang nan),ဒါကြောင့် (dar kyaung),だから (dakara),그래서 (geuraeseo),,1
+5-1,12,知道,zhīdào,Vst,biết,รู้ (ru),သိသည် (thi thi),知る (shiru),알다 (alda),,1
+5-1,13,家,jiā,M,lượng từ (nhà hàng),ร้าน / แห่ง (ran / haeng),ဆိုင် (saing),軒 (ken),곳 / 군데 (got / gunde),,1
+5-1,14,店,diàn,N,cửa hàng,ร้านค้า (ran kha),ဆိုင် (saing),店 (mise),가게 (gage),,1
+5-1,15,一定,yídìng,Adv,nhất định,ต้อง...แน่ๆ (tong...nae nae),မဖြစ်မနေ (ma phyit ma nay),絶対に (zettai ni),꼭 / 반드시 (kkok / bandeusi),,1
+5-1,16,點,diǎn,V,gọi món,สั่งอาหาร (sang a han),မှာသည် (hmar thi),注文する (chūmon suru),주문하다 (jumunhada),,1
+5-1,17,碗,wǎn,M,một bát,หนึ่งชาม (nueng cham),ပန်းကန်လုံး (pan kan lone),一杯（の） (ippai no),한 그릇 (han geureut),,1
+5-1,18,是 啊,shì a,,Đúng vậy.,ถูกต้อง (thuk tong),ဟုတ်တယ် (hoke tal),その通り (sono tōri),맞아요 (majayo),,1
+5-1,19,小籠包,xiǎolóngbāo,,tiểu long bao,เสี่ยวหลงเปา (siao long pao),ရှောက်လုံပေါက် (shauk long pauk),小籠包 (shōronpō),샤오롱바오 (syaorongbao),,1
+5-1,20,臭豆腐,chòu dòufǔ,,đậu phụ thối,เต้าหู้เหม็น (tao hu men),တို့ဟူးပုပ် (to hu pote),臭豆腐 (shūdōfu),취두부 (chwidubu),,1
+5-1,21,太好了,tài hǎo le,,Tuyệt vời.,เยี่ยม (yiam),အရမ်းကောင်း (a yan kaung),素晴らしい (subarashii),훌륭하다 (hullyunghada),,1
+5-2,1,昨天,zuótiān,N,hôm qua,เมื่อวาน (muea wan),မနေ့က (ma nay ka),昨日 (kinō),어제 (eoje),,1
+5-2,2,餐廳,cāntīng,N,nhà hàng,ร้านอาหาร (ran a han),စားသောက်ဆိုင် (sar thauk saing),レストラン (resutoran),식당 / 레스토랑 (sikdang / reseutorang),,1
+5-2,3,可是,kěshì,Conj,nhưng,แต่ (tae),ဒါပေမယ့် (dar pay mal),しかし (shikashi),하지만 / 그러나 (hajiman / geureona),,1
+5-2,4,辣,là,Vs,cay,เผ็ด (phet),စပ်သည် (sat thi),辛い (karai),맵다 (maepda),,1
+5-2,5,怕,pà,Vst,sợ / không thích,กลัว (klua),ကြောက်သည် (kyauk thi),恐れる / 苦手 (osoreru / nigate),무서워하다 / 싫어하다 (museowohada / sireohada),,1
+5-2,6,所以,suǒyǐ,Conj,vì thế,เพราะฉะนั้น (phro cha nan),ဒါကြောင့် (dar kyaung),したがって (shitagatte),그러므로 (geureomeuro),,1
+5-2,7,自己,zìjǐ,N,bản thân,ตัวเอง (tua eng),ကိုယ်တိုင် (ko taing),自分 (jibun),자신 / 스스로 (jasin / seuseuro),,1
+5-2,8,做飯,zuòfàn,V-sep,nấu ăn,ทำอาหาร (tham a han),ချက်သည် (chet thi),料理する (ryōri suru),요리하다 (yorihada),,1
+5-2,9,得,de,Ptc,trợ từ kết quả,(คำแสดงผลลัพธ์),(ရလဒ်ပြပစ္စည်း),補語マーカー (hogo mākā),보어 표지 (boeo pyoji),,1
+5-2,10,會,huì,Vaux,có thể,ได้ (dai),တတ်သည် (tat thi),できる (dekiru),할 수 있다 (hal su itda),,1
+5-2,11,甜點,tiándiǎn,N,tráng miệng,ของหวาน (khong wan),အချိုပွဲ (a cho pwal),デザート (dezāto),디저트 / 후식 (dijeoteu / husik),,1
+5-2,12,不錯,búcuò,Vs,không tệ,ไม่เลว (mai leo),မဆိုးပါဘူး (ma so par bu),悪くない (warukunai),나쁘지 않다 (nappeuji anta),,1
+5-2,13,可以,kěyǐ,Vaux,có lẽ,อาจจะ (at cha),ဖြစ်နိုင်သည် (pyit naing thi),あり得る (ariuru),~일 수도 있다 (il sudo itda),,1
+5-2,14,教,jiāo,V,dạy,สอน (son),သင်သည် (thin thi),教える (oshieru),가르치다 (gareuchida),,1
+5-2,15,到,dào,Prep,đến / tới,ถึง (thueng),သို့ (thoe),へ (he),~에 (e),,1
+5-2,16,有一點,yǒu yìdiǎn,,một chút,นิดหน่อย (nit noi),နည်းနည်း (nel nel),少し (sukoshi),조금 (jogeum),,1
+5-2,17,不好,bù hǎo,,không tốt,ไม่ค่อยดี (mai khoi dee),မကောင်း (ma kaung),良くない (yokunai),좋지 않다 (jochi anta),,1
+6-1,1,他們,tāmen,N,họ,พวกเขา (phuak khao),သူတို့ (thu toe),彼ら (karera),그들 (geudeul),,1
+6-1,2,學校,xuéxiào,N,trường học,โรงเรียน (rong rian),ကျောင်း (kyaung),学校 (gakkō),학교 (hakgyo),,1
+6-1,3,在,zài,Vst,ở tại,อยู่ที่ (yu thee),ရှိသည် (shi thi),位置する (ichisuru),위치하다 (wichihada),,1
+6-1,4,山上,shānshàng,N,trên núi,บนภูเขา (bon phu khao),တောင်ပေါ် (taung paw),山の上 (yama no ue),산 위에 (san wie),,1
+6-1,5,哪裡,nǎlǐ,N,ở đâu,ที่ไหน (thee nai),ဘယ်မှာ (bal hmar),どこ (doko),어디 (eodi),,1
+6-1,6,遠,yuǎn,Vs,xa,ไกล (klai),ဝေး (way),遠い (tōi),멀다 (meolda),,1
+6-1,7,那裡,nàlǐ,N,chỗ đó,ที่นั่น (thee nan),ဟိုမှာ (ho hmar),あそこ (asoko),거기 (geogi),,1
+6-1,8,風景,fēngjǐng,N,phong cảnh,ทิวทัศน์ (thio that),ရှုခင်း (shu khin),景色 (keshiki),경치 (gyeongchi),,1
+6-1,9,美,měi,Vs,đẹp,สวยงาม (suai ngam),လှပ (hla pa),美しい (utsukushii),아름답다 (areumdapda),,1
+6-1,10,前面,qiánmiàn,N,phía trước,ข้างหน้า (khang na),အရှေ့ (a shay),前 (mae),앞 (ap),,1
+6-1,11,海,hǎi,N,đại dương / biển,มหาสมุทร (ma ha sa mut),ပင်လယ် (pin lal),海 (umi),바다 (bada),,1
+6-1,12,後面,hòumiàn,N,phía sau,ข้างหลัง (khang lang),အနောက် (a nauk),後ろ (ushiro),뒤 (dwi),,1
+6-1,13,山,shān,N,núi,ภูเขา (phu khao),တောင် (taung),山 (yama),산 (san),,1
+6-1,14,真的,zhēnde,Adv,thật sự,จริงๆ (jing jing),တကယ် (ta kal),本当に (hontō ni),정말 (jeongmal),,1
+6-1,15,地方,dìfāng,N,nơi / chốn,สถานที่ (sa than thee),နေရာ (nay yar),場所 (basho),장소 (jangso),,1
+6-1,16,現在,xiànzài,N,bây giờ,ตอนนี้ (ton nee),အခု (a khu),今 (ima),지금 (jigeum),,1
+6-1,17,附近,fùjìn,N,gần đây,แถวนี้ (thaeo nee),အနီးအနား (a nee a nar),付近 (fukin),근처 (geuncheo),,1
+6-1,18,樓下,lóuxià,N,dưới lầu,ชั้นล่าง (chan lang),အောက်ထပ် (auk htat),階下 (kaika),아래층 (araecheung),,1
+6-1,19,找,zhǎo,V,gặp,เจอ (choe),တွေ့သည် (tway thi),会う (au),만나다 (mannada),,1
+6-1,20,朋友,péngyǒu,N,bạn bè,เพื่อน (phuean),သူငယ်ချင်း (thu nge chin),友達 (tomodachi),친구 (chingu),,1
+6-1,21,上課,shàngkè,V-sep,đi học,เข้าเรียน (khao rian),ကျောင်းတက်သည် (kyaung tet thi),授業に出る (jugyō ni deru),수업에 가다 (sueop-e gada),,1
+6-1,22,花蓮,Huālián,,Hoa Liên,ฮวาเหลียน (hua lian),ဟွာလျန် (hua lian),花蓮 (karen),화롄 (hwaryen),,1
+6-1,23,聽說,tīngshuō,,nghe nói,ได้ยินว่า (dai yin wa),ကြားတာက (kyar tar ka),～だと聞く (da to kiku),~라고 듣다 (rago deutda),,1
+6-2,1,近,jìn,Vs,gần,ใกล้ (klai),နီး (nee),近い (chikai),가깝다 (gakkapda),,1
+6-2,2,方便,fāngbiàn,Vs,thuận tiện,สะดวก (sa duak),အဆင်ပြေ (a sin pyay),便利 (benri),편리하다 (pyeollihada),,1
+6-2,3,這裡,zhèlǐ,N,ở đây,ที่นี่ (thee nee),ဒီမှာ (de hmar),ここ (koko),여기 (yeogi),,1
+6-2,4,學生,xuéshēng,N,học sinh,นักเรียน (nak rian),ကျောင်းသား (kyaung thar),学生 (gakusei),학생 (haksaeng),,1
+6-2,5,在,zài,Prep,tại,ที่ (thee),မှာ (hmar),で (de),~에 (e),,1
+6-2,6,東西,dōngxi,N,đồ vật,ของ (khong),ပစ္စည်း (pyit see),物 (mono),물건 (mulgeon),,1
+6-2,7,外面,wàimiàn,N,bên ngoài,ข้างนอก (khang nok),အပြင် (a pyin),外 (soto),밖 (bak),,1
+6-2,8,裡面,lǐmiàn,N,bên trong,ข้างใน (khang nai),အထဲ (a htel),中 (naka),안 (an),,1
+6-2,9,商店,shāngdiàn,N,cửa hàng,ร้านค้า (ran kha),ဆိုင် (saing),店 (mise),가게 (gage),,1
+6-2,10,吃飯,chīfàn,V-sep,ăn cơm,ทานข้าว (than khao),ထမင်းစားသည် (hta min sar thi),食事をする (shokuji o suru),식사하다 (siksahada),,1
+6-2,11,宿舍,sùshè,N,ký túc xá,หอพัก (ho phak),အဆောင် (a saung),寮 (ryō),기숙사 (gisuksa),,1
+6-2,12,樓,lóu,N,tầng,ชั้น (chan),ထပ် (htat),階 (kai),층 (cheung),,1
+6-2,13,棟,dòng,M,tòa (nhà),ตึก (tuek),လုံး (lone),棟 (tō),동 / 채 (dong / chae),,1
+6-2,14,大樓,dàlóu,N,tòa nhà,ตึกสูง (tuek sung),တိုက် (tike),ビル (biru),빌딩 (bilding),,1
+6-2,15,圖書館,túshūguǎn,N,thư viện,ห้องสมุด (hong sa mut),စာကြည့်တိုက် (sar kyi tike),図書館 (toshokan),도서관 (doseogwan),,1
+6-2,16,旁邊,pángbiān,N,bên cạnh,ข้างๆ (khang khang),ဘေး (bay),横 (yoko),옆 (yeop),,1
+6-2,17,教室,jiàoshì,N,lớp học,ห้องเรียน (hong rian),စာသင်ခန်း (sar thin khan),教室 (kyōshitsu),교실 (gyosil),,1
+6-2,18,游泳池,yóuyǒngchí,N,hồ bơi,สระว่ายน้ำ (sa wai nam),ရေကူးကန် (yay ku kan),プール (pūru),수영장 (suyeongjang),,1
+7-1,1,點,diǎn,M,giờ,นาฬิกา (na li ka),နာရီ (nar yi),時 (ji),시 (si),,1
+7-1,2,KTV,,N,Karaoke,คาราโอเกะ (kha ra o ke),ကာရာအိုကေ (ka ra o kay),カラオケ (karaoke),노래방 (noraebang),,1
+7-1,3,唱歌,chànggē,V-sep,hát,ร้องเพลง (rong phleng),သီချင်းဆိုသည် (thi chin so thi),歌う (utau),노래하다 (noraehada),,1
+7-1,4,分,fēn,M,phút,นาที (na thee),မိနစ် (mi nit),分 (fun),분 (bun),,1
+7-1,5,見面,jiànmiàn,V-sep,gặp,เจอ (choe),တွေ့ (tway),会う (au),만나다 (mannada),,1
+7-1,6,從,cóng,Prep,từ,จาก (chak),မှ (hma),から (kara),~에서 / ~부터 (eseo / buteo),,1
+7-1,7,中午,zhōngwǔ,N,buổi trưa,เที่ยง (thiang),နေ့လည် (nay lal),正午 (shōgo),정오 (jeongo),,1
+7-1,8,得,děi,Vaux,phải,ต้อง (tong),ရမည် (ya myi),なければならない (nakereba naranai),해야 한다 (haeya handa),,1
+7-1,9,銀行,yínháng,N,ngân hàng,ธนาคาร (tha na khan),ဘဏ် (ban),銀行 (ginkō),은행 (eunhaeng),,1
+7-1,10,時候,shíhòu,N,khi nào,เมื่อไหร่ (muea rai),ဘယ်တော့ (bal daw),いつ (itsu),언제 (eonje),,1
+7-1,11,後天,hòutiān,N,ngày kia,มะรืนนี้ (ma ruen nee),သဘက်ခါ (tha bet kha),明後日 (asatte),모레 (more),,1
+7-1,12,大安,Dà’ān,,Đại An,ต้าอัน (ta an),တာအန်း (da an),大安 (daian),다안 (da-an),,1
+7-1,13,下次,xià cì,,lần sau,คราวหน้า (khrao na),နောက်တခါ (nauk ta kha),次回 (jikai),다음 번 (daeum beon),,1
+7-1,14,沒問題,méi wèntí,,Không sao.,ไม่มีปัญหา (mai mee pan ha),ပြဿနာမရှိပါ (pyat tha nar ma shi par),問題ない (mondai nai),문제 없다 (munje eopda),,1
+7-1,15,對了,duìle,,nhân tiện,ว่าแต่... (wa tae),ဒါနဲ့ (dar nel),ところで (tokorode),그런데 (geureonde),,1
+7-1,16,有空,yǒu kòng,,rảnh rỗi,ว่าง (wang),အားသည် (ar thi),暇がある (hima ga aru),시간 있다 (sigan itda),,1
+7-1,17,再見,zàijiàn,,Tạm biệt.,ลาก่อน (la kon),နှုတ်ဆက်ပါတယ် (hnoke set par tal),さようなら (sayōnara),안녕히 가세요 (annyeonghi gaseyo),,1
+7-2,1,在,zài,Vs,đang,กำลัง (kam lang),နေသည် (nay thi),～している (shite iru),~고 있다 (go itda),,1
+7-2,2,午餐,wǔcān,N,bữa trưa,อาหารกลางวัน (a han klang wan),နေ့လည်စာ (nay lal sar),昼食 (chūshoku),점심 (jeomsim),,1
+7-2,3,剛,gāng,Adv,vừa mới,เมื่อกี้ (muea kee),ခုနက (khu na ka),さっき (sakki),방금 (banggeum),,1
+7-2,4,下課,xiàkè,V-sep,tan học,เลิกเรียน (loek rian),ကျောင်းဆင်း (kyaung sin),授業が終わる (jugyō ga owaru),수업이 끝나다 (sueobi kkeunnada),,1
+7-2,5,下午,xiàwǔ,N,buổi chiều,ตอนบ่าย (ton bai),နေ့လည် (nay lal),午後 (gogo),오후 (ohu),,1
+7-2,6,半,bàn,N,một nửa,ครึ่ง (khueng),တစ်ဝက် (ta wet),半分 (hanbun),반 (ban),,1
+7-2,7,比賽,bǐsài,N,trận đấu,การแข่งขัน (kan khaeng khan),ပြိုင်ပွဲ (pyaing pwal),試合 (shiai),시합 / 경기 (sihap / gyeonggi),,1
+7-2,8,結束,jiéshù,Vp,kết thúc,เสร็จ / จบ (set / jop),ပြီးသည် (pyi thi),終わる (owaru),끝나다 (kkeunnada),,1
+7-2,9,最近,zuìjìn,N,gần đây,ช่วงนี้ (chuang nee),မကြာသေးခင်က (ma kyar thay khin ka),最近 (saikin),최근 (choegeun),,1
+7-2,10,忙,máng,Vs,bận,ยุ่ง (yung),အလုပ်ရှုပ် (a loke shoke),忙しい (isogashii),바쁘다 (bappeuda),,1
+7-2,11,每,měi,Det,mỗi,ทุกๆ (thuk thuk),တိုင်း (taing),毎～ (mai),매~ (mae),,1
+7-2,12,天,tiān,M,ngày (lượng từ),วัน (wan),ရက် (yet),日 (nichi),일 (il),,1
+7-2,13,書法,shūfǎ,N,thư pháp,พู่กันจีน (phu kan jeen),လက်ရေးလှ (let yay hla),書道 (shodō),서예 (seoye),,1
+7-2,14,課,kè,N,lớp học / giờ học,ชั้นเรียน (chan rian),အတန်း (a tan),授業 (jugyō),수업 (sueop),,1
+7-2,15,開始,kāishǐ,Vp,bắt đầu,เริ่ม (roem),စသည် (sa thi),始まる (hajimaru),시작하다 (sijakhada),,1
+7-2,16,字,zì,N,chữ,ตัวอักษร (tua ak son),စာလုံး (sar lone),文字 (moji),글자 (geulja),,1
+7-2,17,寫,xiě,V,viết,เขียน (khian),ရေးသည် (yay thi),書く (kaku),쓰다 (sseuda),,1
+7-2,18,可以,kěyǐ,Vaux,có thể (xin phép),ขอ...ได้ไหม (kho dai mai),ရမလား (ya ma lar),～してもいい (shite mo ii),~해도 되다 (haedo doeda),,1
+7-2,19,問,wèn,V,hỏi,ถาม (tham),မေးသည် (may thi),聞く (kiku),묻다 (mutda),,1
+7-2,20,等一下,děng yíxià,,lát nữa / sau,เดี๋ยว (diao),နောက်မှ (nauk hma),後で (atode),나중에 (najung-e),,1
+7-2,21,有事,yǒu shì,,bận rộn,ยุ่ง (yung),အလုပ်ရှုပ် (a loke shoke),忙しい (isogashii),바쁘다 (bappeuda),,1
+7-2,22,有意思,yǒu yìsi,,thú vị,น่าสนใจ (na son jai),စိတ်ဝင်စားစရာ (sate win sar sa yar),面白い (omoshiroi),재미있다 (jaemiitda),,1
+8-1,1,坐,zuò,V,đi bằng,นั่ง (nang),စီးသည် (see thi),乗る (noru),타다 (tada),,1
+8-1,2,火車,huǒchē,N,tàu hỏa,รถไฟ (rot fai),မီးရထား (mee ya htar),電車 (densha),기차 (gicha),,1
+8-1,3,跟,gēn,Prep,với,กับ (kap),နှင့်အတူ (nin a tu),と (to),~와/과 (wa/gwa),,1
+8-1,4,玩,wán,V,vui vẻ,สนุก (sa nuk),ပျော်သည် (pyaw thi),楽しむ (tanoshimu),즐기다 (jeulgida),,1
+8-1,5,怎麼,zěnme,Adv,thế nào,ยังไง (yang ngai),ဘယ်လို (bal lo),どうやって (dōyatte),어떻게 (eotteoke),,1
+8-1,6,慢,màn,Vs,chậm,ช้า (cha),နှေး (hnay),遅い (osoi),느리다 (neurida),,1
+8-1,7,鐘頭,zhōngtóu,N,giờ,ชั่วโมง (chua mong),နာရီ (nar yi),時間 (jikan),시간 (sigan),,1
+8-1,8,比較,bǐjiào,Adv,hơn,กว่า (kwa),ပို (po),より (yori),더 (deo),,1
+8-1,9,快,kuài,Vs,nhanh,เร็ว (reo),မြန် (myan),速い (hayai),빠르다 (ppareuda),,1
+8-1,10,車票,chēpiào,N,vé,ตั๋ว (tua),လက်မှတ် (let hmat),切符 (kippu),표 (pyo),,1
+8-1,11,非常,fēicháng,Adv,rất,มาก (mak),သိပ် (thate),とても (totemo),아주 (aju),,1
+8-1,12,但是,dànshì,Conj,nhưng,แต่ (tae),ဒါပေမယ့် (dar pay mal),しかし (shikashi),하지만 (hajiman),,1
+8-1,13,又,yòu,Adv,vừa...vừa...,ทั้ง...และ... (thang...lae),...ရော...ရော (yaw...yaw),両方 (ryōhō),둘 다 (dul da),,1
+8-1,14,舒服,shūfú,Vs,thoải mái,สบาย (sa bai),သက်တောင့်သက်သာ (thet taunt thet thar),快適 (kaiteki),편안하다 (pyeonanhada),,1
+8-1,15,站,zhàn,N,trạm / ga,สถานี (sa tha nee),ဘူတာ (bu tar),駅 (eki),역 (yeok),,1
+8-1,16,或是,huòshì,Conj,hoặc,หรือ (rue),သို့မဟုတ် (thoe ma hoke),または (matawa),또는 (ttoneun),,1
+8-1,17,臺南,Táinán,,Đài Nam,ไถหนาน (thai nan),ထိုင်နန် (tai nan),台南 (tainan),타이난 (tainan),,1
+8-1,18,高鐵,gāotiě,,Tàu cao tốc,รถไฟความเร็วสูง (rot fai khwam reo sung),အမြန်ရထား (a myan ya htar),新幹線 (shinkansen),고속 열차 (gosok yeolcha),,1
+8-1,19,網路上,wǎnglù shàng,,trên mạng,บนอินเทอร์เน็ต (bon in thoe net),အင်တာနက်ပေါ် (internet paw),ネットで (netto de),인터넷에서 (inteoneseseo),,1
+8-1,20,便利商店,biànlì shāngdiàn,,cửa hàng tiện lợi,ร้านสะดวกซื้อ (ran sa duak sue),စတိုးဆိုင် (store saing),コンビニ (konbini),편의점 (pyeonuijeom),,1
+8-2,1,同學,tóngxué,N,bạn cùng lớp,เพื่อนร่วมชั้น (phuean ruam chan),အတန်းဖော် (a tan phaw),同級生 (dōkyūsei),반 친구 (ban chingu),,1
+8-2,2,參觀,cānguān,V,tham quan,เยี่ยมชม (yiam chom),လည်ပတ်သည် (lal pat thi),訪問する (hōmon suru),방문하다 (bangmunhada),,1
+8-2,3,古代,gǔdài,N,thời xưa,โบราณ (bo ran),ရှေးခေတ် (shay khit),古代 (kodai),고대 (godae),,1
+8-2,4,騎,qí,V,cưỡi / lái,ขี่ (khee),စီးသည် (see thi),乗る (noru),타다 (tada),,1
+8-2,5,機車,jīchē,N,xe máy,มอเตอร์ไซค์ (mo toe sai),ဆိုင်ကယ် (saing kal),バイク (baiku),오토바이 (otobai),,1
+8-2,6,載,zài,V,chở ai đó,ไปส่ง (pai song),လိုက်ပို့သည် (like po thi),送る (okuru),태워주다 (taewojuda),,1
+8-2,7,捷運,jiéyùn,N,tàu điện ngầm,รถไฟฟ้า MRT (rot fai fa MRT),မြေအောက်ရထား (myay auk ya htar),地下鉄 (chikatetsu),지하철 (jihacheol),,1
+8-2,8,比,bǐ,Prep,hơn,กว่า (kwa),ထက် (htet),～より (yori),~보다 (boda),,1
+8-2,9,故宮博物院（故宮）,Gùgōng Bówùyuàn,,Bảo tàng Cố cung,พิพิธภัณฑ์กู้กง (phi phi tha phan ku kong),နန်းတော်ပြတိုက် (nan daw pya tike),故宮博物院 (kokyū hakubutsuin),고궁 박물관 (gogung bangmulgwan),,1
+8-2,10,中國,Zhōngguó,,Trung Quốc,จีน (jeen),တရုတ် (ta yoke),中国 (chūgoku),중국 (jungguk),,1
+8-2,11,公共汽車（公車）,gōnggòng ,,xe buýt,รถเมล์ (rot me),ဘတ်စ်ကား (bus car),バス (basu),버스 (beoseu),,1
+8-2,12,不行,bù xíng,,không được,ไม่ได้ (mai dai),မရဘူး (ma ya bu),だめ (dame),안 된다 (an doenda),,1
+8-2,13,計程車,jìchéngchē,,taxi,แท็กซี่ (thaek see),တက္ကစီ (taxi),タクシー (takushī),택시 (taeksi),,1
+8-2,14,差不多,chābùduō,,gần như nhau,พอๆ กัน (pho pho kan),တူတူလောက် (tu tu lauk),同じくらい (onaji kurai),거의 같다 (geoui gatda),,1
+9-1,1,星期+number,xīngqí,N,tuần,สัปดาห์ (sap da),ပတ် (pat),週 (shū),주 (ju),,1
+9-1,2,回國,huíguó,V-sep,về nước,กลับประเทศ (klap pra thet),နိုင်ငံပြန်သည် (naing ngan pyan thi),帰国する (kikoku suru),귀국하다 (gwigukhada),,1
+9-1,3,打算,dǎsuàn,Vaux,dự định,วางแผน (wang phaen),စီစဉ်သည် (si sin thi),計画する (keikaku suru),계획하다 (gyehoekhada),,1
+9-1,4,電視,diànshì,N,ti vi,ทีวี (thi wi),တီဗီ (TV),テレビ (terebi),텔레비전 (tellebijeon),,1
+9-1,5,影片,yǐngpiàn,N,phim,หนัง (nang),ရုပ်ရှင် (yoke shin),映画 (eiga),영화 (yeonghwa),,1
+9-1,6,旅行,lǚxíng,Vi,đi du lịch,ท่องเที่ยว (thong thiao),ခရီးသွားသည် (kha yee thwar thi),旅行する (ryokō suru),여행하다 (yeohaenghada),,1
+9-1,7,功課,gōngkè,N,bài tập,การบ้าน (kan ban),အိမ်စာ (ein sar),宿題 (shukudai),숙제 (sukje),,1
+9-1,8,出去,chūqù,Vi,đi ra ngoài,ออกไปข้างนอก (ok pai khang nok),အပြင်သွားသည် (a pyin thwar thi),出かける (dekakeru),외출하다 / 나가다 (oechulhada / nagada),,1
+9-1,9,大概,dàgài,Adv,khoảng,ประมาณ (pra man),လောက် (lauk),およそ (oyoso),대략 (daeryak),,1
+9-1,10,放假,fàngjià,,nghỉ lễ,หยุดงาน (yut ngan),အားလပ်ရက်ယူသည် (ar lat yet yu thi),休みを取る (yasumi o toru),휴가를 보내다 (hyuga-reul bonaeda),,1
+9-1,11,下個星期,xià ge xīngqí,,tuần sau,อาทิตย์หน้า (a thit na),နောက်အပတ် (nauk a pat),来週 (raishū),다음 주 (daeum ju),,1
+9-1,12,有時候,yǒu shíhòu,,thỉnh thoảng,บางครั้ง (bang khrang),တခါတလေ (ta kha ta lay),時々 (tokidoki),가끔 (gakkeum),,1
+9-1,13,多久,duō jiǔ,,bao lâu,นานแค่ไหน (nan khae nai),ဘယ်လောက်ကြာ (bal lauk kyar),どのくらい (donokurai),얼마나 (eolmana),,1
+9-1,14,臺東,Táidōng,,Đài Đông,ไถตง (thai tong),တိုင်တုန် (tai tung),台東 (taitō),타이동 (taidong),,1
+9-2,1,女+noun,nǚ ,N,nữ,หญิง (ying),အမျိုးသမီး (a myo tha mee),女 (onna),여자 (yeoja),,1
+9-2,2,number+月,yuè,N,tháng,เดือน (duean),လ (la),月 (tsuki),월 (wol),,1
+9-2,3,number+號,hào,N,ngày,วันที่ (wan thee),ရက် (yet),日付 (hizuke),날짜 (naljja),,1
+9-2,4,帶,dài,V,lấy,เอา (ao),ယူသည် (yu thi),取る (toru),가지다 (gajida),,1
+9-2,5,她,tā,N,cô ấy,เธอ (thoe),သူ (thu),彼女 (kanojo),그녀 (geunyeo),,1
+9-2,6,還,hái,Adv,vẫn / còn,ยัง (yang),သေး (thay),まだ (mada),아직 (ajik),,1
+9-2,7,建議,jiànyì,N,gợi ý,ข้อเสนอแนะ (kho sa noe nae),အကြံပြုချက် (a kyan pyu chet),提案 (teian),제안 (jean),,1
+9-2,8,夜市,yèshì,N,chợ đêm,ตลาดนัดกลางคืน (ta lat nat klang khuen),ညဈေး (nya zay),夜市 (yoichi),야시장 (yasijang),,1
+9-2,9,應該,yīnggāi,Vaux,nên,ควร (khuan),သင့်သည် (tint thi),～すべき (subeki),~해야 한다 (haeya handa),,1
+9-2,10,逛,guàng,V,đi dạo,เดินเล่น (doen len),လမ်းလျှောက်သည် (lan shauk thi),ぶらぶらする (burabura suru),돌아다니다 (doradanida),,1
+9-2,11,特別,tèbié,Vs,đặc biệt,พิเศษ (phi set),အထူး (a htoo),特別 (tokubetsu),특별하다 (teukbyeolhada),,1
+9-2,12,茶館,cháguǎn,N,quán trà,โรงน้ำชา (rong nam cha),လက်ဖက်ရည်ဆိုင် (lat hpet yay saing),茶館 (chakan),찻집 (chatjip),,1
+9-2,13,決定,juédìng,Vp,quyết định,ตัดสินใจ (tat sin jai),ဆုံးဖြတ်သည် (sone phyat thi),決める (kimeru),결정하다 (gyeoljeonghada),,1
+9-2,14,要是,yàoshì,Conj,nếu,ถ้า (tha),အကယ်၍ (a kal yue),もし (moshi),만약 (manyak),,1
+9-2,15,就,jiù,Adv,thì,ก็ (ko),ဆိုရင် (so yin),それなら (sorenara),그러면 (geureomyeon),,1
+9-2,16,貓空,Māokōng,,Mao Không (địa danh),เมาคง (mao khong),မောင်ကုန်း (mao kong),猫空 (maokong),마오콩 (maokong),,1
+10-1,1,水果,shuǐguǒ,N,trái cây,ผลไม้ (phon la mai),သစ်သီး (thit thee),果物 (kudamono),과일 (gwail),,1
+10-1,2,黃色,huángsè,N,màu vàng,สีเหลือง (see lueang),အဝါရောင် (a war yaung),黄色 (kiiro),노란색 (noransaek),,1
+10-1,3,芒果,mángguǒ,N,xoài,มะม่วง (ma muang),သရက်သီး (tha yet thee),マンゴー (mangō),망고 (manggo),,1
+10-1,4,給,gěi,V,đưa / cho,ให้ (hai),ပေးသည် (pay thi),あげる (ageru),주다 (juda),,1
+10-1,5,塊,kuài,M,miếng,ชิ้น (chin),တုံး (tone),切れ (kire),조각 (jogak),,1
+10-1,6,香,xiāng,Vs,thơm,หอม (hom),မွှေးသည် (hmway thi),香ばしい (kōbashii),향기롭다 (hyanggiropda),,1
+10-1,7,甜,tián,Vs,ngọt,หวาน (wan),ချိုသည် (cho thi),甘い (amai),달다 (dalda),,1
+10-1,8,紅色,hóngsè,N,đỏ,แดง (daeng),အနီရောင် (a ni yaung),赤 (aka),빨간색 (bbalgansaek),,1
+10-1,9,西瓜,xīguā,N,dưa hấu,แตงโม (taeng mo),ဖရဲသီး (pha ye thee),スイカ (suika),수박 (subak),,1
+10-1,10,吧,ba,Ptc,nhỉ,...มั้ง (mang),လား (lar),～かな (kana),~인가 (inga),,1
+10-1,11,對,duì,Vs,đúng,ถูก (thuk),မှန်သည် (hman thi),正しい (tadashii),맞다 (matda),,1
+10-1,12,以前,yǐqián,N,trước,ก่อน (kon),အရင် (a yin),前 (mae),전 (jeon),,1
+10-1,13,機會,jīhuì,N,cơ hội,โอกาส (o kat),အခွင့်အရေး (a khwint a yay),機会 (kikai),기회 (gihoe),,1
+10-1,14,請,qǐng,V,mời / chiêu đãi,เลี้ยง (liang),ကျွေးသည် (kyway thi),おごる (ogoru),대접하다 (daejeophada),,1
+10-1,15,吃吃看,chīchīkàn,,nếm thử,ชิม (chim),မြည်းသည် (myi thi),味見する (ajimi suru),맛보다 (matboda),,1
+10-2,1,拍,pāi,V,chụp,ถ่าย (thai),ရိုက်သည် (yaik thi),撮る (toru),찍다 (jjikda),,1
+10-2,2,笑,xiào,V,cười,หัวเราะ (hua ro),ရယ်သည် (yi thi),笑う (warau),웃다 (utda),,1
+10-2,3,開心,kāixīn,Vs,vui vẻ,มีความสุข (mee khwam suk),ပျော်ရွှင်သည် (pyaw shwin thi),幸せ (shiawase),행복하다 (haengbokhada),,1
+10-2,4,穿,chuān,V,mặc,ใส่ (sai),ဝတ်သည် (wut thi),着る (kiru),입다 (ipda),,1
+10-2,5,衣服,yīfú,N,quần áo,เสื้อผ้า (suea pha),အဝတ်အစား (a wut a sar),服 (fuku),옷 (ot),,1
+10-2,6,旅館,lǚguǎn,N,khách sạn,โรงแรม (rong raem),ဟိုတယ် (ho tel),ホテル (hoteru),호텔 (hotel),,1
+10-2,7,太太,tàitai,N,vợ,ภรรยา (phan ra ya),ဇနီး (za nee),妻 (tsuma),아내 (anae),,1
+10-2,8,男+noun,nán,N,nam,ชาย (chai),အမျိုးသား (a myo tha),男 (otoko),남자 (namja),,1
+10-2,9,矮,ǎi,Vs,thấp,เตี้ย (tia),ပု (pu),背が低い (se ga hikui),키가 작다 (kiga jakda),,1
+10-2,10,高,gāo,Vs,cao,สูง (sung),အရပ်ရှည် (a yat shay),背が高い (se ga takai),키가 크다 (kiga keuda),,1
+10-2,11,弟弟,dìdi,N,em trai,น้องชาย (nong chai),ညီ (nyi),弟 (otōto),남동생 (namdongsaeng),,1
+10-2,12,乾淨,gānjìng,Vs,sạch sẽ,สะอาด (sa at),သန့်ရှင်း (thant shin),清潔 (seiketsu),깨끗하다 (kkaekkeuthada),,1
+10-2,13,窗戶,chuānghù,N,cửa sổ,หน้าต่าง (na tang),ပြတင်းပေါက် (pya tin pauk),窓 (mado),창문 (changmun),,1
+10-2,14,往,wǎng,Prep,hướng về,ไปทาง (pai thang),ဆီသို့ (see thoe),～へ (he),~쪽으로 (jjogeuro),,1
+10-2,15,藍色,lánsè,N,xanh dương,สีฟ้า (see fa),အပြာရောင် (a pyar yaung),青 (ao),파란색 (paransaek),,1
+10-2,16,因為,yīnwèi,Conj,bởi vì,เพราะ (phro),လို့ (lo),なぜなら (nazenara),왜냐하면 (waenyahamyen),,1
+10-2,17,住,zhù,V,ở lại,พัก (phak),တည်းခိုသည် (tee kho thi),滞在する (taizai suru),머물다 (meomulda),,1
+10-2,18,上個月,shàng ge yuè,,tháng trước,เดือนที่แล้ว (duean thee laeo),ပြီးခဲ့တဲ့လ (pyi khel tae la),先月 (sengetsu),지난 달 (jinan dal),,1
+10-2,19,這些,zhèxiē,,những cái này,เหล่านี้ (lao nee),ဒီဟာတွေ (de har tway),これら (korera),이것들 (igeotdeul),,1
+11-1,1,租,zū,V,thuê,เช่า (chao),ငှားသည် (hnar thi),借りる (kariru),빌리다 (billida),,1
+11-1,2,房東,fángdōng,N,chủ nhà,เจ้าของบ้าน (chao khong ban),အိမ်ရှင် (ein shin),大家 (ōya),집주인 (jipjuin),,1
+11-1,3,客廳,kètīng,N,phòng khách,ห้องนั่งเล่น (hong nang len),ဧည့်ခန်း (e khan),リビング (ribingu),거실 (geosil),,1
+11-1,4,廚房,chúfáng,N,nhà bếp,ห้องครัว (hong khrua),မီးဖိုချောင် (mee pho chaung),台所 (daidokoro),부엌 (bueok),,1
+11-1,5,左邊,zuǒbiān,N,bên trái,ซ้าย (sai),ဘယ်ဘက် (bal bet),左 (hidari),왼쪽 (oenjjok),,1
+11-1,6,右邊,yòubiān,N,bên phải,ขวา (khwa),ညာဘက် (nyar bet),右 (migi),오른쪽 (oreunjjok),,1
+11-1,7,浴室,yùshì,N,phòng tắm,ห้องน้ำ (hong nam),ရေချိုးခန်း (yay cho khan),浴室 (yokushitsu),욕실 (yoksil),,1
+11-1,8,超市,chāoshì,N,siêu thị,ซูเปอร์มาร์เก็ต (su poe ma ket),စူပါမားကတ် (super market),スーパー (sūpā),슈퍼마켓 (syupeomaket),,1
+11-1,9,走路,zǒulù,V-sep,đi bộ,เดิน (doen),လမ်းလျှောက်သည် (lan shauk thi),歩く (aruku),걷다 (geotda),,1
+11-1,10,分鐘,fēnzhōng,M,phút,นาที (na thee),မိနစ် (mi nit),分 (fun),분 (bun),,1
+11-1,11,就,jiù,Adv,chỉ,แค่ (khae),မျှသာ (hmya thar),だけ (dake),단지 / 오직 (danji / ojik),,1
+11-1,12,到,dào,Vp,đến,ถึง (thueng),ရောက်သည် (yauk thi),着く (tsuku),도착하다 (dochakhada),,1
+11-1,13,間,jiān,M,căn / ngôi,หลัง (lang),လုံး (lone),軒 (ken),채 (chae),,1
+11-1,14,空,kōng,Vs,trống,ว่าง (wang),လွတ် (lut),空いている (aiteiru),비어 있다 (bieo itda),,1
+11-1,15,房間,fángjiān,N,phòng,ห้อง (hong),အခန်း (a khan),部屋 (heya),방 (bang),,1
+11-1,16,套房,tàofáng,N,phòng căn hộ,ห้องชุด (hong chut),အခန်းชุด (a khan chut),スイート (suīto),스위트룸 (seuwideurum),,1
+11-1,17,回去,huíqù,Vi,quay về,กลับ (klap),ပြန်သည် (pyan thi),戻る (modoru),돌아가다 (doragada),,1
+11-1,18,想,xiǎng,V,nghĩ,คิด (khit),ထင်သည် (htin thi),思う (omou),생각하다 (saenggakhada),,1
+11-1,19,再,zài,Adv,sau đó,แล้วก็ (laeo ko),ပြီးတော့ (pyi taw),それから (sorekara),그리고 나서 (geurigo naseo),,1
+11-1,20,電話,diànhuà,N,điện thoại,โทรศัพท์ (tho ra sap),ဖုန်း (phone),電話 (denwa),전화 (jeonhwa),,1
+11-1,21,給,gěi,Prep,tới / cho,ถึง (thueng),သို့ (thoe),～へ (he),~에게 (ege),,1
+11-1,22,林,lín,N,Họ (Trung Quốc),แซ่... (sae...),အမည် (a myin),（中国の）姓 (Chūgoku no sei),성 (seong),,1
+11-1,23,打電話,dǎ diànhuà,,gọi điện thoại,โทรศัพท์ (tho ra sap),ဖုန်းခေါ်သည် (phone khaw thi),電話をかける (denwa o kakeru),전화하다 (jeonhwahada),,1
+11-2,1,喂,wéi,Ptc,ơi / này,...จ๊ะ (ja),ရေ (yay),～さん (san),~야 / ~아 (ya / a),,1
+11-2,2,房租,fángzū,N,tiền thuê nhà,ค่าเช่า (kha chao),အိမ်လခ (ein la kha),家賃 (yachin),임대료 (imdaeryo),,1
+11-2,3,已經,yǐjīng,Adv,rồi,แล้ว (laeo),ပြီ (pyi),もう (mō),이미 / 벌써 (imi / beolsseo),,1
+11-2,4,習慣,xíguàn,Vs,quen với,ชิน (chin),အသားကျသည် (a thar kya thi),慣れる (nareru),익숙해지다 (iksukhaejida),,1
+11-2,5,問題,wèntí,N,vấn đề,ปัญหา (pan ha),ပြဿနာ (pyat tha nar),問題 (mondai),문제 (munje),,1
+11-2,6,熱水器,rèshuǐqì,N,máy nước nóng,เครื่องทำน้ำอุ่น (khrueang tham nam un),ရေနွေးစက် (yay nway set),給湯器 (kyūtōki),온수기 (onsugi),,1
+11-2,7,好像,hǎoxiàng,Adv,dường như,ดูเหมือน (du muean),ပုံရသည် (pone ya thi),～ようだ (yō da),~인 것 같다 (in geot gatda),,1
+11-2,8,會,huì,Vaux,sẽ,จะ (cha),မည် (myi),～するつもり (suru tsumori),~할 것이다 (hal geosida),,1
+11-2,9,等,děng,V,đợi,รอ (ro),စောင့်သည် (saunt thi),待つ (matsu),기다리다 (gidarida),,1
+11-2,10,那,nà,Ptc,vậy thì,งั้น (ngan),ဒါဆို (dar so),じゃあ (jā),그러면 (geureomyeon),,1
+11-2,11,裝,zhuāng,V,lắp đặt,ติดตั้ง (tit tang),တပ်ဆင်သည် (tat sin thi),設置する (setchi suru),설치하다 (seolchihada),,1
+11-2,12,不過,búguò,Conj,tuy nhiên,อย่างไรก็ตาม (yang rai ko tam),သို့သော် (thoe thaw),しかし (shikashi),그러나 (geureona),,1
+11-2,13,付,fù,V,trả tiền,จ่าย (jai),ပေးသည် (pay thi),払う (harau),지불하다 (jibulhada),,1
+11-2,14,收到,shōudào  ,,nhận,รับ (rap),လက်ခံသည် (let khan thi),受け取る (uketoru),받다 (batda),,1
+11-2,15,不好意思,bùhǎo yìsi,,xin lỗi,ขอโทษ (kho thot),တောင်းပန်ပါတယ် (taung pan par tal),ごめんなさい (gomennasai),미안합니다 (mianhamnida),,1
+11-2,16,沒關係,méi guānxi,,Không sao,ไม่เป็นไร (mai pen rai),ပြဿနာမရှိပါ (pyat tha nar ma shi par),問題ない (mondai nai),문제 없다 (munje eopda),,1
+11-2,17,有線電視,yǒuxiàn diànshì,,truyền hình cáp,เคเบิลทีวี (khe boen thi wi),ကေဘယ်တီဗီ (cable TV),ケーブルテレビ (kēburuterebi),케이블 TV (keibeul TV),,1
+12-1,1,計畫,jìhuà,V,dự định,กะว่า (ka wa),စီစဉ်သည် (si sin thi),計画する (keikaku suru),계획하다 (gyehoekhada),,1
+12-1,2,年,nián,M,năm,ปี (pee),နှစ် (hnit),年 (nen),년 (nyeon),,1
+12-1,3,久,jiǔ,Vs,lâu,นาน (nan),ကြာ (kyar),長い (nagai),오래 (orae),,1
+12-1,4,時間,shíjiān,N,thời gian,เวลา (we la),အချိန် (a chain),時間 (jikan),시간 (sigan),,1
+12-1,5,先,xiān,Adv,đầu tiên,แรก (raek),ပထမ (pa hta ma),最初 (saisho),먼저 / 처음 (meonjeo / cheoeum),,1
+12-1,6,念,niàn,V,học,เรียน (rian),စာသင်သည် (sar thin thi),勉強する (benkyō suru),공부하다 (gongbuhada),,1
+12-1,7,大學,dàxué,N,đại học,มหาวิทยาลัย (ma ha wit tha ya lai),တက္ကသိုလ် (tet ka tho),大学 (daigaku),대학교 (daehakgyo),,1
+12-1,8,需要,xūyào,Vst,cần,จำเป็น (jam pen),လိုအပ်သည် (lo at thi),必要 (hitsuyō),필요하다 (piryohada),,1
+12-1,9,花,huā,V,tiêu (tiền) / dùng,ใช้ (chai),သုံးသည် (thone thi),費やす (tsuiyasu),쓰다 / 보내다 (sseuda / bonaeda),,1
+12-1,10,獎學金,jiǎngxuéjīn,N,học bổng,ทุนการศึกษา (thun kan suek sa),ပညာသင်ဆု (pyin nyar thin su),奨学金 (shōgakukin),장학금 (janghakgeum),,1
+12-1,11,成績,chéngjī,N,điểm số,คะแนน (kha naen),အမှတ် (a hmat),成績 (seiseki),성적 (seongjeok),,1
+12-1,12,學費,xuéfèi,N,học phí,ค่าเทอม (kha thoem),ကျောင်းလခ (kyaung la kha),授業料 (jugyōryō),수업료 (sueopryo),,1
+12-1,13,公司,gōngsī,N,công ty,บริษัท (bo ri sat),ကုမ္ပဏီ (company),会社 (kaisha),회사 (hoesa),,1
+12-1,14,替,tì,Prep,thay mặt cho,ในนามของ (nai nam khong),ကိုယ်စား (ko sar),～のために (no tame ni),~을 대신하여 (eul daesinhayeo),,1
+12-1,15,希望,xīwàng,Vst,hy vọng,หวัง (wang),မျှော်လင့်သည် (hmyaw lint thi),望む (nozomu),희망하다 (huimanghada),,1
+12-1,16,以後,yǐhòu,N,trong tương lai,ในอนาคต (nai a na khot),အနာဂတ်မှာ (a nar gat hmar),将来 (shōrai),미래에 (miraee),,1
+12-1,17,到,dào,V,đi đến,ไปยัง (pai yang),သွားသည် (thwar thi),行く (iku),가다 (gada),,1
+12-1,18,上班,shàngbān,V-sep,đi làm,ไปทำงาน (pai tham ngan),အလုပ်သွားသည် (a loke thwar thi),仕事に行く (shigoto ni iku),출근하다 (chulgeunhada),,1
+12-1,19,念書,niànshū,V-sep,học tập,ศึกษา (suek sa),လေ့လာသည် (lay lar thi),勉強する (benkyō suru),공부하다 (gongbuhada),,1
+12-1,20,累,lèi,Vs,mệt,เหนื่อย (nueai),မောသည် (maw thi),疲れた (tsukareta),피곤하다 (pigonhada),,1
+12-1,21,語言中心,yǔyán zhōngxīn,,trung tâm ngôn ngữ,ศูนย์ภาษา (sun pha sa),ဘာသာစကားစင်တာ (bar thar sa kar center),言語センター (gengo sentā),언어 교육원 (eoneo gyoyugwon),,1
+12-1,22,加油,jiāyóu,,cố lên,สู้ๆ (su su),ကြိုးစားပါ (kyo sar par),頑張って (ganbatte),수고하세요 (sugohaseyo),,1
+12-2,1,工作,gōngzuò,Vi,làm việc,ทำงาน (tham ngan),အလုပ်လုပ်သည် (a loke loke thi),働く (hataraku),일하다 (ilhada),,1
+12-2,2,去年,qùnián,N,năm ngoái,ปีที่แล้ว (pee thee laeo),ပြီးခဲ့တဲ့နှစ် (pyi khel tae hnit),去年 (kyonen),작년 (jangnyeon),,1
+12-2,3,做 ,zuò,V,làm,ทำ (tham),လုပ်သည် (loke thi),する (suru),하다 (hada),,1
+12-2,4,生意,shēngyì,N,kinh doanh,ธุรกิจ (thu ra kit),စီးပွားရေး (see pwar yay),ビジネス (bijinesu),사업 (saeop),,1
+12-2,5,以後,yǐhòu,N,sau đó,หลังจากนั้น (lang chak nan),နောက်ပိုင်း (nauk paing),その後 (sonogo),그 후에 (geu hue),,1
+12-2,6,好,hǎo,Vs,dễ,ง่าย (ngai),လွယ် (lwal),簡単 (kantan),쉽다 (swipda),,1
+12-2,7,找,zhǎo,V,tìm kiếm,หา (ha),ရှာသည် (shar thi),探す (sagasu),찾다 (chatda),,1
+12-2,8,工作,gōngzuò,N,công việc,งาน (ngan),အလုပ် (a loke),仕事 (shigoto),직업 (jigeop),,1
+12-2,9,這樣,zhèyàng,N,loại này,แบบนี้ (baep nee),ဒီလိုမျိုး (de lo myo),このような (kono yō na),이런 (ireon),,1
+12-2,10,國家,guójiā,N,đất nước,ประเทศ (pra thet),နိုင်ငံ (naing ngan),国 (kuni),나라 / 국가 (nara / gukga),,1
+12-2,11,試,shì,Vi,thử,ลอง (long),ကြိုးစားသည် (kyo sar thi),試す (tamesu),시도하다 (sidohada),,1
+12-2,12,難,nán,Vs,khó,ยาก (yak),ခက်သည် (khet thi),難しい (muzukashii),어렵다 (eoryeopda),,1
+12-2,13,那麼,nàme,Ptc,thì,แล้ว (laeo),ပြီးတော့ (pyi taw),それから (sorekara),그리고 (geurigo),,1
+12-2,14,再,zài,Adv,lại,อีก (ik),ထပ် (htat),また (mata),다시 (dasi),,1
+12-2,15,試試看,shìshìkàn,,thử xem,ลองดู (long du),စမ်းကြည့်သည် (san kyi thi),やってみる (yatte miru),한번 해보다 (hanbeon haeboda),,1
+13-1,1,生日,shēngrì,N,sinh nhật,วันเกิด (wan koet),မွေးနေ့ (mway nay),誕生日 (tanjōbi),생일 (saengil),,1
+13-1,2,快樂,kuàilè,Vs,vui vẻ,มีความสุข (mee khwam suk),ပျော်ရွှင် (pyaw shwin),幸せ (shiawase),행복하다 (haengbokhada),,1
+13-1,3,回來,huílái,Vi,quay lại,กลับมา (klap ma),ပြန်လာသည် (pyan lar thi),戻ってくる (modotte kuru),돌아오다 (doraoda),,1
+13-1,4,啊,a,Ptc,à / ra là vậy,อ๋อ (o),ဪ (aw),ああ (aa),아 (a),,1
+13-1,5,怎麼,zěnme,Adv,Tại sao?,ทำไม (tham mai),ဘာလို့ (bar lo),どうして (dōshite),어째서 (eojjaeseo),,1
+13-1,6,忘（了）,wàngle,Vpt,quên,ลืม (luem),မေ့သည် (may thi),忘れる (wasureru),잊다 (itda),,1
+13-1,7,記得,jìdé,Vst,nhớ,จำได้ (jam dai),မှတ်မိသည် (hmat mi thi),覚えている (oboete iru),기억하다 (gieokhada),,1
+13-1,8,當然,dāngrán,Adv,tất nhiên,แน่นอน (nae non),သေချာတာပေါ့ (thay char tar paw),もちろん (mochiron),물론 (mullon),,1
+13-1,9,語言,yǔyán,N,ngôn ngữ,ภาษา (pha sa),ဘာသာစကား (bar thar sa kar),言語 (gengo),언어 (eoneo),,1
+13-1,10,交換,jiāohuàn,V,trao đổi,แลกเปลี่ยน (laek plian),ဖလှယ်သည် (pha lal thi),交換する (kōkan suru),교환하다 (gyohwanhada),,1
+13-1,11,那麼,nàme,Adv,rất,มาก (mak),သိပ် (thate),とても (totemo),매우 (maeu),,1
+13-1,12,熱心,rèxīn,Vs,nhiệt tình,กระตือรือร้น (kra tue rue ron),စိတ်အားထက်သန်စွာ (sate ar htet than swar),熱心に (nesshin ni),열정적으로 (yeoljeongjeogeuro),,1
+13-1,13,西班牙文,Xībānyá wén,N,tiếng Tây Ban Nha,ภาษาสเปน (pha sa sa pen),စပိန်ဘာသာ (spain bar thar),スペイン語 (supeingo),스페인어 (seupeineo),,1
+13-1,14,一樣,yíyàng,Vs,giống nhau,เหมือนกัน (muean kan),တူညီသည် (tu nyi thi),同じ (onaji),같다 (gatda),,1
+13-1,15,過,guò ,V,ăn mừng,ฉลอง (cha long),ကျင်းပသည် (kyin pa thi),祝う (iwau),축하하다 (chukahada),,1
+13-1,16,左右,zuǒyòu,N,khoảng,ประมาณ (pra man),ခန့် (khant),およそ (oyoso),대략 (daeryak),,1
+13-1,17,門口,ménkǒu,N,cổng,ประตู (pra tu),ဂိတ် (gate),門 (mon),문 / 입구 (mun / ipgu),,1
+13-1,18,西班牙,Xībānyá,,Tây Ban Nha,สเปน (sa pen),စပိန် (spain),スペイン (supein),스페인 (seupein),,1
+13-1,19,生日快樂,shēngrì kuàilè,,Chúc mừng sinh nhật,สุขสันต์วันเกิด (suk san wan koet),မွေးနေ့မှာပျော်ရွှင်ပါစေ (mway nay hmar pyaw shwin par say),誕生日おめでとう (tanjōbi omedetō),생일 축하합니다 (saengil chukahamnida),,1
+13-1,20,我就是,wǒ jiù shì,,Tôi nghe đây,พูดสายอยู่ (phut sai yu),ပြောနေပါတယ် (pyaw nay par tal),"はい、私です (hai, watashi desu)",여보세요 (접니다) (yeoboseyo - jeomnida),,1
+13-1,21,好久不見,hǎojiǔ bújiàn,,lâu rồi không gặp,ไม่เจอกันนาน (mai joe kan nan),မတွေ့တာကြာပြီ (ma tway tar kyar pyi),お久しぶりです (ohishashiburi desu),오랜만이에요 (oraenmanieyo),,1
+13-1,22,不必客氣,búbì kèqì,,Đừng khách sáo,ไม่ต้องเกรงใจ (mai tong kreng jai),အားမနာပါနဲ့ (ar ma nar par nel),遠慮しないで (enryo shinaide),사양하지 마세요 (sayanghaji maseyo),,1
+13-1,23,太客氣,tài kèqì,,Bạn tốt quá.,ใจดีจัง (jai dee jang),သဘောကောင်းလိုက်တာ (tha baw kaung like tar),親切ですね (shinsetsu desu ne),친절하시네요 (chinjeolhasineyo),,1
+13-2,1,禮物,lǐwù,N,quà tặng,ของขวัญ (khong khwan),လက်ဆောင် (let saung),プレゼント (purezento),선물 (seonmul),,1
+13-2,2,今年,jīnnián,N,năm nay,ปีนี้ (pee nee),ဒီနှစ် (de hnit),今年 (kotoshi),올해 (olhae),,1
+13-2,3,訂,dìng,V,đặt trước,จอง (jong),မှာသည် (hmar thi),予約する (yoyaku suru),예약하다 (yeyakhada),,1
+13-2,4,了,le,Ptc,rồi (đã),แล้ว (laeo),ပြီ (pyi),～した (shita),~했다 (haetda),,1
+13-2,5,豬腳,zhūjiǎo ,N,chân giò heo,ขาหมู (kha mu),ဝက်လက် (wet let),豚足 (tonsoku),족발 (jokbal),,1
+13-2,6,麵線,miànxiàn ,N,mì sợi nhỏ / bún,เส้นหมี่ (sen mee),ကြာဇံ (kyar zan),素麺 (sōmen),소면 (somyeon),,1
+13-2,7,蛋,dàn,N,trứng,ไข่ (khai),ကြက်ဥ (kyet u),卵 (tamago),계란 (gyeran),,1
+13-2,8,一點,yìdiǎn,Vs,một chút,นิดหน่อย (nit noi),နည်းနည်း (nel nel),少し (sukoshi),약간 (yakgan),,1
+13-2,9,傳統,chuántǒng,N,truyền thống,ประเพณี (pra phe nee),ရိုးရာ (yoe yar),伝統 (dentō),전통 (jeontong),,1
+13-2,10,年輕,niánqīng,Vs,trẻ,หนุ่มสาว (num sao),ငယ်ရွယ် (ngal ywal),若い (wakai),젊다 (jeomda),,1
+13-2,11,蛋糕,dàngāo,N,bánh kem,เค้ก (khek),ကိတ်မုန့် (cake mone),ケーキ (kēki),케이크 (keikeu),,1
+13-2,12,對,duì ,Prep,đến,ถึง (thueng),သို့ (thoe),へ (he),~로 (ro),,1
+13-2,13,祝,zhù,V,chúc,อวยพร (uai phon),ဆုတောင်းသည် (su taung thi),祈る (inoru),빌다 (bilda),,1
+13-2,14,哪裡，哪裡,"Nǎlǐ, nǎlǐ",,Không có chi.,ไม่เป็นไร (mai pen rai),ကိစ္စမရှိပါ (kate sa ma shi par),どういたしまして (dōitashimashite),천만에요 (cheonmaneyo),,1
+13-2,15,大部分,dà bùfèn,,phần lớn,ส่วนใหญ่ (suan yai),အများစု (a myar su),ほとんど (hotondo),대부분 (daebubun),,1
+13-2,16,萬事如意,wànshì rúyì,,Vạn sự như ý.,ขอให้สมหวังทุกประการ (kho hai som wang thuk pra kan),လိုရာပြည့်ပါစေ (lo yar pyae par say),万事順調でありますように (banji junchō de arimasu yō ni),만사형통하세요 (mansahyeongtonghaseyo),,1
+13-2,17,心想事成,xīnxiǎng shìchéng,,Cầu được ước thấy.,สมปรารถนา (som prat tha na),ဆုတောင်းပြည့်ပါစေ (su taung pyae par say),願いが叶いますように (negai ga kanaimasu yō ni),소원 성취하세요 (sowon seongchwihaseyo),,1
+14-1,1,天氣,tiānqì,N,thời tiết,อากาศ (a kat),ရာသီဥတု (yar thi u tu),天気 (tenki),날씨 (nalssi),,1
+14-1,2,冷,lěng,Vs,lạnh,หนาว (nao),အေးသည် (ay thi),寒い (samui),춥다 (chupda),,1
+14-1,3,風,fēng,N,gió,ลม (lom),လေ (lay),風 (kaze),바람 (baram),,1
+14-1,4,滑雪,huáxuě,V-sep,trượt tuyết,เล่นสกี (len sa ki),စကီးစီးသည် (ski see thi),スキーをする (skī o suru),스키를 타다 (seukireul tada),,1
+14-1,5,春天,chūntiān,N,mùa xuân,ฤดูใบไม้ผลิ (rue du bai mai phli),နွေဦးရာသီ (nway oo yar thi),春 (haru),봄 (bom),,1
+14-1,6,想,xiǎng,Vst,nhớ,คิดถึง (khit thueng),လွမ်းသည် (lwan thi),恋しい (koishii),그립다 (geuripda),,1
+14-1,7,新年,xīnnián,N,Năm mới,ปีใหม่ (pee mai),နှစ်သစ် (hnit thit),新年 (shinnen),새해 (saehae),,1
+14-1,8,快,kuài,Adv,sắp,เร็วๆนี้ (reo reo nee),မကြာခင် (ma kyar khin),もうすぐ (mōsugu),곧 (got),,1
+14-1,9,父母,fùmǔ,N,bố mẹ,พ่อแม่ (pho mae),မိဘ (mi ba),両親 (ryōshin),부모님 (bumonim),,1
+14-1,10,冬天,dōngtiān,N,mùa đông,ฤดูหนาว (rue du nao),ဆောင်းရာသီ (saung yar thi),冬 (fuyu),겨울 (gyeoul),,1
+14-1,11,明年,míngnián,N,năm sau,ปีหน้า (pee na),နောက်နှစ် (nauk hnit),来年 (rainen),내년 (naenyeon),,1
+14-1,12,秋天,qiūtiān,N,mùa thu,ฤดูใบไม้ร่วง (rue du bai mai ruang),ဆောင်းဦးရာသီ (saung oo yar thi),秋 (aki),가을 (gaeul),,1
+14-1,13,紅葉,hóngyè,N,lá phong đỏ,ใบเมเปิ้ลแดง (bai may poen daeng),မေပယ်ရွက်နီ (maple ywet ni),紅葉 (kōyō),단풍 (danpung),,1
+14-1,14,只,zhǐ,Adv,chỉ,แค่ (khae),မျှသာ (hmya thar),だけ (dake),단지 (danji),,1
+14-1,15,玉山,Yùshān,,Núi Ngọc (Đài Loan),ภูเขาหยก (phu khao yok),ယွီရှန်တောင် (yu shan taung),玉山 (gyokuzan),위산 (wisan),,1
+14-1,16,紐約,Niǔyuē,,New York,นิวยอร์ก (niu yok),နယူးယောက် (new york),ニューヨーク (nyūyōku),뉴욕 (nyuyok),,1
+14-1,17,下雪,xiàxuě,,tuyết rơi,หิมะตก (hi ma tok),နှင်းကျသည် (hnin kya thi),雪が降る (yuki ga furu),눈이 오다 (nuni oda),,1
+14-1,18,十二月底,shí’èryuè dǐ,,cuối tháng 12,ปลายเดือนธันวาคม (plai duean than wa khom),ဒီဇင်ဘာလကုန် (december la kone),12月の終わり (jūnigatsu no owari),12월 말 (sibiwol mal),,1
+14-2,1,雨,yǔ,N,mưa,ฝน (fon),မိုး (moe),雨 (ame),비 (bi),,1
+14-2,2,傘,sǎn,N,cái ô / dù,ร่ม (rom),ထီး (htee),傘 (kasa),우산 (usan),,1
+14-2,3,颱風,táifēng,N,bão,ไต้ฝุ่น (tai fun),မုန်တိုင်း (mone taing),台風 (taifū),태풍 (taepung),,1
+14-2,4,要,yào,Vaux,sẽ,จะ (cha),မည် (myi),～するつもり (suru tsumori),~할 것이다 (hal geosida),,1
+14-2,5,夏天,xiàtiān,N,mùa hè,ฤดูร้อน (rue du ron),နွေရာသီ (nway yar thi),夏 (natsu),여름 (yeoreum),,1
+14-2,6,濕,shī,Vs,ướt,เปียก (piak),စိုစွတ် (so sut),濡れた (nureta),젖다 (jeotda),,1
+14-2,7,討厭,tǎoyàn,Vs,phiền phức,น่ารำคาญ (na ram khan),စိတ်ပျက်စရာ (sate pyet sa yar),うっとうしい (uttōshii),짜증나다 (jjajeungnada),,1
+14-2,8,新聞,xīnwén,N,tin tức,ข่าว (khao),သတင်း (tha din),ニュース (nyūsu),뉴스 (nyuseu),,1
+14-2,9,更,gèng,Adv,càng,ยิ่ง (ying),ပို၍ (po yue),さらに (sarani),더 (deo),,1
+14-2,10,大家,dàjiā,N,mọi người,ทุกคน (thuk khon),လူတိုင်း (lu taing),みんな (minna),모두 (modu),,1
+14-2,11,小心,xiǎoxīn,Vs,cẩn thận,ระวัง (ra wang),သတိထားပါ (tha ti htar par),気をつける (ki o tsukeru),조심하다 (josimhada),,1
+14-2,12,可怕,kěpà,Vs,đáng sợ,น่ากลัว (na klua),ကြောက်စရာ (kyauk sa yar),怖い (kowai),무섭다 (museopda),,1
+14-2,13,停,tíng,Vp,dừng,หยุด (yut),ရပ်သည် (yat thi),止まる (tomaru),멈추다 (meomchuda),,1
+14-2,14,下雨,xiàyǔ,,trời mưa,ฝนตก (fon tok),မိုးရွာသည် (moe ywar thi),雨が降る (ame ga furu),비가 오다 (biga oda),,1
+14-2,15,這次,zhè cì,,lần này,ครั้งนี้ (khrang nee),ဒီတစ်ခါ (de ta kha),今回 (konkai),이번 (ibeon),,1
+14-2,16,上次,shàng cì,,lần trước,ครั้งที่แล้ว (khrang thee laeo),ပြီးခဲ့တဲ့တစ်ခါ (pyi khel tae ta kha),前回 (zenkai),지난번 (jinanbeon),,1
+14-2,17,慢走,màn zǒu ,,"Tạm biệt, bảo trọng.",บ๊ายบาย ดูแลตัวเองนะ (bai bai du lae tua eng na),တာ့တာ ဂရုစိုက်နော် (ta ta ga yu site naw),"さようなら、気をつけて (sayōnara, ki o tsukete)","안녕, 잘 지내 (annyeong, jal jinae)",,1
+15-1,1,醫生,yīshēng,N,bác sĩ,หมอ (mo),ဆရာဝန် (sa yar wun),医者 (isha),의사 (uisa),,1
+15-1,2,一直,yìzhí,Adv,liên tục,ต่อเนื่อง / ตลอด (to nueang / ta lot),ဆက်တိုက် (set tike),ずっと (zutto),계속 (gyesok),,1
+15-1,3,流,liú,V,chảy,ไหล (lai),စီးသည် (see thi),流れる (nagareru),흐르다 (heureuda),,1
+15-1,4,鼻水,bíshuǐ,N,sổ mũi,น้ำมูกไหล (nam muk lai),နှာရည်ယို (hnar yay yo),鼻水 (hanamizu),콧물 (konmul),,1
+15-1,5,頭,tóu,N,đầu,หัว (hua),ခေါင်း (khaung),頭 (atama),머리 (meori),,1
+15-1,6,痛,tòng,Vs,đau,เจ็บ / ปวด (jep / puat),နာသည် (nar thi),痛い (itai),아프다 (apeuda),,1
+15-1,7,胃口,wèikǒu,N,sự thèm ăn,ความอยากอาหาร (khwam yak a han),စားချင်စိတ် (sar chin sate),食欲 (shokuyoku),식욕 (sigyok),,1
+15-1,8,差,chā ,Vs,tệ,แย่ (yae),ဆိုး (so),悪い (warui),나쁘다 (nappeuda),,1
+15-1,9,喉嚨,hóulóng,N,họng,คอ (kho),လည်ချောင်း (lal chaung),喉 (nodo),목 (mok),,1
+15-1,10,發炎,fāyán,Vp-sep,bị viêm,อักเสบ (ak sep),ရောင်ရမ်းသည် (yaung yan thi),炎症を起こす (enshō o okosu),염증이 생기다 (yeomjeung-i saenggida),,1
+15-1,11,生病,shēngbìng,Vp,bị ốm,ป่วย (puai),နေမကောင်းဖြစ်သည် (nay ma kaung pyit thi),病気になる (byōki ni naru),병이 나다 (byeong-i nada),,1
+15-1,12,發燒,fāshāo,Vp-sep,bị sốt,เป็นไข้ (pen khai),ဖျားသည် (phyar thi),熱がある (netsu ga aru),열이 나다 (yeori nada),,1
+15-1,13,感冒,gǎnmào,Vp,bị cảm lạnh,เป็นหวัด (pen wat),အအေးမိသည် (a ay mi thi),風邪をひく (kaze o hiku),감기에 걸리다 (gamgie geollida),,1
+15-1,14,藥,yào,N,thuốc,ยา (ya),ဆေး (say),薬 (kusuri),약 (yak),,1
+15-1,15,藥局,yàojú,N,nhà thuốc,ร้านขายยา (ran khai ya),ဆေးဆိုင် (say saing),薬局 (yakkyoku),약국 (yakguk),,1
+15-1,16,拿,ná,V,lấy / được,ได้ (dai),ရသည် (ya thi),手に入れる (te ni ireru),얻다 (eotda),,1
+15-1,17,把,bǎ,Ptc,(trợ từ câu khiến),(คำบุพบท),(ယူဆောင်ခြင်းပြပစ္စည်း),処分マーカー (shobun mākā),처분 표지 (cheobun pyoji),,1
+15-1,18,水,shuǐ,N,nước,น้ำ (nam),ရေ (yay),水 (mizu),물 (mul),,1
+15-1,19,休息,xiūxí,Vi,nghỉ ngơi,พักผ่อน (phak phon),နားသည် (nar thi),休む (yasumu),쉬다 (swida),,1
+15-1,20,睡覺,shuìjiào,V-sep,ngủ,นอน (non),အိပ်သည် (ate thi),寝る (neru),자다 (jada),,1
+15-1,21,早一點,zǎo yìdiǎn,,sớm một chút,เร็วหน่อย (reo noi),စောစော (saw saw),早めに (hayame ni),좀 일찍 (jom iljjik),,1
+15-2,1,臉色,liǎnsè ,N,sắc mặt,สีหน้า (see na),မျက်နှာအရောင် (myet hnar a yaung),顔色 (kaoiro),안색 (ansaek),,1
+15-2,2,難看,nánkàn,Vs,trông không tốt,ดูไม่ดี (du mai dee),ကြည့်မကောင်း (kyi ma kaung),顔色が悪い (kaoiro ga warui),안색이 안 좋다 (ansaegi an jota),,1
+15-2,3,肚子,dùzi,N,bụng,ท้อง (thong),ဗိုက် (bite),お腹 (onaka),배 (bae),,1
+15-2,4,吐,tù,V,nôn / ói,อ้วก / อาเจียน (uak / a jian),အန်သည် (an thi),吐く (haku),토하다 (tohada),,1
+15-2,5,幾,jǐ,N,một vài,สองสาม (song sam),အနည်းငယ် (a nee ngal),少し (sukoshi),몇몇 (myeonmyeot),,1
+15-2,6,次,cì,M,lần,ครั้ง (khrang),ခါ (kha),回 (kai),번 (beon),,1
+15-2,7,陪,péi,V,đi cùng,ไปเป็นเพื่อน (pai pen phuean),အဖော်လိုက်သည် (a phaw like thi),同行する (dōkō suru),동행하다 (donghaenghada),,1
+15-2,8,看病,kànbìng,V-sep,đi khám bệnh,หาหมอ (ha mo),ဆေးခန်းပြသည် (say khan pya thi),医者にかかる (isha ni kakaru),진찰받다 (jinchalbatda),,1
+15-2,9,健康,jiànkāng,N,sức khỏe,สุขภาพ (suk kha phap),ကျန်းမာရေး (kyan mar yay),健康 (kenkō),건강 (geongang),,1
+15-2,10,保險,bǎoxiǎn,N,bảo hiểm,ประกัน (pra kan),အာမခံ (ar ma khan),保険 (hoken),보험 (boheom),,1
+15-2,11,跟,gēn,Prep,tới,ถึง (thueng),သို့ (thoe),へ (he),~에 (e),,1
+15-2,12,油,yóu,Vs,dầu mỡ,มัน (man),ဆီများသော (see myar thaw),油っこい (aburakkoi),기름진 (gireumjin),,1
+15-2,13,冰,bīng,Vs,lạnh giá / có đá,เย็นจัด / มีน้ำแข็ง (yen jat / mee nam khaeng),ရေခဲသော (yay khel thaw),冷たい (tsumetai),차가운 (chagaun),,1
+15-2,14,別,bié,Adv,đừng,อย่า (ya),မ...ပါနဲ့ (ma...par nel),～しないで (shinaide),~하지 마라 (haji mara),,1
+15-2,15,關心,guānxīn,Vs,lo lắng về,ห่วง / กังวล (huang / kang won),စိတ်ပူသည် (sate pu thi),心配する (shinpai suru),걱정하다 (geokjeonghada),,1
+15-2,16,包,bāo,M,túi / bao,ถุง (thung),အိတ် (ate),袋 (fukuro),봉지 (bongji),,1
+15-2,17,睡,shuì,Vi,ngủ,นอน (non),အိပ်သည် (ate thi),寝る (neru),자다 (jada),,1
+15-2,18,小時,xiǎoshí,N,giờ,ชั่วโมง (chua mong),နာရီ (nar yi),時間 (jikan),시간 (sigan),,1
+15-2,19,怎麼了,zěnme le,,Có chuyện gì vậy?,เป็นอะไรไป (pen a rai pai),ဘာဖြစ်လို့လဲ (bar phyit lo lal),どうしたの (dōshita no),무슨 일이야? (museun iriya),,1
+15-2,20,不用了,búyòng le,,Không cần thiết.,ไม่จำเป็น (mai jam pen),မလိုပါဘူး (ma lo par bu),必要ない (hitsuyō nai),필요 없다 (piryo eopda),,1
+15-2,21,健康中心,jiànkāng zhōngxīn ,,trung tâm y tế,อนามัย / ศูนย์สุขภาพ (a na mai / sun suk kha phap),ကျန်းမာရေးဌာန (kyan mar yay htar na),保健センター (hoken sentā),보건소 (bogeonso),,1
+15-2,22,回家,huí jiā,,về nhà,กลับบ้าน (klap ban),အိမ်ပြန်သည် (ein pyan thi),家に帰る (ie ni kaeru),집에 가다 (jibe gada),,1
+15-2,23,最好,zuìhǎo,,Tốt nhất là...,ทางที่ดี... (thang thee dee),အကောင်းဆုံးကတော့ (a kaung sone ka taw),～したほうがいい (shita hō ga ii),~하는 게 제일 좋다 (haneun ge jeil jota),,1
+,,,,,,,,,,,
+,,,,,,,,,,,

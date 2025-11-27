@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dangdai Chinese Vocabulary Flashcard</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Dangdai Chinese Vocabulary Flashcard</h1>
+            <p class="app-description">Select a Book and Lesson to begin.</p>
+        </header>
+
+        <div class="main-content">
+            <div class="control-panel" id="control-panel">
+                
+                <div class="settings-section">
+                    <h3>1. Select Content</h3>
+                    <div class="form-group">
+                        <label for="book-select">Select Book:</label>
+                        <select id="book-select">
+                            <option value="">Select Book...</option>
+                            <option value="B1">Book 1</option>
+                            <option value="B2">Book 2</option>
+                            <option value="B3">Book 3</option>
+                            <option value="B4">Book 4</option>
+                            <option value="B5">Book 5</option>
+                            <option value="B5">Book 5</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="lesson-select">Select Lesson:</label>
+                        <select id="lesson-select" disabled>
+                            <option value="">Select a book first...</option>
+                            </select>
+                    </div>
+
+                    <button id="view-list-btn" class="btn secondary" disabled>View Vocabulary List</button>
+                </div>
+
+                <hr>
+
+                <div class="tabs">
+                    <button class="tab-btn active" data-tab="flashcards">Flashcards</button>
+                    <button class="tab-btn" data-tab="quiz">Quiz</button>
+                    <button class="tab-btn" data-tab="difficult">Difficult Words</button>
+                </div>
+
+                <div class="tab-content active" id="flashcards-controls">
+                    <div class="form-group">
+                        <label for="flashcard-mode">Flashcard Mode:</label>
+                        <select id="flashcard-mode">
+                            <option value="chinese-meaning">A. Chinese - Meaning (All Langs)</option>
+                            <option value="meaning-chinese">A. Meaning (All Langs) - Chinese</option>
+                            <option value="pinyin-chinese">A. Pinyin - Chinese</option>
+                        </select>
+                    </div>
+                    <button id="start-flashcards-btn" class="btn primary" disabled>Start Flashcards</button>
+                </div>
+
+                <div class="tab-content" id="quiz-controls">
+                    <div class="form-group">
+                        <label for="quiz-mode">Quiz Mode:</label>
+                        <select id="quiz-mode">
+                            <option value="chinese-meaning">B. Chinese - Meaning (Multiple Choice)</option>
+                            <option value="meaning-chinese">B. Meaning - Chinese (Multiple Choice)</option>
+                            <option value="chinese-pinyin">B. Chinese - Pinyin</option>
+                            <option value="pinyin-chinese">B. Pinyin - Chinese</option>
+                        </select>
+                    </div>
+                    <button id="start-quiz-btn" class="btn primary" disabled>Start Quiz</button>
+                </div>
+            </div>
+
+            <div id="study-area" class="study-area hidden">
+                
+                <div id="list-view" class="view-section hidden">
+                    <div class="header-row">
+                        <button class="btn secondary small exit-btn">← Back to Menu</button>
+                        <h3>Vocabulary List</h3>
+                    </div>
+                    <div class="table-container">
+                        <table id="vocab-table">
+                            <thead>
+                                <tr>
+                                    <th>Chinese</th>
+                                    <th>Pinyin</th>
+                                    <th>English</th>
+                                    <th>Meaning (All)</th>
+                                </tr>
+                            </thead>
+                            <tbody id="vocab-table-body">
+                                </tbody>
+                        </table>
+                    </div>
+                </div>
+
+                <div id="flashcard-view" class="view-section hidden">
+                    <div class="header-row">
+                        <button class="btn secondary small exit-btn">← Back to Menu</button>
+                        <span id="fc-progress">0 / 0</span>
+                    </div>
+                    
+                    <div class="flashcard-container">
+                        <div class="flashcard" id="flashcard">
+                            <div class="flashcard-inner">
+                                <div class="flashcard-front">
+                                    <div class="card-content" id="card-front-content"></div>
+                                    <div class="flip-hint">Click to flip</div>
+                                </div>
+                                <div class="flashcard-back">
+                                    <div class="card-content" id="card-back-content"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="controls">
+                        <button id="prev-btn" class="btn secondary">Previous</button>
+                        <button id="mark-difficult-btn" class="btn warning">Mark Difficult</button>
+                        <button id="next-btn" class="btn secondary">Next</button>
+                    </div>
+                    
+                    <div class="auto-play-controls">
+                        <label><input type="checkbox" id="autoplay-cb"> Auto Play</label>
+                    </div>
+                </div>
+
+                <div id="quiz-view" class="view-section hidden">
+                    <div class="header-row">
+                        <button class="btn secondary small exit-btn">← Back to Menu</button>
+                        <div class="score-display">Score: <span id="quiz-score">0</span></div>
+                    </div>
+
+                    <div class="quiz-container">
+                        <div class="progress-bar-container">
+                            <div class="progress-bar">
+                                <div class="progress" id="quiz-progress"></div>
+                            </div>
+                        </div>
+                        
+                        <div class="question-area">
+                            <h2 id="quiz-question">Question</h2>
+                        </div>
+                        
+                        <div class="options-grid" id="quiz-options">
+                            </div>
+                        
+                        <div id="quiz-feedback" class="quiz-feedback"></div>
+                        <button id="next-question-btn" class="btn primary hidden">Next Question</button>
+                    </div>
+                    
+                    <div id="quiz-result" class="hidden">
+                        <h3>Quiz Complete!</h3>
+                        <p>Final Score: <span id="final-score"></span></p>
+                        <button id="retry-quiz-btn" class="btn primary">Retry</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="tab-content" id="difficult-content" style="display:none;">
+                <div class="difficult-words">
+                    <h3>Words Needing Practice</h3>
+                    <ul class="difficult-words-list" id="difficult-words-list">
+                        <li class="difficult-word text-center">No difficult words yet.</li>
+                    </ul>
+                    <div class="difficult-words-controls">
+                        <button id="clear-difficult-btn" class="btn warning">Clear List</button>
+                        <button id="back-difficult-btn" class="btn secondary">Back to Menu</button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+<footer style="text-align: center; padding: 1.5rem 0;font-size: 20px;">
+  For feedback, email me at 
+  <a href="mailto:fangdongyzu@gmail.com">fangdongyzu@gmail.com</a>
+</footer>
+</html>
