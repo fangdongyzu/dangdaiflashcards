@@ -1067,14 +1067,3 @@ footer a:hover {
     margin-top: 10px;
 }
 
-.quiz-option-btn.correct {
-    background-color: #d4edda;
-    border-color: #c3e6cb;
-    color: #155724;
-}
-.quiz-option-btn.wrong {
-    background-color: #f8d7da;
-    border-color: #f5c6cb;
-    color: #721c24;
-}
-

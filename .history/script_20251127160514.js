@@ -799,84 +799,142 @@ class VocabularyApp {
     }
 
     displayQuizQuestion() {
-        console.log('Displaying quiz question:', this.currentQuizIndex);
-        console.log('Total questions:', this.quizQuestions.length);
-
         const quizContainer = this.getElement('quiz-container');
-        if (!quizContainer) {
-            console.error('Quiz container element not found');
-            return;
-        }
+        if (!quizContainer) return;
 
-        // Ensure quiz container has the proper structure
-        if (!this.getElement('quiz-question') || !this.getElement('quiz-options')) {
-            console.log('Recreating quiz structure...');
-            quizContainer.innerHTML = `
+        const questionData = this.quizQuestions[this.currentQuizIndex];
+        const totalQuestions = this.quizQuestions.length;
+
+        // 1. Render the Basic UI Structure
+        quizContainer.innerHTML = `
             <div class="quiz-content">
-                <div class="quiz-progress">
-                    <div id="quiz-progress-text" class="progress-text">Question 0 of 0</div>
-                    <div class="progress-bar">
-                        <div id="quiz-progress" class="progress-fill" style="width: 0%"></div>
-                    </div>
+                <div class="quiz-header">
+                    <span class="quiz-progress-text">Question ${this.currentQuizIndex + 1} of ${totalQuestions}</span>
+                    <span class="quiz-score-display">Score: ${this.quizScore}</span>
                 </div>
-                <div id="quiz-question" class="quiz-question"></div>
-                <div id="quiz-options" class="quiz-options"></div>
-                <div id="quiz-feedback" class="quiz-feedback"></div>
-                <button id="next-question-btn" class="btn primary hidden">Next Question</button>
+                
+                <div class="progress-container">
+                    <div class="progress-bar" style="width: ${((this.currentQuizIndex + 1) / totalQuestions) * 100}%"></div>
+                </div>
+
+                <div class="question-card">
+                    <h3 class="quiz-question-text">${questionData.question}</h3>
+                </div>
+
+                <div id="quiz-options-grid" class="quiz-options-grid">
+                    ${questionData.options.map((option, index) => `
+                        <button class="quiz-option-btn" data-answer="${option}">
+                            ${option}
+                        </button>
+                    `).join('')}
+                </div>
+
+                <div id="quiz-feedback" class="quiz-feedback hidden"></div>
+                
+                <button id="next-question-btn" class="btn primary hidden">
+                    ${this.currentQuizIndex === totalQuestions - 1 ? 'Show Results' : 'Next Question'}
+                </button>
             </div>
         `;
 
-            // Re-bind the next question button
-            this.safeAddEventListener('next-question-btn', 'click', () => this.nextQuestion());
-        }
-
-        if (this.quizQuestions.length === 0) {
-            quizContainer.innerHTML = `
-            <div class="text-center">
-                <h3>No Quiz Available</h3>
-                <p>Not enough vocabulary to generate quiz questions.</p>
-                <p>Please load a lesson with at least 2 vocabulary words.</p>
-            </div>
-        `;
-            return;
-        }
-
-        if (this.currentQuizIndex >= this.quizQuestions.length) {
-            this.showQuizResults();
-            return;
-        }
-
-        const question = this.quizQuestions[this.currentQuizIndex];
-        const quizQuestion = this.getElement('quiz-question');
-        const quizOptions = this.getElement('quiz-options');
-        const quizFeedback = this.getElement('quiz-feedback');
-        const nextButton = this.getElement('next-question-btn');
-
-        if (!quizQuestion || !quizOptions || !quizFeedback || !nextButton) {
-            console.error('Required quiz elements not found after recreation');
-            return;
-        }
-
-        // Show quiz type in the question display
-        const typeIndicator = this.getQuizTypeIndicator(question.type);
-        quizQuestion.innerHTML = `
-        ${question.question}
-        <div class="quiz-type-indicator">${typeIndicator}</div>
-    `;
-
-        quizFeedback.textContent = '';
-        quizFeedback.className = 'quiz-feedback';
-        nextButton.classList.add('hidden');
-
-        quizOptions.innerHTML = question.options.map(option => `
-        <div class="quiz-option" data-answer="${this.escapeHtml(option)}">${option}</div>
-    `).join('');
-
-        quizOptions.querySelectorAll('.quiz-option').forEach(option => {
-            option.addEventListener('click', (e) => this.checkAnswer(e.target));
+        // 2. Re-bind Event Listeners for Options
+        // We must bind these here because the elements were just created via innerHTML
+        const options = quizContainer.querySelectorAll('.quiz-option-btn');
+        options.forEach(btn => {
+            btn.addEventListener('click', (e) => this.checkAnswer(e.target.dataset.answer, btn));
         });
 
-        this.updateQuizProgress();
+        // 3. Re-bind Next Button
+        const nextBtn = document.getElementById('next-question-btn');
+        if(nextBtn) {
+            nextBtn.addEventListener('click', () => this.nextQuestion());
+        }
+    }
+
+    checkAnswer(selectedAnswer, btnElement) {
+        // Prevent multiple clicks
+        const allOptions = document.querySelectorAll('.quiz-option-btn');
+        allOptions.forEach(btn => btn.disabled = true);
+
+        const currentQuestion = this.quizQuestions[this.currentQuizIndex];
+        const isCorrect = selectedAnswer === currentQuestion.correctAnswer;
+        const feedbackEl = document.getElementById('quiz-feedback');
+        const nextBtn = document.getElementById('next-question-btn');
+
+        // Update UI
+        if (isCorrect) {
+            this.quizScore++;
+            btnElement.classList.add('correct');
+            feedbackEl.textContent = "Correct! 🎉";
+            feedbackEl.className = "quiz-feedback correct";
+        } else {
+            btnElement.classList.add('wrong');
+            // Highlight the correct answer
+            allOptions.forEach(btn => {
+                if (btn.dataset.answer === currentQuestion.correctAnswer) {
+                    btn.classList.add('correct');
+                }
+            });
+            feedbackEl.innerHTML = `Incorrect. The correct answer is <strong>${currentQuestion.correctAnswer}</strong>`;
+            feedbackEl.className = "quiz-feedback wrong";
+        }
+
+        // Show Feedback and Next Button
+        feedbackEl.classList.remove('hidden');
+        nextBtn.classList.remove('hidden');
+    }
+
+    nextQuestion() {
+        this.currentQuizIndex++;
+
+        if (this.currentQuizIndex < this.quizQuestions.length) {
+            this.displayQuizQuestion();
+        } else {
+            this.showQuizResults(); // <--- THIS IS THE FUNCTION YOU NEED
+        }
+    }
+
+    showQuizResults() {
+        const quizContainer = this.getElement('quiz-container');
+        const percentage = Math.round((this.quizScore / this.quizQuestions.length) * 100);
+        let message = '';
+        let messageClass = '';
+
+        if (percentage >= 90) {
+            message = 'Excellent! 🏆';
+            messageClass = 'text-success';
+        } else if (percentage >= 70) {
+            message = 'Good Job! 🌟';
+            messageClass = 'text-primary';
+        } else {
+            message = 'Keep Practicing! 💪';
+            messageClass = 'text-warning';
+        }
+
+        quizContainer.innerHTML = `
+            <div class="quiz-results-card">
+                <h2>Quiz Complete!</h2>
+                <div class="score-circle">
+                    <span class="score-number">${percentage}%</span>
+                </div>
+                <h3 class="${messageClass}">${message}</h3>
+                <p>You got <strong>${this.quizScore}</strong> out of <strong>${this.quizQuestions.length}</strong> questions correct.</p>
+                
+                <div class="quiz-actions">
+                    <button id="restart-quiz-btn" class="btn primary">Restart Quiz</button>
+                    <button id="new-quiz-btn" class="btn secondary">Choose New Quiz</button>
+                </div>
+            </div>
+        `;
+
+        // Bind the result buttons
+        document.getElementById('restart-quiz-btn').addEventListener('click', () => {
+            this.startSelectedQuiz();
+        });
+
+        document.getElementById('new-quiz-btn').addEventListener('click', () => {
+            this.showQuizSelection();
+        });
     }
 
     getQuizTypeIndicator(type) {
@@ -888,40 +946,28 @@ class VocabularyApp {
         return indicators[type] || '❓';
     }
 
-   checkAnswer(selectedOption) {
-    const question = this.quizQuestions[this.currentQuizIndex];
-    const isCorrect = selectedOption.dataset.answer === question.correctAnswer;
-    const quizOptions = this.getElement('quiz-options');
-    const quizFeedback = this.getElement('quiz-feedback');
-    const nextButton = this.getElement('next-question-btn');
+    checkAnswer(selectedOption) {
+        const question = this.quizQuestions[this.currentQuizIndex];
+        const isCorrect = selectedOption.dataset.answer === question.correctAnswer;
+        const quizOptions = this.getElement('quiz-options');
+        const quizFeedback = this.getElement('quiz-feedback');
+        const nextButton = this.getElement('next-question-btn');
 
-    if (!quizOptions || !quizFeedback || !nextButton) return;
+        if (!quizOptions || !quizFeedback || !nextButton) return;
 
-    // Update score if correct
-    if (isCorrect) {
-        this.quizScore++;
+        quizOptions.querySelectorAll('.quiz-option').forEach(option => {
+            option.style.pointerEvents = 'none';
+            if (option.dataset.answer === question.correctAnswer) {
+                option.classList.add('correct');
+            } else if (option === selectedOption && !isCorrect) {
+                option.classList.add('incorrect');
+            }
+        });
+
+       
+
+        nextButton.classList.remove('hidden');
     }
-
-    quizOptions.querySelectorAll('.quiz-option').forEach(option => {
-        option.style.pointerEvents = 'none';
-        if (option.dataset.answer === question.correctAnswer) {
-            option.classList.add('correct');
-        } else if (option === selectedOption && !isCorrect) {
-            option.classList.add('incorrect');
-        }
-    });
-
-    // Show feedback
-    if (isCorrect) {
-        quizFeedback.textContent = 'Correct! 🎉';
-        quizFeedback.className = 'quiz-feedback correct';
-    } else {
-        quizFeedback.textContent = `Incorrect. The correct answer is: ${question.correctAnswer}`;
-        quizFeedback.className = 'quiz-feedback incorrect';
-    }
-
-    nextButton.classList.remove('hidden');
-}
 
     nextQuestion() {
         this.currentQuizIndex++;
@@ -981,10 +1027,17 @@ showQuizResults() {
             <button id="new-quiz-btn" class="btn secondary mt-10">Choose Different Quiz</button>
         </div>
     `;
-    
-    // Add event listeners for the new buttons
-    this.safeAddEventListener('restart-quiz-btn', 'click', () => this.restartQuiz());
-    this.safeAddEventListener('new-quiz-btn', 'click', () => this.showQuizSelection());
+
+    // Use your safeAddEventListener method to bind events
+    this.safeAddEventListener('restart-quiz-btn', 'click', () => {
+        console.log('Restart quiz clicked');
+        this.restartQuiz();
+    });
+
+    this.safeAddEventListener('new-quiz-btn', 'click', () => {
+        console.log('New quiz clicked');
+        this.showQuizSelection();
+    });
 }
 
 

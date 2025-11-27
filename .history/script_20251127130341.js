@@ -888,40 +888,28 @@ class VocabularyApp {
         return indicators[type] || '❓';
     }
 
-   checkAnswer(selectedOption) {
-    const question = this.quizQuestions[this.currentQuizIndex];
-    const isCorrect = selectedOption.dataset.answer === question.correctAnswer;
-    const quizOptions = this.getElement('quiz-options');
-    const quizFeedback = this.getElement('quiz-feedback');
-    const nextButton = this.getElement('next-question-btn');
+    checkAnswer(selectedOption) {
+        const question = this.quizQuestions[this.currentQuizIndex];
+        const isCorrect = selectedOption.dataset.answer === question.correctAnswer;
+        const quizOptions = this.getElement('quiz-options');
+        const quizFeedback = this.getElement('quiz-feedback');
+        const nextButton = this.getElement('next-question-btn');
 
-    if (!quizOptions || !quizFeedback || !nextButton) return;
+        if (!quizOptions || !quizFeedback || !nextButton) return;
 
-    // Update score if correct
-    if (isCorrect) {
-        this.quizScore++;
+        quizOptions.querySelectorAll('.quiz-option').forEach(option => {
+            option.style.pointerEvents = 'none';
+            if (option.dataset.answer === question.correctAnswer) {
+                option.classList.add('correct');
+            } else if (option === selectedOption && !isCorrect) {
+                option.classList.add('incorrect');
+            }
+        });
+
+       
+
+        nextButton.classList.remove('hidden');
     }
-
-    quizOptions.querySelectorAll('.quiz-option').forEach(option => {
-        option.style.pointerEvents = 'none';
-        if (option.dataset.answer === question.correctAnswer) {
-            option.classList.add('correct');
-        } else if (option === selectedOption && !isCorrect) {
-            option.classList.add('incorrect');
-        }
-    });
-
-    // Show feedback
-    if (isCorrect) {
-        quizFeedback.textContent = 'Correct! 🎉';
-        quizFeedback.className = 'quiz-feedback correct';
-    } else {
-        quizFeedback.textContent = `Incorrect. The correct answer is: ${question.correctAnswer}`;
-        quizFeedback.className = 'quiz-feedback incorrect';
-    }
-
-    nextButton.classList.remove('hidden');
-}
 
     nextQuestion() {
         this.currentQuizIndex++;
@@ -963,7 +951,7 @@ class VocabularyApp {
         this.displayQuizQuestion();
     }
 
-showQuizResults() {
+    showQuizResults() {
     const quizContainer = this.getElement('quiz-container');
     if (!quizContainer) return;
 
@@ -981,11 +969,19 @@ showQuizResults() {
             <button id="new-quiz-btn" class="btn secondary mt-10">Choose Different Quiz</button>
         </div>
     `;
-    
-    // Add event listeners for the new buttons
-    this.safeAddEventListener('restart-quiz-btn', 'click', () => this.restartQuiz());
-    this.safeAddEventListener('new-quiz-btn', 'click', () => this.showQuizSelection());
+
+    // Use your safeAddEventListener method to bind events
+    this.safeAddEventListener('restart-quiz-btn', 'click', () => {
+        console.log('Restart quiz clicked');
+        this.restartQuiz();
+    });
+
+    this.safeAddEventListener('new-quiz-btn', 'click', () => {
+        console.log('New quiz clicked');
+        this.showQuizSelection();
+    });
 }
+
 
 
     updateQuizProgress() {
