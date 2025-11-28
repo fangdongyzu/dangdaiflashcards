@@ -15,6 +15,8 @@ class VocabularyApp {
         // Language settings
         this.selectedLanguages = ['english', 'vietnamese', 'thai', 'burmese', 'japanese', 'korean'];
 
+        this.difficultWords = JSON.parse(localStorage.getItem('difficultWords')) || [];
+
         this.bindEvents();
         this.setupLanguageSelection();
     }
@@ -36,6 +38,11 @@ class VocabularyApp {
             this.updateButtonStates();
         });
 
+        // Navigation / Tabs
+        document.querySelectorAll('.tab-btn').forEach(btn => {
+            btn.addEventListener('click', (e) => this.switchTab(e.target.dataset.tab));
+        });
+
         // Main Actions
         document.getElementById('view-list-btn').addEventListener('click', () => this.showVocabularyList());
         document.getElementById('start-flashcards-btn').addEventListener('click', () => this.startFlashcards());
@@ -50,6 +57,7 @@ class VocabularyApp {
         document.getElementById('flashcard').addEventListener('click', () => this.flipFlashcard());
         document.getElementById('next-btn').addEventListener('click', (e) => { e.stopPropagation(); this.nextFlashcard(); });
         document.getElementById('prev-btn').addEventListener('click', (e) => { e.stopPropagation(); this.prevFlashcard(); });
+        document.getElementById('mark-difficult-btn').addEventListener('click', (e) => { e.stopPropagation(); this.markCurrentAsDifficult(); });
 
         // Quiz Interactions
         document.getElementById('next-question-btn').addEventListener('click', () => this.nextQuestion());
@@ -83,7 +91,7 @@ class VocabularyApp {
             this.parseCSV(text);
         } catch (error) {
             console.error('Error loading file:', error);
-            alert(`Could not load ${filename}. Please make sure the file exists in the same directory.`);
+            alert(`Could not load ${filename}. Check console for details.`);
         }
     }
 
@@ -95,7 +103,7 @@ class VocabularyApp {
         const lines = text.split(/\r?\n/).filter(line => line.trim() !== '');
         if (lines.length < 2) return;
 
-        console.log("CSV lines:", lines);
+        console.log(lines)
 
         // Detect delimiter
         const firstLine = lines[0];
@@ -233,6 +241,20 @@ class VocabularyApp {
     }
 
     // --- UI State Management ---
+
+    switchTab(tabName) {
+        document.querySelectorAll('.tab-btn').forEach(btn => btn.classList.remove('active'));
+        document.querySelector(`.tab-btn[data-tab="${tabName}"]`).classList.add('active');
+
+        document.querySelectorAll('.tab-content').forEach(content => {
+            if (content.id === `${tabName}-controls` || content.id === `${tabName}-content`) {
+                content.classList.add('active');
+                if (tabName === 'difficult') this.renderDifficultList();
+            } else {
+                content.classList.remove('active');
+            }
+        });
+    }
 
     toggleControlPanel(show) {
         const panel = document.getElementById('control-panel');
@@ -390,6 +412,15 @@ class VocabularyApp {
         if (this.currentFlashcardIndex > 0) {
             this.currentFlashcardIndex--;
             this.renderFlashcard();
+        }
+    }
+
+    markCurrentAsDifficult() {
+        const word = this.currentLessonVocabulary[this.currentFlashcardIndex];
+        if (!this.difficultWords.some(w => w.chinese === word.chinese)) {
+            this.difficultWords.push(word);
+            localStorage.setItem('difficultWords', JSON.stringify(this.difficultWords));
+            alert(`Marked "${word.chinese}" as difficult.`);
         }
     }
 
@@ -625,6 +656,21 @@ class VocabularyApp {
         });
 
         return meanings.join(' | ');
+    }
+
+    renderDifficultList() {
+        const listEl = document.getElementById('difficult-words-list');
+        listEl.innerHTML = '';
+        if (this.difficultWords.length === 0) {
+            listEl.innerHTML = '<li class="difficult-word text-center">No difficult words yet.</li>';
+            return;
+        }
+        this.difficultWords.forEach(w => {
+            const li = document.createElement('li');
+            li.style.cssText = 'background:white; margin:5px 0; padding:10px; border-radius:5px; list-style:none; border:1px solid #ddd;';
+            li.innerHTML = `<strong>${w.chinese}</strong> (${w.pinyin})<br><small>${w.english} / ${w.vietnamese}</small>`;
+            listEl.appendChild(li);
+        });
     }
 
     updateFlashcardProgress() {

@@ -12,11 +12,9 @@ class VocabularyApp {
         this.currentQuizIndex = 0;
         this.quizScore = 0;
 
-        // Language settings
-        this.selectedLanguages = ['english', 'vietnamese', 'thai', 'burmese', 'japanese', 'korean'];
+        this.difficultWords = JSON.parse(localStorage.getItem('difficultWords')) || [];
 
         this.bindEvents();
-        this.setupLanguageSelection();
     }
 
     bindEvents() {
@@ -36,6 +34,11 @@ class VocabularyApp {
             this.updateButtonStates();
         });
 
+        // Navigation / Tabs
+        document.querySelectorAll('.tab-btn').forEach(btn => {
+            btn.addEventListener('click', (e) => this.switchTab(e.target.dataset.tab));
+        });
+
         // Main Actions
         document.getElementById('view-list-btn').addEventListener('click', () => this.showVocabularyList());
         document.getElementById('start-flashcards-btn').addEventListener('click', () => this.startFlashcards());
@@ -51,25 +54,9 @@ class VocabularyApp {
         document.getElementById('next-btn').addEventListener('click', (e) => { e.stopPropagation(); this.nextFlashcard(); });
         document.getElementById('prev-btn').addEventListener('click', (e) => { e.stopPropagation(); this.prevFlashcard(); });
 
-        // Quiz Interactions
+        // Quiz Interactions - FIXED: Proper event binding
         document.getElementById('next-question-btn').addEventListener('click', () => this.nextQuestion());
         document.getElementById('retry-quiz-btn').addEventListener('click', () => this.startQuiz());
-    }
-
-    setupLanguageSelection() {
-        const languageCheckboxes = document.querySelectorAll('input[name="language"]');
-        languageCheckboxes.forEach(checkbox => {
-            checkbox.addEventListener('change', () => {
-                this.updateSelectedLanguages();
-            });
-        });
-    }
-
-    updateSelectedLanguages() {
-        this.selectedLanguages = [];
-        document.querySelectorAll('input[name="language"]:checked').forEach(checkbox => {
-            this.selectedLanguages.push(checkbox.value);
-        });
     }
 
     // --- Data Loading ---
@@ -83,7 +70,7 @@ class VocabularyApp {
             this.parseCSV(text);
         } catch (error) {
             console.error('Error loading file:', error);
-            alert(`Could not load ${filename}. Please make sure the file exists in the same directory.`);
+            alert(`Could not load ${filename}. Check console for details.`);
         }
     }
 
@@ -95,7 +82,7 @@ class VocabularyApp {
         const lines = text.split(/\r?\n/).filter(line => line.trim() !== '');
         if (lines.length < 2) return;
 
-        console.log("CSV lines:", lines);
+        console.log(lines)
 
         // Detect delimiter
         const firstLine = lines[0];
@@ -234,6 +221,20 @@ class VocabularyApp {
 
     // --- UI State Management ---
 
+    switchTab(tabName) {
+        document.querySelectorAll('.tab-btn').forEach(btn => btn.classList.remove('active'));
+        document.querySelector(`.tab-btn[data-tab="${tabName}"]`).classList.add('active');
+
+        document.querySelectorAll('.tab-content').forEach(content => {
+            if (content.id === `${tabName}-controls` || content.id === `${tabName}-content`) {
+                content.classList.add('active');
+                if (tabName === 'difficult') this.renderDifficultList();
+            } else {
+                content.classList.remove('active');
+            }
+        });
+    }
+
     toggleControlPanel(show) {
         const panel = document.getElementById('control-panel');
         const studyArea = document.getElementById('study-area');
@@ -263,43 +264,23 @@ class VocabularyApp {
 
         this.toggleControlPanel(false);
         document.getElementById('list-view').classList.remove('hidden');
-        document.getElementById('current-lesson-display').textContent = this.currentLesson;
 
         const tbody = document.getElementById('vocab-table-body');
         tbody.innerHTML = '';
 
         vocab.forEach(w => {
             const tr = document.createElement('tr');
-            
-            // Build translations string based on selected languages
-            let translationsHtml = '';
-            if (this.selectedLanguages.includes('english')) {
-                translationsHtml += `${w.english}<br>`;
-            }
-            
-            let secondaryTranslations = [];
-            const langMap = {
-                'vietnamese': 'VN',
-                'thai': 'TH', 
-                'burmese': 'MM',
-                'japanese': 'JP',
-                'korean': 'KR'
-            };
-            
-            Object.keys(langMap).forEach(lang => {
-                if (this.selectedLanguages.includes(lang) && w[lang]) {
-                    secondaryTranslations.push(`${langMap[lang]}: ${w[lang]}`);
-                }
-            });
-            
-            if (secondaryTranslations.length > 0) {
-                translationsHtml += `<small style="font-size:0.9rem;">${secondaryTranslations.join(' | ')}</small>`;
-            }
-
             tr.innerHTML = `
             <td class="chinese-cell" style="font-size:1.4rem; font-weight:bold;">${w.chinese}</td>
             <td style="font-size:1.1rem;">${w.pinyin}</td>
-            <td style="font-size:1rem;">${translationsHtml}</td>
+            <td style="font-size:1rem;">
+                ${w.english}<br>
+                <small style="font-size:0.9rem;">
+                VN: ${w.vietnamese}<br>
+                TH: ${w.thai} | MM: ${w.burmese}<br>
+                JP: ${w.japanese} | KR: ${w.korean}
+                </small>
+            </td>
             `;
             tbody.appendChild(tr);
         });
@@ -316,32 +297,9 @@ class VocabularyApp {
 
         this.toggleControlPanel(false);
         document.getElementById('flashcard-view').classList.remove('hidden');
-        document.getElementById('fc-lesson-display').textContent = this.currentLesson;
         document.getElementById('flashcard').classList.remove('flipped');
 
         this.renderFlashcard();
-    }
-
-    getMultilingualHtml(w) {
-        const langMap = {
-            'english': 'EN',
-            'vietnamese': 'VN',
-            'thai': 'TH',
-            'burmese': 'MM', 
-            'japanese': 'JP',
-            'korean': 'KR'
-        };
-
-        let html = '<div class="meaning-grid">';
-        
-        this.selectedLanguages.forEach(lang => {
-            if (w[lang] && langMap[lang]) {
-                html += `<div class="meaning-item"><span class="meaning-label">${langMap[lang]}:</span> ${w[lang]}</div>`;
-            }
-        });
-        
-        html += '</div>';
-        return html;
     }
 
     renderFlashcard() {
@@ -352,14 +310,25 @@ class VocabularyApp {
 
         this.updateFlashcardProgress();
 
+        const getMultilingualHtml = (w) => `
+        <div class="meaning-grid">
+            <div class="meaning-item"><span class="meaning-label">VN:</span> ${w.vietnamese}</div>
+            <div class="meaning-item"><span class="meaning-label">TH:</span> ${w.thai}</div>
+            <div class="meaning-item"><span class="meaning-label">MM:</span> ${w.burmese}</div>
+            <div class="meaning-item"><span class="meaning-label">JP:</span> ${w.japanese}</div>
+            <div class="meaning-item"><span class="meaning-label">KR:</span> ${w.korean}</div>
+            <div class="meaning-item"><span class="meaning-label">EN:</span> ${w.english}</div>
+        </div>
+        `;
+
         let frontHtml = '';
         let backHtml = '';
 
         if (mode === 'chinese-meaning') {
             frontHtml = `<div class="chinese-text">${word.chinese}</div>`;
-            backHtml = `<div class="pinyin-text">${word.pinyin}</div>${this.getMultilingualHtml(word)}`;
+            backHtml = `<div class="pinyin-text">${word.pinyin}</div>${getMultilingualHtml(word)}`;
         } else if (mode === 'meaning-chinese') {
-            frontHtml = this.getMultilingualHtml(word);
+            frontHtml = getMultilingualHtml(word);
             backHtml = `<div class="chinese-text">${word.chinese}</div><div class="pinyin-text">${word.pinyin}</div>`;
         } else if (mode === 'pinyin-chinese') {
             frontHtml = `<div class="pinyin-text" style="font-size: 2.5rem;">${word.pinyin}</div>`;
@@ -393,6 +362,15 @@ class VocabularyApp {
         }
     }
 
+    markCurrentAsDifficult() {
+        const word = this.currentLessonVocabulary[this.currentFlashcardIndex];
+        if (!this.difficultWords.some(w => w.chinese === word.chinese)) {
+            this.difficultWords.push(word);
+            localStorage.setItem('difficultWords', JSON.stringify(this.difficultWords));
+            alert(`Marked "${word.chinese}" as difficult.`);
+        }
+    }
+
     // --- Quiz ---
 
     startQuiz() {
@@ -406,7 +384,6 @@ class VocabularyApp {
 
         this.toggleControlPanel(false);
         document.getElementById('quiz-view').classList.remove('hidden');
-        document.getElementById('quiz-lesson-display').textContent = this.currentLesson;
         document.getElementById('quiz-result').classList.add('hidden');
 
         // Reset UI state
@@ -422,26 +399,6 @@ class VocabularyApp {
         document.querySelector('.quiz-container > .options-grid').style.display = 'grid';
 
         this.renderQuestion();
-    }
-
-    formatAllMeanings(w) {
-        const langMap = {
-            'english': 'EN',
-            'vietnamese': 'VN',
-            'thai': 'TH',
-            'burmese': 'MM',
-            'japanese': 'JP',
-            'korean': 'KR'
-        };
-
-        let meanings = [];
-        this.selectedLanguages.forEach(lang => {
-            if (w[lang] && langMap[lang]) {
-                meanings.push(`${langMap[lang]}: ${w[lang]}`);
-            }
-        });
-
-        return `<div style="font-size:1rem; line-height:1.4;">${meanings.join(' | ')}</div>`;
     }
 
     renderQuestion() {
@@ -463,6 +420,12 @@ class VocabularyApp {
         const progressPct = ((this.currentQuizIndex + 1) / this.quizQuestions.length) * 100;
         document.getElementById('quiz-progress').style.width = `${progressPct}%`;
 
+        // Text Formatters
+        const formatAllMeanings = (w) => `
+        <div style="font-size:1rem; line-height:1.4;">
+            ${w.vietnamese} | ${w.thai} | ${w.burmese} | ${w.japanese} | ${w.korean} | ${w.english}
+        </div>`;
+
         let questionText = '';
         let answerType = '';
 
@@ -470,7 +433,7 @@ class VocabularyApp {
             questionText = `<span class="chinese-text">${questionData.chinese}</span>`;
             answerType = 'html_meanings';
         } else if (this.quizMode === 'meaning-chinese') {
-            questionText = this.formatAllMeanings(questionData);
+            questionText = formatAllMeanings(questionData);
             answerType = 'chinese';
         } else if (this.quizMode === 'chinese-pinyin') {
             questionText = `<span class="chinese-text">${questionData.chinese}</span>`;
@@ -498,7 +461,7 @@ class VocabularyApp {
             btn.className = 'quiz-option';
 
             if (answerType === 'html_meanings') {
-                btn.innerHTML = this.formatAllMeanings(opt);
+                btn.innerHTML = formatAllMeanings(opt);
             } else if (answerType === 'chinese') {
                 btn.textContent = opt.chinese;
                 btn.style.fontSize = "1.8rem";
@@ -531,7 +494,7 @@ class VocabularyApp {
             document.getElementById('quiz-score').textContent = this.quizScore;
         } else {
             btnElement.classList.add('incorrect');
-            // Show correct answer
+            // FIXED: Show correct answer for Chinese-Meaning mode
             const questionData = this.quizQuestions[this.currentQuizIndex];
             allOptions.forEach(opt => {
                 if (opt !== btnElement) {
@@ -558,7 +521,7 @@ class VocabularyApp {
             });
         }
 
-        // Only show next button if it's NOT the last question
+        // FIXED: Only show next button if it's NOT the last question
         const nextBtn = document.getElementById('next-question-btn');
         if (this.currentQuizIndex < this.quizQuestions.length - 1) {
             nextBtn.classList.remove('hidden');
@@ -608,23 +571,22 @@ class VocabularyApp {
 
     // Helper method for Chinese-Meaning mode answer comparison
     formatAllMeaningsForComparison(w) {
-        const langMap = {
-            'english': 'EN',
-            'vietnamese': 'VN',
-            'thai': 'TH',
-            'burmese': 'MM',
-            'japanese': 'JP',
-            'korean': 'KR'
-        };
+        return `${w.vietnamese} | ${w.thai} | ${w.burmese} | ${w.japanese} | ${w.korean} | ${w.english}`;
+    }
 
-        let meanings = [];
-        this.selectedLanguages.forEach(lang => {
-            if (w[lang] && langMap[lang]) {
-                meanings.push(`${langMap[lang]}: ${w[lang]}`);
-            }
+    renderDifficultList() {
+        const listEl = document.getElementById('difficult-words-list');
+        listEl.innerHTML = '';
+        if (this.difficultWords.length === 0) {
+            listEl.innerHTML = '<li class="difficult-word text-center">No difficult words yet.</li>';
+            return;
+        }
+        this.difficultWords.forEach(w => {
+            const li = document.createElement('li');
+            li.style.cssText = 'background:white; margin:5px 0; padding:10px; border-radius:5px; list-style:none; border:1px solid #ddd;';
+            li.innerHTML = `<strong>${w.chinese}</strong> (${w.pinyin})<br><small>${w.english} / ${w.vietnamese}</small>`;
+            listEl.appendChild(li);
         });
-
-        return meanings.join(' | ');
     }
 
     updateFlashcardProgress() {

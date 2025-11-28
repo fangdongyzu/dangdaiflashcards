@@ -3,13 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dang Dai Vocabulary Learning App</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Vocabulary Learning App</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <div class="container">
         <header>
-            <h1>Dang Dai Vocabulary Learning App</h1>
+            <h1>Vocabulary Learning App</h1>
         </header>
 
         <div id="control-panel">
@@ -18,12 +18,8 @@
                 <label for="book-select">Select Book:</label>
                 <select id="book-select">
                     <option value="">Select a book</option>
-                    <option value="B1">Book 1</option>
-                    <option value="B2">Book 2</option>
-                    <option value="B3">Book 3</option>
-                    <option value="B4">Book 4</option>
-                    <option value="B5">Book 5</option>
-                    <option value="B6">Book 6</option>
+                    <option value="book1">Book 1</option>
+                    <option value="book2">Book 2</option>
                 </select>
             </div>
 
@@ -59,30 +55,46 @@
                 </div>
             </div>
 
+            <!-- Navigation Tabs -->
+            <div class="tabs">
+                <button class="tab-btn active" data-tab="study">Study</button>
+                <button class="tab-btn" data-tab="difficult">Difficult Words</button>
+            </div>
+
             <!-- Study Controls -->
-            <div class="control-group">
-                <button id="view-list-btn" disabled>View Vocabulary List</button>
+            <div id="study-controls" class="tab-content active">
+                <div class="control-group">
+                    <button id="view-list-btn" disabled>View Vocabulary List</button>
+                </div>
+
+                <div class="control-group">
+                    <label for="flashcard-mode">Flashcard Mode:</label>
+                    <select id="flashcard-mode">
+                        <option value="chinese-meaning">Chinese → Meaning</option>
+                        <option value="meaning-chinese">Meaning → Chinese</option>
+                        <option value="pinyin-chinese">Pinyin → Chinese</option>
+                    </select>
+                    <button id="start-flashcards-btn" disabled>Start Flashcards</button>
+                </div>
+
+                <div class="control-group">
+                    <label for="quiz-mode">Quiz Mode:</label>
+                    <select id="quiz-mode">
+                        <option value="chinese-meaning">Chinese → Meaning</option>
+                        <option value="meaning-chinese">Meaning → Chinese</option>
+                        <option value="chinese-pinyin">Chinese → Pinyin</option>
+                        <option value="pinyin-chinese">Pinyin → Chinese</option>
+                    </select>
+                    <button id="start-quiz-btn" disabled>Start Quiz</button>
+                </div>
             </div>
 
-            <div class="control-group">
-                <label for="flashcard-mode">Flashcard Mode:</label>
-                <select id="flashcard-mode">
-                    <option value="chinese-meaning">Chinese → Meaning</option>
-                    <option value="meaning-chinese">Meaning → Chinese</option>
-                    <option value="pinyin-chinese">Pinyin → Chinese</option>
-                </select>
-                <button id="start-flashcards-btn" disabled>Start Flashcards</button>
-            </div>
-
-            <div class="control-group">
-                <label for="quiz-mode">Quiz Mode:</label>
-                <select id="quiz-mode">
-                    <option value="chinese-meaning">Chinese → Meaning</option>
-                    <option value="meaning-chinese">Meaning → Chinese</option>
-                    <option value="chinese-pinyin">Chinese → Pinyin</option>
-                    <option value="pinyin-chinese">Pinyin → Chinese</option>
-                </select>
-                <button id="start-quiz-btn" disabled>Start Quiz</button>
+            <!-- Difficult Words -->
+            <div id="difficult-content" class="tab-content">
+                <div class="difficult-list-container">
+                    <h3>Your Difficult Words</h3>
+                    <ul id="difficult-words-list"></ul>
+                </div>
             </div>
         </div>
 
@@ -132,6 +144,7 @@
                     
                     <div class="flashcard-controls">
                         <button id="prev-btn">Previous</button>
+                        <button id="mark-difficult-btn">Mark Difficult</button>
                         <button id="next-btn">Next</button>
                     </div>
                 </div>
@@ -177,7 +190,4 @@
 
     <script src="script.js"></script>
 </body>
-<footer style="text-align: center; color: rgb(107, 108, 108);font-size: 1.25em;">
-    For feedback, email me at <a href="mailto:fangdongyzu@gmail.com">fangdongyzu@gmail.com</a>
-</footer>
 </html>
