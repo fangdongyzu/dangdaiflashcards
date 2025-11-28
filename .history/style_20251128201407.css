@@ -51,8 +51,7 @@ header h1 {
     font-size: 0.95rem;
 }
 
-select,
-button {
+select, button {
     padding: 12px 16px;
     border: 1px solid #e2e8f0;
     border-radius: 8px;
@@ -218,8 +217,7 @@ button:disabled {
 
 .flashcard {
     width: 100%;
-    height: 400px;
-    /* Increased from 280px */
+    height: 280px;
     perspective: 1000px;
     margin: 0 auto 30px;
     cursor: pointer;
@@ -274,33 +272,26 @@ button:disabled {
 }
 
 .meaning-grid {
-    display: grid;
+   display: grid;
     grid-template-columns: 1fr;
-    gap: 8px;
-    /* Increased gap slightly */
+    gap: 8px; /* Increased gap slightly */
     text-align: left;
     width: 100%;
 }
 
 .meaning-item {
-    padding: 14px 20px;
-    /* Increased from 8px 12px */
+    padding: 8px 12px;
     background: #f8fafc;
-    border-radius: 8px;
-    /* Slightly more rounded */
-    border-left: 4px solid #4f46e5;
-    /* Thicker accent line */
-    font-size: 1.5rem;
-    /* Increased from 0.9rem (0.9 * 1.5 = 1.35) */
-    line-height: 1.4;
+    border-radius: 6px;
+    border-left: 2px solid #4f46e5;
+    font-size: 0.9rem;
 }
 
 .meaning-label {
     font-weight: 600;
     color: #4f46e5;
-    margin-right: 8px;
-    font-size: 1.1rem;
-    /* Increased label size */
+    margin-right: 6px;
+    font-size: 0.85rem;
 }
 
 .flashcard-controls {
@@ -349,17 +340,13 @@ button:disabled {
 }
 
 .quiz-option {
-    padding: 32px;
-    /* Increased from 18px (18 * 1.5 = 27) */
+    padding: 18px;
     background: white;
     border: 1px solid #e2e8f0;
-    border-radius: 10px;
+    border-radius: 8px;
     cursor: pointer;
     transition: all 0.2s ease;
     text-align: center;
-    font-size: 1.3rem;
-    /* Added font size for larger text */
-    font-weight: 500;
 }
 
 .quiz-option:hover {
@@ -410,60 +397,58 @@ button:disabled {
     .container {
         padding: 16px;
     }
-
+    
     header {
         margin-bottom: 30px;
     }
-
+    
     header h1 {
         font-size: 1.8rem;
     }
-
-    #control-panel,
-    #study-area {
+    
+    #control-panel, #study-area {
         padding: 24px;
     }
-
+    
     .control-group {
         margin-bottom: 20px;
     }
-
+    
     .language-selection {
         grid-template-columns: 1fr 1fr;
     }
-
+    
     .chinese-text {
         font-size: 2rem;
     }
-
+    
     .pinyin-text {
-        font-size: 1.35rem;
+        font-size: 1.3rem;
     }
-
+    
     .flashcard {
         width: 100%;
-        height: 400px;
-        /* Increased from 280px */
-        perspective: 1000px;
-        margin: 0 auto 30px;
-        cursor: pointer;
+    height: 400px; /* Increased from 280px */
+    perspective: 1000px;
+    margin: 0 auto 30px;
+    cursor: pointer;
     }
-
+    
     .options-grid {
         grid-template-columns: 1fr;
     }
-
+    
     .study-header {
         flex-direction: column;
         gap: 16px;
         text-align: center;
     }
-
+    
     #next-question-btn {
         margin: 0 auto;
         width: 100%;
     }
-
+    
     .question {
         font-size: 1.5rem;
         padding: 20px;

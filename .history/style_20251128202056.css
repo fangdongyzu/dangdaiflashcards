@@ -283,7 +283,7 @@ button:disabled {
 }
 
 .meaning-item {
-    padding: 14px 20px;
+    padding: 1px 18px;
     /* Increased from 8px 12px */
     background: #f8fafc;
     border-radius: 8px;
@@ -437,7 +437,7 @@ button:disabled {
     }
 
     .pinyin-text {
-        font-size: 1.35rem;
+        font-size: 1.3rem;
     }
 
     .flashcard {
