@@ -53,10 +53,10 @@ header h1 {
 
 select,
 button {
-    padding: 14px 20px;
+    padding: 14px 20px; /* Bigger touch targets */
     border: 1px solid #e2e8f0;
     border-radius: 8px;
-    font-size: 1.1rem;
+    font-size: 1.1rem; /* Bigger font */
     margin: 4px 0;
     transition: all 0.2s ease;
     font-family: inherit;
@@ -66,7 +66,7 @@ select {
     background: white;
     min-width: 200px;
     color: #4a5568;
-    width: 100%;
+    width: 100%; /* Full width on mobile default */
     max-width: 400px;
 }
 
@@ -100,7 +100,7 @@ button:disabled {
 .checkbox-label {
     display: flex;
     align-items: center;
-    padding: 14px 16px;
+    padding: 14px 16px; /* Bigger touch area */
     background: white;
     border-radius: 6px;
     border: 1px solid #e2e8f0;
@@ -116,7 +116,7 @@ button:disabled {
 
 .checkbox-label input {
     margin-right: 12px;
-    transform: scale(1.3);
+    transform: scale(1.3); /* Bigger checkbox */
 }
 
 /* Study Area */
@@ -144,12 +144,6 @@ button:disabled {
     font-size: 1.5rem;
 }
 
-.header-buttons {
-    display: flex;
-    gap: 10px;
-    flex-wrap: wrap;
-}
-
 .exit-btn {
     background: #718096;
     padding: 10px 20px;
@@ -159,15 +153,7 @@ button:disabled {
     background: #4a5568;
 }
 
-.shuffle-btn {
-    background: #0ea5e9; /* Light blue */
-    padding: 10px 20px;
-}
-
-.shuffle-btn:hover {
-    background: #0284c7;
-}
-
+/* Hidden utility */
 .hidden {
     display: none !important;
 }
@@ -202,10 +188,10 @@ button:disabled {
     font-family: 'Microsoft YaHei', 'SimHei', sans-serif;
 }
 
-/* --- FLASHCARDS (2x Size & Mobile Responsive) --- */
+/* --- FLASHCARDS (Modified for 2x Size) --- */
 .flashcard-container {
     width: 100%;
-    max-width: 600px;
+    max-width: 600px; /* Slightly wider for bigger text */
     margin: 0 auto;
     text-align: center;
 }
@@ -234,8 +220,9 @@ button:disabled {
 
 .flashcard {
     width: 100%;
-    height: 70vh; 
-    min-height: 500px;
+    /* Replaced fixed height with min-height + viewport relative units for mobile */
+    min-height: 50vh; 
+    height: 500px;
     perspective: 1000px;
     margin: 0 auto 30px;
     cursor: pointer;
@@ -249,30 +236,25 @@ button:disabled {
     backface-visibility: hidden;
     border-radius: 12px;
     padding: 20px;
-    border: 1px solid #e2e8f0;
-    transition: transform 0.5s ease;
-    background: white;
-    overflow-y: auto;
-    -webkit-overflow-scrolling: touch;
-    display: flex;
-    flex-direction: column;
-}
-
-.card-content-wrapper {
-    margin: auto 0;
-    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    border: 1px solid #e2e8f0;
+    transition: transform 0.5s ease;
+    /* Allow scrolling if text is massive */
+    overflow-y: auto; 
+    -webkit-overflow-scrolling: touch;
 }
 
 .card-front {
+    background: white;
     color: #2d3748;
     transform: rotateX(0deg);
 }
 
 .card-back {
+    background: white;
     color: #2d3748;
     transform: rotateX(180deg);
     border-color: #4f46e5;
@@ -286,18 +268,27 @@ button:disabled {
     transform: rotateX(0deg);
 }
 
-/* 2X SIZE FONTS */
+/* Scroll wrapper for content inside card face */
+.card-content-scroll {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100%; /* Ensures vertical centering */
+}
+
+/* BIGGER FONTS (Approximated 2x) */
 .chinese-text {
-    font-size: 5rem;
+    font-size: 5rem; /* ~2x bigger than 2.5rem */
     font-weight: 600;
     font-family: 'Microsoft YaHei', 'SimHei', sans-serif;
     line-height: 1.2;
-    margin-bottom: 15px;
-    word-break: break-word;
+    margin-bottom: 10px;
 }
 
 .pinyin-text {
-    font-size: 3.2rem;
+    font-size: 2.8rem; /* ~2x bigger than 1.4rem */
     color: #718096;
     margin-bottom: 20px;
     font-weight: 400;
@@ -317,18 +308,18 @@ button:disabled {
     background: #f8fafc;
     border-radius: 10px;
     border-left: 6px solid #4f46e5;
-    font-size: 2.5rem;
+    font-size: 1.6rem; /* Bigger meanings */
     line-height: 1.4;
-    word-break: break-word;
+    word-break: break-word; /* Prevent overflow on mobile */
 }
 
 .meaning-label {
     font-weight: 700;
     color: #4f46e5;
     margin-right: 10px;
-    font-size: 1.8rem;
-    display: block; 
-    margin-bottom: 5px;
+    font-size: 1.4rem;
+    display: block; /* Stack label on mobile if needed */
+    margin-bottom: 4px;
 }
 
 .flashcard-controls {
@@ -337,17 +328,26 @@ button:disabled {
     gap: 20px;
 }
 
-.large-btn {
+.big-btn {
     min-width: 120px;
     padding: 16px 30px;
     font-size: 1.2rem;
 }
 
-/* --- QUIZ (2x Size) --- */
+/* --- QUIZ (Modified for 2x Size) --- */
 .quiz-container {
-    max-width: 800px;
+    max-width: 800px; /* Wider for bigger options */
     margin: 0 auto;
     position: relative;
+}
+
+.quiz-progress {
+    margin-bottom: 20px;
+}
+
+.quiz-stats {
+    text-align: center;
+    margin-bottom: 30px;
 }
 
 .score {
@@ -357,7 +357,7 @@ button:disabled {
 }
 
 .question {
-    font-size: 3.6rem;
+    font-size: 2.5rem; /* Increased from 1.8rem */
     text-align: center;
     margin-bottom: 40px;
     padding: 30px;
@@ -369,27 +369,26 @@ button:disabled {
 
 .options-grid {
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: repeat(auto-fit, minmax(100%, 1fr)); /* Force 1 column on mobile, expanded on desktop */
     gap: 16px;
     margin-bottom: 30px;
 }
 
 .quiz-option {
-    padding: 30px 20px;
+    padding: 30px 20px; /* Larger hit area */
     background: white;
     border: 2px solid #e2e8f0;
     border-radius: 12px;
     cursor: pointer;
     transition: all 0.2s ease;
     text-align: center;
-    font-size: 2.6rem;
+    font-size: 2rem; /* Much larger text */
     font-weight: 500;
     line-height: 1.3;
     display: flex;
     align-items: center;
     justify-content: center;
     min-height: 100px;
-    word-break: break-word;
 }
 
 .quiz-option:hover {
@@ -410,8 +409,28 @@ button:disabled {
     color: #7f1d1d;
 }
 
+.feedback {
+    min-height: 40px;
+    margin-bottom: 20px;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+/* Next Question Button */
+#next-question-btn {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 300px;
+}
+
+.result {
+    text-align: center;
+    padding: 40px 20px;
+}
+
 .final-score {
-    font-size: 4rem;
+    font-size: 3.5rem;
     font-weight: 300;
     color: #4f46e5;
     margin: 20px 0;
@@ -420,7 +439,7 @@ button:disabled {
 /* --- MOBILE RESPONSIVE --- */
 @media (min-width: 769px) {
     .options-grid {
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(2, 1fr); /* 2 columns on tablet/desktop */
     }
 }
 
@@ -441,29 +460,55 @@ button:disabled {
     #study-area {
         padding: 16px;
     }
-    
-    .chinese-text { font-size: 3.5rem; }
-    .pinyin-text { font-size: 2.5rem; }
-    .question { font-size: 2.5rem; }
-    .quiz-option { font-size: 1.8rem; }
-    .meaning-item { font-size: 1.5rem; }
 
-    .flashcard {
-        height: 75vh;
+    .control-group {
+        margin-bottom: 20px;
     }
     
-    .large-btn {
+    .language-selection {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    /* Adjust huge fonts slightly for small screens so they don't break layout completely */
+    .chinese-text {
+        font-size: 4rem; 
+    }
+
+    .pinyin-text {
+        font-size: 2.2rem;
+    }
+    
+    .flashcard {
+        height: 60vh; /* Taller relative height on mobile */
+    }
+
+    .meaning-item {
+        font-size: 1.3rem;
+        padding: 12px;
+    }
+
+    .question {
+        font-size: 2rem;
+        padding: 20px;
+    }
+    
+    .quiz-option {
+        font-size: 1.6rem;
+        padding: 20px;
+    }
+    
+    .flashcard-controls button,
+    #next-question-btn {
         width: 100%;
         padding: 18px;
     }
 
-    .header-buttons {
-        width: 100%;
-        justify-content: space-between;
-        margin-top: 10px;
+    .study-header {
+        flex-direction: column;
+        text-align: center;
     }
     
-    .header-buttons button {
-        flex: 1;
+    .exit-btn {
+        width: 100%;
     }
 }

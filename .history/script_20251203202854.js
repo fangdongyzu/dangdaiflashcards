@@ -46,16 +46,12 @@ class VocabularyApp {
             btn.addEventListener('click', () => this.exitStudyMode());
         });
 
-        // SHUFFLE BUTTONS (New)
-        document.getElementById('fc-shuffle-btn').addEventListener('click', () => this.shuffleFlashcards());
-        document.getElementById('quiz-shuffle-btn').addEventListener('click', () => this.shuffleQuiz());
-
         // Flashcard Interactions
-        document.getElementById('flashcard').addEventListener('click', (e) => { 
-            const selection = window.getSelection();
-            if(selection.toString().length === 0) {
-                this.flipFlashcard(); 
-            }
+        document.getElementById('flashcard').addEventListener('click', (e) => {
+             // Allow text selection without flipping
+             if(window.getSelection().toString().length === 0) {
+                 this.flipFlashcard();
+             }
         });
         document.getElementById('next-btn').addEventListener('click', (e) => { e.stopPropagation(); this.nextFlashcard(); });
         document.getElementById('prev-btn').addEventListener('click', (e) => { e.stopPropagation(); this.prevFlashcard(); });
@@ -159,7 +155,6 @@ class VocabularyApp {
             "([^\"\\" + separator + "\\r\\n]*))",
             "gi"
         );
-
         let result = [];
         let matches;
         while ((matches = pattern.exec(text))) {
@@ -279,6 +274,13 @@ class VocabularyApp {
         let vocab = this.getLessonVocabulary();
         if (vocab.length === 0) return;
 
+        // NEW: Shuffle Check
+        const shouldShuffle = document.getElementById('shuffle-flashcards').checked;
+        if (shouldShuffle) {
+            // Create a copy and shuffle it
+            vocab = [...vocab].sort(() => 0.5 - Math.random());
+        }
+
         this.currentLessonVocabulary = vocab;
         this.currentFlashcardIndex = 0;
         this.isFlipped = false;
@@ -288,19 +290,6 @@ class VocabularyApp {
         document.getElementById('fc-lesson-display').textContent = this.currentLesson;
         document.getElementById('flashcard').classList.remove('flipped');
 
-        this.renderFlashcard();
-    }
-
-    // NEW: Shuffle function for Flashcards
-    shuffleFlashcards() {
-        if (!this.currentLessonVocabulary || this.currentLessonVocabulary.length === 0) return;
-        
-        // Fisher-Yates shuffle or simple sort
-        this.currentLessonVocabulary = [...this.currentLessonVocabulary].sort(() => 0.5 - Math.random());
-        this.currentFlashcardIndex = 0;
-        this.isFlipped = false;
-        
-        document.getElementById('flashcard').classList.remove('flipped');
         this.renderFlashcard();
     }
 
@@ -334,7 +323,7 @@ class VocabularyApp {
             frontHtml = this.getMultilingualHtml(word);
             backHtml = `<div class="chinese-text">${word.chinese}</div><div class="pinyin-text">${word.pinyin}</div>`;
         } else if (mode === 'pinyin-chinese') {
-            frontHtml = `<div class="pinyin-text" style="font-size: 4rem;">${word.pinyin}</div>`;
+            frontHtml = `<div class="pinyin-text" style="font-size: 4rem;">${word.pinyin}</div>`; // Increased font
             backHtml = `<div class="chinese-text">${word.chinese}</div>`;
         }
 
@@ -371,9 +360,8 @@ class VocabularyApp {
         const vocab = this.getLessonVocabulary();
         if (vocab.length === 0) return;
 
-        // Default order initially, user can shuffle inside
-        this.quizQuestions = [...vocab];
-
+        // Randomize questions
+        this.quizQuestions = [...vocab].sort(() => 0.5 - Math.random());
         this.currentQuizIndex = 0;
         this.quizScore = 0;
         this.quizMode = document.getElementById('quiz-mode').value;
@@ -393,29 +381,6 @@ class VocabularyApp {
         this.renderQuestion();
     }
 
-    // NEW: Shuffle function for Quiz
-    shuffleQuiz() {
-        if (!this.quizQuestions || this.quizQuestions.length === 0) return;
-
-        // Shuffle questions
-        this.quizQuestions = this.quizQuestions.sort(() => 0.5 - Math.random());
-        
-        // Reset Progress
-        this.currentQuizIndex = 0;
-        this.quizScore = 0;
-        document.getElementById('quiz-score').textContent = '0';
-        document.getElementById('quiz-feedback').innerHTML = '';
-        
-        // Hide Results if open
-        document.getElementById('quiz-result').classList.add('hidden');
-        document.querySelector('.quiz-container > .question-area').style.display = 'block';
-        document.querySelector('.quiz-container > .options-grid').style.display = 'grid';
-        document.getElementById('next-question-btn').classList.add('hidden');
-        document.getElementById('next-question-btn').style.display = 'none';
-        
-        this.renderQuestion();
-    }
-
     formatAllMeanings(w) {
         const langMap = { 'english': 'EN', 'vietnamese': 'VN', 'thai': 'TH', 'burmese': 'MM', 'japanese': 'JP', 'korean': 'KR' };
         let meanings = [];
@@ -424,7 +389,7 @@ class VocabularyApp {
                 meanings.push(`${langMap[lang]}: ${w[lang]}`);
             }
         });
-        return `<div style="font-size:1.8rem; line-height:1.4;">${meanings.join(' | ')}</div>`;
+        return `<div style="font-size:1.4rem; line-height:1.4;">${meanings.join(' | ')}</div>`;
     }
 
     renderQuestion() {
@@ -479,11 +444,11 @@ class VocabularyApp {
                 btn.innerHTML = this.formatAllMeanings(opt);
             } else if (answerType === 'chinese') {
                 btn.textContent = opt.chinese;
-                btn.style.fontSize = "3rem";
+                btn.style.fontSize = "3rem"; // Bigger
                 btn.style.fontWeight = "bold";
             } else if (answerType === 'pinyin') {
                 btn.textContent = opt.pinyin;
-                btn.style.fontSize = "2.2rem";
+                btn.style.fontSize = "2rem"; // Bigger
             }
 
             btn.onclick = () => this.handleAnswer(opt === questionData, btn);
