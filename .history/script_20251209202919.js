@@ -11,7 +11,7 @@ class VocabularyApp {
         this.quizQuestions = [];
         this.currentQuizIndex = 0;
         this.quizScore = 0;
-        this.selectedLanguages = [];
+        this.selectedLanguages = []; 
 
         this.bindEvents();
         this.setupLanguageSelection();
@@ -47,78 +47,30 @@ class VocabularyApp {
 
         // Flashcard Interactions
         const card = document.getElementById('flashcard');
-        card.addEventListener('click', (e) => {
-            if (window.getSelection().toString().length === 0) {
-                this.flipFlashcard();
+        card.addEventListener('click', (e) => { 
+            if(window.getSelection().toString().length === 0) {
+                this.flipFlashcard(); 
             }
         });
 
-        document.getElementById('next-btn').addEventListener('click', (e) => {
-            e.stopPropagation();
-            this.nextFlashcard();
+        document.getElementById('next-btn').addEventListener('click', (e) => { 
+            e.stopPropagation(); 
+            this.nextFlashcard(); 
         });
-        document.getElementById('prev-btn').addEventListener('click', (e) => {
-            e.stopPropagation();
-            this.prevFlashcard();
+        document.getElementById('prev-btn').addEventListener('click', (e) => { 
+            e.stopPropagation(); 
+            this.prevFlashcard(); 
         });
 
         // Quiz Interactions
         document.getElementById('next-question-btn').addEventListener('click', () => this.nextQuestion());
         document.getElementById('retry-quiz-btn').addEventListener('click', () => this.startQuiz());
-        // --- KEYBOARD NAVIGATION ---
-        document.addEventListener('keydown', (e) => {
-            // Only run if Flashcard View is active
-            if (document.getElementById('flashcard-view').classList.contains('hidden')) return;
-
-            switch (e.key) {
-                case 'ArrowUp':
-                case 'ArrowDown':
-                    e.preventDefault(); // Stop page scrolling
-                    this.flipFlashcard();
-                    break;
-                case 'ArrowLeft':
-                    this.prevFlashcard();
-                    break;
-                case 'ArrowRight':
-                    this.nextFlashcard();
-                    break;
-            }
-        });
-
-        // --- SWIPE NAVIGATION (MOBILE) ---
-        const flashcardContainer = document.querySelector('.flashcard-container');
-        let touchStartX = 0;
-        let touchEndX = 0;
-
-        flashcardContainer.addEventListener('touchstart', (e) => {
-            touchStartX = e.changedTouches[0].screenX;
-        }, { passive: true });
-
-        flashcardContainer.addEventListener('touchend', (e) => {
-            touchEndX = e.changedTouches[0].screenX;
-            handleSwipeGesture();
-        }, { passive: true });
-
-        const handleSwipeGesture = () => {
-            const swipeThreshold = 50; // Minimum distance to register swipe
-
-            // Swipe Left (drag finger left) -> Next Card
-            if (touchEndX < touchStartX - swipeThreshold) {
-                this.nextFlashcard();
-            }
-
-            // Swipe Right (drag finger right) -> Previous Card
-            if (touchEndX > touchStartX + swipeThreshold) {
-                this.prevFlashcard();
-            }
-        };
-
     }
 
     setupLanguageSelection() {
         const languageCheckboxes = document.querySelectorAll('input[name="language"]');
         languageCheckboxes.forEach(checkbox => {
-            checkbox.checked = false;
+            checkbox.checked = false; 
             checkbox.addEventListener('change', () => this.updateSelectedLanguages());
         });
         this.updateSelectedLanguages();
@@ -151,7 +103,7 @@ class VocabularyApp {
 
         const separator = lines[0].includes('\t') ? '\t' : ',';
         const headers = this.parseCSVLine(lines[0], separator).map(h => h.trim());
-
+        
         const keyMap = {
             '課-序號': 'lessonCode', '序號': 'sequence', '生詞': 'chinese', '漢拼': 'pinyin',
             '詞類': 'partOfSpeech', '英譯': 'english', '越譯': 'vietnamese', '泰譯': 'thai',
@@ -198,7 +150,7 @@ class VocabularyApp {
         const lessonSelect = document.getElementById('lesson-select');
         lessonSelect.innerHTML = '<option value="">Select Lesson</option>';
         lessonSelect.disabled = false;
-
+        
         const lessons = [...new Set(this.vocabulary.map(w => w.lessonCode))];
         lessons.sort((a, b) => {
             const partsA = a.split('-').map(Number);
@@ -251,7 +203,6 @@ class VocabularyApp {
 
     exitStudyMode() {
         this.toggleControlPanel(true);
-        document.body.classList.remove('scrolling-mode');
         document.getElementById('list-view').classList.add('hidden');
         document.getElementById('flashcard-view').classList.add('hidden');
         document.getElementById('quiz-view').classList.add('hidden');
@@ -262,7 +213,6 @@ class VocabularyApp {
         if (vocab.length === 0) return;
 
         this.toggleControlPanel(false);
-        document.body.classList.add('scrolling-mode');
         document.getElementById('list-view').classList.remove('hidden');
         document.getElementById('current-lesson-display').textContent = this.currentLesson;
 
@@ -273,14 +223,14 @@ class VocabularyApp {
             const tr = document.createElement('tr');
             let translationsHtml = '';
             if (this.selectedLanguages.includes('english')) translationsHtml += `${w.english}<br>`;
-
+            
             let secondaryTranslations = [];
             const langMap = { 'vietnamese': 'VN', 'thai': 'TH', 'burmese': 'MM', 'japanese': 'JP', 'korean': 'KR' };
             Object.keys(langMap).forEach(lang => {
                 if (this.selectedLanguages.includes(lang) && w[lang]) secondaryTranslations.push(`${langMap[lang]}: ${w[lang]}`);
             });
             if (secondaryTranslations.length > 0) translationsHtml += `<small style="font-size:0.9rem;">${secondaryTranslations.join(' | ')}</small>`;
-
+            
             tr.innerHTML = `
                 <td class="chinese-cell" style="font-size:1.4rem; font-weight:bold;">${w.chinese}</td>
                 <td style="font-size:1.1rem;">${w.pinyin}</td>
@@ -384,7 +334,7 @@ class VocabularyApp {
     }
 
     // --- QUIZ ---
-
+v
     startQuiz() {
         const vocab = this.getLessonVocabulary();
         if (vocab.length === 0) return;
@@ -416,13 +366,13 @@ class VocabularyApp {
         this.quizScore = 0;
         document.getElementById('quiz-score').textContent = '0';
         document.getElementById('quiz-feedback').innerHTML = '';
-
+        
         document.getElementById('quiz-result').classList.add('hidden');
         document.querySelector('.quiz-container > .question-area').style.display = 'block';
         document.querySelector('.quiz-container > .options-grid').style.display = 'grid';
         document.getElementById('next-question-btn').classList.add('hidden');
         document.getElementById('next-question-btn').style.display = 'none';
-
+        
         this.renderQuestion();
     }
 
@@ -517,11 +467,11 @@ class VocabularyApp {
                     if (this.quizMode === 'chinese-meaning') correctText = this.formatAllMeaningsForComparison(questionData);
                     else if (this.quizMode === 'meaning-chinese' || this.quizMode === 'pinyin-chinese') correctText = questionData.chinese;
                     else if (this.quizMode === 'chinese-pinyin') correctText = questionData.pinyin;
-
+                    
                     if (this.quizMode === 'chinese-meaning') {
                         if (opt.innerHTML.includes(correctText)) opt.classList.add('correct');
                     } else {
-                        if (optionText.includes(correctText)) opt.classList.add('correct');
+                         if (optionText.includes(correctText)) opt.classList.add('correct');
                     }
                 }
             });
