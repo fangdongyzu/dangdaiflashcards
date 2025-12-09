@@ -1,14 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport"
-        content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
     <title>Dang Dai Vocabulary Learning App</title>
     <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
     <div class="container">
         <header class="main-header">
@@ -114,13 +111,13 @@
                         <button class="exit-btn">← Back</button>
                     </div>
                 </div>
-
+                
                 <div class="flashcard-container">
                     <div class="progress-bar">
                         <div id="flashcard-progress" class="progress-fill"></div>
                     </div>
                     <div class="progress-text" id="fc-progress">0/0</div>
-
+                    
                     <div id="flashcard" class="flashcard">
                         <div class="card-face card-front">
                             <div class="card-content-wrapper" id="card-front-content"></div>
@@ -129,7 +126,7 @@
                             <div class="card-content-wrapper" id="card-back-content"></div>
                         </div>
                     </div>
-
+                    
                     <div class="flashcard-controls">
                         <button id="prev-btn" class="large-btn">Previous</button>
                         <button id="next-btn" class="large-btn">Next</button>
@@ -145,35 +142,35 @@
                         <button class="exit-btn">← Back</button>
                     </div>
                 </div>
-
+                
                 <div class="quiz-container">
                     <div class="quiz-progress">
                         <div class="progress-bar">
                             <div id="quiz-progress" class="progress-fill"></div>
                         </div>
                     </div>
-
+                    
                     <div class="quiz-stats">
                         <div class="score">Score: <span id="quiz-score">0</span></div>
                     </div>
-
+                    
                     <div class="question-area">
                         <div id="quiz-question" class="question"></div>
                     </div>
-
+                    
                     <div id="quiz-options" class="options-grid"></div>
-
+                    
                     <div id="quiz-feedback" class="feedback"></div>
-
+                    
                     <button id="next-question-btn" class="hidden large-btn">Next Question</button>
-
+                    
                     <div id="quiz-result" class="result hidden">
                         <h3>Quiz Complete!</h3>
                         <div id="final-score" class="final-score"></div>
                         <div id="wrong-answers-container" class="hidden" style="display: none;">
-                            <h4 style="margin-bottom: 10px; color: #ef4444;">Review Incorrect Words:</h4>
-                            <div id="wrong-answers-list"></div>
-                        </div>
+        <h4 style="margin-bottom: 10px; color: #ef4444;">Review Incorrect Words:</h4>
+        <div id="wrong-answers-list"></div>
+    </div>
                         <button id="retry-quiz-btn" class="large-btn">Try Again</button>
                     </div>
                 </div>
@@ -186,5 +183,4 @@
 <footer class="main-footer">
     For feedback, email me at <a href="mailto:fangdongyzu@gmail.com">fangdongyzu@gmail.com</a>
 </footer>
-
 </html>

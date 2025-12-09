@@ -593,7 +593,7 @@ class VocabularyApp {
             wrongContainer.classList.add('hidden');
             wrongContainer.style.display = 'none';
         }
-        
+        // -----------------------------------
     }
 
     // UPDATED: Removed the prefix string

@@ -548,7 +548,7 @@ class VocabularyApp {
         else this.showQuizResults();
     }
 
-    
+    // Replace your existing showQuizResults() with this updated version:
 
     showQuizResults() {
         document.querySelector('.quiz-container > .question-area').style.display = 'none';
@@ -593,7 +593,7 @@ class VocabularyApp {
             wrongContainer.classList.add('hidden');
             wrongContainer.style.display = 'none';
         }
-        
+        // -----------------------------------
     }
 
     // UPDATED: Removed the prefix string

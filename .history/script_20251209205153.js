@@ -548,8 +548,6 @@ class VocabularyApp {
         else this.showQuizResults();
     }
 
-    
-
     showQuizResults() {
         document.querySelector('.quiz-container > .question-area').style.display = 'none';
         document.querySelector('.quiz-container > .options-grid').style.display = 'none';
@@ -560,40 +558,6 @@ class VocabularyApp {
 
         const percentage = Math.round((this.quizScore / this.quizQuestions.length) * 100);
         document.getElementById('final-score').innerHTML = `${this.quizScore} / ${this.quizQuestions.length}<br><small>${percentage}% Correct</small>`;
-
-        // --- NEW LOGIC FOR WRONG ANSWERS ---
-        const wrongContainer = document.getElementById('wrong-answers-container');
-        const wrongList = document.getElementById('wrong-answers-list');
-
-        if (this.incorrectWords.length > 0) {
-            wrongContainer.classList.remove('hidden');
-            wrongContainer.style.display = 'block';
-            wrongList.innerHTML = '';
-
-            this.incorrectWords.forEach(w => {
-                const item = document.createElement('div');
-                item.className = 'wrong-word-item';
-
-                // Gather meanings based on selected languages
-                const meanings = this.selectedLanguages
-                    .map(lang => w[lang])
-                    .filter(Boolean)
-                    .join(', ');
-
-                item.innerHTML = `
-                <div class="wrong-word-top">
-                    <span style="font-weight:bold; color: #e53e3e;">${w.chinese}</span>
-                    <span style="color:#64748b;">${w.pinyin}</span>
-                </div>
-                <div style="font-size: 0.9rem; color: #4a5568; margin-top: 4px;">${meanings}</div>
-            `;
-                wrongList.appendChild(item);
-            });
-        } else {
-            wrongContainer.classList.add('hidden');
-            wrongContainer.style.display = 'none';
-        }
-        
     }
 
     // UPDATED: Removed the prefix string
