@@ -17,7 +17,16 @@ class VocabularyApp {
         this.setupLanguageSelection();
     }
 
+    Here is the updated `bindEvents()` method.
 
+**How this works for your Remote:**
+Presentation remotes primarily send **`PageDown`** (for Next) and **`PageUp`** (for Previous). Some also send `ArrowRight`/`ArrowLeft` or `Space`.
+
+I have consolidated the logic so that `PageDown`, `Space`, and `ArrowRight` act as "Next", and `PageUp` and `ArrowLeft` act as "Previous". I implemented a **300ms timer** to detect if you clicked once (Navigate) or twice (Flip).
+
+Replace your existing `bindEvents()` method with this one:
+
+```javascript
     bindEvents() {
         // Book Selection
         document.getElementById('book-select').addEventListener('change', (e) => {
@@ -571,7 +580,7 @@ class VocabularyApp {
         else this.showQuizResults();
     }
 
-
+    
 
     showQuizResults() {
         document.querySelector('.quiz-container > .question-area').style.display = 'none';
@@ -616,7 +625,7 @@ class VocabularyApp {
             wrongContainer.classList.add('hidden');
             wrongContainer.style.display = 'none';
         }
-
+        
     }
 
     // UPDATED: Removed the prefix string
