@@ -3,8 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport"
-        content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
     <title>Dang Dai Vocabulary Learning App</title>
     <link rel="stylesheet" href="style.css">
 </head>
@@ -13,83 +12,189 @@
     <div class="container">
         <header class="main-header">
             <h1>Dang Dai Vocabulary Learning App</h1>
+            <p>Build vocabulary, pronunciation, and handwriting skills at your own pace.</p>
         </header>
 
         <div id="control-panel">
-            <div class="control-group">
-                <label for="book-select">Select Book:</label>
-                <select id="book-select">
-                    <option value="">Select a book</option>
-                    <option value="B1">Book 1</option>
-                    <option value="B2">Book 2</option>
-                    <option value="B3">Book 3</option>
-                    <option value="B4">Book 4</option>
-                    <option value="B5">Book 5</option>
-                    <option value="B6">Book 6</option>
-                </select>
-            </div>
-
-            <div class="control-group">
-                <label for="lesson-select">Select Lesson:</label>
-                <select id="lesson-select" disabled>
-                    <option value="">Select book first</option>
-                </select>
-            </div>
-
-            <div class="control-group">
-                <label>Card Display Languages:</label>
-                <div class="language-selection">
-                    <label class="checkbox-label">
-                        <input type="checkbox" name="language" value="english" checked> English
-                    </label>
-                    <label class="checkbox-label">
-                        <input type="checkbox" name="language" value="vietnamese" checked> Vietnamese
-                    </label>
-                    <label class="checkbox-label">
-                        <input type="checkbox" name="language" value="thai" checked> Thai
-                    </label>
-                    <label class="checkbox-label">
-                        <input type="checkbox" name="language" value="burmese" checked> Burmese
-                    </label>
-                    <label class="checkbox-label">
-                        <input type="checkbox" name="language" value="japanese" checked> Japanese
-                    </label>
-                    <label class="checkbox-label">
-                        <input type="checkbox" name="language" value="korean" checked> Korean
-                    </label>
+            <section class="panel-section setup-section" aria-labelledby="setup-heading">
+                <div class="panel-heading">
+                    <span class="step-number">1</span>
+                    <div>
+                        <h2 id="setup-heading">Choose study content</h2>
+                        <p>Select a book, one or more lessons, and the translations you want to see.</p>
+                    </div>
                 </div>
-            </div>
 
-            <div class="control-group">
-                <button id="view-list-btn" disabled>View Vocabulary List</button>
-            </div>
+                <div class="setup-grid">
+                    <div class="control-group book-control">
+                        <label for="book-select">Book</label>
+                        <select id="book-select">
+                            <option value="">Select a book</option>
+                            <option value="B1">Book 1</option>
+                            <option value="B2">Book 2</option>
+                            <option value="B3">Book 3</option>
+                            <option value="B4">Book 4</option>
+                            <option value="B5">Book 5</option>
+                            <option value="B6">Book 6</option>
+                        </select>
+                    </div>
 
-            <div class="control-group">
-                <label for="flashcard-mode">Flashcard Mode:</label>
-                <select id="flashcard-mode">
-                    <option value="chinese-meaning">Chinese → Meaning</option>
-                    <option value="meaning-chinese">Meaning → Chinese</option>
-                    <option value="pinyin-chinese">Pinyin → Chinese</option>
-                </select>
-                <button id="start-flashcards-btn" disabled>Start Flashcards</button>
-            </div>
+                    <div class="control-group lesson-control">
+                        <label id="lesson-select-label">Lessons</label>
+                        <div id="lesson-selection-tools" class="lesson-selection-tools hidden">
+                            <div class="lesson-bulk-actions" aria-label="Lesson selection controls">
+                                <button id="select-all-lessons-btn" type="button" class="text-action-btn">Select All</button>
+                                <button id="clear-lessons-btn" type="button" class="text-action-btn">Clear</button>
+                            </div>
+                            <p id="selection-summary" class="selection-summary" aria-live="polite">No lessons selected</p>
+                        </div>
+                        <div id="lesson-select" class="lesson-checkbox-list disabled" role="group"
+                            aria-labelledby="lesson-select-label" aria-busy="false" aria-disabled="true">
+                            <p class="lesson-placeholder">Select a book first</p>
+                        </div>
+                        <p class="help-text lesson-help">Check one or more lessons.</p>
+                    </div>
+                </div>
 
-            <div class="control-group">
-                <label for="quiz-mode">Quiz Mode:</label>
-                <select id="quiz-mode">
-                    <option value="chinese-meaning">Chinese → Meaning</option>
-                    <option value="meaning-chinese">Meaning → Chinese</option>
-                    <option value="chinese-pinyin">Chinese → Pinyin</option>
-                    <option value="pinyin-chinese">Pinyin → Chinese</option>
-                </select>
-                <button id="start-quiz-btn" disabled>Start Quiz</button>
-            </div>
+                <div class="control-group language-control">
+                    <label>Translation languages</label>
+                    <div class="language-selection">
+                        <label class="checkbox-label">
+                            <input type="checkbox" name="language" value="english" checked> English
+                        </label>
+                        <label class="checkbox-label">
+                            <input type="checkbox" name="language" value="vietnamese" checked> Vietnamese
+                        </label>
+                        <label class="checkbox-label">
+                            <input type="checkbox" name="language" value="thai" checked> Thai
+                        </label>
+                        <label class="checkbox-label">
+                            <input type="checkbox" name="language" value="burmese" checked> Burmese
+                        </label>
+                        <label class="checkbox-label">
+                            <input type="checkbox" name="language" value="japanese" checked> Japanese
+                        </label>
+                        <label class="checkbox-label">
+                            <input type="checkbox" name="language" value="korean" checked> Korean
+                        </label>
+                        <label class="checkbox-label">
+                            <input type="checkbox" name="language" value="spanish"> Spanish
+                        </label>
+                        <label class="checkbox-label">
+                            <input type="checkbox" name="language" value="indonesian"> Bahasa Indonesia
+                        </label>
+                    </div>
+                </div>
+
+                <button id="view-list-btn" class="wide-action" disabled>View Vocabulary List</button>
+            </section>
+
+            <section class="panel-section modes-section" aria-labelledby="modes-heading">
+                <div class="panel-heading">
+                    <span class="step-number">2</span>
+                    <div>
+                        <h2 id="modes-heading">Choose a study mode</h2>
+                        <p>Review at your own pace or test your recall.</p>
+                    </div>
+                </div>
+                <div class="mode-grid">
+                    <div class="control-group mode-card">
+                        <div class="mode-icon" aria-hidden="true">◫</div>
+                        <div>
+                            <h3>Flashcards</h3>
+                            <p>Flip, listen, mark hard words, and open stroke practice.</p>
+                        </div>
+                        <label for="flashcard-mode">Card direction</label>
+                        <select id="flashcard-mode">
+                            <option value="chinese-meaning">Chinese → Meaning</option>
+                            <option value="meaning-chinese">Meaning → Chinese</option>
+                            <option value="pinyin-chinese">Pinyin → Chinese</option>
+                        </select>
+                        <button id="start-flashcards-btn" disabled>Start Flashcards</button>
+                    </div>
+
+                    <div class="control-group mode-card">
+                        <div class="mode-icon quiz-icon" aria-hidden="true">✓</div>
+                        <div>
+                            <h3>Quiz</h3>
+                            <p>Answer multiple-choice questions and review mistakes.</p>
+                        </div>
+                        <label for="quiz-mode">Question direction</label>
+                        <select id="quiz-mode">
+                            <option value="chinese-meaning">Chinese → Meaning</option>
+                            <option value="meaning-chinese">Meaning → Chinese</option>
+                            <option value="chinese-pinyin">Chinese → Pinyin</option>
+                            <option value="pinyin-chinese">Pinyin → Chinese</option>
+                        </select>
+                        <button id="start-quiz-btn" disabled>Start Quiz</button>
+                    </div>
+                </div>
+            </section>
+
+            <section class="panel-section games-section" aria-labelledby="games-heading">
+                <div class="panel-heading">
+                    <span class="step-number game-step">3</span>
+                    <div>
+                        <h2 id="games-heading">Vocabulary games</h2>
+                        <p>Games use vocabulary from the lessons selected above.</p>
+                    </div>
+                </div>
+                <div class="game-launch-grid">
+                    <button id="start-matching-game-btn" class="game-launch-btn" disabled>
+                        <span class="game-launch-icon" aria-hidden="true">↔</span>
+                        <strong>Quick Match</strong>
+                        <small>Pair Chinese with its meaning</small>
+                    </button>
+                    <button id="start-memory-game-btn" class="game-launch-btn" disabled>
+                        <span class="game-launch-icon" aria-hidden="true">▦</span>
+                        <strong>Memory Flip</strong>
+                        <small>Find matching card pairs</small>
+                    </button>
+                    <button id="start-listening-game-btn" class="game-launch-btn" disabled>
+                        <span class="game-launch-icon" aria-hidden="true">♪</span>
+                        <strong>Listen & Pick</strong>
+                        <small>Hear a word and choose its meaning</small>
+                    </button>
+                </div>
+            </section>
+
+            <section class="panel-section feature-panel hard-words-section" aria-labelledby="hard-words-heading">
+                <div class="section-heading">
+                    <div>
+                        <h2 id="hard-words-heading">Hard Words</h2>
+                        <p><span id="hard-word-count">0</span> saved</p>
+                    </div>
+                </div>
+                <div class="action-grid">
+                    <button id="view-hard-words-btn" class="secondary-btn" disabled>View / Remove Words</button>
+                    <button id="practice-hard-words-btn" disabled>Practice Hard Words</button>
+                    <button id="practice-all-words-btn" class="secondary-btn" disabled>Practice Selected Lessons</button>
+                    <button id="delete-hard-words-btn" class="danger-btn" disabled>Delete All Hard Words</button>
+                </div>
+                <p class="help-text">Use the ☆ button beside any vocabulary item to add or remove it.</p>
+            </section>
+
+            <section class="panel-section hard-characters-section" aria-labelledby="hard-characters-heading">
+                <div class="section-heading">
+                    <div>
+                        <h2 id="hard-characters-heading">Hard Writing Characters</h2>
+                        <p><span id="hard-character-count">0</span> characters saved</p>
+                    </div>
+                </div>
+                <div id="hard-character-list" class="hard-character-list">
+                    <p class="empty-character-message">Add difficult characters while practicing stroke order.</p>
+                </div>
+                <div class="hard-character-actions">
+                    <button id="practice-hard-characters-btn" disabled>Practice Hard Characters</button>
+                    <button id="delete-hard-characters-btn" class="danger-btn" disabled>Delete All Characters</button>
+                </div>
+            </section>
         </div>
 
         <div id="study-area" class="hidden">
             <div id="list-view" class="hidden">
                 <div class="study-header">
-                    <h2>Vocabulary List - Lesson <span id="current-lesson-display"></span></h2>
+                    <h2 id="list-title">Vocabulary List</h2>
                     <button class="exit-btn">← Back</button>
                 </div>
                 <div class="table-container">
@@ -99,6 +204,7 @@
                                 <th>Chinese</th>
                                 <th>Pinyin</th>
                                 <th>Translations</th>
+                                <th>Study</th>
                             </tr>
                         </thead>
                         <tbody id="vocab-table-body"></tbody>
@@ -108,7 +214,7 @@
 
             <div id="flashcard-view" class="hidden">
                 <div class="study-header">
-                    <h2>Flashcards - Lesson <span id="fc-lesson-display"></span></h2>
+                    <h2>Flashcards — <span id="fc-lesson-display"></span></h2>
                     <div class="header-buttons">
                         <button id="fc-shuffle-btn" class="shuffle-btn">Shuffle</button>
                         <button class="exit-btn">← Back</button>
@@ -121,13 +227,22 @@
                     </div>
                     <div class="progress-text" id="fc-progress">0/0</div>
 
-                    <div id="flashcard" class="flashcard">
+                    <div id="flashcard" class="flashcard" role="button" tabindex="0"
+                        aria-label="Flip flashcard to reveal the answer" aria-pressed="false">
                         <div class="card-face card-front">
                             <div class="card-content-wrapper" id="card-front-content"></div>
                         </div>
                         <div class="card-face card-back">
                             <div class="card-content-wrapper" id="card-back-content"></div>
                         </div>
+                    </div>
+                    <p id="flip-hint" class="flip-hint">Tap the card to reveal the answer.</p>
+                    <p class="remote-hint">Swipe, or use a presentation clicker: press once to move and twice to flip.</p>
+
+                    <div class="word-action-bar">
+                        <button id="fc-pronounce-btn" class="icon-action-btn" aria-label="Pronounce vocabulary">🔊 Pronounce</button>
+                        <button id="fc-hard-word-btn" class="icon-action-btn" aria-label="Toggle hard word">☆ Hard Word</button>
+                        <button id="fc-strokes-btn" class="icon-action-btn" aria-label="Study stroke order">✍ Strokes</button>
                     </div>
 
                     <div class="flashcard-controls">
@@ -139,7 +254,7 @@
 
             <div id="quiz-view" class="hidden">
                 <div class="study-header">
-                    <h2>Quiz - Lesson <span id="quiz-lesson-display"></span></h2>
+                    <h2>Quiz — <span id="quiz-lesson-display"></span></h2>
                     <div class="header-buttons">
                         <button id="quiz-shuffle-btn" class="shuffle-btn">Shuffle</button>
                         <button class="exit-btn">← Back</button>
@@ -154,16 +269,18 @@
                     </div>
 
                     <div class="quiz-stats">
+                        <div id="quiz-question-count" class="question-count">Question 1 of 1</div>
                         <div class="score">Score: <span id="quiz-score">0</span></div>
                     </div>
 
                     <div class="question-area">
                         <div id="quiz-question" class="question"></div>
+                        <button id="quiz-pronounce-btn" class="small-secondary-btn">🔊 Pronounce</button>
                     </div>
 
                     <div id="quiz-options" class="options-grid"></div>
 
-                    <div id="quiz-feedback" class="feedback"></div>
+                    <div id="quiz-feedback" class="feedback" role="status" aria-live="polite"></div>
 
                     <button id="next-question-btn" class="hidden large-btn">Next Question</button>
 
@@ -178,13 +295,88 @@
                     </div>
                 </div>
             </div>
+
+            <div id="stroke-view" class="hidden">
+                <div class="study-header">
+                    <div>
+                        <h2>Traditional Chinese Stroke Order</h2>
+                        <p id="stroke-word-label" class="header-subtitle"></p>
+                    </div>
+                    <button id="stroke-back-btn" class="stroke-back-btn">← Back</button>
+                </div>
+
+                <div class="stroke-container">
+                    <p class="stroke-instruction">Choose a character. Watch its stroke order, then trace it yourself.</p>
+                    <div class="stroke-word-progress-row">
+                        <span id="stroke-word-progress" aria-live="polite"></span>
+                    </div>
+                    <div id="character-selector" class="character-selector" aria-label="Choose a character"></div>
+                    <div class="stroke-character-navigation">
+                        <button id="stroke-prev-character-btn" class="character-nav-btn secondary-btn"
+                            aria-label="Previous character" title="Previous character">‹</button>
+                        <div class="stroke-stage">
+                            <div id="stroke-canvas" aria-label="Stroke order canvas"></div>
+                        </div>
+                        <button id="stroke-next-character-btn" class="character-nav-btn secondary-btn"
+                            aria-label="Next character" title="Next character">›</button>
+                    </div>
+                    <p id="stroke-status" class="stroke-status" aria-live="polite">Choose “Watch Stroke Order” to begin.</p>
+                    <div class="stroke-actions">
+                        <button id="animate-strokes-btn" aria-label="Watch stroke order" title="Watch stroke order">▶️</button>
+                        <button id="practice-strokes-btn" class="practice-btn" aria-label="Practice writing" title="Practice writing">✍️</button>
+                        <button id="reset-strokes-btn" class="secondary-btn" aria-label="Reset writing canvas" title="Reset writing canvas">↻</button>
+                        <button id="stroke-pronounce-btn" class="secondary-btn" aria-label="Pronounce character" title="Pronounce character">🔊</button>
+                        <button id="stroke-hard-character-btn" class="secondary-btn" aria-label="Add to hard writing characters" title="Add to hard writing characters">☆</button>
+                    </div>
+                    <div class="stroke-word-navigation">
+                        <button id="stroke-prev-word-btn" class="secondary-btn">← Previous Word</button>
+                        <button id="stroke-next-word-btn">Next Word →</button>
+                    </div>
+                    <p class="stroke-swipe-hint">Swipe left or right outside the writing box to change characters.</p>
+                </div>
+            </div>
+
+            <div id="game-view" class="hidden">
+                <div class="study-header">
+                    <div>
+                        <h2 id="game-title">Vocabulary Game</h2>
+                        <p id="game-subtitle" class="header-subtitle"></p>
+                    </div>
+                    <div class="header-buttons">
+                        <button id="new-game-round-btn" class="shuffle-btn">New Round</button>
+                        <button class="exit-btn">← Back</button>
+                    </div>
+                </div>
+                <div class="game-container">
+                    <div id="game-status" class="game-status" aria-live="polite"></div>
+                    <div id="game-board" class="game-board"></div>
+                    <div id="game-controls" class="game-controls"></div>
+                </div>
+            </div>
         </div>
     </div>
 
+    <footer class="main-footer">
+        For feedback, email me at <a href="mailto:fangdongyzu@gmail.com">fangdongyzu@gmail.com</a>
+    </footer>
+
+    <div id="confirmation-modal" class="modal-overlay hidden" role="dialog" aria-modal="true"
+        aria-labelledby="confirmation-title">
+        <div class="confirmation-dialog">
+            <h2 id="confirmation-title">Confirm action</h2>
+            <p id="confirmation-message"></p>
+            <label for="confirmation-input">Type <strong id="confirmation-word"></strong> to confirm:</label>
+            <input id="confirmation-input" type="text" autocomplete="off" spellcheck="false">
+            <p id="confirmation-error" class="confirmation-error" aria-live="polite"></p>
+            <div class="confirmation-actions">
+                <button id="confirmation-cancel-btn" class="secondary-btn">Cancel</button>
+                <button id="confirmation-submit-btn" class="danger-btn">Confirm</button>
+            </div>
+        </div>
+    </div>
+    <div id="app-toast" class="app-toast hidden" role="status" aria-live="polite"></div>
+
+    <script src="vendor/hanzi-writer.min.js"></script>
     <script src="script.js"></script>
 </body>
-<footer class="main-footer">
-    For feedback, email me at <a href="mailto:fangdongyzu@gmail.com">fangdongyzu@gmail.com</a>
-</footer>
-
 </html>
