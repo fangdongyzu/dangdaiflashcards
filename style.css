@@ -1657,6 +1657,20 @@ body.study-mode #study-area {
         font-size: 1.2rem;
     }
 
+    .quiz-container {
+        padding-bottom: max(128px, calc(env(safe-area-inset-bottom) + 104px));
+        scroll-padding-bottom: max(128px, calc(env(safe-area-inset-bottom) + 104px));
+    }
+
+    #next-question-btn:not(.hidden) {
+        position: sticky;
+        bottom: max(86px, calc(env(safe-area-inset-bottom) + 72px));
+        z-index: 10;
+        width: min(100%, 420px);
+        margin: 12px auto 0;
+        box-shadow: 0 14px 30px rgba(79, 70, 229, 0.28);
+    }
+
     body.study-mode.scrolling-mode .table-container {
         padding: 10px;
     }

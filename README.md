@@ -20,7 +20,7 @@ python3 -m http.server 8000
 
 - Original vocabulary list, flashcard, quiz, shuffle, keyboard, remote, and swipe controls
 - Mandarin pronunciation through the browser/operating system's Traditional Chinese voice
-- Contextual Spanish and Bahasa Indonesia translations for every vocabulary entry in Books 1–4
+- Contextual Spanish and Indonesian translations for every vocabulary entry in Books 1–4
 - Traditional Chinese stroke-order animation and handwriting practice
 - Character picker for vocabulary containing more than one Han character
 - Character arrows and touch-swipe navigation in stroke practice, with word controls below the writing tools

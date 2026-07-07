@@ -295,6 +295,68 @@ class VocabularyApp {
             if (Math.abs(distanceX) < 55 || Math.abs(distanceX) <= Math.abs(distanceY)) return;
             this.navigateStrokeCharacter(distanceX < 0 ? 1 : -1);
         }, { passive: true });
+
+        const quizView = document.getElementById('quiz-view');
+        let quizTouchStartX = null;
+        let quizTouchStartY = null;
+        let quizPointerStartX = null;
+        let quizPointerStartY = null;
+        let quizPointerId = null;
+        let lastQuizSwipeAt = 0;
+
+        const goToNextAnsweredQuestion = () => {
+            const nextButton = document.getElementById('next-question-btn');
+            const now = Date.now();
+            if (nextButton.classList.contains('hidden') || now - lastQuizSwipeAt < 450) return;
+            lastQuizSwipeAt = now;
+            this.nextQuestion();
+        };
+
+        const handleQuizSwipe = (distanceX, distanceY) => {
+            if (Math.abs(distanceX) < 65 || Math.abs(distanceX) <= Math.abs(distanceY)) return;
+            if (distanceX < 0) goToNextAnsweredQuestion();
+        };
+
+        quizView.addEventListener('touchstart', (event) => {
+            if (event.target.closest('button, select, input, a')) {
+                quizTouchStartX = null;
+                quizTouchStartY = null;
+                return;
+            }
+            quizTouchStartX = event.changedTouches[0].screenX;
+            quizTouchStartY = event.changedTouches[0].screenY;
+        }, { passive: true });
+
+        quizView.addEventListener('touchend', (event) => {
+            if (quizTouchStartX === null) return;
+            const distanceX = event.changedTouches[0].screenX - quizTouchStartX;
+            const distanceY = event.changedTouches[0].screenY - quizTouchStartY;
+            quizTouchStartX = null;
+            quizTouchStartY = null;
+            handleQuizSwipe(distanceX, distanceY);
+        }, { passive: true });
+
+        quizView.addEventListener('pointerdown', (event) => {
+            if (event.target.closest('button, select, input, a')) {
+                quizPointerStartX = null;
+                quizPointerStartY = null;
+                quizPointerId = null;
+                return;
+            }
+            quizPointerStartX = event.screenX;
+            quizPointerStartY = event.screenY;
+            quizPointerId = event.pointerId;
+        }, { passive: true });
+
+        quizView.addEventListener('pointerup', (event) => {
+            if (quizPointerStartX === null || event.pointerId !== quizPointerId) return;
+            const distanceX = event.screenX - quizPointerStartX;
+            const distanceY = event.screenY - quizPointerStartY;
+            quizPointerStartX = null;
+            quizPointerStartY = null;
+            quizPointerId = null;
+            handleQuizSwipe(distanceX, distanceY);
+        }, { passive: true });
     }
 
     setupLanguageSelection() {
@@ -396,7 +458,7 @@ class VocabularyApp {
     updateLanguageAvailability() {
         [
             { key: 'spanish', label: 'Spanish' },
-            { key: 'indonesian', label: 'Bahasa Indonesia' }
+            { key: 'indonesian', label: 'Indonesian' }
         ].forEach(({ key, label }) => {
             const input = document.querySelector(`input[name="language"][value="${key}"]`);
             const isAvailable = this.vocabulary.some((word) => Boolean(word[key]));
