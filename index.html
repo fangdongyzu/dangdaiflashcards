@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
     <title>Dang Dai Vocabulary Learning App</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css?v=20261018-2143">
 </head>
 
 <body>
@@ -60,22 +60,22 @@
                     <label>Translation languages</label>
                     <div class="language-selection">
                         <label class="checkbox-label">
-                            <input type="checkbox" name="language" value="english" checked> English
+                            <input type="checkbox" name="language" value="english"> English
                         </label>
                         <label class="checkbox-label">
-                            <input type="checkbox" name="language" value="vietnamese" checked> Vietnamese
+                            <input type="checkbox" name="language" value="vietnamese"> Vietnamese
                         </label>
                         <label class="checkbox-label">
-                            <input type="checkbox" name="language" value="thai" checked> Thai
+                            <input type="checkbox" name="language" value="thai"> Thai
                         </label>
                         <label class="checkbox-label">
-                            <input type="checkbox" name="language" value="burmese" checked> Burmese
+                            <input type="checkbox" name="language" value="burmese"> Burmese
                         </label>
                         <label class="checkbox-label">
-                            <input type="checkbox" name="language" value="japanese" checked> Japanese
+                            <input type="checkbox" name="language" value="japanese"> Japanese
                         </label>
                         <label class="checkbox-label">
-                            <input type="checkbox" name="language" value="korean" checked> Korean
+                            <input type="checkbox" name="language" value="korean"> Korean
                         </label>
                         <label class="checkbox-label">
                             <input type="checkbox" name="language" value="spanish"> Spanish
@@ -237,7 +237,7 @@
                         </div>
                     </div>
                     <p id="flip-hint" class="flip-hint">Tap the card to reveal the answer.</p>
-                    <p class="remote-hint">Swipe, or use a presentation clicker: press once to move and twice to flip.</p>
+                    <p class="remote-hint">Presentation clicker: &gt; next, &lt; back, double-press &gt; to flip.</p>
 
                     <div class="word-action-bar">
                         <button id="fc-pronounce-btn" class="icon-action-btn" aria-label="Pronounce vocabulary">🔊 Pronounce</button>
@@ -324,7 +324,6 @@
                     <div class="stroke-actions">
                         <button id="animate-strokes-btn" aria-label="Watch stroke order" title="Watch stroke order">▶️</button>
                         <button id="practice-strokes-btn" class="practice-btn" aria-label="Practice writing" title="Practice writing">✍️</button>
-                        <button id="reset-strokes-btn" class="secondary-btn" aria-label="Reset writing canvas" title="Reset writing canvas">↻</button>
                         <button id="stroke-pronounce-btn" class="secondary-btn" aria-label="Pronounce character" title="Pronounce character">🔊</button>
                         <button id="stroke-hard-character-btn" class="secondary-btn" aria-label="Add to hard writing characters" title="Add to hard writing characters">☆</button>
                     </div>
@@ -377,6 +376,6 @@
     <div id="app-toast" class="app-toast hidden" role="status" aria-live="polite"></div>
 
     <script src="vendor/hanzi-writer.min.js"></script>
-    <script src="script.js"></script>
+    <script src="script.js?v=20261018-natural-voice"></script>
 </body>
 </html>

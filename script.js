@@ -39,6 +39,9 @@ class VocabularyApp {
         this.listeningIndex = 0;
         this.listeningScore = 0;
         this.bookLoadRequestId = 0;
+        this.mandarinVoice = null;
+        this.speechTimer = null;
+        this.activeSpeechUtterance = null;
 
         this.storageKeys = {
             hardWords: 'dangdai-hard-words-v1',
@@ -47,6 +50,7 @@ class VocabularyApp {
         this.hardWords = this.readStorage(this.storageKeys.hardWords, []);
         this.hardCharacters = this.readStorage(this.storageKeys.hardCharacters, []);
 
+        this.setupSpeechSynthesis();
         this.bindEvents();
         this.setupLanguageSelection();
         this.updateHardWordControls();
@@ -148,7 +152,6 @@ class VocabularyApp {
 
         document.getElementById('animate-strokes-btn').addEventListener('click', () => this.animateStrokes());
         document.getElementById('practice-strokes-btn').addEventListener('click', () => this.beginStrokePractice());
-        document.getElementById('reset-strokes-btn').addEventListener('click', () => this.resetStrokePractice());
         document.getElementById('stroke-pronounce-btn').addEventListener('click', () => {
             this.pronounceText(this.activeStrokeCharacter);
         });
@@ -195,9 +198,9 @@ class VocabularyApp {
     }
 
     bindKeyboardNavigation() {
-        let pendingDirection = '';
-        let pendingTimer = null;
-        let lastPressAt = 0;
+        let pendingNextTimer = null;
+        let lastNextPressAt = 0;
+        const doublePressWindow = 380;
 
         const moveCard = (direction) => {
             if (document.getElementById('flashcard-view').classList.contains('hidden')) return;
@@ -213,8 +216,10 @@ class VocabularyApp {
             const isTypingControl = target.matches?.('input, select, textarea, button');
             if (isTypingControl && target.id !== 'flashcard') return;
 
-            const nextKeys = ['ArrowRight', 'PageDown', ' ', 'Enter', 'MediaTrackNext'];
-            const previousKeys = ['ArrowLeft', 'PageUp', 'Backspace', 'MediaTrackPrevious'];
+            // Logitech R500 clickers normally send PageDown/PageUp. Keep arrows,
+            // media keys, and literal >/< available for browsers that report them.
+            const nextKeys = ['>', 'ArrowRight', 'PageDown', ' ', 'Enter', 'MediaTrackNext'];
+            const previousKeys = ['<', 'ArrowLeft', 'PageUp', 'Backspace', 'MediaTrackPrevious'];
             const direction = nextKeys.includes(event.key)
                 ? 'next'
                 : previousKeys.includes(event.key) ? 'previous' : '';
@@ -229,28 +234,39 @@ class VocabularyApp {
             event.preventDefault();
             const now = Date.now();
 
-            if (pendingDirection === direction && now - lastPressAt <= 360) {
-                clearTimeout(pendingTimer);
-                pendingTimer = null;
-                pendingDirection = '';
-                lastPressAt = 0;
+            if (direction === 'previous') {
+                // Only a double press of the forward button flips the card.
+                // If a forward press is still pending, complete it first so a
+                // quick forward/back sequence behaves predictably.
+                if (pendingNextTimer) {
+                    clearTimeout(pendingNextTimer);
+                    pendingNextTimer = null;
+                    lastNextPressAt = 0;
+                    moveCard('next');
+                }
+                moveCard('previous');
+                return;
+            }
+
+            if (pendingNextTimer && now - lastNextPressAt <= doublePressWindow) {
+                clearTimeout(pendingNextTimer);
+                pendingNextTimer = null;
+                lastNextPressAt = 0;
                 this.flipFlashcard();
                 return;
             }
 
-            if (pendingTimer) {
-                clearTimeout(pendingTimer);
-                moveCard(pendingDirection);
+            if (pendingNextTimer) {
+                clearTimeout(pendingNextTimer);
+                moveCard('next');
             }
 
-            pendingDirection = direction;
-            lastPressAt = now;
-            pendingTimer = setTimeout(() => {
-                moveCard(pendingDirection);
-                pendingDirection = '';
-                pendingTimer = null;
-                lastPressAt = 0;
-            }, 320);
+            lastNextPressAt = now;
+            pendingNextTimer = setTimeout(() => {
+                moveCard('next');
+                pendingNextTimer = null;
+                lastNextPressAt = 0;
+            }, doublePressWindow);
         });
     }
 
@@ -361,7 +377,6 @@ class VocabularyApp {
 
     setupLanguageSelection() {
         document.querySelectorAll('input[name="language"]').forEach((checkbox) => {
-            checkbox.checked = checkbox.value === 'english';
             checkbox.addEventListener('change', () => this.updateSelectedLanguages());
         });
         this.updateSelectedLanguages();
@@ -1300,22 +1315,80 @@ class VocabularyApp {
         this.pronounceText(word.chinese);
     }
 
+    setupSpeechSynthesis() {
+        if (!('speechSynthesis' in window)) return;
+
+        const refreshVoice = () => {
+            this.mandarinVoice = this.selectMandarinVoice(window.speechSynthesis.getVoices());
+        };
+
+        refreshVoice();
+        if (window.speechSynthesis.addEventListener) {
+            window.speechSynthesis.addEventListener('voiceschanged', refreshVoice);
+        } else {
+            window.speechSynthesis.onvoiceschanged = refreshVoice;
+        }
+    }
+
+    selectMandarinVoice(voices) {
+        const scoreVoice = (voice) => {
+            const language = (voice.lang || '').toLowerCase().replace('_', '-');
+            const name = (voice.name || '').toLowerCase();
+            let score = 0;
+
+            if (language === 'zh-tw') score += 120;
+            else if (language.includes('hant')) score += 105;
+            else if (language === 'zh-hk') score += 90;
+            else if (language.startsWith('zh')) score += 65;
+            else return -1;
+
+            // Prefer installed high-quality voices and avoid compact fallbacks.
+            if (/premium|enhanced|natural|neural/.test(name)) score += 45;
+            if (/mei-jia|ting-ting|sin-ji|hanhan/.test(name)) score += 24;
+            if (/compact|basic/.test(name)) score -= 35;
+            if (voice.localService) score += 12;
+            if (voice.default) score += 4;
+            return score;
+        };
+
+        return [...voices]
+            .map((voice) => ({ voice, score: scoreVoice(voice) }))
+            .filter(({ score }) => score >= 0)
+            .sort((a, b) => b.score - a.score)[0]?.voice || null;
+    }
+
     pronounceText(text) {
-        if (!text) return;
+        const pronunciationText = String(text || '').trim();
+        if (!pronunciationText) return;
         if (!('speechSynthesis' in window)) {
             this.showToast('Speech playback is not supported by this browser.', true);
             return;
         }
 
+        clearTimeout(this.speechTimer);
         window.speechSynthesis.cancel();
-        const utterance = new SpeechSynthesisUtterance(text);
-        utterance.lang = 'zh-TW';
-        utterance.rate = 0.78;
-        utterance.pitch = 1;
-        const voices = window.speechSynthesis.getVoices();
-        utterance.voice = voices.find((voice) => voice.lang.toLowerCase() === 'zh-tw')
-            || voices.find((voice) => voice.lang.toLowerCase().startsWith('zh'));
-        window.speechSynthesis.speak(utterance);
+        this.speechTimer = setTimeout(() => {
+            const voices = window.speechSynthesis.getVoices();
+            this.mandarinVoice = this.selectMandarinVoice(voices) || this.mandarinVoice;
+
+            // A trailing Chinese full stop gives very short words enough release
+            // time so Safari/Chrome do not clip the final sound.
+            const utterance = new SpeechSynthesisUtterance(`${pronunciationText}。`);
+            utterance.lang = 'zh-TW';
+            utterance.rate = 0.7;
+            utterance.pitch = 0.98;
+            utterance.volume = 1;
+            if (this.mandarinVoice) utterance.voice = this.mandarinVoice;
+
+            this.activeSpeechUtterance = utterance;
+            const releaseUtterance = () => {
+                if (this.activeSpeechUtterance === utterance) this.activeSpeechUtterance = null;
+            };
+            utterance.onend = releaseUtterance;
+            utterance.onerror = releaseUtterance;
+            window.speechSynthesis.speak(utterance);
+            this.speechTimer = null;
+        }, 70);
     }
 
     getHanCharacters(text) {
